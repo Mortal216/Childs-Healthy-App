@@ -7,6 +7,7 @@ __pycache__/
 .venv/
 venv/
 ENV/
+backend/myenv/
 *.egg-info/
 .pytest_cache/
 .mypy_cache/
