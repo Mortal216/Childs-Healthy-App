@@ -1,0 +1,488 @@
+@UTF8
+@PID:	11312/a-00066896-1
+@Begin
+@Languages:	zho
+@Participants:	MOT Mother, SIS Sister, CHI Target_Child
+@ID:	zho|NSCtoys|MOT|38;00.||||Mother|||
+@ID:	zho|NSCtoys|SIS|||||Sister|||
+@ID:	zho|NSCtoys|CHI|2;04.||||Target_Child|||
+@Birth of CHI:	02-FEB-2017
+@Media:	d18_2, audio
+@Date:	10-JUN-2019
+@Activities:	toy play
+@Situation:	MOT plays toys with CHI
+@Comment:	Filename is D18_tp_time1_2.txt
+@Comment:	Time is 7:38
+@Bg:	Blocks
+@Types:	cross, toyplay, TD
+*MOT:	喔 你 已经 开始 叠 啰 .
+%mor:	punct|喔 pron|你-Int-S2 adv|已经 verb|开始-Inf-S verb|叠-Inf-S punct|啰 .
+%gra:	1|4|PUNCT 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|XCOMP 6|4|PUNCT 7|4|PUNCT
+*MOT:	好 ‡ 你 跟 我 说 你 今天 想 要 叠 什么 ? 3020_8290
+%mor:	adv|好 punct|‡ pron|你-Int-S2 adp|跟 pron|我-Int-S1 verb|说-Inf-S pron|你-Int-S2 noun|今天 aux|想-Inf-S aux|要-Inf-S verb|叠-Inf-S pron|什么-Int-S1 ?
+%gra:	1|6|ADVMOD 2|1|PUNCT 3|6|NSUBJ 4|5|CASE 5|6|OBL 6|0|ROOT 7|11|NSUBJ 8|11|NMOD-TMOD 9|11|AUX 10|11|AUX 11|6|CCOMP 12|11|OBJ 13|6|PUNCT
+*SIS:	+< 妈妈 ‡ 我 xxx +/. 8571_9252
+%mor:	noun|妈妈 adp|‡ pron|我-Int-S1 +/.
+%gra:	1|0|ROOT 2|3|CASE 3|1|APPOS 4|1|PUNCT
+*CHI:	妈妈 ‡ 我 叠 挖土机 .
+%mor:	noun|妈妈 adp|‡ pron|我-Int-S1 verb|叠-Inf-S noun|挖土机-Acc .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	这 是 挖土机 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|挖土机 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	哇 你 的 挖土机 好 特别 . 8792_11095
+%mor:	punct|哇 pron|你-Int-S2 part|的 noun|挖土机 adv|好 adj|特别-S1 .
+%gra:	1|4|PUNCT 2|4|DET 3|2|CASE 4|6|NSUBJ 5|6|ADVMOD 6|0|ROOT 7|6|PUNCT
+*SIS:	xxx .
+*CHI:	<挖土机> [/] 挖土机 .
+%mor:	noun|挖土机 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	挖土机 .
+%mor:	noun|挖土机 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	谢谢 你 .
+%mor:	verb|谢谢-Inf-S pron|你-Int-S2 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	你 要 送 给 我 吗 ? 18560_21643
+%com:	SIS将 整 盒 积木 给 妈妈
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|送-Inf-S verb|给-Inf-S pron|我-Int-S1 part|吗 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|MARK 5|3|OBJ 6|3|DISCOURSE 7|3|PUNCT
+*MOT:	太 多 了 啦 . 21584_22224
+%mor:	adv|太 adj|多-S1 part|了 part|啦 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	<我们 一起 玩> [/] <我们 一起 玩> [/] 我们 一起 玩 . 21764_28854
+%mor:	pron|我-Int-P1 noun|一起 verb|玩-Inf-S .
+%gra:	1|3|NSUBJ 2|3|OBL 3|0|ROOT 4|3|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈妈 ‡ 我 想 要 做 车子 . 29455_31498
+%mor:	noun|妈妈 punct|‡ pron|我-Int-S1 aux|想-Inf-S aux|要-Inf-S verb|做-Inf-S noun|车子-Acc .
+%gra:	1|0|ROOT 2|6|PUNCT 3|6|NSUBJ 4|6|AUX 5|6|AUX 6|1|DISLOCATED 7|6|OBJ 8|1|PUNCT
+*MOT:	好 啊 . 33200_40952
+%mor:	adj|好-S1 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*SIS:	这 个 是 这 个 .
+%mor:	det|这-Def noun|个 aux|是-Inf-S det|这-Def noun|个 .
+%gra:	1|2|DET 2|5|NSUBJ 3|5|COP 4|5|DET 5|0|ROOT 6|5|PUNCT
+*MOT:	<那 个> [/] 那 个 有 很 多 个 . 41314_42655
+%mor:	det|那-Def noun|个 verb|有-Inf-S adv|很 num|多 noun|个-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|0|ROOT 4|6|ADVMOD 5|6|NUMMOD 6|3|OBJ 7|3|PUNCT
+*MOT:	你 <要> [/] <要> [/] 要 分 给 弟弟 . 42195_43116
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|分-Inf-S verb|给-Inf-S noun|弟弟-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|MARK 5|3|OBJ 6|3|PUNCT
+*MOT:	好 ‡ 你 叠 那么 长 , 在 做 什么 ? 42756_43617
+%mor:	adv|好 punct|‡ pron|你-Int-S2 verb|叠-Inf-S adv|那么 adj|长-S1 cm|cm adv|在 verb|做-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|ADVMOD 2|1|PUNCT 3|4|NSUBJ 4|0|ROOT 5|6|ADVMOD 6|4|XCOMP 7|9|PUNCT 8|9|ADVMOD 9|6|CONJ 10|9|OBJ 11|4|PUNCT
+*CHI:	0 .
+*MOT:	叠 的 那么 长 .
+%mor:	verb|叠-Inf-S sconj|的 adv|那么 adj|长-S1 .
+%gra:	1|4|CSUBJ 2|1|MARK-REL 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*CHI:	我 在 叠 挖土机 . 48680_49702
+%mor:	pron|我-Int-S1 verb|在-Inf-S verb|叠-Inf-S noun|挖土机-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*MOT:	你 在 叠 挖土机 .
+%mor:	pron|你-Int-S2 verb|在-Inf-S verb|叠-Inf-S noun|挖土机-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	挖土机 .
+%mor:	noun|挖土机 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	喔 那 挖土机 好 特别 . 49965_52354
+%mor:	punct|喔 det|那-Def noun|挖土机 adv|好 adj|特别-S1 .
+%gra:	1|5|PUNCT 2|3|DET 3|5|NSUBJ 4|5|ADVMOD 5|0|ROOT 6|5|PUNCT
+*SIS:	这样 .
+%act:	SIS拿 了 一 个 积木 叠 在 CHI挖土机 上
+%mor:	pron|这样-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	欸 .
+%mor:	punct|欸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	我 在 叠 xxx .
+%mor:	pron|我-Int-S1 adv|在 verb|叠-Inf-S .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	妈妈 你 帮 我 用 +...
+%mor:	noun|妈妈 pron|你-Int-S2 verb|帮-Inf-S pron|我-Int-S1 verb|用-Inf-S +...
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|5|NSUBJ 5|3|CCOMP 6|3|PUNCT
+*SIS:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈妈 ‡ 我 要 . 84940_85561
+%mor:	noun|妈妈 adp|‡ pron|我-Int-S1 verb|要-Inf-S .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL 4|0|ROOT 5|4|PUNCT
+*MOT:	好 ‡ 你 再 做 一 个 .
+%mor:	adv|好 punct|‡ pron|你-Int-S2 adv|再 verb|做-Inf-S num|一 noun|个-Acc .
+%gra:	1|5|ADVMOD 2|1|PUNCT 3|5|NSUBJ 4|5|ADVMOD 5|0|ROOT 6|7|NUMMOD 7|5|OBJ 8|5|PUNCT
+*MOT:	你 的 又 被 抢 走 了 嚯 . 85101_86631
+%mor:	pron|你-Int-S2 part|的 sconj|又 aux|被-Inf-S verb|抢-Inf-S verb|走-Inf-S part|了 punct|嚯 .
+%gra:	1|6|NSUBJ 2|1|CASE 3|5|MARK 4|5|AUX-PASS 5|0|ROOT 6|5|XCOMP 7|5|DISCOURSE 8|5|PUNCT 9|5|PUNCT
+*SIS:	因为 xxx .
+%mor:	adp|因为 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*SIS:	好 ‡ 那么 多 . 101190_108681
+%mor:	adv|好 pron|‡-Int-S1 adv|那么 adj|多-S1 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	那么 多 . 108261_108841
+%mor:	adv|那么 adj|多-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	你 还 好意思 说 那 弟弟 做 的 欸 . 108401_109742
+%mor:	pron|你-Int-S2 sconj|还 adv|好意思 verb|说-Inf-S det|那-Def noun|弟弟 verb|做-Inf-S part|的 punct|欸 .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|ADVMOD 4|0|ROOT 5|6|DET 6|7|NSUBJ 7|4|CCOMP 8|4|DISCOURSE 9|4|PUNCT 10|4|PUNCT
+*MOT:	你 看 弟弟 又 做 了 一 个 了 . 109282_110704
+%mor:	pron|你-Int-S2 verb|看-Inf-S noun|弟弟-Acc sconj|又 verb|做-Inf-S aux|了-Inf-Perf-S num|一 noun|个-Acc part|了 .
+%gra:	1|5|NSUBJ 2|5|ADVCL 3|2|OBJ 4|5|MARK 5|0|ROOT 6|5|AUX 7|8|NUMMOD 8|5|OBJ 9|5|DISCOURSE 10|5|PUNCT
+*MOT:	做 了 那么 长 . 110244_111986
+%mor:	verb|做-Inf-S aux|了-Inf-Perf-S adv|那么 adj|长-S1 .
+%gra:	1|0|ROOT 2|1|AUX 3|4|ADVMOD 4|1|XCOMP 5|1|PUNCT
+*CHI:	我 做 挖土(机) .
+%mor:	pron|我-Int-S1 verb|做-Inf-S noun|挖土机-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	你 做 挖土机 .
+%act:	SIS拔 了 一 个 CHI挖土机 的 积木
+%mor:	pron|你-Int-S2 verb|做-Inf-S noun|挖土机-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	欸 <没 礼貌> [/] 没 礼貌 . 119110_121934
+%mor:	punct|欸 verb|没-Inf-Neg-S adj|礼貌-S1 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	唉 唷 我 的 挖土机 .
+%mor:	punct|唉 propn|唷 pron|我-Int-S1 part|的 noun|挖土机 .
+%gra:	1|2|PUNCT 2|5|NMOD 3|2|DET 4|3|CASE 5|0|ROOT 6|5|PUNCT
+*SIS:	xxx .
+*MOT:	好 ‡ 你 不 要 这边 . 123218_126744
+%mor:	adv|好 punct|‡ pron|你-Int-S2 adv|不 aux|要-Inf-S pron|这边-Int-S1 .
+%gra:	1|6|ADVMOD 2|1|PUNCT 3|6|NSUBJ 4|6|ADVMOD 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*MOT:	还有 你 不 要 拆 人家 的 啦 . 137560_141422
+%mor:	verb|还有-Inf-S pron|你-Int-S2 adv|不 aux|要-Inf-S verb|拆-Inf-S noun|人家-Acc part|的 noun|啦 .
+%gra:	1|0|ROOT 2|5|NSUBJ 3|5|ADVMOD 4|5|AUX 5|1|CCOMP 6|5|OBJ 7|5|DISCOURSE 8|1|PUNCT 9|1|PUNCT
+*MOT:	<好> [/] 好 ‡ <谢谢 你> [/] 谢谢 你 送 给 我 . 140982_142082
+%mor:	adv|好 punct|‡ verb|谢谢-Inf-S pron|你-Int-S2 verb|送-Inf-S verb|给-Inf-S pron|我-Int-S1 .
+%gra:	1|3|ADVMOD 2|3|PUNCT 3|0|ROOT 4|5|NSUBJ 5|3|CCOMP 6|5|MARK 7|5|OBJ 8|3|PUNCT
+*SIS:	那么 多 . 141622_142242
+%mor:	adv|那么 adj|多-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	那么 多 . 141802_142463
+%mor:	adv|那么 adj|多-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	我 都 拿 不 动 了 . 142023_143003
+%mor:	pron|我-Int-S1 sconj|都 verb|拿-Inf-S adv|不 verb|动-Inf-S part|了 .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|5|ADVMOD 5|3|XCOMP 6|3|DISCOURSE 7|3|PUNCT
+*MOT:	那么 多 . 142563_143784
+%mor:	adv|那么 adj|多-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	好 欸 . 143744_144504
+%mor:	adj|好-S1 punct|欸 .
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*MOT:	啊 弟弟 ‡ 你 [/] 你 [/] 你 还 要 做 什么 ? 156490_159712
+%mor:	part|啊 noun|弟弟 punct|‡ pron|你-Int-S2 sconj|还 aux|要-Inf-S verb|做-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|CASE 2|7|NSUBJ 3|2|PUNCT 4|7|NSUBJ 5|7|MARK 6|7|AUX 7|0|ROOT 8|7|OBJ 9|7|PUNCT
+*CHI:	我 要 做 两 台 挖土机 . 159332_160032
+%mor:	pron|我-Int-S1 aux|要-Inf-S verb|做-Inf-S num|两 noun|台 noun|挖土机-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|6|NUMMOD 5|4|CLF 6|3|OBJ 7|3|PUNCT
+*MOT:	你 要 做 两 台 挖土机 喔 .
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|做-Inf-S num|两 noun|台 noun|挖土机-Acc punct|喔 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|6|NUMMOD 5|4|CLF 6|3|OBJ 7|3|PUNCT 8|3|PUNCT
+*MOT:	一 台 可以 送 给 我 吗 ? 159652_160472
+%mor:	num|一 noun|台 aux|可以-Inf-S verb|送-Inf-S verb|给-Inf-S pron|我-Int-S1 part|吗 ?
+%gra:	1|2|NUMMOD 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|MARK 6|4|OBJ 7|4|DISCOURSE 8|4|PUNCT
+*CHI:	妹妹 弄 我 的 两 台 挖土机 . 160013_161513
+%mor:	noun|妹妹 verb|弄-Inf-S pron|我-Int-S1 part|的 num|两 noun|台 noun|挖土机-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|7|DET 4|3|CASE 5|7|NUMMOD 6|5|CLF 7|2|OBJ 8|2|PUNCT
+*MOT:	+< 我 知道 啊 . 161133_162634
+%mor:	pron|我-Int-S1 verb|知道-Inf-S part|啊 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	弟弟 要 做 挖土机 . 162174_162915
+%mor:	noun|弟弟 aux|要-Inf-S verb|做-Inf-S noun|挖土机-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	你 让 他 做 挖土机 „ 快点 .
+%mor:	pron|你-Int-S2 verb|让-Inf-S pron|他-Int-S3 verb|做-Inf-S noun|挖土机-Acc punct|„ noun|快点-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|4|OBJ 6|7|PUNCT 7|4|OBJ 8|2|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	不 要 一直 丢 啦 . 182720_183682
+%mor:	adv|不 aux|要-Inf-S adv|一直 verb|丢-Inf-S part|啦 .
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|ADVMOD 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	看 不 到 啦 . 183263_185756
+%mor:	verb|看-Inf-S adv|不 verb|到-Inf-S part|啦 .
+%gra:	1|0|ROOT 2|1|ADVMOD 3|1|MARK 4|1|DISCOURSE 5|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈妈 ‡ 我 要 这 个 .
+%mor:	noun|妈妈 adp|‡ pron|我-Int-S1 aux|要-Inf-S det|这-Def noun|个 .
+%gra:	1|0|ROOT 2|6|CASE 3|6|NSUBJ 4|6|AUX 5|6|DET 6|1|APPOS 7|1|PUNCT
+*MOT:	好 . 185437_185937
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	<我 做 了> [>] 两 个 . 188380_189060
+%mor:	pron|我-Int-S1 verb|做-Inf-S aux|了-Inf-Perf-S num|两 noun|个-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|AUX 4|5|NUMMOD 5|2|OBJ 6|2|PUNCT
+*MOT:	<喔> [<] 做 两 台 喔 . 188820_196670
+%mor:	adv|喔 verb|做-Inf-S num|两 noun|台-Acc punct|喔 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|4|NUMMOD 4|2|OBJ 5|2|PUNCT 6|2|PUNCT
+*CHI:	对 ‡ 有 两 台 . 204500_207186
+%mor:	adp|对 propn|‡ verb|有-Inf-S num|两 noun|台-Acc .
+%gra:	1|2|CASE 2|3|OBL 3|0|ROOT 4|5|NUMMOD 5|3|OBJ 6|3|PUNCT
+*MOT:	做 两 台 . 206927_207507
+%mor:	verb|做-Inf-S num|两 noun|台-Acc .
+%gra:	1|0|ROOT 2|3|NUMMOD 3|1|OBJ 4|1|PUNCT
+*MOT:	啊 你 挖土机 的 轮子 咧 ? 207127_208470
+%mor:	verb|啊-Inf-Neg-S pron|你-Int-S2 noun|挖土机 part|的 noun|轮子-Acc punct|咧 ?
+%gra:	1|0|ROOT 2|3|NMOD 3|5|NMOD 4|3|CASE 5|1|OBJ 6|1|PUNCT 7|1|PUNCT
+*CHI:	我 挖土机 轮子 是 [/] 是 这 +/. 208050_211519
+%mor:	pron|我-Int-S1 noun|挖土机 noun|轮子 aux|是-Inf-S pron|这-Int-S1 +/.
+%gra:	1|3|NMOD 2|3|NMOD 3|5|NSUBJ 4|5|COP 5|0|ROOT 6|5|PUNCT
+*CHI:	挖土机 在 这边 .
+%mor:	noun|挖土机 verb|在-Inf-S pron|这边-Int-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	挖土机 xxx .
+%mor:	noun|挖土机 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	啊 我 看 一下 . 221940_223842
+%mor:	verb|啊-Inf-Neg-S pron|我-Int-S1 verb|看-Inf-S adj|一下-S1 .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|3|XCOMP 5|1|PUNCT
+*CHI:	做 好了 . 223843_224583
+%mor:	verb|做-Inf-S adj|好了-S1 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|PUNCT
+*MOT:	做 好了 喔 . 224244_225545
+%mor:	verb|做-Inf-S adj|好了-S1 part|喔 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	哇 你 的 挖土机 好 漂亮 耶 . 225345_228791
+%mor:	punct|哇 pron|你-Int-S2 part|的 noun|挖土机 adv|好 adj|漂亮-S1 punct|耶 .
+%gra:	1|4|PUNCT 2|4|DET 3|2|CASE 4|6|NSUBJ 5|6|ADVMOD 6|0|ROOT 7|6|PUNCT 8|6|PUNCT
+*CHI:	<他 要> [/] 他 要 xxx .
+%mor:	pron|他-Int-S3 verb|要-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*SIS:	xxx .
+%com:	SIS对 MOT讲话
+*CHI:	我 好 了 .
+%mor:	pron|我-Int-S1 adj|好-S1 part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	哇 你 看 弟弟 做 好 了 .
+%mor:	punct|哇 pron|你-Int-S2 verb|看-Inf-S noun|弟弟 verb|做-Inf-S adj|好-S1 part|了 .
+%gra:	1|3|PUNCT 2|3|NSUBJ 3|0|ROOT 4|5|NSUBJ 5|3|CCOMP 6|5|XCOMP 7|3|DISCOURSE 8|3|PUNCT
+*MOT:	你 做 那么 大 台 喔 . 229573_233419
+%mor:	pron|你-Int-S2 verb|做-Inf-S adv|那么 part|大 propn|台-Acc part|喔 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|5|ADVMOD 4|5|CASE 5|2|OBJ 6|2|DISCOURSE 7|2|PUNCT
+*CHI:	<我> [/] 我 做 那么 大 .
+%mor:	pron|我-Int-S1 verb|做-Inf-S adv|那么 adj|大-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|ADVMOD 4|2|XCOMP 5|2|PUNCT
+*MOT:	对 啊 .
+%mor:	adp|对 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	挖土机 这么 大 台 .
+%mor:	noun|挖土机 adv|这么 adj|大-S1 propn|台 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|OBL 5|3|PUNCT
+*MOT:	做 这么 大 台 . 260690_264372
+%mor:	verb|做-Inf-S adv|这么 part|大 propn|台-Acc .
+%gra:	1|0|ROOT 2|4|ADVMOD 3|4|CASE 4|1|OBJ 5|1|PUNCT
+*CHI:	两 台 . 263912_264632
+%mor:	num|两 noun|台 .
+%gra:	1|2|NUMMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	两 台 喔 . 264833_265453
+%mor:	num|两 noun|台 x|喔 .
+%gra:	1|3|NUMMOD 2|1|CLF 3|0|ROOT 4|3|PUNCT
+*MOT:	而且 好多 颜色 喔 „ 对不对 ? 264993_267775
+%mor:	sconj|而且 adj|好多-S1 noun|颜色 adj|喔-S1 punct|„ adj|对不对-S1 ?
+%gra:	1|4|MARK 2|3|AMOD 3|4|NSUBJ 4|0|ROOT 5|6|PUNCT 6|4|CONJ 7|4|PUNCT
+*MOT:	是不是 ? 276600_277100
+%mor:	aux|是-Inf-S ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*MOT:	我 要 给 弟弟 鼓励鼓励 . 276920_279123
+%mor:	pron|我-Int-S1 aux|要-Inf-S verb|给-Inf-S noun|弟弟-Acc verb|鼓励鼓励-Inf-S .
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|ADVCL 4|3|OBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	弟弟 做 那么 大 台 的 挖土机 . 279104_280405
+%mor:	noun|弟弟 verb|做-Inf-S adv|那么 part|大 propn|台 part|的 noun|挖土机-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|5|ADVMOD 4|5|CASE 5|7|NMOD 6|5|CASE 7|2|OBJ 8|2|PUNCT
+*MOT:	啊 可以 送 我 一 台 吗 ? 280406_282509
+%mor:	adv|啊 aux|可以-Inf-S verb|送-Inf-S pron|我-Int-S1 num|一 noun|台 punct|吗 ?
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|OBJ 5|6|NUMMOD 6|4|ACL 7|3|PUNCT 8|3|PUNCT
+*CHI:	xxx .
+*SIS:	<我 要> [/] <我 要> [/] <我 要> [/] <我 要> [/] <我 要 八 台> [>] . 293720_294861
+%mor:	pron|我-Int-S1 aux|要-Inf-S num|八 noun|台 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|NUMMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	<那 你 做> [<] .
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|做-Inf-S .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	你 要 做 八 台 喔 . 294401_295141
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|做-Inf-S num|八 noun|台-Acc punct|喔 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|5|NUMMOD 5|3|OBJ 6|3|PUNCT 7|3|PUNCT
+*MOT:	那 我们 [/] 我们 那 可以 送 我们 一 台 吗 ? 294681_300050
+%mor:	pron|那-Int-S1 pron|我-Int-P1 pron|那-Int-S1 aux|可以-Inf-S verb|送-Inf-S pron|我-Int-P1 num|一 noun|台 part|吗 ?
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|5|NSUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|8|NUMMOD 8|6|ACL 9|5|DISCOURSE 10|5|PUNCT
+*MOT:	还是 我们 来 做 宝剑 . 299590_300330
+%mor:	sconj|还是 pron|我-Int-P1 sconj|来 verb|做-Inf-S noun|宝剑-Acc .
+%gra:	1|4|MARK 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	你 不是 在 家 里 很 会 做 宝剑 吗 ? 299911_300911
+%mor:	pron|你-Int-S2 verb|是-Inf-Neg-S verb|在-Inf-S noun|家-Acc adp|里 adv|很 aux|会-Inf-S verb|做-Inf-S noun|宝剑-Acc part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|8|ADVCL 4|3|OBJ 5|4|CASE 6|8|ADVMOD 7|8|AUX 8|2|XCOMP 9|8|OBJ 10|2|DISCOURSE 11|2|PUNCT
+*CHI:	我 做 挖土机 车 [/] 车 [/] 车 . 300452_304919
+%mor:	pron|我-Int-S1 verb|做-Inf-S noun|挖土机 part|车 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|COMPOUND 4|2|OBJ 5|2|PUNCT
+*CHI:	哇 .
+%mor:	noun|哇 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	哇 .
+%mor:	noun|哇 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*SIS:	长颈鹿 坏 掉 了 .
+%mor:	noun|长颈鹿 verb|坏-Inf-S verb|掉-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	破坏 王 啊 .
+%mor:	verb|破坏-Inf-S noun|王-Acc part|啊 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	你 看 我 帮 你 叠 不 一样的 颜色 . 317660_321724
+%mor:	pron|你-Int-S2 verb|看-Inf-S pron|我-Int-S1 verb|帮-Inf-S pron|你-Int-S2 verb|叠-Inf-S adv|不 adj|一样的-S1 noun|颜色-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|NSUBJ 6|4|CCOMP 7|8|ADVMOD 8|9|AMOD 9|4|OBJ 10|2|PUNCT
+*MOT:	<穿插> [/] 穿插 叠 „ okay@s:eng .
+%mor:	verb|穿插-Inf-S noun|叠-Acc punct|„ L2|xxx .
+%gra:	1|0|ROOT 2|1|OBJ 3|4|PUNCT 4|2|APPOS 5|1|PUNCT
+*SIS:	xxx .
+*CHI:	他 有 轮子 . 321345_322005
+%mor:	pron|他-Int-S3 verb|有-Inf-S noun|轮子-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	他 有 轮子 喔 . 321785_323126
+%mor:	pron|他-Int-S3 verb|有-Inf-S noun|轮子-Acc punct|喔 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT 5|2|PUNCT
+*MOT:	他 有 跑 很 快 吗 ? 332380_334342
+%mor:	pron|他-Int-S3 verb|有-Inf-S verb|跑-Inf-S adv|很 adj|快-S1 part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|5|ADVCL 4|5|ADVMOD 5|2|XCOMP 6|2|DISCOURSE 7|2|PUNCT
+*CHI:	他 有 . 334223_334863
+%mor:	pron|他-Int-S3 verb|有-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	喔 .
+%mor:	x|喔 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	他 有 跑 很 快 . 334423_336086
+%mor:	pron|他-Int-S3 verb|有-Inf-S verb|跑-Inf-S adv|很 adj|快-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|5|ADVMOD 5|3|XCOMP 6|2|PUNCT
+*MOT:	他 跑 好 快 喔 . 335646_337428
+%mor:	pron|他-Int-S3 verb|跑-Inf-S adj|好-S1 adj|快-S1 punct|喔 .
+%gra:	1|4|NSUBJ 2|4|ADVCL 3|4|ADVCL 4|0|ROOT 5|4|PUNCT 6|4|PUNCT
+*MOT:	要 跑 到 哪里 去 ? 336968_341296
+%mor:	aux|要-Inf-S verb|跑-Inf-S verb|到-Inf-S pron|哪里-Int-S1 verb|去-Inf-S ?
+%gra:	1|5|AUX 2|5|ADVCL 3|5|MARK 4|2|OBJ 5|0|ROOT 6|5|PUNCT
+*CHI:	他 要 跑 到 自己 的 家 .
+%mor:	pron|他-Int-S3 aux|要-Inf-S verb|跑-Inf-S verb|到-Inf-S pron|自己-Int-S1 part|的 noun|家-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|MARK 5|7|DET 6|5|CASE 7|3|OBJ 8|3|PUNCT
+*CHI:	我 做 好了 . 342620_345382
+%mor:	pron|我-Int-S1 verb|做-Inf-S adj|好了-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*MOT:	你 做 好了 喔 . 357840_358820
+%mor:	pron|你-Int-S2 verb|做-Inf-S adj|好了-S1 part|喔 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	来 ‡ 你 这边 卡 住 了 . 359381_362602
+%mor:	sconj|来 adp|‡ pron|你-Int-S2 pron|这边-Int-S1 part|卡 verb|住-Inf-S part|了 .
+%gra:	1|6|MARK 2|5|CASE 3|5|NMOD 4|5|COMPOUND 5|6|OBL 6|0|ROOT 7|6|DISCOURSE 8|6|PUNCT
+*MOT:	这里 不 对 „ okay@s:eng „ 好了 .
+%mor:	pron|这里-Int-S1 adv|不 adp|对 punct|„ L2|xxx punct|„ adj|好了-S1 .
+%gra:	1|7|NSUBJ 2|7|ADVMOD 3|5|CASE 4|5|PUNCT 5|7|NMOD 6|7|PUNCT 7|0|ROOT 8|7|PUNCT
+*CHI:	我 好了 .
+%mor:	pron|我-Int-S1 adj|好了-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	你 好 啰 . 362623_364143
+%mor:	pron|你-Int-S2 adj|好-S1 punct|啰 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*CHI:	那 我 的 .
+%mor:	det|那-Def pron|我-Int-S1 part|的 .
+%gra:	1|2|DET 2|0|ROOT 3|2|CASE 4|2|PUNCT
+*MOT:	你 不 要 拆 弟弟 的 . 363703_370308
+%mor:	pron|你-Int-S2 adv|不 aux|要-Inf-S verb|拆-Inf-S noun|弟弟-Acc part|的 .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|DISCOURSE 7|4|PUNCT
+*CHI:	0 &=cries .
+*MOT:	好 ‡ <我 帮 你 修理> [/] 我 帮 你 修理 . 372770_374012
+%mor:	adv|好 punct|‡ pron|我-Int-S1 verb|帮-Inf-S pron|你-Int-S2 verb|修理-Inf-S .
+%gra:	1|6|ADVMOD 2|1|PUNCT 3|6|NSUBJ 4|6|ADVCL 5|4|OBJ 6|0|ROOT 7|6|PUNCT
+*MOT:	你 每次 都 破坏 弟弟 的 玩具 啊 „ 来 . 373593_377164
+%mor:	pron|你-Int-S2 det|每次-Def sconj|都 verb|破坏-Inf-S noun|弟弟 part|的 noun|玩具-Acc part|啊 punct|„ verb|来-Inf-S .
+%gra:	1|4|NSUBJ 2|4|NMOD-TMOD 3|4|MARK 4|0|ROOT 5|7|NMOD 6|5|CASE 7|4|OBJ 8|10|DISCOURSE 9|10|PUNCT 10|4|PARATAXIS 11|4|PUNCT
+*SIS:	破坏 王 .
+%mor:	verb|破坏-Inf-S part|王 .
+%gra:	1|2|COMPOUND 2|0|ROOT 3|2|PUNCT
+*MOT:	对 啊 ‡ 破坏 王 啊 „ <好了> [/] 好了 .
+%mor:	adp|对 pron|啊-Int-S1 punct|‡ verb|破坏-Inf-S noun|王-Acc part|啊 punct|„ adj|好了-S1 .
+%gra:	1|2|CASE 2|4|OBL 3|4|PUNCT 4|0|ROOT 5|4|OBJ 6|8|DISCOURSE 7|8|PUNCT 8|4|CONJ 9|4|PUNCT
+*MOT:	你 才 是 破坏 王 „ 好 .
+%mor:	pron|你-Int-S2 sconj|才 aux|是-Inf-S verb|破坏-Inf-S propn|王 punct|„ adj|好-S1 .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|COP 4|0|ROOT 5|7|NSUBJ 6|7|PUNCT 7|4|CCOMP 8|4|PUNCT
+*CHI:	xxx .
+*MOT:	&~蛤 ?
+*CHI:	我 做 盖子 .
+%mor:	pron|我-Int-S1 verb|做-Inf-S noun|盖子-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	做 盖子 喔 .
+%mor:	verb|做-Inf-S noun|盖子-Acc part|喔 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	好 ‡ 你 帮 他 <做 一 个> [/] 做 一 个 盖子 . 389790_396561
+%mor:	adv|好 punct|‡ pron|你-Int-S2 verb|帮-Inf-S pron|他-Int-S3 verb|做-Inf-S num|一 noun|个 noun|盖子-Acc .
+%gra:	1|4|ADVMOD 2|1|PUNCT 3|4|NSUBJ 4|0|ROOT 5|6|NSUBJ 6|4|CCOMP 7|9|NUMMOD 8|7|CLF 9|6|OBJ 10|4|PUNCT
+*MOT:	喔 好 ‡ 这样子 <我 帮 你> [/] 我 帮 你 扶 着 他 . 397483_399546
+%mor:	adv|喔 adv|好 punct|‡ pron|这样子-Int-S1 pron|我-Int-S1 verb|帮-Inf-S pron|你-Int-S2 verb|扶-Inf-S aux|着-Inf-Prog-S pron|他-Int-S3 .
+%gra:	1|6|ADVMOD 2|6|ADVMOD 3|4|PUNCT 4|6|NSUBJ 5|4|APPOS 6|0|ROOT 7|8|NSUBJ 8|6|CCOMP 9|8|AUX 10|8|OBJ 11|6|PUNCT
+*CHI:	xxx .
+*MOT:	okay@s:eng 好 ‡ 我们 让 挖土机 休息 啰 .
+%mor:	L2|xxx adv|好 adp|‡ pron|我-Int-P1 verb|让-Inf-S noun|挖土机 verb|休息-Inf-S punct|啰 .
+%gra:	1|5|NSUBJ 2|5|ADVMOD 3|4|CASE 4|5|OBL 5|0|ROOT 6|7|NSUBJ 7|5|CCOMP 8|5|PUNCT 9|5|PUNCT
+*MOT:	我们 要 玩 下 一 个 玩具 啰 . 409260_411767
+%mor:	pron|我-Int-P1 aux|要-Inf-S verb|玩-Inf-S det|下-Def num|一 noun|个 noun|玩具-Acc punct|啰 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|NUMMOD 6|7|NMOD 7|3|OBJ 8|3|PUNCT 9|3|PUNCT
+*MOT:	嚯 让 挖土机 休息 啰 .
+%mor:	propn|嚯 verb|让-Inf-S noun|挖土机 verb|休息-Inf-S punct|啰 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|2|PUNCT 6|2|PUNCT
+*MOT:	好 棒 . 411307_412189
+%mor:	part|好 noun|棒 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*CHI:	我 拿 挖土机 休息 .
+%mor:	pron|我-Int-S1 verb|拿-Inf-S noun|挖土机-Acc verb|休息-Inf-S .
+%gra:	1|4|NSUBJ 2|4|ADVCL 3|2|OBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	好 ‡ 让 挖土机 休息 喔 嚯 „ 好 . 411729_413694
+%mor:	adj|好-S1 punct|‡ verb|让-Inf-S noun|挖土机 verb|休息-Inf-S adj|喔-S1 adj|嚯-S1 punct|„ adj|好-S1 .
+%gra:	1|3|ADVMOD 2|1|PUNCT 3|0|ROOT 4|5|NSUBJ 5|3|CCOMP 6|5|XCOMP 7|3|CCOMP 8|9|PUNCT 9|3|CCOMP 10|3|PUNCT
+*SIS:	收 那么 快 .
+%mor:	verb|收-Inf-S adv|那么 adj|快-S1 .
+%gra:	1|0|ROOT 2|3|ADVMOD 3|1|XCOMP 4|1|PUNCT
+*MOT:	那么 快 喔 . 424820_426726
+%mor:	adv|那么 adj|快-S1 part|喔 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	<收 那么 快> [/] 收 那么 快 . 426427_427450
+%mor:	verb|收-Inf-S adv|那么 adj|快-S1 .
+%gra:	1|0|ROOT 2|3|ADVMOD 3|1|XCOMP 4|1|PUNCT
+*MOT:	<还 没> [/] <还 没> [//] 弟弟 那个 还 没 好 .
+%mor:	noun|弟弟 pron|那个-Int-S1 sconj|还 adv|没 adj|好-S1 .
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|5|MARK 4|5|ADVMOD 5|0|ROOT 6|5|PUNCT
+*CHI:	我 那 个 还 没 .
+%mor:	pron|我-Int-S1 det|那-Def noun|个 sconj|还 verb|没-Inf-S .
+%gra:	1|5|NSUBJ 2|3|DET 3|5|OBL 4|5|MARK 5|0|ROOT 6|5|PUNCT
+*MOT:	对 啊 .
+%mor:	adp|对 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	好 ‡ 要 帮忙 吗 ? 433670_434410
+%mor:	adv|好 pron|‡-Int-S1 aux|要-Inf-S verb|帮忙-Inf-S part|吗 ?
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	okay@s:eng 好 ‡ 盖 起来 .
+%mor:	L2|xxx adj|好-S1 punct|‡ verb|盖-Inf-S verb|起来-Inf-S .
+%gra:	1|4|NSUBJ 2|4|ADVCL 3|2|PUNCT 4|0|ROOT 5|4|MARK 6|4|PUNCT
+*MOT:	赶快 休息 啰 .
+%mor:	adv|赶快 verb|休息-Inf-S punct|啰 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*MOT:	等 一下 .
+%mor:	verb|等-Inf-S adj|一下-S1 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|PUNCT
+*MOT:	这 个 没有 放 好 . 434490_442918
+%mor:	det|这-Def noun|个 verb|有-Inf-Neg-S verb|放-Inf-S adj|好-S1 .
+%gra:	1|2|DET 2|3|OBL 3|0|ROOT 4|3|XCOMP 5|4|XCOMP 6|3|PUNCT
+*MOT:	你 要 放 好 , 他 才 盖 得 起来 . 451180_454689
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|放-Inf-S adj|好-S1 cm|cm pron|他-Int-S3 sconj|才 verb|盖-Inf-S part|得 verb|起来-Inf-S .
+%gra:	1|8|NSUBJ 2|3|AUX 3|8|ADVCL 4|3|XCOMP 5|3|PUNCT 6|8|NSUBJ 7|8|MARK 8|0|ROOT 9|8|COMPOUND-EXT 10|8|MARK 11|8|PUNCT
+*MOT:	你 看 对不对 ? 455031_456173
+%mor:	pron|你-Int-S2 verb|看-Inf-S verb|对不对-Inf-S ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|PUNCT
+*CHI:	0 .
+*MOT:	要 帮忙 吗 „ 好 . 455854_458099
+%mor:	aux|要-Inf-S verb|帮忙-Inf-S aux|吗-Inf-Neg-S punct|„ adj|好-S1 .
+%gra:	1|2|AUX 2|0|ROOT 3|5|AUX 4|5|PUNCT 5|2|XCOMP 6|2|PUNCT
+@Eg:	Blocks
+@End

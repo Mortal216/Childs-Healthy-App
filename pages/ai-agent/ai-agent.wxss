@@ -1,0 +1,295 @@
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--yh-bg, #eceff4);
+  padding: 0 32rpx 32rpx;
+  box-sizing: border-box;
+  padding-top: calc(var(--nav-bar-height) + 40rpx);
+  display: flex;
+  flex-direction: column;
+  gap: 28rpx;
+}
+
+.back-button {
+  position: absolute;
+  top: calc(var(--nav-bar-height) + 16rpx);
+  left: 24rpx;
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+  padding: 12rpx 20rpx;
+  z-index: 100;
+  background: var(--yh-surface, #fff);
+  border-radius: var(--yh-radius-pill, 999rpx);
+  border: 1rpx solid var(--yh-border, #e4e9f0);
+  box-shadow: var(--yh-shadow-soft, 0 4rpx 20rpx rgba(42, 49, 56, 0.05));
+}
+
+.back-icon {
+  font-size: 28rpx;
+  color: var(--yh-primary, #4a7eb8);
+}
+
+.back-text {
+  font-size: 26rpx;
+  color: var(--yh-text-secondary, #5c6570);
+}
+
+.page-title {
+  align-self: center;
+  margin-bottom: 8rpx;
+  margin-top: 56rpx;
+  text-align: center;
+  padding: 0 24rpx;
+}
+
+.page-title text {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: var(--yh-text, #2a3138);
+  display: block;
+  margin-bottom: 12rpx;
+}
+
+.page-subtitle {
+  font-size: 24rpx;
+  color: var(--yh-text-secondary, #5c6570);
+  font-weight: normal !important;
+  line-height: 1.5;
+}
+
+.mode-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 16rpx;
+  flex-wrap: wrap;
+}
+
+.mode-tab {
+  padding: 14rpx 32rpx;
+  font-size: 24rpx;
+  color: var(--yh-text-secondary, #5c6570);
+  background: var(--yh-surface, #fff);
+  border-radius: var(--yh-radius-pill, 999rpx);
+  border: 1rpx solid var(--yh-border, #e4e9f0);
+}
+
+.mode-tab.active {
+  /* 跳色增强：选中态用黄色体系 */
+  color: var(--yh-text, #506840);
+  border-color: var(--yh-sage, #E8B848);
+  background: var(--yh-sage-soft, #F8E8C0);
+  font-weight: 600;
+}
+
+.ai-source-label {
+  display: block;
+  font-size: 22rpx;
+  color: var(--yh-primary, #4a7eb8);
+  margin-bottom: 10rpx;
+  font-weight: 500;
+}
+
+.chat-area {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 12rpx;
+  padding: 8rpx 4rpx 160rpx 0;
+  min-height: 280rpx;
+}
+
+.message-item {
+  display: flex;
+  margin-bottom: 28rpx;
+  align-items: flex-end;
+}
+
+.user-message {
+  flex-direction: row-reverse;
+}
+
+.message-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 2rpx solid var(--yh-border, #e4e9f0);
+}
+
+.message-avatar image {
+  width: 100%;
+  height: 100%;
+}
+
+.message-bubble {
+  max-width: 72%;
+  padding: 22rpx 24rpx;
+  border-radius: 24rpx;
+  margin: 0 16rpx;
+  position: relative;
+}
+
+.ai-bubble {
+  background-color: var(--yh-surface, #fff);
+  color: var(--yh-text, #2a3138);
+  box-shadow: var(--yh-shadow-soft, 0 4rpx 20rpx rgba(42, 49, 56, 0.05));
+  border: 1rpx solid var(--yh-border, #e4e9f0);
+}
+
+.user-bubble {
+  /* 跳色：用户气泡用主黄（参考图） */
+  background: var(--yh-sage, #E8B848);
+  color: #fff;
+  box-shadow: 0 6rpx 18rpx rgba(74, 126, 184, 0.25);
+}
+
+.message-text {
+  font-size: 28rpx;
+  line-height: 1.55;
+}
+
+.ai-plain-text,
+.ai-stream-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.ai-rich-text {
+  display: block;
+  word-break: break-word;
+  font-size: 28rpx;
+  line-height: 1.65;
+}
+
+.loading-item {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 28rpx;
+}
+
+.loading-dots {
+  display: flex;
+  align-items: center;
+  gap: 10rpx;
+}
+
+.dot {
+  width: 12rpx;
+  height: 12rpx;
+  background-color: var(--yh-primary, #4a7eb8);
+  border-radius: 50%;
+  animation: yh-pulse 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes yh-pulse {
+  0%,
+  100% {
+    transform: scale(0.85);
+    opacity: 0.45;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  padding: 16rpx 20rpx;
+  background-color: var(--yh-surface, #fff);
+  border-radius: var(--yh-radius-pill, 999rpx);
+  box-shadow: var(--yh-shadow-card, 0 8rpx 32rpx rgba(42, 49, 56, 0.07));
+  border: 1rpx solid var(--yh-border, #e4e9f0);
+}
+
+.input-box {
+  flex: 1;
+  font-size: 28rpx;
+  padding: 16rpx 20rpx;
+  margin-right: 12rpx;
+  color: var(--yh-text, #2a3138);
+}
+
+.send-btn {
+  width: 72rpx;
+  height: 72rpx;
+  min-width: 72rpx;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  /* 跳色：发送按钮用主黄（参考图） */
+  background: var(--yh-sage, #E8B848);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  line-height: 72rpx;
+  box-shadow: 0 6rpx 16rpx rgba(74, 126, 184, 0.3);
+}
+
+.send-btn::after {
+  border: none;
+}
+
+.send-btn:disabled {
+  opacity: 0.45;
+  box-shadow: none;
+}
+
+.send-icon {
+  transform: rotate(45deg);
+}
+
+.quick-questions {
+  position: fixed;
+  bottom: 200rpx;
+  left: 32rpx;
+  right: 32rpx;
+  background-color: var(--yh-surface, #fff);
+  border-radius: var(--yh-radius-lg, 28rpx);
+  padding: 24rpx 28rpx;
+  box-shadow: var(--yh-shadow-card, 0 8rpx 32rpx rgba(42, 49, 56, 0.07));
+  border: 1rpx solid var(--yh-border, #e4e9f0);
+  z-index: 50;
+}
+
+.quick-title {
+  font-size: 24rpx;
+  color: var(--yh-text-muted, #8b939e);
+  margin-bottom: 16rpx;
+  display: block;
+  font-weight: 500;
+}
+
+.quick-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.quick-item {
+  background-color: var(--yh-surface-muted, #f7f9fc);
+  color: var(--yh-text-secondary, #5c6570);
+  font-size: 24rpx;
+  padding: 14rpx 22rpx;
+  border-radius: var(--yh-radius-pill, 999rpx);
+  border: 1rpx solid var(--yh-border, #e4e9f0);
+}
+
+.quick-item:active {
+  /* 跳色增强：按下态用浅紫 */
+  background-color: var(--yh-accent-purple, #C8C8E8);
+  color: var(--yh-text, #506840);
+}

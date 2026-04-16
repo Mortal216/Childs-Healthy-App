@@ -1,0 +1,257 @@
+/* 抚养方式测评报告页面样式 */
+.container {
+  min-height: 100vh;
+  background-color: var(--yh-bg, #eceff4);
+  padding-bottom: 40rpx;
+}
+
+/* 顶部标题栏 */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 30rpx;
+  background-color: var(--yh-surface, #fff);
+  border-bottom: 1rpx solid var(--yh-border, #e4e9f0);
+}
+
+.header-left {
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.header-center {
+  flex: 1;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #333333;
+}
+
+.header-right {
+  width: 80rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.share-btn {
+  font-size: 28rpx;
+  color: #666666;
+}
+
+/* 宝宝信息 */
+.baby-info {
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  margin: 20rpx;
+  padding: 30rpx;
+  border-radius: 16rpx;
+}
+
+.baby-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 20rpx;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.baby-details {
+  flex: 1;
+}
+
+.baby-name {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 10rpx;
+}
+
+.baby-age {
+  font-size: 26rpx;
+  color: #666666;
+  margin-bottom: 6rpx;
+}
+
+.test-time {
+  font-size: 24rpx;
+  color: #999999;
+}
+
+/* 总分区域 */
+.score-section {
+  background-color: #FFFFFF;
+  margin: 20rpx;
+  padding: 40rpx;
+  border-radius: 16rpx;
+  text-align: center;
+}
+
+.score-title {
+  font-size: 28rpx;
+  color: #666666;
+  margin-bottom: 30rpx;
+}
+
+.score-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+
+.score-number {
+  font-size: 72rpx;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 20rpx;
+}
+
+.score-level {
+  padding: 10rpx 30rpx;
+  border-radius: 30rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+}
+
+.score-bar {
+  width: 100%;
+  height: 20rpx;
+  background-color: #EEEEEE;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.score-progress {
+  height: 100%;
+  background: var(--yh-primary, #587838);
+  border-radius: 10rpx;
+  transition: width 0.5s ease;
+}
+
+/* 维度分析 */
+.dimension-section {
+  background-color: #FFFFFF;
+  margin: 20rpx;
+  padding: 30rpx;
+  border-radius: 16rpx;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+
+.dimension-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.dimension-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  background-color: #F9F9F9;
+  border-radius: 12rpx;
+}
+
+.dimension-name {
+  font-size: 28rpx;
+  color: #333333;
+}
+
+.dimension-score {
+  display: flex;
+  align-items: center;
+  gap: 15rpx;
+}
+
+.score-value {
+  font-size: 26rpx;
+  color: #666666;
+}
+
+.score-level-tag {
+  padding: 6rpx 16rpx;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  color: #FFFFFF;
+}
+
+/* 建议区域 */
+.suggestion-section {
+  background-color: #FFFFFF;
+  margin: 20rpx;
+  padding: 30rpx;
+  border-radius: 16rpx;
+}
+
+.suggestion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15rpx;
+  padding: 20rpx;
+  background-color: var(--yh-surface-muted, #f7f9fc);
+  border-radius: 12rpx;
+}
+
+.suggestion-icon {
+  width: 40rpx;
+  height: 40rpx;
+  flex-shrink: 0;
+}
+
+.suggestion-icon .icon {
+  width: 100%;
+  height: 100%;
+}
+
+.suggestion-content {
+  flex: 1;
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* 底部按钮 */
+.footer {
+  margin: 40rpx 20rpx;
+}
+
+.retry-btn {
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  background: var(--yh-primary, #587838);
+  color: #ffffff;
+  font-size: 32rpx;
+  font-weight: 500;
+  border-radius: 44rpx;
+  box-shadow: 0 8rpx 24rpx rgba(74, 126, 184, 0.28);
+}

@@ -1,0 +1,120 @@
+/* 全局页面容器 */
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--yh-bg, #eceff4);
+  /* 移除固定的padding: 120rpx 40rpx 60rpx; */
+  padding: 0 40rpx 60rpx; /* 保留左右和底部内边距 */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* 新增：动态顶部内边距 */
+  padding-top: calc(var(--status-bar-height) + 200rpx);
+}
+
+
+/* 标题区域 */
+.title-section {
+  text-align: center;
+  margin-bottom: 80rpx;
+}
+.main-title {
+  display: block;
+  font-size: 48rpx;
+  color: var(--yh-text, #283038);
+  font-weight: 600;
+  margin-bottom: 24rpx;
+  letter-spacing: 1rpx;
+}
+
+.sub-title {
+  font-size: 30rpx;
+  color: var(--yh-text-secondary, #5a626c);
+  line-height: 1.55;
+}
+
+/* 图标区域 */
+.icon-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80rpx;
+}
+.logo-img {
+  width: 240rpx;
+  height: 240rpx;
+  margin-bottom: 20rpx;
+}
+.logo-text {
+  font-size: 34rpx;
+  color: var(--yh-primary, #587838);
+  font-weight: 600;
+}
+
+/* 登录表单 */
+.login-form {
+  width: 100%;
+  max-width: 600rpx;
+}
+.input-wrapper {
+  position: relative;
+  background-color: var(--yh-surface, #F0F0E0);
+  border-radius: var(--yh-radius-lg, 28rpx);
+  padding: 0 30rpx;
+  margin-bottom: 32rpx;
+  display: flex;
+  align-items: center;
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+  box-shadow: var(--yh-shadow-soft, 0 8rpx 24rpx rgba(0, 0, 0, 0.06));
+}
+.phone-input {
+  flex: 1;
+  height: 80rpx;
+  font-size: 28rpx;
+  color: var(--yh-text-secondary, #587048);
+}
+.forget-pwd {
+  font-size: 24rpx;
+  color: var(--yh-primary, #587838);
+  white-space: nowrap;
+}
+
+.login-btn {
+  width: 100%;
+  height: 88rpx;
+  background: var(--yh-primary, #587838);
+  color: #FFFFFF;
+  border-radius: var(--yh-radius-pill, 999rpx);
+  font-size: 32rpx;
+  font-weight: 500;
+  border: none;
+  margin-bottom: 30rpx;
+  box-shadow: var(--yh-shadow-primary, 0 4rpx 16rpx rgba(0, 0, 0, 0.08));
+}
+.login-btn::after {
+  border: none;
+}
+.login-btn:active {
+  opacity: 0.92;
+}
+.register-tip {
+  text-align: center;
+  font-size: 24rpx;
+  color: var(--yh-text-muted, #88A870);
+}
+.register-link {
+  color: var(--yh-primary, #587838);
+  margin-left: 8rpx;
+  font-weight: 500;
+}
+
+/* 底部标语 */
+.footer-slogan {
+  position: absolute;
+  bottom: 60rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24rpx;
+  color: var(--yh-text-muted, #88A870);
+}

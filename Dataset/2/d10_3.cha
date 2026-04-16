@@ -1,0 +1,152 @@
+@UTF8
+@PID:	11312/a-00066873-1
+@Begin
+@Languages:	zho
+@Participants:	FAT Father, CHI Target_Child
+@ID:	zho|NSCtoys|FAT|35;00.||||Father|||
+@ID:	zho|NSCtoys|CHI|2;09.||||Target_Child|||
+@Birth of CHI:	26-AUG-2016
+@Media:	d10_3, audio
+@Date:	26-MAY-2019
+@Activities:	toy play
+@Situation:	FAT plays toys with CHI
+@Comment:	Filename is D10_tp_time1_3.txt
+@Comment:	Time is 1:53
+@Bg:	Puzzle
+@Types:	cross, toyplay, TD
+*FAT:	你 应该 可以 拼 完 .
+%mor:	pron|你-Int-S2 aux|应该-Inf-S aux|可以-Inf-S verb|拼-Inf-S verb|完-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|AUX 4|0|ROOT 5|4|MARK 6|4|PUNCT
+*FAT:	小 鸡 . 2540_3128
+%mor:	part|小 noun|鸡 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*CHI:	鸭 妈妈 .
+%mor:	noun|鸭 noun|妈妈 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*FAT:	鸭 妈妈 „ 真的 欸 .
+%mor:	noun|鸭 noun|妈妈 punct|„ adj|真的-S1 punct|欸 .
+%gra:	1|2|NMOD 2|4|NSUBJ 3|4|PUNCT 4|0|ROOT 5|4|PUNCT 6|4|PUNCT
+*FAT:	先 从 边边 开始 拼 就 好 啦 .
+%mor:	sconj|先 adp|从 noun|边边 verb|开始-Inf-S verb|拼-Inf-S sconj|就 adj|好-S1 part|啦 .
+%gra:	1|4|MARK 2|3|CASE 3|4|OBL 4|7|ADVCL 5|4|XCOMP 6|7|MARK 7|0|ROOT 8|7|DISCOURSE 9|7|PUNCT
+*FAT:	先 从 这 种 角 .
+%mor:	sconj|先 adp|从 det|这-Def noun|种 noun|角 .
+%gra:	1|5|MARK 2|5|CASE 3|4|DET 4|5|CLF 5|0|ROOT 6|5|PUNCT
+*CHI:	要 这样 .
+%mor:	aux|要-Inf-S pron|这样-Int-S1 .
+%gra:	1|2|AUX 2|0|ROOT 3|2|PUNCT
+*FAT:	嗯 可能 不是 喔 .
+%mor:	punct|嗯 aux|可能-Inf-S aux|是-Inf-Neg-S x|喔 .
+%gra:	1|4|PUNCT 2|4|AUX 3|4|COP 4|0|ROOT 5|4|PUNCT
+*FAT:	你 刚刚 这 块 是 上面 . 28760_31423
+%mor:	pron|你-Int-S2 adv|刚刚 det|这-Def noun|块 aux|是-Inf-S noun|上面 .
+%gra:	1|6|NSUBJ 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|COP 6|0|ROOT 7|6|PUNCT
+*FAT:	这 块 鸭 妈妈 .
+%mor:	det|这-Def noun|块 noun|鸭 noun|妈妈 .
+%gra:	1|2|DET 2|4|CLF 3|4|NMOD 4|0|ROOT 5|4|PUNCT
+*FAT:	这 是 这边 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|这边-Int-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	这 个 呢 ?
+%mor:	det|这-Def noun|个 part|呢 ?
+%gra:	1|2|DET 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*FAT:	这 个 ‡ 你 先 不 要 拼 啊 . 31023_31823
+%mor:	det|这-Def noun|个 punct|‡ pron|你-Int-S2 adv|先 adv|不 aux|要-Inf-S verb|拼-Inf-S part|啊 .
+%gra:	1|2|DET 2|4|CLF 3|2|PUNCT 4|8|NSUBJ 5|8|ADVMOD 6|8|ADVMOD 7|8|AUX 8|0|ROOT 9|8|DISCOURSE 10|8|PUNCT
+*FAT:	他 看起来 像 是 在 最 中间 . 31383_32284
+%mor:	pron|他-Int-S3 verb|看起来-Inf-S verb|像-Inf-S verb|是-Inf-S verb|在-Inf-S adv|最 noun|中间-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|XCOMP 5|4|XCOMP 6|7|ADVMOD 7|5|OBJ 8|2|PUNCT
+*FAT:	因为 他 没有 角 , 他 没有 边 啊 .
+%mor:	adp|因为 pron|他-Int-S3 verb|有-Inf-Neg-S noun|角-Acc cm|cm pron|他-Int-S3 verb|有-Inf-Neg-S noun|边-Acc part|啊 .
+%gra:	1|3|CASE 2|3|NSUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT 6|7|NSUBJ 7|3|CCOMP 8|7|OBJ 9|7|DISCOURSE 10|3|PUNCT
+*FAT:	所以 你 先 把 边 的 找 出来 . 31864_32845
+%mor:	sconj|所以 pron|你-Int-S2 sconj|先 adp|把 noun|边 part|的 verb|找-Inf-S verb|出来-Inf-S .
+%gra:	1|7|MARK 2|7|NSUBJ 3|7|MARK 4|5|CASE 5|7|OBL-PATIENT 6|5|CASE 7|0|ROOT 8|7|MARK 9|7|PUNCT
+*CHI:	边 的 是 这 个 . 32445_35308
+%mor:	noun|边 part|的 aux|是-Inf-S det|这-Def noun|个 .
+%gra:	1|5|NSUBJ 2|1|CASE 3|5|COP 4|5|DET 5|0|ROOT 6|5|PUNCT
+*FAT:	对 啊 ‡ 然后 看 . 44840_46642
+%mor:	adp|对 part|啊 punct|‡ adv|然后 verb|看-Inf-S .
+%gra:	1|5|ADVCL 2|5|DISCOURSE 3|1|PUNCT 4|5|ADVMOD 5|0|ROOT 6|5|PUNCT
+*FAT:	这样 小 鸭 应该 会 正 . 46203_48727
+%mor:	pron|这样-Int-S1 part|小 noun|鸭 aux|应该-Inf-S aux|会-Inf-S adj|正-S1 .
+%gra:	1|6|OBL 2|3|CASE 3|6|NSUBJ 4|6|AUX 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*FAT:	<小 鸭> [/] 小 鸭 应该 头 要 朝 [//] 对 这 个 位置 . 48488_51192
+%mor:	part|小 noun|鸭 aux|应该-Inf-S noun|头 aux|要-Inf-S adp|对 det|这-Def noun|个 noun|位置 .
+%gra:	1|2|CASE 2|4|NMOD 3|6|AUX 4|0|ROOT 5|6|AUX 6|9|CASE 7|8|DET 8|9|CLF 9|4|APPOS 10|4|PUNCT
+*FAT:	是 这样 吗 ?
+%mor:	verb|是-Inf-S pron|这样-Int-S1 part|吗 ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*FAT:	<他 啊> [//] 他 这 个 有 角 , 应该 是 在 边边 上 . 51013_52736
+%mor:	pron|他-Int-S3 det|这-Def noun|个 verb|有-Inf-S noun|角-Acc cm|cm aux|应该-Inf-S verb|是-Inf-S verb|在-Inf-S noun|边边-Acc noun|上 .
+%gra:	1|8|NSUBJ 2|3|DET 3|4|OBL 4|8|CSUBJ 5|4|OBJ 6|4|PUNCT 7|8|AUX 8|0|ROOT 9|8|XCOMP 10|9|OBJ 11|10|ACL 12|8|PUNCT
+*FAT:	这 个 小 鸭 要 看 着 鸭 妈妈 坐 xxx . 59900_66848
+%mor:	det|这-Def noun|个 part|小 noun|鸭 aux|要-Inf-S verb|看-Inf-S aux|着-Inf-Prog-S noun|鸭 noun|妈妈 verb|坐-Inf-S .
+%gra:	1|2|DET 2|4|CLF 3|4|CASE 4|6|NSUBJ 5|6|AUX 6|0|ROOT 7|6|AUX 8|9|NMOD 9|10|NSUBJ 10|6|CCOMP 11|6|PUNCT
+*CHI:	那 这 个 呢 ?
+%mor:	det|那-Def det|这-Def noun|个 part|呢 ?
+%gra:	1|3|DET 2|3|DET 3|0|ROOT 4|3|CASE 5|3|PUNCT
+*FAT:	这 个 你 看 放不放 得 进去 . 66388_67869
+%mor:	det|这-Def noun|个 pron|你-Int-S2 verb|看-Inf-S verb|放不放-Inf-S part|得 verb|进去-Inf-S .
+%gra:	1|2|DET 2|3|CLF 3|4|NSUBJ 4|0|ROOT 5|4|XCOMP 6|5|COMPOUND-EXT 7|5|XCOMP 8|4|PUNCT
+*FAT:	找 个 位置 放 .
+%mor:	verb|找-Inf-S noun|个 noun|位置-Acc verb|放-Inf-S .
+%gra:	1|4|ADVCL 2|3|CLF 3|1|OBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	我 也 不 知道 那 我们 先 把 剩下 的 角 拼 完 . 73290_79374
+%mor:	pron|我-Int-S1 sconj|也 adv|不 verb|知道-Inf-S pron|那-Int-S1 pron|我-Int-P1 sconj|先 adp|把 verb|剩下-Inf-S sconj|的 noun|角 verb|拼-Inf-S verb|完-Inf-S .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|ADVMOD 4|0|ROOT 5|12|NSUBJ 6|12|NSUBJ 7|12|MARK 8|11|CASE 9|11|ACL-RELCL 10|9|MARK-REL 11|12|OBL-PATIENT 12|4|CCOMP 13|12|MARK 14|4|PUNCT
+*CHI:	0 .
+*FAT:	好 ‡ 那 剩下 两 块 . 79294_81435
+%mor:	adv|好 punct|‡ adv|那 verb|剩下-Inf-S num|两 noun|块-Acc .
+%gra:	1|4|ADVMOD 2|1|PUNCT 3|4|ADVMOD 4|0|ROOT 5|6|NUMMOD 6|4|OBJ 7|4|PUNCT
+*FAT:	这 个 小 鸭 .
+%mor:	det|这-Def noun|个 part|小 noun|鸭 .
+%gra:	1|2|DET 2|4|CLF 3|4|CASE 4|0|ROOT 5|4|PUNCT
+*FAT:	好 ‡ 最后 一 块 在 哪里 ? 80975_84778
+%mor:	adv|好 punct|‡ noun|最后 num|一 noun|块 verb|在-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|6|ADVMOD 2|1|PUNCT 3|5|NMOD 4|5|NUMMOD 5|6|NSUBJ 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	这里 .
+%mor:	pron|这里-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	找 一下 位置 „ 对 .
+%mor:	verb|找-Inf-S adj|一下-S1 noun|位置-Acc punct|„ noun|对 .
+%gra:	1|0|ROOT 2|3|AMOD 3|1|OBJ 4|5|PUNCT 5|3|APPOS 6|1|PUNCT
+*FAT:	好 ‡ 拼 完 了 .
+%mor:	adj|好-S1 punct|‡ verb|拼-Inf-S verb|完-Inf-S part|了 .
+%gra:	1|0|ROOT 2|3|PUNCT 3|1|PARATAXIS 4|3|MARK 5|3|DISCOURSE 6|1|PUNCT
+*CHI:	0 .
+*FAT:	结束 了 . 94200_99947
+%mor:	verb|结束-Inf-S aux|了-Inf-Perf-S .
+%gra:	1|0|ROOT 2|1|AUX 3|1|PUNCT
+*FAT:	好了 ‡ 结束 了 . 99567_101750
+%mor:	adv|好了 adp|‡ verb|结束-Inf-S part|了 .
+%gra:	1|3|ADVMOD 2|3|CASE 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*FAT:	谢谢 你 .
+%mor:	verb|谢谢-Inf-S pron|你-Int-S2 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	我 还 要 玩 .
+%mor:	pron|我-Int-S1 sconj|还 aux|要-Inf-S verb|玩-Inf-S .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*FAT:	你 还 要 玩 .
+%mor:	pron|你-Int-S2 sconj|还 aux|要-Inf-S verb|玩-Inf-S .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*FAT:	你 还 要 玩 什么 ? 101290_104934
+%mor:	pron|你-Int-S2 sconj|还 aux|要-Inf-S verb|玩-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	嗯 +...
+%mor:	punct|嗯 +...
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	你 还 要 玩 什么 ? 104735_105455
+%mor:	pron|你-Int-S2 sconj|还 aux|要-Inf-S verb|玩-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	我 也 不 知道 .
+%mor:	pron|我-Int-S1 sconj|也 adv|不 verb|知道-Inf-S .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*FAT:	你 也 不 知道 . 105055_105695
+%mor:	pron|你-Int-S2 sconj|也 adv|不 verb|知道-Inf-S .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*FAT:	<你 想 玩 什么> [/] 你 想 玩 什么 ? 108240_111796
+%mor:	pron|你-Int-S2 aux|想-Inf-S verb|玩-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+@Eg:	Puzzle
+@End

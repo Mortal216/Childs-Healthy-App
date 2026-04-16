@@ -1,0 +1,177 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="nav-title">咿呀智库·我的</view>
+    <view class="setting-btn" bindtap="goToSetting">
+      <text class="setting-icon">⚙️</text>
+    </view>
+  </view>
+
+  <!-- 未登录状态 -->
+  <view wx:if="{{!isLoggedIn}}" class="login-section">
+    <view class="login-card">
+      <view class="login-avatar">
+        <text class="avatar-placeholder">👤</text>
+      </view>
+      <text class="login-title">欢迎使用咿呀智库</text>
+      <text class="login-desc">登录后体验完整功能</text>
+      <button class="login-btn" bindtap="goToLogin">立即登录</button>
+    </view>
+  </view>
+
+  <!-- 已登录状态 -->
+  <view wx:else>
+    <!-- 用户信息卡片 -->
+    <view class="user-card" bindtap="showUserInfoForm">
+      <view class="avatar">
+        <text class="avatar-placeholder">👤</text>
+      </view>
+      <view class="user-info">
+        <text class="username">{{userInfo.username}}</text>
+        <text class="uid">{{userInfo.uid}}</text>
+      </view>
+      <view class="arrow">
+        <text class="arrow-icon">></text>
+      </view>
+    </view>
+
+    <!-- 用户信息表弹窗 -->
+    <view wx:if="{{showUserInfoForm}}" class="form-modal">
+      <view class="form-mask" bindtap="closeUserInfoForm"></view>
+      <view class="form-container">
+        <view class="form-header">
+          <text class="form-title">编辑用户信息</text>
+          <text class="form-close" bindtap="closeUserInfoForm">×</text>
+        </view>
+        <view class="form-content">
+          <!-- 宝宝姓名 -->
+          <view class="form-item">
+            <text class="form-label">宝宝姓名</text>
+            <input class="form-input" placeholder="请输入宝宝姓名" value="{{userInfoForm.babyName}}" bindinput="onBabyNameInput" />
+          </view>
+          
+          <!-- 出生日期 - 年月日选择 -->
+          <view class="form-item">
+            <text class="form-label">出生日期</text>
+            <view class="date-picker-group">
+              <picker mode="selector" range="{{birthYearRange}}" value="{{birthYearIndex}}" bindchange="onBirthYearChange">
+                <view class="picker-item">{{birthYearRange[birthYearIndex]}}年</view>
+              </picker>
+              <picker mode="selector" range="{{birthMonthRange}}" value="{{birthMonthIndex}}" bindchange="onBirthMonthChange">
+                <view class="picker-item">{{birthMonthRange[birthMonthIndex]}}月</view>
+              </picker>
+              <picker mode="selector" range="{{birthDayRange}}" value="{{birthDayIndex}}" bindchange="onBirthDayChange">
+                <view class="picker-item">{{birthDayRange[birthDayIndex]}}日</view>
+              </picker>
+            </view>
+            <view class="age-display" wx:if="{{calculatedAge > 0}}">当前月龄：{{calculatedAge}}个月</view>
+          </view>
+          
+          <!-- 是否早产 -->
+          <view class="form-item">
+            <text class="form-label">是否早产</text>
+            <view class="radio-group">
+              <view class="radio-item {{userInfoForm.premature === 'yes' ? 'active' : ''}}" bindtap="onPrematureChange" data-value="yes">是</view>
+              <view class="radio-item {{userInfoForm.premature === 'no' ? 'active' : ''}}" bindtap="onPrematureChange" data-value="no">否</view>
+            </view>
+          </view>
+          
+          <!-- 早产周数选择 -->
+          <view class="form-item" wx:if="{{userInfoForm.premature === 'yes'}}">
+            <text class="form-label">早产周数</text>
+            <picker mode="selector" range="{{prematureWeekRange}}" value="{{prematureWeekIndex}}" bindchange="onPrematureWeekChange">
+              <view class="picker-item">{{prematureWeekRange[prematureWeekIndex]}}</view>
+            </picker>
+          </view>
+          
+          <!-- 语言/听力风险 -->
+          <view class="form-item">
+            <text class="form-label">语言/听力风险</text>
+            <view class="radio-group">
+              <view class="radio-item {{userInfoForm.hasRisk === 'yes' ? 'active' : ''}}" bindtap="onRiskChange" data-value="yes">是</view>
+              <view class="radio-item {{userInfoForm.hasRisk === 'no' ? 'active' : ''}}" bindtap="onRiskChange" data-value="no">否</view>
+            </view>
+          </view>
+          
+          <!-- 主要养育者 -->
+          <view class="form-item">
+            <text class="form-label">主要养育者</text>
+            <picker mode="selector" range="{{caregiverOptions}}" value="{{caregiverIndex}}" bindchange="onCaregiverChange">
+              <view class="picker-item">{{userInfoForm.caregiver || '请选择'}}</view>
+            </picker>
+          </view>
+          
+          <!-- 家庭语言环境 -->
+          <view class="form-item">
+            <text class="form-label">家庭语言环境</text>
+            <picker mode="selector" range="{{languageOptions}}" value="{{languageIndex}}" bindchange="onLanguageChange">
+              <view class="picker-item">{{userInfoForm.familyLanguage || '请选择'}}</view>
+            </picker>
+          </view>
+        </view>
+        <view class="form-footer">
+          <button class="form-btn cancel" bindtap="closeUserInfoForm">取消</button>
+          <button class="form-btn save" bindtap="saveUserInfo">保存</button>
+        </view>
+      </view>
+    </view>
+
+    <!-- 小睡打卡统计条 -->
+    <view class="stats-bar">
+      <view class="stats-icon">📊</view>
+      <text class="stats-text">累计记录小睡{{totalSleepDays}}天，连续打卡{{continuousSleepDays}}天</text>
+    </view>
+
+    <!-- 小睡记录数据看板 -->
+    <view class="sleep-dashboard">
+      <view class="dashboard-header">
+        <text class="dashboard-title">小睡记录</text>
+      </view>
+      <view class="sleep-chart">
+        <view class="chart-title">最近7天小睡时长（分钟）</view>
+        <view class="chart-container">
+          <!-- 简化的折线图展示 -->
+          <view class="chart-grid">
+            <view class="chart-labels">
+              <view wx:for="{{recentSleepData}}" wx:key="index" class="chart-label">
+                {{item.day}}
+              </view>
+            </view>
+            <view class="chart-bars">
+              <view wx:for="{{recentSleepData}}" wx:key="index" class="chart-bar-container">
+                <view class="chart-bar" style="height: {{item.duration > 0 ? (item.duration / 120) * 100 : 0}}%;"></view>
+                <view class="chart-value">{{item.duration}}</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 功能列表 -->
+    <view class="menu-list">
+      <view class="menu-item" bindtap="goToCalendar">
+        <view class="menu-icon">📅</view>
+        <text class="menu-text">小睡记录日历</text>
+        <view class="arrow">
+          <text class="arrow-icon">></text>
+        </view>
+      </view>
+      <view class="menu-item" bindtap="goToReport">
+        <view class="menu-icon">📄</view>
+        <text class="menu-text">儿童语言认知能力发展报告</text>
+        <view class="arrow">
+          <text class="arrow-icon">></text>
+        </view>
+      </view>
+      <view class="menu-item" bindtap="goToCollection">
+        <view class="menu-icon">⭐</view>
+        <text class="menu-text">我的收藏</text>
+        <view class="arrow">
+          <text class="arrow-icon">></text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

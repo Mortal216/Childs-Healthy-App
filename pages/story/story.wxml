@@ -1,0 +1,69 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 返回按钮 -->
+  <view class="back-button" bindtap="goBack">
+    <text class="back-icon">←</text>
+    <text class="back-text">返回</text>
+  </view>
+  
+  <!-- 页面标题 -->
+  <view class="page-title">
+    <text>故事共读</text>
+    <text class="page-subtitle">为家长提供睡前故事朗读素材以及互动提示</text>
+  </view>
+  
+  <!-- 头部提示 -->
+  <view class="header-tip">
+    <text class="tip-text">注意：国家政策不支持0~30月孩子的屏幕使用，故此模块仅为家长提供睡前故事朗读素材以及互动提示</text>
+  </view>
+  
+  <!-- 故事列表 -->
+  <view class="story-section">
+    <text class="section-title">推荐故事</text>
+    
+    <view class="story-list">
+      <view wx:for="{{storyList}}" wx:key="id" class="story-item" bindtap="goToStoryDetail" data-id="{{item.id}}">
+        <view class="story-cover">
+          <image wx:if="{{index === 0}}" src="/images/gushi/1.png" mode="aspectFill"></image>
+          <image wx:elif="{{index === 1}}" src="/images/gushi/2.png" mode="aspectFill"></image>
+          <image wx:elif="{{index === 2}}" src="/images/gushi/3.png" mode="aspectFill"></image>
+          <image wx:elif="{{index === 3}}" src="/images/gushi/4.png" mode="aspectFill"></image>
+          <image wx:elif="{{index === 4}}" src="/images/gushi/5.png" mode="aspectFill"></image>
+          <image wx:elif="{{index === 5}}" src="/images/gushi/6.png" mode="aspectFill"></image>
+          <image wx:else src="{{item.cover}}" mode="aspectFill"></image>
+        </view>
+        <view class="story-info">
+          <text class="story-title">{{item.title}}</text>
+          <text class="story-author">作者：{{item.author}}</text>
+          <text class="story-length">{{item.length}}分钟阅读</text>
+          <view class="story-tags">
+            <view wx:for="{{item.tags}}" wx:key="index" class="tag">{{item}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 互动提示 -->
+  <view class="interaction-tips">
+    <text class="tips-title">共读互动提示</text>
+    <view class="tips-list">
+      <view class="tip-item">
+        <text class="tip-number">1</text>
+        <text class="tip-content">在朗读故事前，先向孩子展示绘本封面，询问他们对故事的猜测</text>
+      </view>
+      <view class="tip-item">
+        <text class="tip-number">2</text>
+        <text class="tip-content">使用不同的声音和语调为故事中的角色配音，增加故事的趣味性</text>
+      </view>
+      <view class="tip-item">
+        <text class="tip-number">3</text>
+        <text class="tip-content">在故事的关键情节处暂停，询问孩子接下来会发生什么</text>
+      </view>
+      <view class="tip-item">
+        <text class="tip-number">4</text>
+        <text class="tip-content">故事结束后，与孩子一起回顾故事内容，讨论故事中的道理</text>
+      </view>
+    </view>
+  </view>
+</view>

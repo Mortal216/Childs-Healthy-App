@@ -1,0 +1,65 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">故事共读</view>
+    <view class="placeholder"></view>
+  </view>
+
+  <view wx:if="{{story && currentPage}}">
+    <view class="story-header">
+      <view class="story-title">{{story.title}}</view>
+      <view class="story-meta">{{story.author}} · 第 {{currentPageIndex + 1}} / {{totalPages}} 页</view>
+    </view>
+
+    <image class="story-image" src="{{currentPage.image}}" mode="aspectFill"></image>
+
+    <view class="story-text-card">
+      <view class="section-title">故事内容</view>
+      <view class="story-text">{{currentPage.text}}</view>
+    </view>
+
+    <view class="audio-card">
+      <view class="section-title">故事配音</view>
+      <view class="audio-status">{{playModeText}}</view>
+
+      <view class="audio-action-group">
+        <view class="audio-btn primary" bindtap="playStoryAudio">朗读</view>
+        <view class="audio-btn" bindtap="pauseStoryAudio">暂停</view>
+        <view class="audio-btn" bindtap="replayStoryAudio">重播</view>
+      </view>
+    </view>
+
+    <view class="interaction-flow-card">
+    <view class="section-title">家长互动教学流程</view>
+
+    <view class="flow-step">
+      <view class="flow-label">步骤 1 · 家长怎么问</view>
+      <view class="guide-text">{{currentPage.parentTip}}</view>
+    </view>
+
+    <view class="flow-step">
+      <view class="flow-label">步骤 2 · 引导孩子做什么</view>
+      <view class="guide-text">{{currentPage.childTask}}</view>
+    </view>
+
+    <view class="flow-step">
+      <view class="flow-label">步骤 3 · 示范句式</view>
+      <view class="guide-text">{{currentPage.demoSentence}}</view>
+    </view>
+
+    <view class="flow-step">
+      <view class="flow-label">步骤 4 · 本页互动问题</view>
+      <view class="guide-text">{{currentPage.interaction.question}}</view>
+    </view>
+  </view>
+
+    <view class="page-action-group">
+      <view class="page-btn" bindtap="prevPage">上一页</view>
+      <view class="page-btn primary" bindtap="nextPage">
+        {{currentPageIndex === totalPages - 1 ? '完成故事' : '下一页'}}
+      </view>
+    </view>
+  </view>
+</view>

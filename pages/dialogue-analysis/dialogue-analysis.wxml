@@ -1,0 +1,16 @@
+<view class="status-bar">
+  <text class="time">12:00</text>
+  <text class="title">咿呀智库·交流对话分析</text>
+</view>
+<view class="content">
+  <view class="instruction">请上传或粘贴一段亲子对话，我们将为您分析对话质量和互动效果。建议对话时长不少于5分钟</view>
+  <textarea class="text-input" placeholder="请在此粘贴亲子对话文本" />
+  <view class="upload-buttons">
+    <button class="upload-btn">上传录音</button>
+    <button class="upload-btn">上传视频</button>
+    <button class="upload-btn">选择历史</button>
+  </view>
+  <button class="analyze-btn">开始分析</button>
+  <view class="cancel">【取消】</view>
+</view>
+<custom-tab-bar selected="test"></custom-tab-bar>

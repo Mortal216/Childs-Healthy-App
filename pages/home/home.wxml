@@ -1,0 +1,32 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <view class="top-nav">
+    <view class="nav-title">咿呀智库</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <view class="hero-band">
+    <text class="welcome-kicker">成长记录 · 轻咨询</text>
+    <text class="welcome-title">您好，欢迎来到咿呀智库</text>
+    <text class="welcome-subtitle">记录宝宝语言发展，获得温和、可执行的养育支持——像一本随身成长手账，而不是一堂课。</text>
+  </view>
+
+  <view class="card">
+    <text class="card-kicker">发育评测</text>
+    <view class="card-title">宝宝语言能力测评</view>
+    <text class="card-hint">根据月龄分段，了解当前能力轮廓</text>
+    <view class="button-group-vertical">
+      <button class="action-btn" bindtap="onBasicTest">基础测评</button>
+      <button class="action-btn action-btn-ghost" bindtap="onStartExTest">拓展测评</button>
+    </view>
+  </view>
+
+  <view class="card">
+    <text class="card-kicker">成长报告</text>
+    <view class="card-title">儿童发展报告</view>
+    <view class="card-desc">汇总测评结果，生成可读性强的综合报告与养育建议，便于家庭存档与复诊沟通参考。</view>
+    <button class="action-btn" bindtap="onViewReport">查看报告</button>
+  </view>
+</view>

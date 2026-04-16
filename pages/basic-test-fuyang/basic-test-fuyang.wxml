@@ -1,0 +1,117 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 返回按钮 -->
+  <view class="back-button" bindtap="goBack">
+    <view class="back-icon-wrapper">
+      <text class="back-arrow">←</text>
+    </view>
+    <text class="back-text">返回</text>
+  </view>
+  
+  <view class="questionnaire-header">
+    <text class="main-title">幼儿抚养方式测评</text>
+    <text class="sub-title">一.日常抚养行为与模式</text>
+  </view>
+
+  <view class="question-list">
+    <view class="question-item">
+      <text class="question-text">1. 主要由谁负责照顾孩子的日常起居（饮食、洗漱、睡眠）？</text>
+      <view class="option-group">
+        <view class="option-item {{selectedOptions[0] === 'mom' ? 'selected' : ''}}" bindtap="selectOption" data-index="0" data-value="mom">
+          <view class="radio {{selectedOptions[0] === 'mom' ? 'checked' : ''}}"></view>
+          <text>妈妈</text>
+        </view>
+        <view class="option-item {{selectedOptions[0] === 'dad' ? 'selected' : ''}}" bindtap="selectOption" data-index="0" data-value="dad">
+          <view class="radio {{selectedOptions[0] === 'dad' ? 'checked' : ''}}"></view>
+          <text>爸爸</text>
+        </view>
+        <view class="option-item {{selectedOptions[0] === 'grandma' ? 'selected' : ''}}" bindtap="selectOption" data-index="0" data-value="grandma">
+          <view class="radio {{selectedOptions[0] === 'grandma' ? 'checked' : ''}}"></view>
+          <text>祖辈（爷爷奶奶/外公外婆）</text>
+        </view>
+        <view class="option-item {{selectedOptions[0] === 'other' ? 'selected' : ''}}" bindtap="selectOption" data-index="0" data-value="other">
+          <view class="radio {{selectedOptions[0] === 'other' ? 'checked' : ''}}"></view>
+          <text>保姆/托育机构</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="question-item">
+      <text class="question-text">2. 每天陪伴孩子进行互动游戏/亲子阅读的时间大概是多久？</text>
+      <view class="option-group">
+        <view class="option-item {{selectedOptions[1] === 'lt30' ? 'selected' : ''}}" bindtap="selectOption" data-index="1" data-value="lt30">
+          <view class="radio {{selectedOptions[1] === 'lt30' ? 'checked' : ''}}"></view>
+          <text>少于30分钟</text>
+        </view>
+        <view class="option-item {{selectedOptions[1] === '30-60' ? 'selected' : ''}}" bindtap="selectOption" data-index="1" data-value="30-60">
+          <view class="radio {{selectedOptions[1] === '30-60' ? 'checked' : ''}}"></view>
+          <text>30分钟-1小时</text>
+        </view>
+        <view class="option-item {{selectedOptions[1] === 'gt60' ? 'selected' : ''}}" bindtap="selectOption" data-index="1" data-value="gt60">
+          <view class="radio {{selectedOptions[1] === 'gt60' ? 'checked' : ''}}"></view>
+          <text>1小时以上</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="question-item">
+      <text class="question-text">3. 孩子哭闹/发脾气时，主要采用哪种应对方式？</text>
+      <view class="option-group">
+        <view class="option-item {{selectedOptions[2] === 'comfort' ? 'selected' : ''}}" bindtap="selectOption" data-index="2" data-value="comfort">
+          <view class="radio {{selectedOptions[2] === 'comfort' ? 'checked' : ''}}"></view>
+          <text>耐心安抚，了解需求</text>
+        </view>
+        <view class="option-item {{selectedOptions[2] === 'ignore' ? 'selected' : ''}}" bindtap="selectOption" data-index="2" data-value="ignore">
+          <view class="radio {{selectedOptions[2] === 'ignore' ? 'checked' : ''}}"></view>
+          <text>暂时不理会，等情绪平复</text>
+        </view>
+        <view class="option-item {{selectedOptions[2] === 'scold' ? 'selected' : ''}}" bindtap="selectOption" data-index="2" data-value="scold">
+          <view class="radio {{selectedOptions[2] === 'scold' ? 'checked' : ''}}"></view>
+          <text>批评/制止，要求立刻安静</text>
+        </view>
+        <view class="option-item {{selectedOptions[2] === 'indulge' ? 'selected' : ''}}" bindtap="selectOption" data-index="2" data-value="indulge">
+          <view class="radio {{selectedOptions[2] === 'indulge' ? 'checked' : ''}}"></view>
+          <text>满足所有要求，快速哄好</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="question-item">
+      <text class="question-text">4. 是否会有意识地引导孩子自主完成简单事务（如自己吃饭、穿袜子）？</text>
+      <view class="option-group">
+        <view class="option-item {{selectedOptions[3] === 'always' ? 'selected' : ''}}" bindtap="selectOption" data-index="3" data-value="always">
+          <view class="radio {{selectedOptions[3] === 'always' ? 'checked' : ''}}"></view>
+          <text>总是，刻意引导</text>
+        </view>
+        <view class="option-item {{selectedOptions[3] === 'sometimes' ? 'selected' : ''}}" bindtap="selectOption" data-index="3" data-value="sometimes">
+          <view class="radio {{selectedOptions[3] === 'sometimes' ? 'checked' : ''}}"></view>
+          <text>偶尔，看情况</text>
+        </view>
+        <view class="option-item {{selectedOptions[3] === 'never' ? 'selected' : ''}}" bindtap="selectOption" data-index="3" data-value="never">
+          <view class="radio {{selectedOptions[3] === 'never' ? 'checked' : ''}}"></view>
+          <text>很少，怕孩子做不好</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="question-item">
+      <text class="question-text">5. 日常抚养中，更倾向于哪种教育理念？</text>
+      <view class="option-group">
+        <view class="option-item {{selectedOptions[4] === 'free' ? 'selected' : ''}}" bindtap="selectOption" data-index="4" data-value="free">
+          <view class="radio {{selectedOptions[4] === 'free' ? 'checked' : ''}}"></view>
+          <text>自由放养，顺应天性</text>
+        </view>
+        <view class="option-item {{selectedOptions[4] === 'guide' ? 'selected' : ''}}" bindtap="selectOption" data-index="4" data-value="guide">
+          <view class="radio {{selectedOptions[4] === 'guide' ? 'checked' : ''}}"></view>
+          <text>引导式教育，适度约束</text>
+        </view>
+        <view class="option-item {{selectedOptions[4] === 'strict' ? 'selected' : ''}}" bindtap="selectOption" data-index="4" data-value="strict">
+          <view class="radio {{selectedOptions[4] === 'strict' ? 'checked' : ''}}"></view>
+          <text>严格管教，立规矩为主</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <button class="next-btn" bindtap="goToNextPage">下一页</button>
+</view>

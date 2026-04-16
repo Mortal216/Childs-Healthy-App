@@ -1,0 +1,745 @@
+@UTF8
+@PID:	11312/a-00066890-1
+@Begin
+@Languages:	zho
+@Participants:	MOT Mother, CHI Target_Child
+@ID:	zho|NSCtoys|MOT|36;00.||||Mother|||
+@ID:	zho|NSCtoys|CHI|2;08.||||Target_Child|||
+@Birth of CHI:	04-OCT-2016
+@Media:	d16_2, audio
+@Date:	10-JUN-2019
+@Activities:	toy play
+@Situation:	MOT plays toys with CHI
+@Comment:	Filename is D16_tp_time1_2.txt
+@Comment:	Time is 9:55
+@Bg:	Blocks
+@Types:	cross, toyplay, TD
+*MOT:	哇 . 370_870
+%mor:	noun|哇 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	积木 耶 . 3975_5717
+%mor:	propn|积木 propn|耶 .
+%gra:	1|0|ROOT 2|1|FLAT-NAME 3|1|PUNCT
+*MOT:	你 最 喜欢 的 积木 . 5297_6057
+%mor:	pron|你-Int-S2 adv|最 adj|喜欢-S1 sconj|的 noun|积木 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|AMOD 4|3|MARK-REL 5|0|ROOT 6|5|PUNCT
+*CHI:	妈妈 可以 摆 火车 吗 ?
+%mor:	noun|妈妈 aux|可以-Inf-S verb|摆-Inf-S noun|火车-Acc part|吗 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	可以 呀 . 5637_6938
+%mor:	aux|可以-Inf-S part|呀 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	你 看看 你 想 要 摆 什么 . 6619_7479
+%mor:	pron|你-Int-S2 verb|看看-Inf-S pron|你-Int-S2 aux|想-Inf-S aux|要-Inf-S verb|摆-Inf-S pron|什么-Int-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|NSUBJ 4|6|AUX 5|6|AUX 6|2|CCOMP 7|6|OBJ 8|2|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	yo@o .
+%mor:	o|yo .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	帮 我 排 火车 . 7200_11986
+%mor:	verb|帮-Inf-S pron|我-Int-S1 verb|排-Inf-S noun|火车-Acc .
+%gra:	1|3|ADVCL 2|1|OBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	好 啊 . 14930_15470
+%mor:	adj|好-S1 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	<你 可以> [/] 你 可以 自己 玩玩看 呀 . 15010_18154
+%mor:	pron|你-Int-S2 aux|可以-Inf-S pron|自己-Int-S1 verb|玩玩看-Inf-S part|呀 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|NSUBJ 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	你 排排看 . 19377_19938
+%mor:	pron|你-Int-S2 verb|排排看-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	然后 把 他 贴 在 一起 . 19698_22703
+%mor:	adv|然后 adp|把 pron|他-Int-S3 verb|贴-Inf-S verb|在-Inf-S noun|一起-Acc .
+%gra:	1|4|ADVMOD 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|MARK 6|4|OBJ 7|4|PUNCT
+*MOT:	火车 就 黏 起来 了 . 23204_24245
+%mor:	noun|火车 sconj|就 verb|黏-Inf-S verb|起来-Inf-S part|了 .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|MARK 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	好 . 23785_24285
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<换 你 换 你> [/] 换 你 . 23846_25107
+%mor:	verb|换-Inf-S pron|你-Int-S2 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	阿姨 的 积木 还 有 +... 29990_30490
+%mor:	noun|阿姨 part|的 noun|积木 sconj|还 verb|有-Inf-S +...
+%gra:	1|3|NMOD 2|1|CASE 3|5|NSUBJ 4|5|MARK 5|0|ROOT 6|5|PUNCT
+*MOT:	这 个 是 什么 形状 ?
+%mor:	det|这-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 noun|形状 ?
+%gra:	1|2|DET 2|5|NSUBJ 3|5|COP 4|5|DET 5|0|ROOT 6|5|PUNCT
+*MOT:	这 是 什么 形状 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 noun|形状 ?
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|0|ROOT 5|4|PUNCT
+*CHI:	这 是 半圆形 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|半圆形 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这 是 半圆形 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|半圆形 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	这 是 可以 +...
+%mor:	pron|这-Int-S1 verb|是-Inf-S aux|可以-Inf-S +...
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|AUX 4|2|PUNCT
+*MOT:	<可以 唷> [/] <可以 唷> [//] 这样 可以 唷 . 43730_44770
+%mor:	pron|这样-Int-S1 aux|可以-Inf-S punct|唷 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*MOT:	好 . 44350_44850
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 再 试试看 别的 . 44391_45231
+%mor:	pron|你-Int-S2 adv|再 verb|试试看-Inf-S pron|别的-Int-S1 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	你 的 火车 . 44851_45511
+%mor:	pron|你-Int-S2 part|的 noun|火车 .
+%gra:	1|3|DET 2|1|CASE 3|0|ROOT 4|3|PUNCT
+*MOT:	你 的 火车 还 可以 再 长 一点 吗 ? 45132_46733
+%mor:	pron|你-Int-S2 part|的 noun|火车 sconj|还 aux|可以-Inf-S adv|再 adj|长-S1 adj|一点-S1 part|吗 ?
+%gra:	1|3|DET 2|1|CASE 3|7|NSUBJ 4|7|MARK 5|7|AUX 6|7|ADVMOD 7|0|ROOT 8|7|XCOMP 9|7|DISCOURSE 10|7|PUNCT
+*CHI:	可以 . 46293_46793
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	可以 那 你 试试看 . 46374_49397
+%mor:	aux|可以-Inf-S pron|那-Int-S1 pron|你-Int-S2 verb|试试看-Inf-S .
+%gra:	1|4|AUX 2|4|NSUBJ 3|4|NSUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	可以 把 火车 再 弄 长 一点 . 52323_55627
+%mor:	aux|可以-Inf-S adp|把 noun|火车 adv|再 verb|弄-Inf-S adj|长-S1 adj|一点-S1 .
+%gra:	1|5|AUX 2|3|CASE 3|5|OBL-PATIENT 4|5|ADVMOD 5|0|ROOT 6|5|XCOMP 7|5|XCOMP 8|5|PUNCT
+*MOT:	我 可以 帮 你 吗 ? 63050_63910
+%mor:	pron|我-Int-S1 aux|可以-Inf-S verb|帮-Inf-S pron|你-Int-S2 part|吗 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*CHI:	可以 . 63470_63970
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	还是 你 要 自己 来 . 63971_68679
+%mor:	sconj|还是 pron|你-Int-S2 aux|要-Inf-S pron|自己-Int-S1 verb|来-Inf-S .
+%gra:	1|5|MARK 2|4|NSUBJ 3|5|AUX 4|5|NSUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	我 帮 你 把 火车 黏 起来 „ 好不好 . 68219_73166
+%mor:	pron|我-Int-S1 verb|帮-Inf-S pron|你-Int-S2 adp|把 noun|火车 verb|黏-Inf-S verb|起来-Inf-S punct|„ adj|好不好-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|NSUBJ 4|5|CASE 5|6|OBL-PATIENT 6|2|CCOMP 7|6|MARK 8|9|PUNCT 9|6|XCOMP 10|2|PUNCT
+*CHI:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	有 很 长 很 长的 火车 . 72987_73868
+%mor:	verb|有-Inf-S adv|很 adj|长-S1 adv|很 adj|长的-S1 noun|火车-Acc .
+%gra:	1|0|ROOT 2|3|ADVMOD 3|6|AMOD 4|5|ADVMOD 5|6|AMOD 6|1|OBJ 7|1|PUNCT
+*MOT:	<还有 吗> [/] 还 有 吗 ?
+%mor:	sconj|还 verb|有-Inf-S part|吗 ?
+%gra:	1|2|MARK 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	这里 还 有 .
+%mor:	pron|这里-Int-S1 sconj|还 verb|有-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|PUNCT
+*MOT:	你们 等 一下 要 去 玩 游戏 吗 ? 85720_87582
+%mor:	pron|你-Int-P1 verb|等-Inf-S pron|一下-Int-S1 aux|要-Inf-S sconj|去 verb|玩-Inf-S noun|游戏-Acc part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|NSUBJ 4|6|AUX 5|6|MARK 6|2|CCOMP 7|6|OBJ 8|2|DISCOURSE 9|2|PUNCT
+*CHI:	要 . 87122_87622
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	要 . 87162_87662
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	老师 今天 会 带 你 去 玩 游戏 吗 ? 87202_88182
+%mor:	noun|老师 noun|今天 aux|会-Inf-S verb|带-Inf-S pron|你-Int-S2 sconj|去 verb|玩-Inf-S noun|游戏-Acc part|吗 ?
+%gra:	1|7|NSUBJ 2|7|NMOD-TMOD 3|7|AUX 4|7|ADVCL 5|4|OBJ 6|7|MARK 7|0|ROOT 8|7|OBJ 9|7|DISCOURSE 10|7|PUNCT
+*MOT:	会不会 ?
+%mor:	verb|会不会-Inf-S ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 等 一下 是 在 里面 玩 游戏 还是 去 体育馆 玩 游戏 . 87722_95193
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|等-Inf-S pron|一下-Int-S1 verb|是-Inf-S adp|在 noun|里面 verb|玩-Inf-S noun|游戏-Acc sconj|还是 verb|去-Inf-S noun|体育馆-Acc verb|玩-Inf-S noun|游戏-Acc .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|5|NSUBJ 5|13|ADVCL 6|7|CASE 7|8|OBL 8|13|ADVCL 9|8|OBJ 10|13|MARK 11|13|ADVCL 12|11|OBJ 13|3|CCOMP 14|13|OBJ 15|3|PUNCT
+*MOT:	你 知道 吗 ? 96215_98298
+%mor:	pron|你-Int-S2 verb|知道-Inf-S part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	这 是 火车 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|火车 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 火车 喔 . 117590_118330
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|火车 part|喔 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|COMPOUND 4|0|ROOT 5|4|PUNCT
+*MOT:	那 火车 有 屋顶 吗 ? 117870_118610
+%mor:	det|那-Def noun|火车 verb|有-Inf-S noun|屋顶-Acc part|吗 ?
+%gra:	1|2|DET 2|3|NSUBJ 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	这 个 好像 可以 当 屋顶 . 118150_126798
+%mor:	det|这-Def noun|个 adv|好像 aux|可以-Inf-S verb|当-Inf-S noun|屋顶-Acc .
+%gra:	1|2|DET 2|5|NSUBJ 3|5|ADVMOD 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	可以 .
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 的 火车 有 屋顶 . 126419_127179
+%mor:	pron|你-Int-S2 part|的 noun|火车 verb|有-Inf-S noun|屋顶-Acc .
+%gra:	1|3|DET 2|1|CASE 3|4|NSUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	那个 太 扁 了 . 139370_146619
+%mor:	pron|那个-Int-S1 adv|太 adj|扁-S1 part|了 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	那个 .
+%mor:	pron|那个-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 . 146440_146940
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 这 个 可以 当 屋顶 吗 ? 146540_152308
+%mor:	det|那-Def det|这-Def noun|个 aux|可以-Inf-S verb|当-Inf-S noun|屋顶-Acc part|吗 ?
+%gra:	1|3|DET 2|3|DET 3|5|NSUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|DISCOURSE 8|5|PUNCT
+*MOT:	可以 吗 ?
+%mor:	aux|可以-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	可以 .
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	可以 . 155150_155650
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	来 ‡ 你 把 他 压 下去 . 155370_159053
+%mor:	sconj|来 adp|‡ pron|你-Int-S2 adp|把 pron|他-Int-S3 verb|压-Inf-S verb|下去-Inf-S .
+%gra:	1|6|MARK 2|5|CASE 3|6|OBL-PATIENT 4|5|CASE 5|6|OBL-PATIENT 6|0|ROOT 7|6|MARK 8|6|PUNCT
+*MOT:	当 屋顶 .
+%mor:	adp|当 noun|屋顶 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*MOT:	<这里 还有> [/] 这里 还 有 .
+%mor:	pron|这里-Int-S1 sconj|还 verb|有-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|PUNCT
+*MOT:	你 要 怎么 排 . 161275_162315
+%mor:	pron|你-Int-S2 aux|要-Inf-S adv|怎么 verb|排-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	你 试试看 . 161896_162496
+%mor:	pron|你-Int-S2 verb|试试看-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	哇 . 173320_173820
+%mor:	noun|哇 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 的 火车 好 大 台 哦 . 173420_175734
+%mor:	pron|你-Int-S2 part|的 noun|火车 adj|好-S1 part|大 part|台 x|哦 .
+%gra:	1|3|DET 2|1|CASE 3|6|NSUBJ 4|6|AMOD 5|6|CASE 6|0|ROOT 7|6|APPOS 8|6|PUNCT
+*MOT:	司机 伯伯 要 在 哪里 开车 ? 191360_193602
+%mor:	noun|司机 noun|伯伯 aux|要-Inf-S verb|在-Inf-S pron|哪里-Int-S1 verb|开车-Inf-S ?
+%gra:	1|2|NMOD 2|6|NSUBJ 3|6|AUX 4|6|ADVCL 5|4|OBJ 6|0|ROOT 7|6|PUNCT
+*CHI:	在 +...
+%mor:	verb|在-Inf-S +...
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	司机 伯伯 要 在 哪里 开车 ? 193182_194123
+%mor:	noun|司机 noun|伯伯 aux|要-Inf-S verb|在-Inf-S pron|哪里-Int-S1 verb|开车-Inf-S ?
+%gra:	1|2|NMOD 2|6|NSUBJ 3|6|AUX 4|6|ADVCL 5|4|OBJ 6|0|ROOT 7|6|PUNCT
+*CHI:	+, 在 对面 开车 . 193903_194724
+%mor:	adp|在 noun|对面 verb|开车-Inf-S .
+%gra:	1|2|CASE 2|3|OBL 3|0|ROOT 4|3|PUNCT
+*MOT:	司机 伯伯 在 对面 开车 哦 .
+%mor:	noun|司机 propn|伯伯 adp|在 noun|对面 verb|开车-Inf-S part|哦 .
+%gra:	1|5|NSUBJ 2|1|APPOS 3|4|CASE 4|5|OBL 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这样子 喔 . 194524_197528
+%mor:	pron|这样子-Int-S1 punct|喔 .
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*CHI:	在 对面 开车 . 197068_197849
+%mor:	adp|在 noun|对面 verb|开车-Inf-S .
+%gra:	1|2|CASE 2|3|OBL 3|0|ROOT 4|3|PUNCT
+*MOT:	好 哇 . 201655_202295
+%mor:	adv|好 adj|哇-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	这 是 你 的 火车 吗 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|你-Int-S2 part|的 noun|火车 part|吗 .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|3|CASE 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*MOT:	啊 这里 还 有 一 个 耶 . 204620_207583
+%mor:	sconj|啊 pron|这里-Int-S1 sconj|还 verb|有-Inf-S num|一 noun|个 propn|耶-Acc .
+%gra:	1|4|MARK 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|6|NUMMOD 6|7|NMOD 7|4|OBJ 8|4|PUNCT
+*MOT:	他 要 在 哪里 ? 207383_209546
+%mor:	pron|他-Int-S3 aux|要-Inf-S verb|在-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	<他 他 他> [/] 他 要 在 这边 . 210187_212350
+%mor:	pron|他-Int-S3 aux|要-Inf-S verb|在-Inf-S pron|这边-Int-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	好 . 220320_220820
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 的 火车 要 出发 了 吗 ? 221401_223925
+%mor:	pron|那-Int-S1 pron|你-Int-S2 part|的 noun|火车 aux|要-Inf-S verb|出发-Inf-S part|了 part|吗 ?
+%gra:	1|4|NMOD 2|4|DET 3|2|CASE 4|6|NSUBJ 5|6|AUX 6|0|ROOT 7|6|DISCOURSE 8|6|DISCOURSE 9|6|PUNCT
+*CHI:	要 . 223465_223965
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	哈 ?
+%mor:	propn|哈 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	要 . 223525_224025
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 的 火车 要 去 哪里 ? 223565_224526
+%mor:	pron|你-Int-S2 part|的 noun|火车 aux|要-Inf-S verb|去-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|3|DET 2|1|CASE 3|5|NSUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	我 的 火车 要 去 载 客人 了 . 224106_225087
+%mor:	pron|我-Int-S1 part|的 noun|火车 aux|要-Inf-S verb|去-Inf-S verb|载-Inf-S noun|客人-Acc part|了 .
+%gra:	1|3|DET 2|1|CASE 3|5|NSUBJ 4|5|AUX 5|0|ROOT 6|5|XCOMP 7|6|OBJ 8|5|DISCOURSE 9|5|PUNCT
+*MOT:	要 去 载 客人 了 哦 ! 224627_225508
+%mor:	aux|要-Inf-S sconj|去 verb|载-Inf-S noun|客人-Acc part|了 pron|哦-Int-S1 !
+%gra:	1|3|AUX 2|3|MARK 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|OBJ 7|3|PUNCT
+*MOT:	好 哇 . 225048_225588
+%mor:	adv|好 adj|哇-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	那 doodooqǐngqiǎnqǐngqiǎng@o . 225168_225849
+%com:	妈妈 模仿 火车 开动 的 声音 .
+%act:	小朋友 移动 火车 .
+%mor:	det|那-Def o|doodooqǐngqiǎnqǐngqiǎng .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*MOT:	要 去 哪里 载 客人 啊 ? 235680_238503
+%mor:	aux|要-Inf-S verb|去-Inf-S pron|哪里-Int-S1 verb|载-Inf-S noun|客人-Acc part|啊 ?
+%gra:	1|4|AUX 2|4|ADVCL 3|2|OBJ 4|0|ROOT 5|4|OBJ 6|4|DISCOURSE 7|4|PUNCT
+*MOT:	你 的 火车 要 去 哪里 载 客人 „ 孩名 . 238043_243991
+%mor:	pron|你-Int-S2 part|的 noun|火车 aux|要-Inf-S verb|去-Inf-S pron|哪里-Int-S1 verb|载-Inf-S noun|客人-Acc punct|„ noun|孩名 .
+%gra:	1|3|DET 2|1|CASE 3|7|NSUBJ 4|7|AUX 5|7|ADVCL 6|5|OBJ 7|0|ROOT 8|7|OBJ 9|10|PUNCT 10|8|APPOS 11|7|PUNCT
+*MOT:	你 的 火车 要 去 哪里 载 客人 ? 245434_246695
+%mor:	pron|你-Int-S2 part|的 noun|火车 aux|要-Inf-S verb|去-Inf-S pron|哪里-Int-S1 verb|载-Inf-S noun|客人-Acc ?
+%gra:	1|3|DET 2|1|CASE 3|7|NSUBJ 4|7|AUX 5|7|ADVCL 6|5|OBJ 7|0|ROOT 8|7|OBJ 9|7|PUNCT
+*CHI:	<去> [/] 去 铁路 上 载 客人 . 246275_247095
+%mor:	verb|去-Inf-S noun|铁路-Acc noun|上 verb|载-Inf-S noun|客人-Acc .
+%gra:	1|4|ADVCL 2|1|OBJ 3|2|ACL 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	去 铁路 上 载 客人 哦 . 246675_247516
+%mor:	verb|去-Inf-S noun|铁路-Acc noun|上 verb|载-Inf-S noun|客人-Acc part|哦 .
+%gra:	1|4|ADVCL 2|1|OBJ 3|2|ACL 4|0|ROOT 5|4|OBJ 6|4|DISCOURSE 7|4|PUNCT
+*MOT:	那 不 要 去 火车站 吗 ? 252120_253742
+%mor:	pron|那-Int-S1 adv|不 aux|要-Inf-S verb|去-Inf-S noun|火车站-Acc part|吗 ?
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|DISCOURSE 7|4|PUNCT
+*CHI:	也 要 去 火车站 . 253283_254605
+%mor:	sconj|也 aux|要-Inf-S verb|去-Inf-S noun|火车站-Acc .
+%gra:	1|3|MARK 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	去 哪 一 个 火车站 . 254686_255908
+%mor:	verb|去-Inf-S det|哪-Def num|一 noun|个 noun|火车站-Acc .
+%gra:	1|0|ROOT 2|4|DET 3|4|NUMMOD 4|5|NMOD 5|1|OBJ 6|1|PUNCT
+*MOT:	要 去 哪 一 个 火车站 . 257774_259417
+%mor:	aux|要-Inf-S verb|去-Inf-S det|哪-Def num|一 noun|个 noun|火车站-Acc .
+%gra:	1|2|AUX 2|0|ROOT 3|5|DET 4|5|NUMMOD 5|6|NMOD 6|2|OBJ 7|2|PUNCT
+*MOT:	要 去 嘉义 的 火车站 还是 要 去 板桥 的 火车站 ? 265600_272769
+%mor:	aux|要-Inf-S verb|去-Inf-S propn|嘉义 part|的 noun|火车站-Acc sconj|还是 aux|要-Inf-S verb|去-Inf-S propn|板桥 part|的 noun|火车站-Acc ?
+%gra:	1|8|AUX 2|8|ADVCL 3|5|NMOD 4|3|CASE 5|2|OBJ 6|8|MARK 7|8|AUX 8|0|ROOT 9|11|NMOD 10|9|CASE 11|8|OBJ 12|8|PUNCT
+*CHI:	嘉义 的 火车站 . 272510_274151
+%mor:	propn|嘉义 part|的 noun|火车站 .
+%gra:	1|3|NMOD 2|1|CASE 3|0|ROOT 4|3|PUNCT
+*MOT:	<哪 一 个> [/] 哪 一 个 ? 274292_275113
+%mor:	det|哪-Def num|一 noun|个 ?
+%gra:	1|3|DET 2|3|NUMMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	去 阿公 , 阿嬷 家 的 . 274653_275834
+%mor:	verb|去-Inf-S propn|阿公-Acc cm|cm propn|阿嬷 part|家 part|的 .
+%gra:	1|0|ROOT 2|1|OBJ 3|5|PUNCT 4|5|COMPOUND 5|2|CONJ 6|1|DISCOURSE 7|1|PUNCT
+*MOT:	去 阿公 , 阿嬷 . 275374_276174
+%mor:	verb|去-Inf-S propn|阿公-Acc cm|cm propn|阿嬷 .
+%gra:	1|0|ROOT 2|1|OBJ 3|4|PUNCT 4|2|CONJ 5|1|PUNCT
+*MOT:	阿公 , 阿嬷 家 在 哪里 ? 275794_278297
+%mor:	propn|阿公 cm|cm propn|阿嬷 part|家 verb|在-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|5|NSUBJ 2|4|PUNCT 3|4|COMPOUND 4|5|NSUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*MOT:	我们 昨天 才 回来 呀 . 282280_287607
+%mor:	pron|我-Int-P1 noun|昨天 sconj|才 verb|回来-Inf-S part|呀 .
+%gra:	1|4|NSUBJ 2|4|NMOD-TMOD 3|4|MARK 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	阿公 , 阿嬷 家 在 哪里 ? 287147_287887
+%mor:	propn|阿公 cm|cm propn|阿嬷 part|家 verb|在-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|5|NSUBJ 2|4|PUNCT 3|4|COMPOUND 4|5|NSUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	<在 在 在> [/] 在 嘉义 . 287487_288548
+%mor:	verb|在-Inf-S propn|嘉义-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	嘉义 的 哪里 ? 288128_289049
+%mor:	propn|嘉义 part|的 pron|哪里-Int-S1 ?
+%gra:	1|3|NMOD 2|1|CASE 3|0|ROOT 4|3|PUNCT
+*CHI:	大里 火车站 .
+%mor:	propn|大里 noun|火车站 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	我们 有 去 看 火车 „ 对不对 ? 288689_292033
+%mor:	pron|我-Int-P1 verb|有-Inf-S sconj|去 verb|看-Inf-S noun|火车-Acc punct|„ adj|对不对-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|7|PUNCT 7|4|CONJ 8|2|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 呀 .
+%mor:	adp|对 part|呀 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	那 你 要 去 载 阿公 , 阿嬷 上来 玩 吗 ? 297440_298440
+%mor:	pron|那-Int-S1 pron|你-Int-S2 aux|要-Inf-S verb|去-Inf-S verb|载-Inf-S noun|阿公-Acc cm|cm noun|阿嬷 verb|上来-Inf-S verb|玩-Inf-S part|吗 ?
+%gra:	1|10|NSUBJ 2|10|NSUBJ 3|10|AUX 4|10|ADVCL 5|10|ADVCL 6|5|OBJ 7|8|PUNCT 8|6|CONJ 9|10|ADVCL 10|0|ROOT 11|10|DISCOURSE 12|10|PUNCT
+*CHI:	要 . 297980_298480
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 哇 那 doodoo@o qingqianqǐngqiang@o . 298020_302486
+%com:	妈妈 模仿 火车 开动 的 声音 .
+%mor:	part|好 x|哇 x|那 o|doodoo o|qingqianqǐngqiang .
+%gra:	1|2|CASE 2|0|ROOT 3|2|APPOS 4|3|FLAT-FOREIGN 5|3|FLAT-FOREIGN 6|2|PUNCT
+*MOT:	载 阿公 , 阿嬷 上来 玩 „ 好不好 ? 303568_305971
+%mor:	verb|载-Inf-S propn|阿公-Acc cm|cm propn|阿嬷 verb|上来-Inf-S verb|玩-Inf-S punct|„ adj|好不好-S1 ?
+%gra:	1|6|ADVCL 2|1|OBJ 3|4|PUNCT 4|2|CONJ 5|6|ADVCL 6|0|ROOT 7|8|PUNCT 8|6|XCOMP 9|6|PUNCT
+*MOT:	好不好 ? 305672_306172
+%mor:	adj|好不好-S1 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 . 307274_307774
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 的 火车 要 出发 了 吗 ? 309377_310358
+%mor:	pron|那-Int-S1 pron|你-Int-S2 part|的 noun|火车 aux|要-Inf-S verb|出发-Inf-S part|了 part|吗 ?
+%gra:	1|4|NMOD 2|4|DET 3|2|CASE 4|6|NSUBJ 5|6|AUX 6|0|ROOT 7|6|DISCOURSE 8|6|DISCOURSE 9|6|PUNCT
+*MOT:	你 的 火车 要 出发 了 吗 ? 309958_311099
+%mor:	pron|你-Int-S2 part|的 noun|火车 aux|要-Inf-S verb|出发-Inf-S part|了 part|吗 ?
+%gra:	1|3|DET 2|1|CASE 3|5|NSUBJ 4|5|AUX 5|0|ROOT 6|5|DISCOURSE 7|5|DISCOURSE 8|5|PUNCT
+*MOT:	不 要 喔 !
+%mor:	adv|不 aux|要-Inf-S adj|喔-S1 !
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	那 你 的 火车 要 去 哪里 ? 312380_318450
+%mor:	det|那-Def pron|你-Int-S2 part|的 noun|火车 aux|要-Inf-S verb|去-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|2|DET 2|4|DET 3|2|CASE 4|6|NSUBJ 5|6|AUX 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*MOT:	要 休息 吗 ? 318110_319992
+%act:	小朋友 点头 .
+%mor:	aux|要-Inf-S verb|休息-Inf-S part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	好 . 319593_320093
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 吗 ? 319673_320253
+%mor:	adj|好-S1 part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	要 休息 . 319793_320353
+%mor:	aux|要-Inf-S verb|休息-Inf-S .
+%gra:	1|2|AUX 2|0|ROOT 3|2|PUNCT
+*MOT:	要 去 哪里 休息 ? 319953_322136
+%mor:	aux|要-Inf-S verb|去-Inf-S pron|哪里-Int-S1 verb|休息-Inf-S ?
+%gra:	1|4|AUX 2|4|ADVCL 3|2|OBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	火车 要 去 哪里 休息 ? 322598_323439
+%mor:	noun|火车 aux|要-Inf-S verb|去-Inf-S pron|哪里-Int-S1 verb|休息-Inf-S ?
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|ADVCL 4|3|OBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	快点 .
+%mor:	noun|快点 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	火车 要 去 哪 ? 327890_328550
+%mor:	noun|火车 aux|要-Inf-S verb|去-Inf-S pron|哪-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	在 这边 休息 . 328110_328771
+%mor:	verb|在-Inf-S pron|这边-Int-S1 verb|休息-Inf-S .
+%gra:	1|3|ADVCL 2|1|OBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	火车 在 这边 休息 哦 . 328492_329353
+%mor:	noun|火车 verb|在-Inf-S pron|这边-Int-S1 verb|休息-Inf-S part|哦 .
+%gra:	1|4|NSUBJ 2|4|ADVCL 3|2|OBJ 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	那 火车 什么 时候 要 出发 去 载 阿公 , 阿嬷 ? 328893_331622
+%mor:	det|那-Def noun|火车 pron|什么-Int-S1 noun|时候 aux|要-Inf-S verb|出发-Inf-S sconj|去 verb|载-Inf-S propn|阿公-Acc cm|cm propn|阿嬷 ?
+%gra:	1|3|DET 2|3|NMOD 3|4|NMOD 4|8|NMOD-TMOD 5|8|AUX 6|8|ADVCL 7|8|MARK 8|0|ROOT 9|8|OBJ 10|11|PUNCT 11|9|CONJ 12|8|PUNCT
+*MOT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	什么 时候 ?
+%mor:	pron|什么-Int-S1 noun|时候 ?
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*MOT:	<礼拜 一 礼拜 二> [/] 礼拜 一 , 礼拜 二 , 礼拜 三 . 341680_346045
+%act:	妈妈 用 手 比 一 二 一 二 三
+%mor:	noun|礼拜 num|一 cm|cm verb|礼拜-Inf-S num|二 cm|cm verb|礼拜-Inf-S num|三 .
+%gra:	1|2|NMOD 2|0|ROOT 3|4|PUNCT 4|2|CONJ 5|4|NUMMOD 6|7|PUNCT 7|2|CONJ 8|7|OBJ 9|2|PUNCT
+*CHI:	这 是 什么 ?
+%com:	小朋友 突然 发现 妈妈 比 数字 的 手 上 有 戴 戒指 .
+%act:	小朋友 靠近 妈妈 想 要 拿 妈妈 的 戒指 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 我 的 啦 ! 345585_346305
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 part|啦 !
+%gra:	1|2|NSUBJ 2|0|ROOT 3|5|DET 4|3|CASE 5|2|DISCOURSE 6|2|PUNCT
+*MOT:	这 是 我 的 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 我 的 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	我 的 戒指 啊 . 345845_347647
+%mor:	pron|我-Int-S1 part|的 noun|戒指 part|啊 .
+%gra:	1|3|DET 2|1|CASE 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	这 是 戒指 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|戒指 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	这 是 戒指 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|戒指 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 戒指 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|戒指 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	啊 你 的 火车 在 那里 . 359480_363264
+%act:	小朋友 去 玩火 车 注意力 离开 戒指
+%mor:	verb|啊-Inf-Neg-S pron|你-Int-S2 part|的 noun|火车 verb|在-Inf-S pron|那里-Int-S1 .
+%gra:	1|0|ROOT 2|4|DET 3|2|CASE 4|5|NSUBJ 5|1|CCOMP 6|5|OBJ 7|1|PUNCT
+*MOT:	你 的 火车 <要> [//] 可以 换 成 别的 吗 ? 363285_365567
+%mor:	pron|你-Int-S2 part|的 noun|火车 aux|可以-Inf-S verb|换-Inf-S verb|成-Inf-S pron|别的-Int-S1 part|吗 ?
+%gra:	1|3|DET 2|1|CASE 3|5|NSUBJ 4|5|AUX 5|0|ROOT 6|5|MARK 7|5|OBJ 8|5|DISCOURSE 9|5|PUNCT
+*CHI:	可以 . 365107_365607
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 要 <再 玩> [//] 再 排 成 什么 ? 365207_367830
+%mor:	pron|那-Int-S1 aux|要-Inf-S adv|再 verb|排-Inf-S verb|成-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|0|ROOT 5|4|MARK 6|4|OBJ 7|4|PUNCT
+*CHI:	捷运 .
+%mor:	noun|捷运 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	捷运 哦 !
+%mor:	noun|捷运 part|哦 !
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	啊 捷运 也 是 长 这样 吗 ? 368091_371195
+%mor:	punct|啊 noun|捷运 sconj|也 aux|是-Inf-S adj|长-S1 pron|这样-Int-S1 part|吗 ?
+%gra:	1|2|PUNCT 2|5|NSUBJ 3|5|MARK 4|5|COP 5|0|ROOT 6|5|OBL 7|5|DISCOURSE 8|5|PUNCT
+*CHI:	不是 .
+%mor:	aux|是-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	欸 捷运 叫 什么 ? 370735_373078
+%mor:	punct|欸 noun|捷运 verb|叫-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|PUNCT 2|3|NSUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	mrt@s:eng .
+%mor:	L2|xxx .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	哦 !
+%mor:	pron|哦-Int-S1 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 捷运 可以 去 哪里 ? 376260_378482
+%mor:	det|那-Def noun|捷运 aux|可以-Inf-S verb|去-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	捷运 可以 去 载 小朋友 . 378202_379964
+%act:	小朋友 开始 把 刚刚 拼 好 的 火车 拆 掉 .
+%mor:	noun|捷运 aux|可以-Inf-S verb|去-Inf-S verb|载-Inf-S noun|小朋友-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|XCOMP 5|4|OBJ 6|3|PUNCT
+*MOT:	捷运 可以 去 载 小朋友 哦 . 380986_388876
+%mor:	noun|捷运 aux|可以-Inf-S verb|去-Inf-S verb|载-Inf-S noun|小朋友-Acc part|哦 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|XCOMP 5|4|OBJ 6|3|DISCOURSE 7|3|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 哇 . 388476_389417
+%mor:	adv|好 adj|哇-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	先 把 他 拆 掉 . 388977_389657
+%act:	小朋友 继续 拆 火车 .
+%mor:	sconj|先 adp|把 pron|他-Int-S3 verb|拆-Inf-S verb|掉-Inf-S .
+%gra:	1|4|MARK 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|MARK 6|4|PUNCT
+*MOT:	好 啊 . 389197_389738
+%mor:	adj|好-S1 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	你 把 他 拆 掉 . 389338_390078
+%mor:	pron|你-Int-S2 adp|把 pron|他-Int-S3 verb|拆-Inf-S verb|掉-Inf-S .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|MARK 6|4|PUNCT
+*MOT:	拆 掉 要 再 盖 什么 ? 389638_390859
+%mor:	verb|拆-Inf-S verb|掉-Inf-S aux|要-Inf-S adv|再 verb|盖-Inf-S pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|1|MARK 3|5|AUX 4|5|ADVMOD 5|1|XCOMP 6|5|OBJ 7|1|PUNCT
+*CHI:	还 要 再 盖 捷运 . 391500_393702
+%mor:	sconj|还 aux|要-Inf-S adv|再 verb|盖-Inf-S noun|捷运-Acc .
+%gra:	1|4|MARK 2|4|AUX 3|4|ADVMOD 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	好 哇 ‡ 那 你 拆 掉 盖 捷运 . 395505_396646
+%mor:	adv|好 propn|哇 punct|‡ pron|那-Int-S1 pron|你-Int-S2 verb|拆-Inf-S verb|掉-Inf-S verb|盖-Inf-S noun|捷运-Acc .
+%gra:	1|2|ADVMOD 2|6|NSUBJ 3|2|PUNCT 4|6|NSUBJ 5|4|APPOS 6|0|ROOT 7|6|MARK 8|6|XCOMP 9|8|OBJ 10|6|PUNCT
+*CHI:	火车 玩 好了 要 盖 捷运 . 396266_399210
+%mor:	noun|火车 verb|玩-Inf-S adv|好了 aux|要-Inf-S verb|盖-Inf-S noun|捷运-Acc .
+%gra:	1|2|NSUBJ 2|5|ADVCL 3|5|ADVMOD 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*MOT:	好 . 400132_400632
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	需要 帮忙 吗 ?
+%mor:	aux|需要-Inf-S verb|帮忙-Inf-S part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	要 . 400172_400672
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我 要 帮 你 什么 ? 401293_402775
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|要-Inf-S verb|帮-Inf-S pron|你-Int-S2 pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|6|NMOD 6|4|OBJ 7|4|PUNCT
+*MOT:	哇 ! 409260_409760
+%mor:	noun|哇 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	阿姨 说 要 准备 把 玩具 收 起来 了 耶 . 409320_411261
+%mor:	noun|阿姨 verb|说-Inf-S aux|要-Inf-S verb|准备-Inf-S adp|把 noun|玩具 verb|收-Inf-S verb|起来-Inf-S aux|了-Inf-Perf-S propn|耶-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|7|AUX 4|2|XCOMP 5|6|CASE 6|7|OBL-PATIENT 7|4|XCOMP 8|7|MARK 9|7|AUX 10|7|OBJ 11|2|PUNCT
+*MOT:	怎么 办 ?
+%mor:	adv|怎么 verb|办-Inf-S ?
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	啊 你 的 捷运 我们 回家 再 盖 „ 好不好 ? 410841_412001
+%mor:	verb|啊-Inf-Neg-S pron|你-Int-S2 part|的 noun|捷运 pron|我-Int-P1 verb|回家-Inf-S adv|再 verb|盖-Inf-S punct|„ adj|好不好-S1 ?
+%gra:	1|0|ROOT 2|4|DET 3|2|CASE 4|8|NSUBJ 5|4|APPOS 6|8|ADVCL 7|8|ADVMOD 8|1|CCOMP 9|10|PUNCT 10|8|XCOMP 11|1|PUNCT
+*CHI:	好 . 411741_412241
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 . 411781_412281
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	来 .
+%mor:	verb|来-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 把 他 拆一拆 . 411861_412601
+%mor:	pron|你-Int-S2 adp|把 pron|他-Int-S3 verb|拆一拆-Inf-S .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|PUNCT
+*MOT:	这 个 是 <放> [/] (.) 放 积木 的 盒子 . 427890_434454
+%mor:	det|这-Def noun|个 aux|是-Inf-S verb|放-Inf-S noun|积木-Acc sconj|的 noun|盒子 .
+%gra:	1|2|DET 2|7|NSUBJ 3|7|COP 4|7|ACL-RELCL 5|4|OBJ 6|4|MARK-REL 7|0|ROOT 8|7|PUNCT
+*MOT:	好 . 435555_436055
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 把 他 排一排 . 435735_436695
+%mor:	pron|你-Int-S2 adp|把 pron|他-Int-S3 verb|排一排-Inf-S .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|PUNCT
+*MOT:	你 自己 把 他 收 起来 „ 好不好 ? 436355_438376
+%mor:	pron|你-Int-S2 pron|自己-Int-S1 adp|把 pron|他-Int-S3 verb|收-Inf-S verb|起来-Inf-S punct|„ adj|好不好-S1 ?
+%gra:	1|5|NSUBJ 2|1|APPOS 3|4|CASE 4|5|OBL-PATIENT 5|0|ROOT 6|5|MARK 7|8|PUNCT 8|5|XCOMP 9|5|PUNCT
+*MOT:	好不好 ? 438617_439117
+%mor:	adj|好不好-S1 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	你 要 陪 我 . 443120_449104
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|陪-Inf-S pron|我-Int-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	好 我 陪 你 . 448664_449704
+%mor:	adv|好 pron|我-Int-S1 verb|陪-Inf-S pron|你-Int-S2 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	yo@o .
+%mor:	o|yo .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	捷运 站 才 有 捷运 . 449244_450725
+%mor:	propn|捷运 part|站 sconj|才 verb|有-Inf-S noun|捷运-Acc .
+%gra:	1|2|COMPOUND 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	对 呀 .
+%mor:	adp|对 part|呀 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	捷运 站 才 有 捷运 . 450325_451085
+%mor:	propn|捷运 part|站 sconj|才 verb|有-Inf-S noun|捷运-Acc .
+%gra:	1|2|COMPOUND 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 哇 . 450665_451245
+%mor:	adv|好 adj|哇-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	我们 下次 再 坐 捷运 . 459310_464896
+%mor:	pron|我-Int-P1 adv|下次 adv|再 verb|坐-Inf-S noun|捷运-Acc .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|ADVMOD 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	好 . 464617_465117
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	我们 下次 再 坐 捷运 . 464657_465437
+%mor:	pron|我-Int-P1 adv|下次 adv|再 verb|坐-Inf-S noun|捷运-Acc .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|ADVMOD 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	我们 坐 捷运 要 去 哪里 ? 465037_465818
+%mor:	pron|我-Int-P1 verb|坐-Inf-S noun|捷运-Acc aux|要-Inf-S verb|去-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|5|NSUBJ 2|5|ADVCL 3|2|OBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	出去 玩 . 465418_466058
+%mor:	verb|出去-Inf-S verb|玩-Inf-S .
+%gra:	1|2|ADVCL 2|0|ROOT 3|2|PUNCT
+*MOT:	出去 玩 . 465598_466178
+%mor:	verb|出去-Inf-S verb|玩-Inf-S .
+%gra:	1|2|ADVCL 2|0|ROOT 3|2|PUNCT
+*MOT:	好 . 465718_466218
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	去 动物园 吗 ? 465758_466479
+%mor:	verb|去-Inf-S noun|动物园-Acc part|吗 ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	要不要 ?
+%mor:	aux|要不要-Inf-Neg-S ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 . 466019_466519
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我们 下次 坐 捷运 去 动物园 . 466059_474289
+%mor:	pron|那-Int-S1 pron|我-Int-P1 adv|下次 verb|坐-Inf-S noun|捷运-Acc verb|去-Inf-S noun|动物园-Acc .
+%gra:	1|6|NSUBJ 2|6|NSUBJ 3|6|ADVMOD 4|6|ADVCL 5|4|OBJ 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	好 . 473909_474409
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 . 473949_474449
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 先 把 积木 收一收 . 474010_480054
+%mor:	pron|那-Int-S1 pron|你-Int-S2 adv|先 adp|把 noun|积木 verb|收一收-Inf-S .
+%gra:	1|6|NSUBJ 2|6|NSUBJ 3|6|ADVMOD 4|5|CASE 5|6|OBL-PATIENT 6|0|ROOT 7|6|PUNCT
+*MOT:	不 要 用 丢 的 . 479754_480494
+%mor:	adv|不 aux|要-Inf-S verb|用-Inf-S verb|丢-Inf-S part|的 .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|XCOMP 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	<轻轻地> [/] 轻轻地 放 . 480034_485078
+%mor:	adv|轻轻地 verb|放-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<还有 吗> [/] 还 有 吗 ?
+%mor:	sconj|还 verb|有-Inf-S part|吗 ?
+%gra:	1|2|MARK 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	好 . 500220_500720
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	还有 吗 ?
+%mor:	verb|还有-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	你 可以 把 他 放 在 上面 啊 . 526060_529121
+%mor:	pron|你-Int-S2 aux|可以-Inf-S adp|把 pron|他-Int-S3 verb|放-Inf-S verb|在-Inf-S noun|上面 part|啊 .
+%gra:	1|5|NSUBJ 2|5|AUX 3|4|CASE 4|5|OBL-PATIENT 5|0|ROOT 6|5|MARK 7|5|IOBJ 8|5|DISCOURSE 9|5|PUNCT
+*MOT:	放 上面 就 好了 . 528721_529402
+%mor:	verb|放-Inf-S noun|上面-Acc sconj|就 verb|好了-Inf-S .
+%gra:	1|4|ADVCL 2|1|OBJ 3|4|MARK 4|0|ROOT 5|4|PUNCT
+*MOT:	把 他 放 在 上面 就 好了 . 529342_532103
+%mor:	adp|把 pron|他-Int-S3 verb|放-Inf-S verb|在-Inf-S noun|上面-Acc sconj|就 adj|好了-S1 .
+%gra:	1|2|CASE 2|3|OBL-PATIENT 3|7|ADVCL 4|3|MARK 5|3|OBJ 6|7|MARK 7|0|ROOT 8|7|PUNCT
+*MOT:	对 ‡ 好 . 532084_533004
+%mor:	adp|对 propn|‡ adj|好-S1 .
+%gra:	1|2|CASE 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	太 紧 了 . 533265_534305
+%mor:	adv|太 adj|紧-S1 part|了 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	需要 帮忙 吗 ? 533945_535426
+%mor:	aux|需要-Inf-S verb|帮忙-Inf-S part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	那 你 把 这 个 收一收 . 535026_537067
+%mor:	pron|那-Int-S1 pron|你-Int-S2 adp|把 det|这-Def noun|个 verb|收一收-Inf-S .
+%gra:	1|6|NSUBJ 2|6|NSUBJ 3|5|CASE 4|5|DET 5|6|OBL 6|0|ROOT 7|6|PUNCT
+*MOT:	放上去不 [: 放 不 上去] .
+%mor:	verb|放-Inf-S adv|不 verb|上去-Inf-S .
+%gra:	1|0|ROOT 2|1|ADVMOD 3|1|MARK 4|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 还有 .
+%mor:	pron|那-Int-S1 verb|还有-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	你 可以 放 上面 呀 . 564720_568925
+%mor:	pron|你-Int-S2 aux|可以-Inf-S verb|放-Inf-S noun|上面-Acc part|呀 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	对 好 . 568585_569185
+%mor:	adp|对 adj|好-S1 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*MOT:	不 要 用 丢 的 . 569386_570828
+%mor:	adv|不 aux|要-Inf-S verb|用-Inf-S verb|丢-Inf-S part|的 .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|XCOMP 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	<轻轻的> [/] 轻轻的 .
+%mor:	adj|轻轻的-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 好 .
+%mor:	adp|对 adj|好-S1 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*MOT:	轻轻的 .
+%mor:	adj|轻轻的-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	都 收 起来 了 吗 ? 589570_590549
+%mor:	sconj|都 verb|收-Inf-S verb|起来-Inf-S part|了 part|吗 ?
+%gra:	1|2|MARK 2|0|ROOT 3|2|MARK 4|2|DISCOURSE 5|2|DISCOURSE 6|2|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+@Eg:	Blocks
+@End

@@ -1,0 +1,127 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <view wx:if="{{loading}}" class="loading-panel">
+    <view class="loading-spinner"></view>
+    <text class="loading-text">正在生成反馈报告...</text>
+  </view>
+
+  <block wx:else>
+    <view class="back-button" bindtap="goBack">
+      <view class="back-icon-wrapper">
+        <text class="back-arrow">‹</text>
+      </view>
+      <text class="back-text">返回</text>
+    </view>
+
+    <view class="hero-card">
+      <text class="hero-tag">家庭语言环境反馈</text>
+      <text class="hero-title">资源、活动与观念三项一起看，才能更准确判断家庭支持强度</text>
+      <text class="hero-desc">以下结果结合文献中的计分方式与参考均值，帮助您定位更值得优先补强的部分。</text>
+    </view>
+
+    <view class="summary-card">
+      <view class="summary-left">
+        <text class="summary-label">总分</text>
+        <view class="score-row">
+          <text class="score-number">{{totalScore}}</text>
+          <text class="score-max">/ {{maxScore}}</text>
+        </view>
+        <view class="level-chip" style="color: {{scoreLevelColor}}; background: {{scoreLevelTone}};">
+          {{scoreLevel}}
+        </view>
+        <text class="score-percent">完成度 {{percent}}%</text>
+      </view>
+
+      <view class="summary-right">
+        <view class="summary-info-item">
+          <text class="summary-info-label">宝宝</text>
+          <text class="summary-info-value">{{babyInfo.name}}</text>
+        </view>
+        <view class="summary-info-item">
+          <text class="summary-info-label">月龄</text>
+          <text class="summary-info-value">{{babyInfo.age}}</text>
+        </view>
+        <view class="summary-info-item">
+          <text class="summary-info-label">测评日期</text>
+          <text class="summary-info-value">{{babyInfo.testTime}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="card benchmark-card">
+      <view class="card-header">
+        <text class="card-title">研究参考值</text>
+      </view>
+      <text class="benchmark-text">{{benchmarkText}}</text>
+    </view>
+
+    <view class="card">
+      <view class="card-header">
+        <text class="card-title">雷达图概览</text>
+        <text class="card-subtitle">三类特征分布是否均衡</text>
+      </view>
+      <canvas canvas-id="radarCanvas" class="radar-canvas"></canvas>
+
+      <view class="legend-list">
+        <view class="legend-item" wx:for="{{dimensionScores}}" wx:key="dimension">
+          <view class="legend-dot" style="background: {{item.levelColor}};"></view>
+          <text class="legend-text">{{item.dimension}} {{item.score}} / {{item.maxScore}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="card-header">
+        <text class="card-title">维度明细</text>
+        <text class="card-subtitle">看清资源投入、活动频次和教育观念分别处于什么水平</text>
+      </view>
+
+      <view class="dimension-list">
+        <view class="dimension-item" wx:for="{{dimensionScores}}" wx:key="dimension">
+          <view class="dimension-top">
+            <text class="dimension-name">{{item.dimension}}</text>
+            <text class="dimension-score">{{item.score}} / {{item.maxScore}}</text>
+          </view>
+          <view class="dimension-bar">
+            <view class="dimension-fill" style="width: {{item.percent}}%; background: {{item.levelColor}};"></view>
+          </view>
+          <view class="dimension-bottom">
+            <text class="dimension-percent">{{item.percent}}%</text>
+            <view class="mini-chip" style="color: {{item.levelColor}}; background: {{item.levelTone}};">{{item.level}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="card ai-card">
+      <view class="card-header">
+        <view class="ai-badge">AI智能分析</view>
+      </view>
+      <view class="analysis-list">
+        <view class="analysis-item" wx:for="{{analysisParagraphs}}" wx:key="index">
+          <text class="analysis-text">{{item}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="card-header">
+        <text class="card-title">行动建议</text>
+        <text class="card-subtitle">优先把家庭中的高频语言场景做起来</text>
+      </view>
+
+      <view class="suggestion-list">
+        <view class="suggestion-item" wx:for="{{suggestions}}" wx:key="index">
+          <view class="suggestion-index">{{index + 1}}</view>
+          <text class="suggestion-text">{{item}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="action-row">
+      <button class="ghost-btn" bindtap="goBack">返回</button>
+      <button class="primary-btn" bindtap="goToTest">重新测评</button>
+    </view>
+
+    <view class="bottom-space"></view>
+  </block>
+</view>

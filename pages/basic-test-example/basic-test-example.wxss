@@ -1,0 +1,47 @@
+.main-title {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.section-title {
+  font-size: 36rpx;
+  font-weight: 500;
+  margin: 30rpx 0 20rpx;
+}
+.question-item {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+}
+.question-text {
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.options {
+  display: flex;
+  gap: 30rpx;
+}
+.option {
+  padding: 16rpx 40rpx;
+  border: 1px solid #ddd;
+  border-radius: 40rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+.option.selected {
+  background-color: #4a7eb8;
+  color: #fff;
+  border-color: #4a7eb8;
+}
+
+.next-btn {
+  background: var(--yh-primary, #587838);
+  color: #fff;
+  border-radius: 60rpx;
+  margin-top: 40rpx;
+}
+
+.next-btn::after {
+  border: none;
+}

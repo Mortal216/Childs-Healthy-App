@@ -1,0 +1,79 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">小睡记录日历</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <view class="help-button">
+        <text class="help-icon">?</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 小睡控制区 -->
+  <view class="sleep-control">
+    <!-- 未开始小睡状态 -->
+    <block wx:if="{{!isNapping}}">
+      <view class="sleep-status">
+        <text class="status-text">准备开始小睡</text>
+      </view>
+      <button class="sleep-btn start-btn" bindtap="startNap">
+        <text class="btn-icon">🌙</text>
+        <text class="btn-text">开始小睡</text>
+      </button>
+    </block>
+    
+    <!-- 正在小睡状态 -->
+    <block wx:else>
+      <view class="napping-status">
+        <view class="timer-display">
+          <text class="timer-label">小睡时长</text>
+          <text class="timer-value">{{elapsedStr}}</text>
+        </view>
+        <view class="start-time">
+          <text>开始时间: {{napStartTimeStr}}</text>
+        </view>
+      </view>
+      <button class="sleep-btn end-btn" bindtap="endNap">
+        <text class="btn-icon">⏹️</text>
+        <text class="btn-text">结束小睡</text>
+      </button>
+    </block>
+    
+    <text class="sleep-tip">记录宝宝的小睡时间，帮助建立规律作息</text>
+  </view>
+
+  <!-- 星期栏 -->
+  <view class="week-bar">
+    <view class="week-item">日</view>
+    <view class="week-item">一</view>
+    <view class="week-item">二</view>
+    <view class="week-item">三</view>
+    <view class="week-item">四</view>
+    <view class="week-item">五</view>
+    <view class="week-item">六</view>
+  </view>
+
+  <!-- 日历列表 -->
+  <view class="calendar-list">
+    <view wx:for="{{calendarData}}" wx:key="month" class="calendar-month">
+      <view class="month-title">{{item.month}}</view>
+      <view class="date-grid">
+        <view 
+          wx:for="{{item.days}}" 
+          wx:for-item="day" 
+          wx:for-index="dayIndex" 
+          wx:key="date" 
+          class="date-item {{day.isCheckedIn ? 'checked-in' : ''}} {{day.isToday ? 'today' : ''}}" 
+          bindtap="onDateClick" 
+          data-date="{{day.date}}"
+        >
+          {{day.day}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 返回按钮 -->
+  <view class="back-button" bindtap="goBack">
+    <text class="back-icon">←</text>
+    <text class="back-text">返回</text>
+  </view>
+  
+  <!-- 页面标题 -->
+  <view class="page-title">
+    <text>拓展测评</text>
+  </view>
+
+<!-- 1. 交流对话分析 -->
+<view class="test-card" bindtap="goToConversation">
+  <text class="test-title">交流对话分析</text>
+  <button class="start-btn">开始测评</button>
+</view>
+
+<!-- 2. 亲子互动质量分析 -->
+<view class="test-card" bindtap="goToInteraction">
+  <text class="test-title">亲子互动质量分析</text>
+  <button class="start-btn">开始测评</button>
+</view>
+
+<!-- 3. 家庭语言环境分析 -->
+<view class="test-card" bindtap="goToAtmosphere">
+  <text class="test-title">家庭语言环境分析</text>
+  <button class="start-btn">开始测评</button>
+</view>
+
+<!-- 4. 其他测评（灰色不可点击） -->
+<view class="test-card disabled">
+  <text class="test-title">其他测评</text>
+  <button class="start-btn disabled" disabled>暂未开放</button>
+</view>
+
+</view>

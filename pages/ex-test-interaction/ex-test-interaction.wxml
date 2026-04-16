@@ -1,0 +1,65 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <view class="back-button" bindtap="goBack">
+    <view class="back-icon-wrapper">
+      <text class="back-arrow">‹</text>
+    </view>
+    <text class="back-text">返回</text>
+  </view>
+
+  <view class="page-header">
+    <text class="main-title">{{questionnaire.title}}</text>
+    <view class="header-meta">
+      <text class="meta-chip">{{questionnaire.subtitle}}</text>
+      <text class="meta-chip">已完成 {{answeredCount}} / {{totalCount}}</text>
+    </view>
+  </view>
+
+  <view class="intro-card">
+    <view class="intro-top">
+      <text class="intro-title">填写说明</text>
+      <view class="help-trigger" bindtap="showHelp">查看帮助</view>
+    </view>
+    <text class="intro-text">{{questionnaire.intro}}</text>
+  </view>
+
+  <view class="question-list">
+    <view class="question-item" wx:for="{{questions}}" wx:key="id" wx:for-item="question" wx:for-index="questionIndex">
+      <view class="question-header">
+        <text class="question-number">{{question.number}}</text>
+        <text class="question-text">{{question.text}}</text>
+      </view>
+
+      <view class="option-group">
+        <view
+          wx:for="{{question.options}}"
+          wx:key="index"
+          wx:for-item="option"
+          wx:for-index="optionIndex"
+          class="option-item {{question.selectedOption === optionIndex ? 'selected' : ''}}"
+          bindtap="selectOption"
+          data-question-index="{{questionIndex}}"
+          data-option-index="{{optionIndex}}"
+        >
+          <view class="radio {{question.selectedOption === optionIndex ? 'checked' : ''}}">
+            <view class="radio-inner" wx:if="{{question.selectedOption === optionIndex}}"></view>
+          </view>
+          <text class="option-text">{{option}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="submit-section">
+    <button
+      class="submit-btn {{!isAllSelected || submitting ? 'disabled' : ''}}"
+      bindtap="submitAssessment"
+      loading="{{submitting}}"
+      disabled="{{!isAllSelected || submitting}}"
+    >
+      提交问卷
+    </button>
+    <text class="submit-tip">{{submitTip}}</text>
+  </view>
+
+  <view class="bottom-space"></view>
+</view>

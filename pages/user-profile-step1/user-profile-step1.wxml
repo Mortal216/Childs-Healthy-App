@@ -1,0 +1,62 @@
+<!-- 页面容器 -->
+<view class="page-container" style="--navBarHeight: {{navBarHeight}}px;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">填写宝宝信息</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <!-- 进度条 -->
+  <view class="progress-bar">
+    <view class="progress" style="width: 50%;"></view>
+  </view>
+
+  <!-- 步骤标题 -->
+  <view class="step-title">步骤1/2：宝宝基本信息</view>
+
+  <!-- 表单 -->
+  <view class="form">
+    <view class="input-item">
+      <input class="input" placeholder="请输入宝宝姓名" bindinput="onNameInput" value="{{babyName}}" />
+    </view>
+
+    <view class="input-item">
+      <input class="input" placeholder="请输入宝宝出生日期（如：2023-05-20）" bindinput="onBirthdayInput" value="{{birthday}}" />
+    </view>
+
+    <view class="radio-group">
+      <text class="radio-label">是否早产</text>
+      <view class="radio-item">
+        <radio value="yes" checked="{{premature === 'yes'}}" bindtap="onPrematureChange" />
+        <text>是</text>
+        <radio value="no" checked="{{premature === 'no'}}" bindtap="onPrematureChange" style="margin-left: 40rpx;" />
+        <text>否</text>
+      </view>
+    </view>
+
+    <view class="input-item" wx:if="{{premature === 'yes'}}">
+      <input class="input" placeholder="请输入早产天数（如无则留空）" bindinput="onPrematureDaysInput" value="{{prematureDays}}" type="number" />
+    </view>
+
+    <view class="radio-group">
+      <text class="radio-label">是否有已知语言/听力风险</text>
+      <view class="radio-item">
+        <radio value="yes" checked="{{hasRisk === 'yes'}}" bindtap="onRiskChange" />
+        <text>是</text>
+        <radio value="no" checked="{{hasRisk === 'no'}}" bindtap="onRiskChange" style="margin-left: 40rpx;" />
+        <text>否</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 下一步按钮 -->
+  <button class="next-btn" bindtap="goToNext">下一步</button>
+
+  <!-- 底部标语 -->
+  <view class="footer-text">科学评估·个性化干预</view>
+</view>

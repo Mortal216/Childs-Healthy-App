@@ -1,0 +1,30 @@
+<!-- 页面容器 -->
+<view class="page-container" style="--status-bar-height: {{statusBarHeight}}rpx;">
+  <!-- 标题区域 -->
+  <view class="title-section">
+    <text class="main-title">咿呀智库</text>
+    <text class="sub-title">婴幼儿语言发育评估中心</text>
+  </view>
+
+  <!-- 图标区域 -->
+  <view class="icon-section">
+    <image class="logo-img" src="/images/tab/yiya-Logo.jpg" mode="aspectFit"></image>
+    <text class="logo-text">YI YA</text>
+  </view>
+
+  <!-- 登录表单区域 -->
+  <view class="login-form">
+    <view class="input-wrapper">
+      <input class="phone-input" placeholder="请输入手机号" type="number" maxlength="11" bindinput="onPhoneInput" />
+    </view>
+    <button class="login-btn" bindtap="onLogin">登录 / 注册</button>
+    <view class="tip-text">
+      <text>首次登录将自动创建账号</text>
+    </view>
+  </view>
+
+  <!-- 底部标语 -->
+  <view class="footer-slogan">
+    <text>科学评估·个性化干预</text>
+  </view>
+</view>

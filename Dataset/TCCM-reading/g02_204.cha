@@ -1,0 +1,857 @@
+@UTF8
+@PID:	11312/a-00067044-1
+@Begin
+@Languages:	zho
+@Participants:	MOT Mother, CHI Target_Child
+@ID:	zho|TCCM-reading|MOT|33;00.||||Mother|||
+@ID:	zho|TCCM-reading|CHI|2;04.||||Target_Child|||
+@Birth of CHI:	28-MAY-2005
+@Situation:	reading the book "好忙的蜘蛛"
+@Date:	05-OCT-2007
+@Types:	cross, book, TD
+*MOT:	我们 今天 看 什么 啊 ?
+%mor:	pron|我-Int-P1 noun|今天 verb|看-Inf-S pron|什么-Int-S1 part|啊 ?
+%gra:	1|3|NSUBJ 2|3|NMOD-TMOD 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*CHI:	蜘蛛 .
+%mor:	noun|蜘蛛 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 ‡ 好 忙的 蜘蛛 喔 .
+%gpx:	MOT把 CHI抱 到 自己 的 大腿 上 .
+%mor:	adp|对 propn|‡ adj|好-S1 sconj|忙的 noun|蜘蛛 punct|喔 .
+%gra:	1|2|CASE 2|3|NMOD 3|5|AMOD 4|3|MARK-REL 5|0|ROOT 6|5|PUNCT 7|5|PUNCT
+*MOT:	我们 看看 蜘蛛 在 干嘛 呢 ?
+%mor:	pron|我-Int-P1 verb|看看-Inf-S noun|蜘蛛 verb|在-Inf-S verb|干嘛-Inf-S part|呢 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|4|XCOMP 6|2|DISCOURSE 7|2|PUNCT
+*MOT:	&~哇 这 是 什么 ?
+%gpx:	MOT指 着 太阳 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	太阳 公公 .
+%mor:	noun|太阳 noun|公公 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	0 .
+%act:	摸 着 图
+*MOT:	太阳 公公 出来 啰 !
+%mor:	noun|太阳 noun|公公 verb|出来-Inf-S punct|啰 !
+%gra:	1|2|NMOD 2|3|NSUBJ 3|0|ROOT 4|3|PUNCT 5|3|PUNCT
+*MOT:	好 忙的 蜘蛛 喔 !
+%mor:	adj|好-S1 sconj|忙的 noun|蜘蛛 part|喔 !
+%gra:	1|3|AMOD 2|1|MARK-REL 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	&~哇 早上 了 耶 .
+%mor:	noun|早上 aux|了-Inf-Perf-S propn|耶 .
+%gra:	1|0|ROOT 2|1|AUX 3|1|APPOS 4|1|PUNCT
+*MOT:	太阳 公公 笑笑 地 跑 出来 了 .
+%mor:	noun|太阳 noun|公公 adj|笑笑-S1 sconj|地 verb|跑-Inf-S verb|出来-Inf-S part|了 .
+%gra:	1|2|NMOD 2|5|NSUBJ 3|5|ADVMOD 4|3|MARK-ADV 5|0|ROOT 6|5|MARK 7|5|DISCOURSE 8|5|PUNCT
+*CHI:	0 .
+%act:	摸 着 图
+*MOT:	&~喔 有 一 只 蜘蛛 啊 .
+%gpx:	MOT比 着 蜘蛛 丝 .
+%mor:	verb|有-Inf-S num|一 noun|只 noun|蜘蛛-Acc part|啊 .
+%gra:	1|0|ROOT 2|4|NUMMOD 3|2|CLF 4|1|OBJ 5|1|DISCOURSE 6|1|PUNCT
+*CHI:	0 .
+%act:	指 着 蜘蛛
+*MOT:	他 就 拖 着 一 根 线 耶 .
+%mor:	pron|他-Int-S3 sconj|就 verb|拖-Inf-S aux|着-Inf-Prog-S num|一 noun|根 part|线 propn|耶-Acc .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|AUX 5|6|NUMMOD 6|7|COMPOUND 7|8|NMOD 8|3|OBJ 9|3|PUNCT
+*CHI:	henhen@o .
+%sit:	CHI在 扮演 被 蜘蛛 咬 而 发出 叫声 .
+%mor:	o|henhen .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	&~啊 不 要 咬 啊 .
+%mor:	adv|不 aux|要-Inf-S verb|咬-Inf-S part|啊 .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	他 在 农场 旁边 的 篱笆 停 下来 .
+%mor:	pron|他-Int-S3 verb|在-Inf-S noun|农场 noun|旁边 part|的 noun|篱笆-Acc verb|停-Inf-S verb|下来-Inf-S .
+%gra:	1|7|NSUBJ 2|7|ADVCL 3|6|NMOD 4|3|ACL 5|3|CASE 6|2|OBJ 7|0|ROOT 8|7|MARK 9|7|PUNCT
+*MOT:	他 只 用 线 啊 .
+%mor:	pron|他-Int-S3 adv|只 verb|用-Inf-S noun|线-Acc part|啊 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	在 干嘛 呢 ?
+%gpx:	MOT指 着 蜘蛛 丝 .
+%mor:	verb|在-Inf-S verb|干嘛-Inf-S part|呢 ?
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|DISCOURSE 4|1|PUNCT
+*CHI:	+^ 0 .
+%act:	将 书 翻 到 下 一 页
+*MOT:	咦 ?
+%mor:	punct|咦 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	&~啊 !
+%gpx:	CHI指 着 蜘蛛 .
+*MOT:	在 织 网 耶 .
+%mor:	adp|在 propn|织 part|网 propn|耶 .
+%gra:	1|4|CASE 2|3|COMPOUND 3|4|NMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	&~啊 !
+%gpx:	MOT抓 了 一下 CHI指 着 蜘蛛 的 手 .
+%sit:	MOT顺着 CHI的 想像 扮演 被 蜘蛛 咬 .
+*MOT:	有 一 个 &~呐呐 马儿 就 问 蜘蛛 说 要不要 去 逛逛 呀 .
+%gpx:	MOT转向 问 CHI .
+%mor:	verb|有-Inf-S num|一 noun|个 noun|马儿 sconj|就 verb|问-Inf-S noun|蜘蛛-Acc verb|说-Inf-S aux|要不要-Inf-Neg-S verb|去-Inf-S verb|逛逛-Inf-S part|呀 .
+%gra:	1|0|ROOT 2|4|NUMMOD 3|2|CLF 4|8|NSUBJ 5|8|MARK 6|8|ADVCL 7|6|OBJ 8|1|CCOMP 9|10|AUX 10|8|XCOMP 11|10|XCOMP 12|8|DISCOURSE 13|1|PUNCT
+*CHI:	不 行 .
+%mor:	adv|不 verb|行-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	不 行 呀 !
+%mor:	adv|不 verb|行-Inf-S part|呀 !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	蜘蛛 没有 回答 他 , 因为 他 正在 忙 呢 .
+%mor:	noun|蜘蛛 verb|有-Inf-Neg-S verb|回答-Inf-S pron|他-Int-S3 cm|cm adp|因为 pron|他-Int-S3 adv|正在 verb|忙-Inf-S part|呢 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|9|PUNCT 6|9|CASE 7|9|NSUBJ 8|9|ADVMOD 9|3|CCOMP 10|9|DISCOURSE 11|2|PUNCT
+*MOT:	他 在 工作 .
+%mor:	pron|他-Int-S3 verb|在-Inf-S verb|工作-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*MOT:	&~欸 牛 .
+%gpx:	MOT用 手 当 牛角 摆 在 头 上 .
+%mor:	propn|牛 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这 是 什么 ?
+%gpx:	MOT指 着 牛 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	牛 .
+%mor:	propn|牛 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	mou@o 是 什么 ?
+%mor:	o|mou aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	mou@o 是 绵羊 .
+%mor:	o|mou aux|是-Inf-S noun|绵羊 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	绵羊 这 个 是 ?
+%mor:	noun|绵羊 det|这-Def noun|个 verb|是-Inf-S ?
+%gra:	1|4|NSUBJ 2|3|DET 3|4|NSUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	0 .
+%act:	停顿 四 秒
+*MOT:	母 牛 .
+%mor:	noun|母 part|牛 .
+%gra:	1|2|COMPOUND 2|0|ROOT 3|2|PUNCT
+*CHI:	母 牛 .
+%mor:	noun|母 part|牛 .
+%gra:	1|2|COMPOUND 2|0|ROOT 3|2|PUNCT
+*MOT:	牛 问 他 说 啊 +"/.
+%mor:	propn|牛 verb|问-Inf-S pron|他-Int-S3 verb|说-Inf-S part|啊 +"/.
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|2|DISCOURSE 6|2|PUNCT
+*MOT:	+" 要不要 去 吃 草 呀 .
+%mor:	aux|要不要-Inf-Neg-S verb|去-Inf-S verb|吃-Inf-S noun|草-Acc part|呀 .
+%gra:	1|2|AUX 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|2|DISCOURSE 6|2|PUNCT
+*MOT:	蜘蛛 没有 讲话 , 因为 他 在 忙 着 在 织 网 呢 .
+%gpx:	MOT摸 着 蜘蛛 丝 .
+%mor:	noun|蜘蛛 verb|有-Inf-Neg-S verb|讲话-Inf-S cm|cm adp|因为 pron|他-Int-S3 adv|在 verb|忙-Inf-S aux|着-Inf-Prog-S adp|在 verb|织-Inf-S part|网 part|呢 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|8|PUNCT 5|8|CASE 6|8|NSUBJ 7|8|ADVMOD 8|2|CCOMP 9|8|AUX 10|12|CASE 11|12|COMPOUND 12|8|OBL 13|8|DISCOURSE 14|2|PUNCT
+*MOT:	&~诶 这 个 是 什么 ?
+%mor:	det|这-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*MOT:	绵羊 .
+%gpx:	MOT指 着 绵羊 .
+%mor:	noun|绵羊 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	咩 .
+%mor:	punct|咩 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	是 什么 ?
+%mor:	aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|COP 2|0|ROOT 3|2|PUNCT
+*CHI:	咩 .
+%mor:	punct|咩 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	咩 是 什么 ?
+%mor:	punct|咩 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|PUNCT 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	咩 是 绵羊 .
+%mor:	punct|咩 aux|是-Inf-S noun|绵羊 .
+%gra:	1|3|PUNCT 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	对 ‡ 绵羊 .
+%mor:	adp|对 propn|‡ propn|绵羊 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|FLAT-NAME 4|2|PUNCT
+*MOT:	绵羊 就 问 要不要 去 草地 上 跑一跑 呀 .
+%gpx:	MOT的 食指 指 着 上 方 .
+%mor:	noun|绵羊 sconj|就 verb|问-Inf-S aux|要不要-Inf-Neg-S verb|去-Inf-S noun|草地-Acc noun|上 verb|跑一跑-Inf-S part|呀 .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|8|AUX 5|8|ADVCL 6|5|OBJ 7|6|ACL 8|3|XCOMP 9|3|DISCOURSE 10|3|PUNCT
+*MOT:	蜘蛛 没有 回答 耶 , 因为 他 在 织 网 .
+%mor:	noun|蜘蛛 verb|有-Inf-Neg-S verb|回答-Inf-S propn|耶-Acc cm|cm adp|因为 pron|他-Int-S3 verb|在-Inf-S propn|织 part|网 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|8|PUNCT 6|8|CASE 7|8|NSUBJ 8|3|CCOMP 9|10|COMPOUND 10|8|OBJ 11|2|PUNCT
+*MOT:	这 是 什么 啊 ?
+%gpx:	MOT指 着 图 中的 苍蝇 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 part|啊 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	蜜蜂 .
+%mor:	noun|蜜蜂 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	蜜蜂 .
+%mor:	noun|蜜蜂 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	他 是 蚊子 .
+%gpx:	MOT在CHI耳 旁 作势 说 悄悄话 .
+%mor:	pron|他-Int-S3 aux|是-Inf-S noun|蚊子 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	蚊子 会 咬 你 .
+%mor:	noun|蚊子 aux|会-Inf-S verb|咬-Inf-S pron|你-Int-S2 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	好 痒 喔 !
+%mor:	adv|好 adj|痒-S1 punct|喔 !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*CHI:	对 .
+%act:	CHI握 了 握手 掌 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<这 是 咦> [//] 这 也 是 山羊 .
+%sit:	由于 绵羊 跟 山羊 的 叫声 一样 所以 妈妈 说 也 .
+%mor:	pron|这-Int-S1 sconj|也 aux|是-Inf-S noun|山羊 .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|COP 4|0|ROOT 5|4|PUNCT
+*CHI:	yyy .
+*MOT:	这 个 是 什么 啊 ?
+%mor:	det|这-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 part|啊 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	有 角 的 .
+%act:	MOT在CHI的 头 上 用 手指 当 角 .
+%mor:	verb|有-Inf-S noun|角-Acc part|的 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	是 山羊 喔 .
+%mor:	aux|是-Inf-S noun|山羊 part|喔 .
+%gra:	1|2|COP 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	0 .
+%act:	用 手 在 头 上 当 角
+*MOT:	山羊 会 在 石头 上面 跳来跳去 啊 .
+%mor:	noun|山羊 aux|会-Inf-S verb|在-Inf-S noun|石头-Acc noun|上面 verb|跳来跳去-Inf-S part|啊 .
+%gra:	1|6|NSUBJ 2|6|AUX 3|6|ADVCL 4|3|OBJ 5|4|ACL 6|0|ROOT 7|6|DISCOURSE 8|6|PUNCT
+*MOT:	山羊 就 问 啊 +"/.
+%mor:	noun|山羊 sconj|就 verb|问-Inf-S part|啊 +"/.
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	+" 要不要 去 岩石 上 跳一跳 呀 .
+%gpx:	MOT将 手 放 在 头 上 当 角 .
+%mor:	aux|要不要-Inf-Neg-S verb|去-Inf-S noun|岩石-Acc noun|上 verb|跳一跳-Inf-S part|呀 .
+%gra:	1|5|AUX 2|5|ADVCL 3|2|OBJ 4|3|ACL 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*CHI:	0 .
+%act:	在 翻 页
+*MOT:	蜘蛛 有没有 讲话 ?
+%mor:	noun|蜘蛛 verb|有没有-Inf-Neg-S verb|讲话-Inf-S ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	没有 .
+%mor:	verb|有-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 ‡ 因为 他 在 干嘛 ?
+%mor:	adp|对 propn|‡ adp|因为 pron|他-Int-S3 adv|在 verb|干嘛-Inf-S ?
+%gra:	1|2|CASE 2|6|OBL 3|2|CASE 4|6|NSUBJ 5|6|ADVMOD 6|0|ROOT 7|6|PUNCT
+*CHI:	哞 .
+%sit:	CHI已 将 书本 翻 到 猪 的 那 页 所以 说 mou@o .
+%mor:	punct|哞 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	他 在 工作 .
+%mor:	pron|他-Int-S3 verb|在-Inf-S verb|工作-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*MOT:	有 一 个 哞哞@o .
+%mor:	verb|有-Inf-S num|一 noun|个 o|哞哞-Acc .
+%gra:	1|0|ROOT 2|4|NUMMOD 3|2|CLF 4|1|OBJ 5|1|PUNCT
+*MOT:	这 是 什么 ?
+%gpx:	MOT指 着 猪 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	小 猪 .
+%mor:	part|小 noun|猪 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*MOT:	对 ‡ 小 猪 就 说 要不要 去 泥 塘 里 滚来滚去 打滚 呀 .
+%gpx:	MOT左右 摇晃 身体 .
+%mor:	adp|对 noun|‡ part|小 noun|猪 sconj|就 verb|说-Inf-S aux|要不要-Inf-Neg-S verb|去-Inf-S noun|泥 part|塘 noun|里 verb|滚来滚去-Inf-S verb|打滚-Inf-S part|呀 .
+%gra:	1|4|CASE 2|4|NMOD 3|4|CASE 4|6|NSUBJ 5|6|MARK 6|13|ADVCL 7|13|AUX 8|13|ADVCL 9|10|COMPOUND 10|8|OBJ 11|10|ACL 12|13|ADVCL 13|0|ROOT 14|13|DISCOURSE 15|13|PUNCT
+*MOT:	蜘蛛 有没有 回答 他 呢 ?
+%mor:	noun|蜘蛛 verb|有没有-Inf-Neg-S verb|回答-Inf-S pron|他-Int-S3 part|呢 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|2|DISCOURSE 6|2|PUNCT
+*CHI:	没有 .
+%mor:	verb|有-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	没有 ‡ 为什么 ?
+%mor:	verb|有-Inf-Neg-S adp|‡ pron|为什么-Int-S1 ?
+%gra:	1|0|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
+*CHI:	他 在 做 .
+%mor:	pron|他-Int-S3 adv|在 verb|做-Inf-S .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	他 在 工作 啊 .
+%mor:	pron|他-Int-S3 verb|在-Inf-S verb|工作-Inf-S part|啊 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 忙 喔 .
+%mor:	adv|好 adj|忙-S1 punct|喔 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这 是 狗 .
+%gpx:	MOT指 着 狗 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|狗 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	狗 .
+%mor:	noun|狗 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	是 什么 ?
+%mor:	aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|COP 2|0|ROOT 3|2|PUNCT
+*CHI:	是 汪汪 .
+%mor:	aux|是-Inf-S propn|汪汪 .
+%gra:	1|2|COP 2|0|ROOT 3|2|PUNCT
+*MOT:	狗 .
+%mor:	noun|狗 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	汪汪 是 +...
+%mor:	propn|汪汪 aux|是-Inf-S +...
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	0 .
+*MOT:	汪汪 .
+%gpx:	MOT朝着 CHI叫 .
+%mor:	o|汪汪 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	旺 .
+%mor:	propn|旺 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	0 &=laughs .
+*MOT:	小 狗 &~啊 就 说 啊 +"/.
+%mor:	part|小 noun|狗 sconj|就 verb|说-Inf-S part|啊 +"/.
+%gra:	1|2|CASE 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	+" 要不要 去 追 小 猫咪 呀 .
+%mor:	aux|要不要-Inf-Neg-S sconj|去 verb|追-Inf-S part|小 noun|猫咪-Acc part|呀 .
+%gra:	1|3|AUX 2|3|MARK 3|0|ROOT 4|5|CASE 5|3|OBJ 6|3|DISCOURSE 7|3|PUNCT
+*MOT:	蜘蛛 有没有 讲话 ?
+%mor:	noun|蜘蛛 verb|有没有-Inf-Neg-S verb|讲话-Inf-S ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	要 帮忙 .
+%mor:	aux|要-Inf-S verb|帮忙-Inf-S .
+%gra:	1|2|AUX 2|0|ROOT 3|2|PUNCT
+*MOT:	没有 ‡ 蜘蛛 还 在 忙 „ 对不对 ?
+%mor:	verb|有-Inf-Neg-S adp|‡ noun|蜘蛛-Acc sconj|还 adv|在 verb|忙-Inf-S punct|„ adj|对不对-S1 ?
+%gra:	1|6|ADVCL 2|3|CASE 3|1|OBJ 4|6|MARK 5|6|ADVMOD 6|0|ROOT 7|8|PUNCT 8|6|XCOMP 9|6|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	没有 讲话 .
+%mor:	verb|有-Inf-Neg-S noun|讲话-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	这 是 +/.
+%mor:	pron|这-Int-S1 verb|是-Inf-S +/.
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	猫咪 .
+%gpx:	CHI指 着 猫咪 .
+%mor:	noun|猫咪 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	猫咪 问 什么 说 要 +/.
+%mor:	noun|猫咪 verb|问-Inf-S pron|什么-Int-S1 verb|说-Inf-S verb|要-Inf-S +/.
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|4|XCOMP 6|2|PUNCT
+*CHI:	问 蜘蛛 .
+%mor:	verb|问-Inf-S noun|蜘蛛-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	问 蜘蛛 什么 ?
+%mor:	verb|问-Inf-S noun|蜘蛛 pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|3|NMOD 3|1|OBJ 4|1|PUNCT
+*CHI:	问 蜘蛛 嗯 .
+%mor:	verb|问-Inf-S noun|蜘蛛-Acc punct|嗯 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT 4|1|PUNCT
+*CHI:	0 .
+*CHI:	跑跑 .
+%mor:	verb|跑跑-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	跑跑 啊 .
+%mor:	verb|跑跑-Inf-S part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<他 问> [//] 他 说 要不要 去 跑一跑 啊 ?
+%gpx:	MOT做 出 跑步 的 动作 .
+%mor:	pron|他-Int-S3 verb|说-Inf-S aux|要不要-Inf-Neg-S verb|去-Inf-S verb|跑一跑-Inf-S part|啊 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|AUX 4|2|XCOMP 5|4|XCOMP 6|2|DISCOURSE 7|2|PUNCT
+*MOT:	累累 了 .
+%mor:	verb|累累-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	我们 去 睡觉 啊 .
+%gpx:	MOT将 头 靠 在 CHI头上 .
+%mor:	pron|我-Int-P1 sconj|去 verb|睡觉-Inf-S part|啊 .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	蜘蛛 有没有 讲话 啊 ?
+%mor:	noun|蜘蛛 verb|有没有-Inf-Neg-S verb|讲话-Inf-S part|啊 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	+^ 0 .
+%act:	准备 翻 书
+*CHI:	没有 ‡ 他 在 帮忙 .
+%mor:	verb|有-Inf-Neg-S adp|‡ pron|他-Int-S3 adv|在 verb|帮忙-Inf-S .
+%gra:	1|0|ROOT 2|3|CASE 3|5|OBL 4|5|ADVMOD 5|1|XCOMP 6|1|PUNCT
+*MOT:	为什么 他 在 帮忙 喔 !
+%mor:	adp|为什么 pron|他-Int-S3 adv|在 verb|帮忙-Inf-S punct|喔 !
+%gra:	1|4|CASE 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT 6|4|PUNCT
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这 是 什么 啊 ?
+%gpx:	MOT指 着 鸭子 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 part|啊 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	鸭子 .
+%mor:	noun|鸭子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 ‡ 鸭子 .
+%mor:	adp|对 propn|‡ noun|鸭子 .
+%gra:	1|3|CASE 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	鸭子 问 蜘蛛 什么 啊 ?
+%mor:	noun|鸭子 verb|问-Inf-S noun|蜘蛛 pron|什么-Int-S1 part|啊 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NMOD 4|2|OBJ 5|2|DISCOURSE 6|2|PUNCT
+*CHI:	问 蜘蛛 他 没有 逛 完 了 .
+%mor:	verb|问-Inf-S noun|蜘蛛-Acc pron|他-Int-S3 verb|有-Inf-Neg-S verb|逛-Inf-S verb|完-Inf-S part|了 .
+%gra:	1|4|ADVCL 2|1|OBJ 3|1|OBJ 4|0|ROOT 5|4|XCOMP 6|5|MARK 7|4|DISCOURSE 8|4|PUNCT
+*MOT:	逛 完 了 喔 !
+%mor:	verb|逛-Inf-S verb|完-Inf-S aux|了-Inf-Perf-S x|喔 !
+%gra:	1|0|ROOT 2|1|MARK 3|1|AUX 4|1|OBJ 5|1|PUNCT
+*MOT:	鸭子 问 蜘蛛 要不要 去 游泳 呀 .
+%mor:	noun|鸭子 verb|问-Inf-S noun|蜘蛛 aux|要不要-Inf-Neg-S verb|去-Inf-S verb|游泳-Inf-S part|呀 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|NSUBJ 4|6|AUX 5|2|CCOMP 6|5|XCOMP 7|2|DISCOURSE 8|2|PUNCT
+*CHI:	要 .
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	蜘蛛 没有 回答 耶 .
+%mor:	noun|蜘蛛 verb|有-Inf-Neg-S verb|回答-Inf-S propn|耶-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|2|PUNCT
+*MOT:	但是 &~啊 他 终于 织 网 好 了 .
+%mor:	sconj|但是 pron|他-Int-S3 adv|终于 verb|织-Inf-S part|网 adj|好-S1 part|了 .
+%gra:	1|6|MARK 2|6|NSUBJ 3|6|ADVMOD 4|5|COMPOUND 5|6|NSUBJ 6|0|ROOT 7|6|DISCOURSE 8|6|PUNCT
+*MOT:	织 网子 要 干嘛 ?
+%mor:	propn|织 noun|网子 aux|要-Inf-S verb|干嘛-Inf-S ?
+%gra:	1|2|NMOD 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*MOT:	&~诶 你 看 这 网子 摸摸看 .
+%gpx:	MOT拉 着 CHI的 手 摸 蜘蛛 网 .
+%mor:	pron|你-Int-S2 verb|看-Inf-S det|这-Def noun|网子 verb|摸摸看-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|DET 4|5|NSUBJ 5|2|CCOMP 6|2|PUNCT
+*MOT:	&~唷 有没有 黏黏的 ?
+%mor:	verb|有没有-Inf-Neg-S noun|黏黏的-Acc ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	没有 .
+%gpx:	CHI搓 了 搓 自己 的 手 .
+%mor:	verb|有-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	&~呜 这 是 什么 ?
+%gpx:	MOT指 着 公鸡 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	0 .
+*CHI:	公鸡 .
+%mor:	noun|公鸡 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 ‡ 公鸡 就 gegegege@o 说 +"/.
+%mor:	adp|对 propn|‡ noun|公鸡 sconj|就 o|gegegege verb|说-Inf-S +"/.
+%gra:	1|3|CASE 2|3|NMOD 3|6|OBL 4|6|MARK 5|3|APPOS 6|0|ROOT 7|6|PUNCT
+*MOT:	+" 要不要 来 抓 这 只 可恶的 苍蝇 呀 .
+%gpx:	MOT抱 着 CHI往 后 仰 .
+%mor:	aux|要不要-Inf-Neg-S sconj|来 verb|抓-Inf-S det|这-Def noun|只 adj|可恶的-S1 noun|苍蝇-Acc part|呀 .
+%gra:	1|3|AUX 2|3|MARK 3|0|ROOT 4|5|DET 5|7|CLF 6|7|AMOD 7|3|OBJ 8|3|DISCOURSE 9|3|PUNCT
+*MOT:	结果 这 居然 是 苍蝇 耶 .
+%gpx:	MOT指 着 苍蝇 .
+%mor:	noun|结果 pron|这-Int-S1 adv|居然 aux|是-Inf-S noun|苍蝇 propn|耶 .
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|5|ADVMOD 4|5|COP 5|0|ROOT 6|5|FLAT-NAME 7|5|PUNCT
+*MOT:	苍蝇 就 嗡嗡嗡@o 飞 .
+%gpx:	MOT拉 着 CHI的 手 沿着 苍蝇 飞 的 路线 走 .
+%mor:	noun|苍蝇 sconj|就 o|嗡嗡嗡 verb|飞-Inf-S .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	结果 &~哎 黏 在 蜘蛛 网 上 了 .
+%gpx:	MOT拉 着 CHI的 手 黏 在 蜘蛛 网 上 .
+%mor:	noun|结果 verb|黏-Inf-S verb|在-Inf-S noun|蜘蛛 part|网 noun|上 part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|5|COMPOUND 5|2|OBJ 6|5|ACL 7|2|DISCOURSE 8|2|PUNCT
+*MOT:	蜘蛛 就 在 他 的 网 上 抓 住 了 苍蝇 耶 .
+%mor:	noun|蜘蛛 sconj|就 adp|在 pron|他-Int-S3 part|的 noun|网 noun|上 verb|抓-Inf-S verb|住-Inf-S aux|了-Inf-Perf-S noun|苍蝇-Acc propn|耶 .
+%gra:	1|8|NSUBJ 2|8|MARK 3|6|CASE 4|6|DET 5|4|CASE 6|8|OBL 7|6|ACL 8|0|ROOT 9|8|MARK 10|8|AUX 11|8|OBJ 12|11|APPOS 13|8|PUNCT
+*MOT:	就 这样 呀 .
+%mor:	sconj|就 pron|这样-Int-S1 part|呀 .
+%gra:	1|2|MARK 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	苍蝇 啊 +...
+%mor:	noun|苍蝇 part|啊 +...
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	猫头鹰 .
+%mor:	noun|猫头鹰 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 ‡ 猫头鹰 .
+%gpx:	MOT指 着 猫头鹰 .
+%mor:	adp|对 propn|‡ noun|猫头鹰 .
+%gra:	1|3|CASE 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	猫头鹰 就 问 啊 哇 +"/.
+%mor:	noun|猫头鹰 sconj|就 verb|问-Inf-S part|啊 adj|哇-S1 +"/.
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|DISCOURSE 5|3|XCOMP 6|3|PUNCT
+*MOT:	+" 这么 漂亮的 网 是 谁 做 的 啊 ?
+%mor:	adv|这么 adj|漂亮的-S1 part|网 verb|是-Inf-S pron|谁-Int-S1 verb|做-Inf-S part|的 part|啊 ?
+%gra:	1|2|ADVMOD 2|3|COMPOUND 3|4|NSUBJ 4|0|ROOT 5|6|NSUBJ 6|4|CCOMP 7|4|DISCOURSE 8|4|DISCOURSE 9|4|PUNCT
+*CHI:	蜘蛛 问 的 .
+%mor:	noun|蜘蛛 verb|问-Inf-S part|的 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	蜘蛛 .
+%mor:	noun|蜘蛛 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	蜘蛛 啊 .
+%mor:	noun|蜘蛛 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	蜘蛛 做 的 啊 ?
+%mor:	noun|蜘蛛 verb|做-Inf-S part|的 part|啊 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	鹰 .
+%mor:	noun|鹰 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	嗯 猫头鹰 .
+%gpx:	MOT指 着 猫头鹰 .
+%mor:	punct|嗯 noun|猫头鹰 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|PUNCT
+*MOT:	蜘蛛 没有 回答 , 因为 他 已经 睡着 了 .
+%gpx:	MOT先 指 一下 蜘蛛 再 抱 着 CHI往 右侧 了 一下 .
+%mor:	noun|蜘蛛 verb|有-Inf-Neg-S verb|回答-Inf-S cm|cm adp|因为 pron|他-Int-S3 adv|已经 verb|睡着-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|8|PUNCT 5|8|CASE 6|8|NSUBJ 7|8|ADVMOD 8|2|CCOMP 9|8|DISCOURSE 10|2|PUNCT
+*MOT:	好 累 啊 .
+%mor:	adv|好 adj|累-S1 part|啊 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	今天 忙 了 一 天 呢 .
+%mor:	noun|今天 verb|忙-Inf-S aux|了-Inf-Perf-S num|一 noun|天-Acc part|呢 .
+%gra:	1|2|NMOD-TMOD 2|0|ROOT 3|2|AUX 4|5|NUMMOD 5|2|OBJ 6|2|DISCOURSE 7|2|PUNCT
+*MOT:	摸摸 看 .
+%mor:	verb|摸摸-Inf-S verb|看-Inf-S .
+%gra:	1|2|ADVCL 2|0|ROOT 3|2|PUNCT
+*MOT:	你 会不会 被 他 抓 住 啊 ?
+%gpx:	MOT拉 着 CHI的 手 摸 蜘蛛 网 .
+%mor:	pron|你-Int-S2 aux|会不会-Inf-S aux|被-Inf-S pron|他-Int-S3 verb|抓-Inf-S verb|住-Inf-S part|啊 ?
+%gra:	1|5|NSUBJ-PASS 2|5|AUX 3|5|AUX-PASS 4|5|NSUBJ 5|0|ROOT 6|5|MARK 7|5|DISCOURSE 8|5|PUNCT
+*CHI:	yyy .
+*MOT:	不 会 吗 ?
+%mor:	adv|不 aux|会-Inf-S part|吗 ?
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	黏 住 .
+%gpx:	MOT拉 着 CHI的 手 假装 黏 住 .
+%mor:	propn|黏 verb|住-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	有没有 .
+%mor:	verb|有没有-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	猫头鹰 .
+%mor:	noun|猫头鹰 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	猫头鹰 .
+%mor:	noun|猫头鹰 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	0 .
+%act:	翻 书
+*MOT:	&~啊 这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	蜘蛛 .
+%mor:	noun|蜘蛛 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	蜘蛛 的 网 粗粗的 喔 !
+%gpx:	MOT拉 着 CHI的 手 摸 .
+%mor:	noun|蜘蛛 part|的 noun|网 adj|粗粗的-S1 part|喔 !
+%gra:	1|3|NMOD 2|1|CASE 3|4|NSUBJ 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	你 刚 有没有 摸 到 ?
+%mor:	pron|你-Int-S2 adv|刚 verb|有没有-Inf-Neg-S verb|摸-Inf-S verb|到-Inf-S ?
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|XCOMP 5|4|MARK 6|3|PUNCT
+*CHI:	0 .
+%act:	摸 着 图
+*MOT:	这 边 有没有 凸凸的 ?
+%gpx:	MOT摸 着 图 .
+%mor:	det|这-Def noun|边 verb|有没有-Inf-S adj|凸凸的-S1 ?
+%gra:	1|2|DET 2|3|NSUBJ 3|0|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	还 要 再 看 一 次 .
+%gpx:	CHI将 书 翻 回 封面 处 .
+%mor:	sconj|还 aux|要-Inf-S adv|再 verb|看-Inf-S num|一 noun|次-Acc .
+%gra:	1|4|MARK 2|4|AUX 3|4|ADVMOD 4|0|ROOT 5|6|NUMMOD 6|4|OBJ 7|4|PUNCT
+*MOT:	还 要 再 看 一遍 啊 ?
+%mor:	sconj|还 aux|要-Inf-S adv|再 verb|看-Inf-S adj|一遍-S1 part|啊 ?
+%gra:	1|4|MARK 2|4|AUX 3|4|ADVMOD 4|0|ROOT 5|4|XCOMP 6|4|DISCOURSE 7|4|PUNCT
+*MOT:	好 ‡ 换 你 讲 喔 .
+%mor:	part|好 punct|‡ verb|换-Inf-S pron|你-Int-S2 verb|讲-Inf-S punct|喔 .
+%gra:	1|3|CASE 2|3|PUNCT 3|0|ROOT 4|5|NSUBJ 5|3|CCOMP 6|3|PUNCT 7|3|PUNCT
+*CHI:	0 &=laughs .
+*MOT:	好 忙的 蜘蛛 .
+%mor:	adv|好 adj|忙的-S1 noun|蜘蛛 .
+%gra:	1|2|ADVMOD 2|3|AMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	好 忙的 蜘蛛 .
+%mor:	adv|好 adj|忙的-S1 noun|蜘蛛 .
+%gra:	1|2|ADVMOD 2|3|AMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	&~哇 蜘蛛 在 哪里 啊 ?
+%mor:	noun|蜘蛛 verb|在-Inf-S pron|哪里-Int-S1 part|啊 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	你 看 啊 .
+%mor:	pron|你-Int-S2 verb|看-Inf-S part|啊 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	&~哇 这 是 一 个 农场 喔 !
+%mor:	pron|这-Int-S1 aux|是-Inf-S num|一 noun|个 noun|农场 part|喔 !
+%gra:	1|6|NSUBJ 2|6|COP 3|4|NUMMOD 4|6|NMOD 5|6|COMPOUND 6|0|ROOT 7|6|PUNCT
+*MOT:	农场 的 一 个 篱笆 .
+%mor:	noun|农场 part|的 num|一 noun|个 noun|篱笆 .
+%gra:	1|5|NMOD 2|1|CASE 3|5|NUMMOD 4|3|CLF 5|0|ROOT 6|5|PUNCT
+*MOT:	早上 啦 蜘蛛 开始 用 线 .
+%gpx:	MOT拉 着 CHI的 手 沿着 蜘蛛 丝 走 .
+%sit:	MOT将 线 这 个 音 拉长 .
+%mor:	noun|早上 punct|啦 noun|蜘蛛 verb|开始-Inf-S verb|用-Inf-S noun|线-Acc .
+%gra:	1|4|NMOD-TMOD 2|1|PUNCT 3|4|NSUBJ 4|0|ROOT 5|4|XCOMP 6|5|OBJ 7|4|PUNCT
+*MOT:	伊唷@o [/] 伊唷@o [/] 伊唷@o [/] 伊唷@o [/] 伊唷@o [/] 伊唷@o [/] 伊唷@o .
+%gpx:	MOT拉 着 CHI的 手 在 蜘蛛 丝 上 移动 .
+%mor:	o|伊唷 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	在 织 网 耶 .
+%gpx:	MOT拉 着 CHI的 手 摸 蜘蛛 网 .
+%mor:	adp|在 propn|织 part|网 propn|耶 .
+%gra:	1|4|CASE 2|3|COMPOUND 3|4|NMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	有没有 摸 到 ?
+%gpx:	MOT摸 蜘蛛 丝 .
+%mor:	verb|有没有-Inf-Neg-S verb|摸-Inf-S verb|到-Inf-S ?
+%gra:	1|0|ROOT 2|1|XCOMP 3|2|MARK 4|1|PUNCT
+*CHI:	有 .
+%gpx:	CHI摸 蜘蛛 丝 .
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<蜘蛛 耶> [//] 蜘蛛 会 咬 人 耶 .
+%mor:	noun|蜘蛛 aux|会-Inf-S verb|咬-Inf-S noun|人-Acc propn|耶 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|4|APPOS 6|3|PUNCT
+*CHI:	0 .
+%act:	抱 住 MOT的 手
+*MOT:	蜘蛛 怎么 啦 ?
+%mor:	noun|蜘蛛 adv|怎么 part|啦 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	换 你 了 .
+%mor:	verb|换-Inf-S pron|你-Int-S2 part|了 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	&~啊 !
+%gpx:	MOT碰 了 蜘蛛 一下 .
+*CHI:	妈妈 .
+%gpx:	CHI将 MOT的 手 拉 回来 抱 住 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	保护 我 .
+%mor:	verb|保护-Inf-S pron|我-Int-S1 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	&~呜 这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	0 .
+*CHI:	yyy .
+*MOT:	&~啊 摸 马 .
+%gpx:	MOT拉CHI的 手 作势 摸 马 .
+%mor:	verb|摸-Inf-S propn|马-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	yyy .
+*MOT:	马 就 跑 来 了 kolokolo@o .
+%gpx:	MOT拉 着 CHI的 手 假装 骑马 .
+%mor:	propn|马 sconj|就 verb|跑-Inf-S verb|来-Inf-S aux|了-Inf-Perf-S o|kolokolo .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|ADVCL 4|0|ROOT 5|4|AUX 6|4|OBJ 7|4|PUNCT
+*MOT:	嗡 .
+%gpx:	MOT拉CHI的 手 碰 苍蝇 .
+%mor:	punct|嗡 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	要不要 去 兜兜风 啊 .
+%gpx:	MOT拉 着 CHI的 双手 转啊转 .
+%mor:	aux|要不要-Inf-Neg-S verb|去-Inf-S verb|兜兜风-Inf-S part|啊 .
+%gra:	1|2|AUX 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	蜘蛛 +...
+%mor:	noun|蜘蛛 +...
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	换 你 了 .
+%mor:	verb|换-Inf-S pron|你-Int-S2 part|了 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	蜘蛛 有没有 讲话 啊 ?
+%mor:	noun|蜘蛛 verb|有没有-Inf-Neg-S verb|讲话-Inf-S part|啊 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	0 [= 摸 蜘蛛] .
+*CHI:	换 你 了 .
+%mor:	verb|换-Inf-S pron|你-Int-S2 part|了 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	&~啊 !
+*MOT:	不 要 摸 .
+%gpx:	CHI将 MOT的 手 拉 回 .
+%mor:	adv|不 aux|要-Inf-S verb|摸-Inf-S .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*CHI:	不 要 摸 .
+%mor:	adv|不 aux|要-Inf-S verb|摸-Inf-S .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	有 毒 耶 .
+%mor:	verb|有-Inf-S noun|毒-Acc propn|耶 .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|APPOS 4|1|PUNCT
+*CHI:	嗯 .
+%gpx:	CHI抱 着 MOT的 手 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	蜘蛛 好 漂亮 .
+%mor:	noun|蜘蛛 adv|好 adj|漂亮-S1 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	他 有 毒 喔 .
+%mor:	pron|他-Int-S3 verb|有-Inf-S noun|毒 adj|喔-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|XCOMP 5|2|PUNCT
+*MOT:	他 颜色 很 鲜艳 喔 !
+%gpx:	MOT指 蜘蛛 .
+%mor:	pron|他-Int-S3 noun|颜色 adv|很 adj|鲜艳-S1 part|喔 !
+%gra:	1|2|NMOD 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	0 .
+%act:	拉 回 MOT的 手
+*MOT:	他 没有 讲话 , 因为 他 在 忙 啊 .
+%mor:	pron|他-Int-S3 verb|有-Inf-Neg-S verb|讲话-Inf-S cm|cm adp|因为 pron|他-Int-S3 adv|在 verb|忙-Inf-S part|啊 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|8|PUNCT 5|8|CASE 6|8|NSUBJ 7|8|ADVMOD 8|3|CCOMP 9|8|DISCOURSE 10|2|PUNCT
+*MOT:	噔噔 !
+%mor:	propn|噔噔 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	0 [= 停 三 秒] .
+*CHI:	咻@o .
+%gpx:	CHI假装 吓一 跳 .
+%mor:	punct|咻 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	&~喔 !
+*MOT:	这 是 什么 啊 ?
+%gpx:	MOT摸 母 牛 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 part|啊 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	母 牛 .
+%mor:	noun|母 part|牛 .
+%gra:	1|2|COMPOUND 2|0|ROOT 3|2|PUNCT
+*MOT:	母 牛 喔 .
+%mor:	noun|母 propn|牛 x|喔 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|FLAT-FOREIGN 4|2|PUNCT
+*MOT:	母 牛 就 问 啦 +"/.
+%mor:	noun|母 part|牛 sconj|就 verb|问-Inf-S part|啦 +"/.
+%gra:	1|2|COMPOUND 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	+" 要不要 去 吃 草 呀 .
+%mor:	aux|要不要-Inf-Neg-S verb|去-Inf-S verb|吃-Inf-S noun|草-Acc part|呀 .
+%gra:	1|2|AUX 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|2|DISCOURSE 6|2|PUNCT
+*CHI:	&~啊 .
+%gpx:	CHI往MOT身 上 倒 .
+*MOT:	&~啊 救命 啊 !
+%mor:	verb|救命-Inf-S part|啊 !
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	呼呼@o 要 洗一洗 .
+%gpx:	MOT吹 一 吹 CHI的 手 又 搓一搓 .
+%mor:	o|呼呼 aux|要-Inf-S verb|洗一洗-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*CHI:	0 .
+%act:	抓 肥皂 动作
+*CHI:	搓 .
+%gpx:	搓 自己 的 双手 .
+%mor:	verb|搓-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	冲 .
+%mor:	propn|冲 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这 是 烫伤 了 .
+%mor:	pron|这-Int-S1 verb|是-Inf-S verb|烫伤-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	才 要 冲 .
+%mor:	sconj|才 aux|要-Inf-S verb|冲-Inf-S .
+%gra:	1|3|MARK 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	蜘蛛 没有 回答 他 , 因为 他 在 忙 „ 对不对 ?
+%mor:	noun|蜘蛛 verb|有-Inf-Neg-S verb|回答-Inf-S pron|他-Int-S3 cm|cm adp|因为 pron|他-Int-S3 adv|在 verb|忙-Inf-S punct|„ adj|对不对-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|9|PUNCT 6|9|CASE 7|9|NSUBJ 8|9|ADVMOD 9|2|PARATAXIS 10|11|PUNCT 11|9|XCOMP 12|2|PUNCT
+*MOT:	这 是 什么 ?
+%gpx:	MOT拉 着 CHI的 手 摸 绵羊 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	&~啊 绵羊 啊 .
+%mor:	noun|绵羊 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	0 .
+%act:	拍 了 一下 蜘蛛
+*CHI:	0 .
+%act:	假装 洗 手
+*CHI:	蜘蛛 .
+%mor:	noun|蜘蛛 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	&~哎 你 又 偷 摸 蜘蛛 .
+%mor:	pron|你-Int-S2 sconj|又 verb|偷-Inf-S verb|摸-Inf-S noun|蜘蛛-Acc .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|XCOMP 5|4|OBJ 6|3|PUNCT
+*CHI:	0 .
+%act:	搓 手
+*MOT:	绵羊 说 要不要 去 跑一跑 „ 要不要 ?
+%mor:	propn|绵羊 verb|说-Inf-S aux|要不要-Inf-Neg-S verb|去-Inf-S verb|跑一跑-Inf-S punct|„ verb|要不要-Inf-Neg-S ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|7|AUX 4|7|ADVCL 5|4|XCOMP 6|7|PUNCT 7|2|XCOMP 8|2|PUNCT
+*CHI:	0 .
+%act:	搓 手
+*MOT:	蜘蛛 没有 讲话 , 跟 你 一样 耶 .
+%mor:	noun|蜘蛛 verb|有-Inf-Neg-S verb|讲话-Inf-S cm|cm adp|跟 pron|你-Int-S2 adj|一样-S1 propn|耶-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|7|PUNCT 5|6|CASE 6|7|NMOD 7|3|CONJ 8|3|OBJ 9|2|PUNCT
+*MOT:	因为 他 在 工作 „ 对不对 ?
+%mor:	adp|因为 pron|他-Int-S3 verb|在-Inf-S verb|工作-Inf-S punct|„ adj|对不对-S1 ?
+%gra:	1|3|CASE 2|6|NSUBJ 3|6|ADVCL 4|3|XCOMP 5|6|PUNCT 6|0|ROOT 7|6|PUNCT
+*MOT:	好 忙 喔 !
+%mor:	adv|好 adj|忙-S1 punct|喔 !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*CHI:	0 .
+%act:	搓 手
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	山羊 .
+%mor:	noun|山羊 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	山羊 就 问 要不要 去 跑一跑 跳一跳 啊 ?
+%gpx:	MOT左右 扭 动身 体 .
+%mor:	noun|山羊 sconj|就 verb|问-Inf-S aux|要不要-Inf-Neg-S verb|去-Inf-S verb|跑一跑-Inf-S verb|跳一跳-Inf-S part|啊 ?
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|7|AUX 5|7|ADVCL 6|5|XCOMP 7|3|XCOMP 8|3|DISCOURSE 9|3|PUNCT
+*CHI:	&~啊 .
+%gpx:	CHI用 手指 碰 蜘蛛 .
+*MOT:	&~啊 你 又 被 咬 了 .
+%gpx:	MOT抓 住CHI的 手 .
+%mor:	pron|你-Int-S2 sconj|又 aux|被-Inf-S verb|咬-Inf-S part|了 .
+%gra:	1|4|NSUBJ-PASS 2|4|MARK 3|4|AUX-PASS 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	蜘蛛 也 没有 讲话 喔 , 因为 他 在 忙 喔 .
+%mor:	noun|蜘蛛 sconj|也 verb|有-Inf-Neg-S verb|讲话-Inf-S punct|喔 cm|cm adp|因为 pron|他-Int-S3 adv|在 verb|忙-Inf-S part|喔 .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|XCOMP 5|10|PUNCT 6|10|PUNCT 7|10|CASE 8|10|NSUBJ 9|10|ADVMOD 10|3|PARATAXIS 11|10|DISCOURSE 12|3|PUNCT
+*MOT:	你 看 他 又 拉 了 一 条 线 , 把 他 给 绑 起来 .
+%mor:	pron|你-Int-S2 verb|看-Inf-S pron|他-Int-S3 sconj|又 verb|拉-Inf-S aux|了-Inf-Perf-S num|一 noun|条 noun|线-Acc cm|cm adp|把 pron|他-Int-S3 verb|给-Inf-S verb|绑-Inf-S verb|起来-Inf-S .
+%gra:	1|2|NSUBJ 2|14|ADVCL 3|5|NSUBJ 4|5|MARK 5|14|ADVCL 6|5|AUX 7|9|NUMMOD 8|7|CLF 9|5|OBJ 10|14|PUNCT 11|12|CASE 12|14|OBL-PATIENT 13|14|ADVCL 14|0|ROOT 15|14|MARK 16|14|PUNCT
+*CHI:	0 .
+%act:	假装 洗 手 ㄒ一 .
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	小 猪 .
+%mor:	part|小 noun|猪 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*MOT:	小 猪 问 +"/.
+%mor:	part|小 noun|猪 verb|问-Inf-S +"/.
+%gra:	1|2|CASE 2|3|NSUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	+" 要不要 去 滚滚 啊 ?
+%mor:	aux|要不要-Inf-Neg-S verb|去-Inf-S verb|滚滚-Inf-S part|啊 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	+" 去 洗澎澎 啊 ?
+%gpx:	MOT扭 动身 体 .
+%mor:	verb|去-Inf-S verb|洗澎澎-Inf-S part|啊 ?
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	要不要 ?
+%mor:	aux|要不要-Inf-Neg-S ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	0 .
+%act:	转向 妈妈 笑
+*MOT:	不 要 啊 .
+%mor:	adv|不 aux|要-Inf-S part|啊 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	蜘蛛 没有 讲话 .
+%mor:	noun|蜘蛛 verb|有-Inf-Neg-S verb|讲话-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*MOT:	因为 他 已经 拉 好 旁边 的 网 啦 .
+%gpx:	MOT比 著书 中的 蜘蛛 网 .
+%mor:	adp|因为 pron|他-Int-S3 adv|已经 verb|拉-Inf-S aux|好-Inf-Perf-S noun|旁边 part|的 noun|网-Acc part|啦 .
+%gra:	1|4|CASE 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|AUX 6|8|NMOD 7|6|CASE 8|4|OBJ 9|4|DISCOURSE 10|4|PUNCT
+*MOT:	开始 要 做 中间 的 啰 !
+%gpx:	MOT比 著书 中的 蜘蛛 网 .
+%mor:	verb|开始-Inf-S aux|要-Inf-S verb|做-Inf-S noun|中间-Acc part|的 punct|啰 !
+%gra:	1|0|ROOT 2|3|AUX 3|1|XCOMP 4|3|OBJ 5|1|DISCOURSE 6|1|PUNCT 7|1|PUNCT
+*MOT:	他 在 织 网 .
+%gpx:	MOT比 著书 中的 图 .
+%mor:	pron|他-Int-S3 verb|在-Inf-S propn|织 part|网 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|COMPOUND 4|2|OBJ 5|2|PUNCT
+*MOT:	你 看 蜘蛛 织 网 是 先 织 四 个 边 .
+%mor:	pron|你-Int-S2 verb|看-Inf-S noun|蜘蛛 part|织 part|网 verb|是-Inf-S sconj|先 verb|织-Inf-S num|四 noun|个 noun|边-Acc .
+%gra:	1|6|NSUBJ 2|6|ADVCL 3|4|COMPOUND 4|5|COMPOUND 5|2|OBJ 6|0|ROOT 7|8|MARK 8|6|XCOMP 9|11|NUMMOD 10|9|CLF 11|8|OBJ 12|6|PUNCT
+*MOT:	然后 再 拉 中间 的 线线 .
+%mor:	adv|然后 adv|再 verb|拉-Inf-S noun|中间 part|的 noun|线线-Acc .
+%gra:	1|3|ADVMOD 2|3|ADVMOD 3|0|ROOT 4|6|NMOD 5|4|CASE 6|3|OBJ 7|3|PUNCT
+*CHI:	不 要 看 了 .
+%mor:	adv|不 aux|要-Inf-S verb|看-Inf-S part|了 .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	你 不 看 了 喔 .
+%mor:	pron|你-Int-S2 adv|不 verb|看-Inf-S aux|了-Inf-Perf-S x|喔 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|AUX 5|3|OBJ 6|3|PUNCT
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 吧 !
+%mor:	adj|好-S1 part|吧 !
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+@End

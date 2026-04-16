@@ -1,0 +1,84 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部栏：返回 + 标题 + 帮助 -->
+  <view class="top-bar">
+    <view class="top-left" bindtap="goBack" aria-label="返回">
+      <text class="top-icon">←</text>
+    </view>
+    <view class="top-title" aria-label="AI场景模拟测评">AI场景模拟测评</view>
+    <view class="top-right" bindtap="showHelp" aria-label="帮助">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <!-- 可滚动内容：主视觉在上，场景选择在最底部 -->
+  <scroll-view class="content-scroll" scroll-y enhanced="true" show-scrollbar="false">
+    <!-- 主视觉区域（占屏 80%+） -->
+    <view class="hero">
+      <image class="hero-bg" src="{{currentScene.dialogueBackground}}" mode="widthFix"></image>
+
+      <!-- 麦克风按钮（居中偏下） -->
+      <view class="mic-wrapper">
+        <button class="mic-btn" bindtap="openInput" aria-label="麦克风输入">
+          <text class="mic-glyph">🎤</text>
+        </button>
+      </view>
+
+      <!-- 输入浮层（默认隐藏） -->
+      <view class="input-float" wx:if="{{showInput}}">
+        <scroll-view
+          scroll-y
+          class="chat-scroll"
+          scroll-with-animation="true"
+          scroll-into-view="{{lastMsgId}}"
+          style="max-height: 360rpx; margin-bottom: 16rpx;"
+        >
+          <view wx:for="{{dialogueHistory}}" wx:key="index" id="msg-{{index}}" style="margin-bottom: 12rpx;">
+            <text>{{item.role === 'child' ? '小宝：' : '我：'}}{{item.content}}</text>
+          </view>
+        </scroll-view>
+        <view class="input-float-inner">
+          <view class="input-row">
+            <input
+              class="float-input"
+              value="{{inputValue}}"
+              placeholder="请输入您的回应..."
+              focus="{{focusInput}}"
+              adjust-position="true"
+              cursor-spacing="24"
+              bindinput="onInputChange"
+              bindconfirm="sendMessage"
+              confirm-type="send"
+            />
+          </view>
+          <view class="actions-row">
+            <button class="float-send" bindtap="sendMessage" disabled="{{!inputValue}}">发送</button>
+            <button class="float-close" bindtap="closeInput">关闭</button>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 底部内容：需要上滑才看到 -->
+    <view class="bottom-area">
+      <view class="scene-selector">
+        <text class="selector-title">选择场景</text>
+        <view class="scene-list">
+          <view
+            wx:for="{{sceneList}}"
+            wx:key="id"
+            class="scene-option {{currentScene.id === item.id ? 'active' : ''}}"
+            bindtap="changeScene"
+            data-id="{{item.id}}"
+          >
+            <text class="option-text">{{item.name}}</text>
+          </view>
+        </view>
+      </view>
+
+      <view class="action-area">
+        <button class="end-btn" bindtap="endDialogue">结束对话并获取反馈</button>
+      </view>
+    </view>
+  </scroll-view>
+</view>

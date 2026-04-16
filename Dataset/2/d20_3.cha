@@ -1,0 +1,121 @@
+@UTF8
+@PID:	11312/a-00066903-1
+@Begin
+@Languages:	zho
+@Participants:	CHI Target_Child, MOT Mother
+@ID:	zho|NSCtoys|CHI|2;09.||||Target_Child|||
+@ID:	zho|NSCtoys|MOT|27;00.||||Mother|||
+@Birth of CHI:	04-SEP-2016
+@Media:	d20_3, audio
+@Date:	20-JUN-2019
+@Activities:	toy play
+@Situation:	MOT plays toys with CHI
+@Comment:	Filename is D20_tp_time1_3.txt
+@Comment:	Time is 01:05
+@Bg:	Puzzle
+@Types:	cross, toyplay, TD
+*CHI:	<这 个> [?] (.) 帮 我 拼 . 1550_2390
+%act:	CHI拼 拼图
+%mor:	det|这-Def noun|个 verb|帮-Inf-S pron|我-Int-S1 verb|拼-Inf-S .
+%gra:	1|2|DET 2|3|OBL 3|5|ADVCL 4|3|OBJ 5|0|ROOT 6|5|PUNCT
+*CHI:	帮 我 拼 . 2070_2671
+%mor:	verb|帮-Inf-S pron|我-Int-S1 verb|拼-Inf-S .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|1|PUNCT
+*MOT:	<你 怎么 拼> [//] 我 看 一下 你 怎么 拼 ? 2231_4334
+%mor:	pron|我-Int-S1 verb|看-Inf-S pron|一下-Int-S1 pron|你-Int-S2 adv|怎么 verb|拼-Inf-S ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|NSUBJ 4|6|NSUBJ 5|6|ADVMOD 6|2|CCOMP 7|2|PUNCT
+*CHI:	这样子 .
+%act:	CHI拼 拼图
+%mor:	noun|这样子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	是 吗 ? 3994_4634
+%mor:	aux|是-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	不是 .
+%mor:	aux|是-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	不是 喔 . 4174_9363
+%mor:	aux|是-Inf-Neg-S x|喔 .
+%gra:	1|2|COP 2|0|ROOT 3|2|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	yyy .
+%xpho:	/chieda/
+%act:	CHI拿 拼图
+*CHI:	<这 个> [?] .
+%act:	CHI拼 拼图
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*CHI:	<这 个 什么> [?] .
+%act:	CHI拿 拼图 拼 拼图
+%mor:	det|这-Def noun|个 pron|什么-Int-S1 .
+%gra:	1|2|DET 2|3|CLF 3|0|ROOT 4|3|PUNCT
+*CHI:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这 个 .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*CHI:	不是 啦 . 24900_28284
+%mor:	aux|是-Inf-Neg-S part|啦 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	0 .
+%act:	CHI寻找 手 中 那 片 拼图 的 位置
+*CHI:	0 .
+*MOT:	快点 你 把 他 拼 起来 .
+%mor:	verb|快点-Inf-S pron|你-Int-S2 adp|把 pron|他-Int-S3 verb|拼-Inf-S verb|起来-Inf-S .
+%gra:	1|0|ROOT 2|5|NSUBJ 3|4|CASE 4|5|OBL-PATIENT 5|1|CCOMP 6|5|MARK 7|1|PUNCT
+*CHI:	+^ 是 <这 个> [?] 啦 . 27824_28484
+%act:	CHI继续 寻找 手 中 那 片 拼图 的 位置
+%mor:	aux|是-Inf-S det|这-Def noun|个 noun|啦 .
+%gra:	1|4|COP 2|3|DET 3|4|CLF 4|0|ROOT 5|4|PUNCT
+*MOT:	是 吗 ? 28024_28885
+%mor:	aux|是-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	<对> [>] .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<你 看 啊> [<] . 28445_29345
+%mor:	pron|你-Int-S2 verb|看-Inf-S part|啊 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	不是 啦 . 28885_29626
+%act:	CHI继续 寻找 手 中 那 片 拼图 的 位置
+%mor:	aux|是-Inf-Neg-S part|啦 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	不是 嚯 . 29246_32630
+%mor:	aux|是-Inf-Neg-S punct|嚯 .
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*CHI:	这 个 怎么 啦 ? 40240_43625
+%act:	CHI拿 拼图
+%mor:	det|这-Def noun|个 adv|怎么 part|啦 ?
+%gra:	1|2|DET 2|3|CLF 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	在 哪 边 ? 43326_43966
+%mor:	adp|在 det|哪-Def noun|边 ?
+%gra:	1|3|CASE 2|3|DET 3|0|ROOT 4|3|PUNCT
+*CHI:	在 哪 边 啦 ? 43526_44146
+%mor:	adp|在 det|哪-Def noun|边 part|啦 ?
+%gra:	1|3|CASE 2|3|DET 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	上面 的 啊 ! 43747_47413
+%mor:	noun|上面 part|的 part|啊 !
+%gra:	1|3|NMOD 2|1|CASE 3|0|ROOT 4|3|PUNCT
+*MOT:	你 看 是 哪 一 块 ? 46953_47674
+%mor:	pron|你-Int-S2 verb|看-Inf-S aux|是-Inf-S pron|哪-Int-S1 num|一 noun|块-Acc ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|COP 4|6|DET 5|6|NUMMOD 6|2|OBJ 7|2|PUNCT
+*CHI:	对 !
+%mor:	noun|对 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	<还有> [?] .
+%act:	CHI拿 拼图
+%mor:	verb|还有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	欸 不是 了 . 47615_50039
+%mor:	punct|欸 aux|是-Inf-Neg-S part|了 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	我 不 要 这 个 玩具 .
+%act:	CHI拿起 拼图玩具
+%mor:	pron|我-Int-S1 adv|不 aux|要-Inf-S det|这-Def noun|个 noun|玩具-Acc .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|5|DET 5|6|CLF 6|3|OBJ 7|3|PUNCT
+*MOT:	&=laughs .
+@Eg:	Puzzle
+@End

@@ -1,0 +1,231 @@
+/* 全局页面容器 - 匹配浅黄色背景 */
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--yh-bg, #eceff4);
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  padding-top: calc(var(--nav-bar-height) + 20rpx);
+}
+
+.source-tag {
+  display: inline-block;
+  background: #E8F4FF;
+  color: #4a7eb8;
+  font-size: 22rpx;
+  padding: 8rpx 20rpx;
+  border-radius: 999rpx;
+  margin-bottom: 16rpx;
+  border: 1rpx solid #D9ECFF;
+}
+
+/* 顶部导航栏 */
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+
+.back-btn, .help-btn {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-icon, .help-icon {
+  font-size: 32rpx;
+  color: #333333;
+}
+
+.nav-title {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: 500;
+}
+
+/* 分析信息卡片 */
+.info-card,
+.result-card {
+  background-color: #F5F0E1;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.analysis-time {
+  font-size: 24rpx;
+  color: #666666;
+  display: block;
+  margin-bottom: 20rpx;
+}
+
+.total-score {
+  font-size: 34rpx;
+  color: #4a7eb8;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 16rpx;
+}
+
+.score-level {
+  font-size: 28rpx;
+  color: #333333;
+  display: block;
+  line-height: 1.6;
+}
+
+.score-desc {
+  font-size: 26rpx;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/* 关键词样式 */
+.keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+  margin-top: 20rpx;
+}
+
+.keyword-tag {
+  background-color: #FFFFFF;
+  color: #4a7eb8;
+  border-radius: 999rpx;
+  padding: 10rpx 20rpx;
+  font-size: 24rpx;
+  line-height: 1;
+  border: 1rpx solid #D9ECFF;
+}
+
+/* 结果详情卡片 */
+.section-title,
+.dimension-title {
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 20rpx;
+}
+
+.dimension-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15rpx;
+  margin-bottom: 40rpx;
+}
+
+.dimension-item,
+.dimension-card {
+  background-color: #FFFFFF;
+  border-radius: 16rpx;
+  padding: 25rpx;
+  border: 1rpx solid #E5E5E5;
+  margin-bottom: 20rpx;
+}
+
+.dim-title {
+  font-size: 28rpx;
+  color: #4a7eb8;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10rpx;
+}
+
+.dim-desc {
+  font-size: 24rpx;
+  color: #666666;
+  line-height: 1.4;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 14rpx 0;
+  border-bottom: 1rpx solid #F0F0F0;
+  gap: 20rpx;
+}
+
+.metric-row:last-child {
+  border-bottom: none;
+}
+
+.metric-label {
+  font-size: 26rpx;
+  color: #666666;
+  flex-shrink: 0;
+}
+
+.metric-value {
+  font-size: 26rpx;
+  color: #333333;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.suggestion-item {
+  font-size: 25rpx;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 12rpx;
+  display: block;
+}
+
+.example-item {
+  background-color: #F8F6EE;
+  border-radius: 14rpx;
+  padding: 18rpx 20rpx;
+  margin-bottom: 16rpx;
+}
+
+.example-before {
+  font-size: 24rpx;
+  color: #999999;
+  line-height: 1.6;
+  display: block;
+  margin-bottom: 10rpx;
+}
+
+.example-after {
+  font-size: 26rpx;
+  color: #18A058;
+  line-height: 1.6;
+  display: block;
+  font-weight: 500;
+}
+
+/* 操作按钮组 */
+.action-group {
+  display: flex;
+  justify-content: center;
+  gap: 40rpx;
+  margin-bottom: 40rpx;
+}
+
+.action-text {
+  font-size: 26rpx;
+  color: #4a7eb8;
+  font-weight: 500;
+}
+
+.preview-item {
+  margin-bottom: 14rpx;
+  line-height: 1.7;
+}
+
+.preview-role {
+  font-size: 24rpx;
+  color: #4a7eb8;
+  font-weight: 500;
+}
+
+.preview-text {
+  font-size: 24rpx;
+  color: #444444;
+}

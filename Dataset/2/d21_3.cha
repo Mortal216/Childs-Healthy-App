@@ -1,0 +1,549 @@
+@UTF8
+@PID:	11312/a-00066906-1
+@Begin
+@Languages:	zho
+@Participants:	MOT Mother, CHI Target_Child, FAT Father
+@ID:	zho|NSCtoys|MOT|37;00.||||Mother|||
+@ID:	zho|NSCtoys|CHI|2;08.||||Target_Child|||
+@ID:	zho|NSCtoys|FAT|41;00.||||Father|||
+@Birth of CHI:	21-OCT-2016
+@Media:	d21_3, audio
+@Date:	13-JUL-2019
+@Activities:	toy play
+@Situation:	MOT plays toys with CHI
+@Comment:	Filename is D21_tp_time1_3.txt
+@Comment:	Time is 7:29
+@Bg:	Blocks
+@Types:	cross, toyplay, TD
+*MOT:	你 会 做 飞机 吗 ? 240_2482
+%mor:	pron|你-Int-S2 aux|会-Inf-S verb|做-Inf-S noun|飞机-Acc part|吗 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	可是 我 不 会 . 2022_2822
+%mor:	sconj|可是 pron|我-Int-S1 adv|不 aux|会-Inf-S .
+%gra:	1|4|MARK 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	你 试试看 . 2403_3023
+%mor:	pron|你-Int-S2 verb|试试看-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	我 会 变 船 . 2683_3503
+%mor:	pron|我-Int-S1 aux|会-Inf-S verb|变-Inf-S noun|船-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	你 会 变 船 . 3084_3724
+%mor:	pron|你-Int-S2 aux|会-Inf-S verb|变-Inf-S noun|船-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 转 过来 „ 好不好 ? 4285_4945
+%mor:	pron|你-Int-S2 verb|转-Inf-S verb|过来-Inf-S punct|„ adj|好不好-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|5|PUNCT 5|2|XCOMP 6|2|PUNCT
+*MOT:	你 坐 在 妈妈 旁边 . 4566_5406
+%mor:	pron|你-Int-S2 verb|坐-Inf-S verb|在-Inf-S noun|妈妈-Acc noun|旁边 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|OBJ 5|4|APPOS 6|2|PUNCT
+*MOT:	<我们 一起> [/] 我们 一起 玩 . 5006_10654
+%mor:	pron|我-Int-P1 noun|一起 verb|玩-Inf-S .
+%gra:	1|3|NSUBJ 2|3|OBL 3|0|ROOT 4|3|PUNCT
+*MOT:	嗯 好 ‡ 要 倒 出来 吗 ? 17380_18200
+%mor:	punct|嗯 adj|好-S1 punct|‡ aux|要-Inf-S verb|倒-Inf-S verb|出来-Inf-S part|吗 ?
+%gra:	1|2|PUNCT 2|5|ADVCL 3|2|PUNCT 4|5|AUX 5|0|ROOT 6|5|MARK 7|5|DISCOURSE 8|5|PUNCT
+*CHI:	不 用 ‡ 这样 就 好 .
+%mor:	adv|不 verb|用-Inf-S adp|‡ pron|这样-Int-S1 sconj|就 adj|好-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|4|CASE 4|6|NMOD 5|6|MARK 6|2|XCOMP 7|2|PUNCT
+*MOT:	这样 就 可以 了 . 17740_19442
+%mor:	pron|这样-Int-S1 sconj|就 aux|可以-Inf-S part|了 .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	那 你 要 变 什么 船 吗 ? 19062_23988
+%mor:	pron|那-Int-S1 pron|你-Int-S2 aux|要-Inf-S verb|变-Inf-S pron|什么-Int-S1 noun|船-Acc part|吗 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|6|NMOD 6|4|OBJ 7|4|DISCOURSE 8|4|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	还是 飞机 ?
+%mor:	aux|是-Inf-S noun|飞机 ?
+%gra:	1|2|COP 2|0|ROOT 3|2|PUNCT
+*CHI:	嗯 飞机 .
+%mor:	punct|嗯 noun|飞机 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|PUNCT
+*MOT:	你 要 变 哪 一 个 ? 23528_25871
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|变-Inf-S pron|哪-Int-S1 num|一 noun|个-Acc ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|NUMMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	飞机 啰 .
+%mor:	noun|飞机 punct|啰 .
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*MOT:	是 吗 ? 25431_25991
+%mor:	aux|是-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 飞机 上面 有 载 人 吗 ? 33740_34580
+%mor:	det|那-Def noun|飞机 noun|上面 verb|有-Inf-S verb|载-Inf-S noun|人-Acc part|吗 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|NSUBJ 4|0|ROOT 5|4|XCOMP 6|5|OBJ 7|4|DISCOURSE 8|4|PUNCT
+*CHI:	有 . 34120_34620
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	载 谁 ?
+%mor:	verb|载-Inf-S pron|谁-Int-S1 ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	载 别人 .
+%mor:	verb|载-Inf-S noun|别人-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	别人 是 谁 ? 34180_34800
+%mor:	noun|别人 aux|是-Inf-S pron|谁-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	那 你 问 爸爸 这 是 什么 ? 34340_42873
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|问-Inf-S noun|爸爸 pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|7|NSUBJ 5|4|APPOS 6|7|COP 7|3|CCOMP 8|3|PUNCT
+*CHI:	爸爸 . 42734_43234
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	喔 .
+%mor:	x|喔 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	喔 坏 掉 了 . 50620_51703
+%mor:	noun|喔 verb|坏-Inf-S verb|掉-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	那 你 要 装 好 啊 , 压 紧 啊 . 51243_52628
+%mor:	pron|那-Int-S1 pron|你-Int-S2 aux|要-Inf-S verb|装-Inf-S adj|好-S1 part|啊 cm|cm verb|压-Inf-S adj|紧-S1 part|啊 .
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|XCOMP 6|4|DISCOURSE 7|8|PUNCT 8|4|CONJ 9|8|XCOMP 10|4|DISCOURSE 11|4|PUNCT
+*MOT:	需要 帮忙 吗 ?
+%mor:	aux|需要-Inf-S verb|帮忙-Inf-S part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	不 用 .
+%mor:	adv|不 verb|用-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	那 需要 帮忙 , 你 再 跟 我 说 . 65920_73625
+%mor:	pron|那-Int-S1 aux|需要-Inf-S verb|帮忙-Inf-S cm|cm pron|你-Int-S2 adv|再 adp|跟 pron|我-Int-S1 verb|说-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|9|PUNCT 5|9|NSUBJ 6|9|ADVMOD 7|8|CASE 8|9|OBL 9|3|PARATAXIS 10|3|PUNCT
+*MOT:	<好 吗> [/] <好 吗> [/] <好 吗> [/] 好 吗 ? 73185_74425
+%mor:	adj|好-S1 part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	需要 来 帮忙 . 73965_74585
+%mor:	aux|需要-Inf-S sconj|来 verb|帮忙-Inf-S .
+%gra:	1|3|AUX 2|3|MARK 3|0|ROOT 4|3|PUNCT
+*MOT:	你 要 我 帮忙 , 再 跟 我 说 . 74205_75266
+%mor:	pron|你-Int-S2 aux|要-Inf-S pron|我-Int-S1 verb|帮忙-Inf-S cm|cm adv|再 adp|跟 pron|我-Int-S1 verb|说-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|NSUBJ 4|0|ROOT 5|9|PUNCT 6|9|ADVMOD 7|8|CASE 8|9|OBL 9|4|CONJ 10|4|PUNCT
+*CHI:	<我 需要 我 帮忙> [//] <需要 你 帮忙> [/] 需要 你 帮忙 . 81250_84134
+%mor:	aux|需要-Inf-S pron|你-Int-S2 verb|帮忙-Inf-S .
+%gra:	1|3|AUX 2|3|NSUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	需要 我 帮忙 . 83814_86739
+%mor:	verb|需要-Inf-S pron|我-Int-S1 verb|帮忙-Inf-S .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|1|PUNCT
+*MOT:	那 装 到 哪里 ?
+%mor:	det|那-Def verb|装-Inf-S verb|到-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|OBJ 5|2|PUNCT
+*CHI:	那个 .
+%mor:	pron|那个-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	装 在 最 后面 还是 这边 ? 86479_87380
+%mor:	verb|装-Inf-S adp|在 adv|最 noun|后面 cconj|还是 pron|这边-Int-S1 ?
+%gra:	1|0|ROOT 2|4|CASE 3|4|ADVMOD 4|1|OBL 5|6|CC 6|4|CONJ 7|1|PUNCT
+*CHI:	这边 .
+%mor:	pron|这边-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这边 这 是 什么 颜色 啊 ?
+%mor:	pron|这边-Int-S1 pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 noun|颜色 part|啊 ?
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|5|COP 4|5|DET 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*CHI:	嗯 我 不 知道 .
+%mor:	punct|嗯 pron|我-Int-S1 adv|不 verb|知道-Inf-S .
+%gra:	1|4|PUNCT 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	这 是 有点 像 咖啡色 . 99350_104759
+%mor:	pron|这-Int-S1 verb|是-Inf-S adv|有点 verb|像-Inf-S noun|咖啡色-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|ADVMOD 4|2|XCOMP 5|4|OBJ 6|2|PUNCT
+*MOT:	这样 吗 ?
+%mor:	pron|这样-Int-S1 part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 飞机 的 头 呢 ? 104720_105601
+%mor:	det|那-Def pron|你-Int-S2 noun|飞机 part|的 noun|头 part|呢 ?
+%gra:	1|2|DET 2|3|NMOD 3|5|NMOD 4|3|CASE 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*CHI:	0 .
+*MOT:	喔 喔 .
+%mor:	x|喔 x|喔 .
+%gra:	1|0|ROOT 2|1|FLAT-NAME 3|1|PUNCT
+*CHI:	喔 喔 .
+%mor:	x|喔 x|喔 .
+%gra:	1|0|ROOT 2|1|FLAT-NAME 3|1|PUNCT
+*MOT:	还是 这 个 最后 再 装 , 因为 那个 很 容易 会 掉 . 105181_108987
+%mor:	sconj|还是 det|这-Def noun|个 noun|最后 adv|再 verb|装-Inf-S cm|cm adp|因为 pron|那个-Int-S1 adv|很 adv|容易 aux|会-Inf-S verb|掉-Inf-S .
+%gra:	1|6|MARK 2|3|DET 3|4|CLF 4|6|NMOD-TMOD 5|6|ADVMOD 6|0|ROOT 7|13|PUNCT 8|13|CASE 9|13|NSUBJ 10|11|ADVMOD 11|13|ADVMOD 12|13|AUX 13|6|CCOMP 14|6|PUNCT
+*CHI:	不 会 .
+%mor:	adv|不 aux|会-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	你 要 做 怎么样 的 飞机 ? 116490_119317
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|做-Inf-S adj|怎么样-S1 sconj|的 noun|飞机-Acc ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|6|AMOD 5|4|MARK-REL 6|3|OBJ 7|3|PUNCT
+*MOT:	战斗机 还是 直升机 ?
+%mor:	noun|战斗机 aux|是-Inf-S noun|直升机 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	直升机 .
+%mor:	noun|直升机 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	直升机 喔 .
+%mor:	noun|直升机 part|喔 .
+%gra:	1|2|COMPOUND 2|0|ROOT 3|2|PUNCT
+*MOT:	喔 喔 这 是 什么 ? 119057_120360
+%mor:	adj|喔-S1 adv|喔 pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|5|AMOD 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|0|ROOT 6|5|PUNCT
+*MOT:	你 问 爸爸 这 是 什么 ? 132700_139469
+%mor:	pron|你-Int-S2 verb|问-Inf-S noun|爸爸 pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|NSUBJ 4|3|APPOS 5|6|COP 6|2|CCOMP 7|2|PUNCT
+*CHI:	这 个 是 什么 ?
+%mor:	det|这-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*FAT:	飞机 吗 ?
+%mor:	noun|飞机 part|吗 ?
+%gra:	1|0|ROOT 2|1|CASE 3|1|PUNCT
+*CHI:	飞机 啊 .
+%mor:	noun|飞机 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*FAT:	你 装 得 这 是 什么 ?
+%mor:	pron|你-Int-S2 verb|装-Inf-S part|得 pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|COMPOUND-EXT 4|6|NSUBJ 5|6|COP 6|2|CCOMP 7|2|PUNCT
+*CHI:	还有 他 的 xxx .
+%mor:	verb|还有-Inf-S pron|他-Int-S3 part|的 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	你 要 加大 „ 是不是 ? 139069_139809
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|加大-Inf-S punct|„ aux|是-Inf-S ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|5|PUNCT 5|3|CCOMP 6|3|PUNCT
+*CHI:	嗯 . 140050_140550
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这样 他 会不会 太 重 飞 不 起来 ? 149750_153112
+%mor:	pron|这样-Int-S1 pron|他-Int-S3 aux|会不会-Inf-S adv|太 adj|重-S1 verb|飞-Inf-S adv|不 verb|起来-Inf-S ?
+%gra:	1|6|NMOD-TMOD 2|6|NSUBJ 3|6|AUX 4|5|ADVMOD 5|6|ADVCL 6|0|ROOT 7|6|ADVMOD 8|6|MARK 9|6|PUNCT
+*CHI:	不 会 . 153413_153953
+%mor:	adv|不 aux|会-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	喔 .
+%mor:	x|喔 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	喔 飞 不 起来 欸 . 153493_154754
+%mor:	noun|喔 verb|飞-Inf-S adv|不 verb|起来-Inf-S punct|欸 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|ADVMOD 4|2|MARK 5|2|PUNCT 6|2|PUNCT
+*MOT:	可能 是 你 的 翅膀 太 小 了 啦 . 155415_158797
+%mor:	aux|可能-Inf-S aux|是-Inf-S pron|你-Int-S2 part|的 noun|翅膀 adv|太 adj|小-S1 part|了 part|啦 .
+%gra:	1|7|AUX 2|7|COP 3|5|DET 4|3|CASE 5|7|NSUBJ 6|7|ADVMOD 7|0|ROOT 8|7|DISCOURSE 9|7|DISCOURSE 10|7|PUNCT
+*MOT:	你 要 改装 一下 . 158437_159798
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|改装-Inf-S adj|一下-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	喔 .
+%mor:	x|喔 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这边 还 有 其它 的 啊 . 167020_168267
+%mor:	pron|这边-Int-S1 sconj|还 verb|有-Inf-S det|其它-Def part|的 part|啊 .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|OBL 5|3|DISCOURSE 6|3|DISCOURSE 7|3|PUNCT
+*MOT:	还是 你 还 要 再 用 一 个 翅膀 ? 167828_169076
+%mor:	sconj|还是 pron|你-Int-S2 sconj|还 aux|要-Inf-S adv|再 verb|用-Inf-S num|一 noun|个 noun|翅膀-Acc ?
+%gra:	1|6|MARK 2|6|NSUBJ 3|6|MARK 4|6|AUX 5|6|ADVMOD 6|0|ROOT 7|9|NUMMOD 8|7|CLF 9|6|OBJ 10|6|PUNCT
+*MOT:	让 他 有 两 个 翅膀 .
+%mor:	verb|让-Inf-S pron|他-Int-S3 verb|有-Inf-S num|两 noun|个 noun|翅膀-Acc .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|6|NUMMOD 5|4|CLF 6|3|OBJ 7|1|PUNCT
+*CHI:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	两 个 .
+%mor:	num|两 noun|个 .
+%gra:	1|2|NUMMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	这么 长的 翅膀 .
+%mor:	adv|这么 adj|长的-S1 noun|翅膀 .
+%gra:	1|2|ADVMOD 2|3|AMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	那 你 这边 再 用 一 个 固定 的 他 比较 唉 唷 . 188560_192905
+%mor:	pron|那-Int-S1 pron|你-Int-S2 adv|这边 adv|再 verb|用-Inf-S num|一 noun|个 adj|固定-S1 sconj|的 pron|他-Int-S3 adv|比较 adj|唉-S1 punct|唷 .
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|5|ADVMOD 4|5|ADVMOD 5|0|ROOT 6|10|NUMMOD 7|6|CLF 8|10|AMOD 9|8|MARK-REL 10|12|NSUBJ 11|12|ADVMOD 12|5|CCOMP 13|5|PUNCT 14|5|PUNCT
+*MOT:	唉 唷 好像 有 像 喔 . 192485_193746
+%mor:	punct|唉 propn|唷 adv|好像 verb|有-Inf-S verb|像-Inf-S x|喔 .
+%gra:	1|4|PUNCT 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|XCOMP 6|5|OBJ 7|4|PUNCT
+*MOT:	喔 你 这 个 这边 要 先 用 一 个 固定 的 才 比较 不 会 掉 . 193326_201677
+%mor:	punct|喔 pron|你-Int-S2 det|这-Def noun|个 pron|这边-Int-S1 aux|要-Inf-S sconj|先 verb|用-Inf-S num|一 noun|个 adj|固定-S1 sconj|的 sconj|才 adv|比较 adv|不 aux|会-Inf-S verb|掉-Inf-S .
+%gra:	1|17|PUNCT 2|17|NSUBJ 3|4|DET 4|5|CLF 5|2|APPOS 6|8|AUX 7|8|MARK 8|17|ADVCL 9|11|NUMMOD 10|9|CLF 11|17|ADVMOD 12|11|MARK-REL 13|17|MARK 14|17|ADVMOD 15|17|ADVMOD 16|17|AUX 17|0|ROOT 18|17|PUNCT
+*MOT:	这 个 好 吗 ? 201217_202498
+%mor:	det|这-Def noun|个 adj|好-S1 part|吗 ?
+%gra:	1|2|DET 2|3|OBL 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	我 帮 你 放 一 个 在 这 上面 好 吗 ? 203880_208765
+%mor:	pron|我-Int-S1 verb|帮-Inf-S pron|你-Int-S2 verb|放-Inf-S num|一 noun|个 verb|在-Inf-S pron|这-Int-S1 noun|上面-Acc adj|好-S1 part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|9|NUMMOD 6|5|CLF 7|10|ADVCL 8|7|OBJ 9|7|OBJ 10|4|CCOMP 11|2|DISCOURSE 12|2|PUNCT
+*MOT:	这样子 „ 好不好 ? 209807_211509
+%mor:	noun|这样子 punct|„ adj|好不好-S1 ?
+%gra:	1|3|NSUBJ 2|3|PUNCT 3|0|ROOT 4|3|PUNCT
+*MOT:	这样 他 比较 不 会 掉 .
+%mor:	pron|这样-Int-S1 pron|他-Int-S3 adv|比较 adv|不 aux|会-Inf-S verb|掉-Inf-S .
+%gra:	1|6|NMOD-TMOD 2|6|NSUBJ 3|6|ADVMOD 4|6|ADVMOD 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*CHI:	0 .
+*MOT:	你 的 翅膀 上面 太 多 东西 耶 . 211530_213091
+%mor:	pron|你-Int-S2 part|的 noun|翅膀 noun|上面 adv|太 adj|多-S1 noun|东西-Acc propn|耶 .
+%gra:	1|3|DET 2|1|CASE 3|6|NSUBJ 4|3|APPOS 5|6|ADVMOD 6|0|ROOT 7|6|OBJ 8|7|APPOS 9|6|PUNCT
+*MOT:	等 一下 飞 不 起来 了 . 212631_213492
+%mor:	verb|等-Inf-S adv|一下 verb|飞-Inf-S adv|不 verb|起来-Inf-S part|了 .
+%gra:	1|0|ROOT 2|3|ADVMOD 3|1|XCOMP 4|3|ADVMOD 5|3|MARK 6|1|DISCOURSE 7|1|PUNCT
+*CHI:	他 都 飞 得 起来 . 213052_216996
+%mor:	pron|他-Int-S3 sconj|都 verb|飞-Inf-S part|得 verb|起来-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|COMPOUND-EXT 5|3|MARK 6|3|PUNCT
+*MOT:	可以 吗 ? 220460_221040
+%mor:	aux|可以-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	可以 . 220600_221100
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 确定 ? 220680_221220
+%mor:	pron|你-Int-S2 verb|确定-Inf-S ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	啊 你 另外 一边 也 要 有 啊 , 不然 不 平衡 欸 . 220860_229814
+%mor:	verb|啊-Inf-Neg-S pron|你-Int-S2 adv|另外 adv|一边 sconj|也 aux|要-Inf-S verb|有-Inf-S part|啊 cm|cm adv|不然 adv|不 adj|平衡-S1 punct|欸 .
+%gra:	1|0|ROOT 2|7|NSUBJ 3|7|ADVMOD 4|7|ADVMOD 5|7|MARK 6|7|AUX 7|1|CCOMP 8|7|DISCOURSE 9|12|PUNCT 10|12|ADVMOD 11|12|ADVMOD 12|7|CONJ 13|1|PUNCT 14|1|PUNCT
+*CHI:	好了 xxx .
+%mor:	adj|好了-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好像 有点 不 一样 喔 . 233180_240129
+%mor:	adv|好像 adv|有点 adv|不 adj|一样-S1 part|喔 .
+%gra:	1|4|ADVMOD 2|4|ADVMOD 3|4|ADVMOD 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	这样 可以 吗 ?
+%mor:	pron|这样-Int-S1 aux|可以-Inf-S part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	不 行 .
+%mor:	adv|不 verb|行-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	你 现在 这 个 是 什么 ?
+%mor:	pron|你-Int-S2 noun|现在 det|这-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|6|NSUBJ 2|6|NMOD-TMOD 3|4|DET 4|6|NSUBJ 5|6|COP 6|0|ROOT 7|6|PUNCT
+*CHI:	xxx .
+*MOT:	你 现在 在 装 什么 ? 239669_243294
+%mor:	pron|你-Int-S2 noun|现在 adv|在 verb|装-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|NMOD-TMOD 3|4|ADVMOD 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	在 装 飞机 .
+%mor:	verb|在-Inf-S verb|装-Inf-S noun|飞机-Acc .
+%gra:	1|0|ROOT 2|1|XCOMP 3|2|OBJ 4|1|PUNCT
+*MOT:	这 是 什么 飞机 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 noun|飞机 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|APPOS 5|3|PUNCT
+*CHI:	各种 飞机 .
+%mor:	det|各种-Def noun|飞机 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*MOT:	我 怎么 看起来 很 像 一 只 鸟 . 256380_265211
+%mor:	pron|我-Int-S1 adv|怎么 verb|看起来-Inf-S adv|很 verb|像-Inf-S num|一 noun|只 noun|鸟-Acc .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|5|ADVMOD 5|3|XCOMP 6|8|NUMMOD 7|6|CLF 8|5|OBJ 9|3|PUNCT
+*CHI:	不是 .
+%mor:	aux|是-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 在 阿姨 家 有 玩 这 个 吗 ? 264811_265771
+%mor:	pron|你-Int-S2 verb|在-Inf-S noun|阿姨 part|家 verb|有-Inf-S verb|玩-Inf-S det|这-Def noun|个-Acc part|吗 ?
+%gra:	1|5|NSUBJ 2|5|ADVCL 3|4|COMPOUND 4|2|OBJ 5|0|ROOT 6|5|XCOMP 7|8|DET 8|6|OBJ 9|5|DISCOURSE 10|5|PUNCT
+*CHI:	有 . 265311_265811
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 在 阿姨 家 有没有 玩 这 个 ? 265351_266412
+%mor:	pron|你-Int-S2 verb|在-Inf-S noun|阿姨 part|家 verb|有没有-Inf-Neg-S verb|玩-Inf-S det|这-Def noun|个-Acc ?
+%gra:	1|5|NSUBJ 2|5|ADVCL 3|4|COMPOUND 4|2|OBJ 5|0|ROOT 6|5|XCOMP 7|8|DET 8|6|OBJ 9|5|PUNCT
+*CHI:	有 .
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	有 吗 ?
+%mor:	verb|有-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	0 .
+%act:	CHI点头
+*MOT:	有 喔 . 275360_276334
+%mor:	verb|有-Inf-S noun|喔-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	阿姨 有 陪 你 玩 吗 ?
+%mor:	noun|阿姨 verb|有-Inf-S verb|陪-Inf-S pron|你-Int-S2 verb|玩-Inf-S part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|5|NSUBJ 5|3|CCOMP 6|2|DISCOURSE 7|2|PUNCT
+*CHI:	没有 ‡ 他 只 有 拍照 .
+%mor:	verb|有-Inf-Neg-S adp|‡ pron|他-Int-S3 adv|只 verb|有-Inf-S verb|拍照-Inf-S .
+%gra:	1|0|ROOT 2|5|CASE 3|5|NSUBJ 4|5|ADVMOD 5|1|CCOMP 6|5|XCOMP 7|1|PUNCT
+*MOT:	啊 ?
+%mor:	part|啊 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	拍相 [: 拍照] .
+%mor:	verb|拍照-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<这 是 什么> [/] 这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	请 你 告诉 我 这 是 什么 ? 289820_292267
+%mor:	verb|请-Inf-S pron|你-Int-S2 verb|告诉-Inf-S pron|我-Int-S1 pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|7|NSUBJ 5|4|APPOS 6|7|COP 7|3|CCOMP 8|1|PUNCT
+*CHI:	这 是 飞机 +/.
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|飞机 +/.
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	那 他 +...
+%mor:	det|那-Def pron|他-Int-S3 +...
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*CHI:	+, 他 有 +/.
+%mor:	pron|他-Int-S3 verb|有-Inf-S +/.
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	+, 那 他 的 翅膀 在 哪里 ? 292310_294376
+%mor:	det|那-Def pron|他-Int-S3 part|的 noun|翅膀 verb|在-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|2|DET 2|4|DET 3|2|CASE 4|5|NSUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	这边 啊 .
+%mor:	pron|这边-Int-S1 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	然后 他 的 发射 旁边 这 个 .
+%mor:	adv|然后 pron|他-Int-S3 part|的 noun|发射 noun|旁边 det|这-Def noun|个 .
+%gra:	1|5|ADVMOD 2|5|DET 3|2|CASE 4|5|NMOD 5|0|ROOT 6|7|DET 7|5|ACL 8|5|PUNCT
+*CHI:	还有 这 个 .
+%mor:	verb|还有-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	你 这样子 会不会 后面 太 重 了 . 299600_312397
+%mor:	pron|你-Int-S2 adv|这样子 aux|会不会-Inf-S noun|后面 adv|太 adj|重-S1 part|了 .
+%gra:	1|6|NSUBJ 2|6|ADVMOD 3|6|AUX 4|6|OBL 5|6|ADVMOD 6|0|ROOT 7|6|DISCOURSE 8|6|PUNCT
+*CHI:	不 会 .
+%mor:	adv|不 aux|会-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	后面 太 重 会 飞 不 起来 耶 . 316180_317635
+%mor:	noun|后面 adv|太 adv|重 aux|会-Inf-S verb|飞-Inf-S adv|不 verb|起来-Inf-S propn|耶-Acc .
+%gra:	1|5|NSUBJ 2|5|ADVMOD 3|5|ADVMOD 4|5|AUX 5|0|ROOT 6|5|ADVMOD 7|5|MARK 8|5|OBJ 9|5|PUNCT
+*MOT:	你 看 .
+%mor:	pron|你-Int-S2 verb|看-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	那个 不是 太 重 .
+%mor:	pron|那个-Int-S1 aux|是-Inf-Neg-S adv|太 adj|重-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*CHI:	xxx .
+*MOT:	你 的 飞机 太 重 了 , 飞 不 动 了 . 334380_338626
+%mor:	pron|你-Int-S2 part|的 noun|飞机 adv|太 adj|重-S1 part|了 cm|cm verb|飞-Inf-S adv|不 verb|动-Inf-S part|了 .
+%gra:	1|3|DET 2|1|CASE 3|5|NSUBJ 4|5|ADVMOD 5|0|ROOT 6|5|DISCOURSE 7|10|PUNCT 8|10|ADVCL 9|10|ADVMOD 10|5|CONJ 11|10|DISCOURSE 12|5|PUNCT
+*CHI:	飞 得 动 啦 . 338206_339007
+%mor:	verb|飞-Inf-S part|得 verb|动-Inf-S part|啦 .
+%gra:	1|0|ROOT 2|1|COMPOUND-EXT 3|1|XCOMP 4|1|DISCOURSE 5|1|PUNCT
+*MOT:	你 看 东西 都 掉 下来 了 . 338647_341812
+%mor:	pron|你-Int-S2 verb|看-Inf-S noun|东西-Acc sconj|都 verb|掉-Inf-S verb|下来-Inf-S part|了 .
+%gra:	1|5|NSUBJ 2|5|ADVCL 3|2|OBJ 4|5|MARK 5|0|ROOT 6|5|MARK 7|5|DISCOURSE 8|5|PUNCT
+*MOT:	怎么 办 ?
+%mor:	adv|怎么 verb|办-Inf-S ?
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	不 会 掉 下来 . 341352_342433
+%mor:	adv|不 aux|会-Inf-S verb|掉-Inf-S verb|下来-Inf-S .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|MARK 5|3|PUNCT
+*MOT:	真的 吗 ? 344558_345499
+%mor:	adv|真的 part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	不 会 .
+%mor:	adv|不 aux|会-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	那 你 飞 得 起来 吗 ? 348790_349550
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|飞-Inf-S part|得 verb|起来-Inf-S part|吗 ?
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|3|COMPOUND-EXT 5|3|MARK 6|3|DISCOURSE 7|3|PUNCT
+*CHI:	飞 得 起来 .
+%mor:	verb|飞-Inf-S part|得 verb|起来-Inf-S .
+%gra:	1|0|ROOT 2|1|COMPOUND-EXT 3|1|MARK 4|1|PUNCT
+*MOT:	你 试 看看 东西 会不会 掉 下来 . 349090_353136
+%mor:	pron|你-Int-S2 verb|试-Inf-S verb|看看-Inf-S noun|东西-Acc aux|会不会-Inf-S verb|掉-Inf-S verb|下来-Inf-S .
+%gra:	1|6|NSUBJ 2|6|ADVCL 3|6|ADVCL 4|3|OBJ 5|6|AUX 6|0|ROOT 7|6|MARK 8|6|PUNCT
+*CHI:	不 会 .
+%mor:	adv|不 aux|会-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	那 你 这 个 飞机 要 送 给 谁 ? 354819_359186
+%mor:	det|那-Def pron|你-Int-S2 det|这-Def noun|个 noun|飞机 aux|要-Inf-S verb|送-Inf-S verb|给-Inf-S pron|谁-Int-S1 ?
+%gra:	1|4|DET 2|7|NSUBJ 3|4|DET 4|5|CLF 5|7|NSUBJ 6|7|AUX 7|0|ROOT 8|7|MARK 9|7|OBJ 10|7|PUNCT
+*CHI:	0 .
+*MOT:	要 送 给 弟弟 吗 ? 359147_360889
+%mor:	aux|要-Inf-S verb|送-Inf-S verb|给-Inf-S noun|弟弟-Acc part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|MARK 4|2|OBJ 5|2|DISCOURSE 6|2|PUNCT
+*MOT:	还是 要 送 给 谁 ? 364570_369696
+%mor:	sconj|还是 aux|要-Inf-S verb|送-Inf-S verb|给-Inf-S pron|谁-Int-S1 ?
+%gra:	1|3|MARK 2|3|AUX 3|0|ROOT 4|3|MARK 5|3|OBJ 6|3|PUNCT
+*CHI:	爸爸 . 369316_369816
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	要 送 给 爸爸 喔 . 372220_373221
+%mor:	aux|要-Inf-S verb|送-Inf-S verb|给-Inf-S noun|爸爸-Acc punct|喔 .
+%gra:	1|2|AUX 2|0|ROOT 3|2|MARK 4|2|OBJ 5|2|PUNCT 6|2|PUNCT
+*MOT:	那 我 怎么 办 ?
+%mor:	pron|那-Int-S1 pron|我-Int-S1 adv|怎么 verb|办-Inf-S ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	你 没有 送 给 我 . 372821_378187
+%mor:	pron|你-Int-S2 verb|有-Inf-Neg-S verb|送-Inf-S verb|给-Inf-S pron|我-Int-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|MARK 5|3|OBJ 6|2|PUNCT
+*CHI:	0 .
+*MOT:	哪 边 是 头 ? 378228_379068
+%mor:	det|哪-Def noun|边 aux|是-Inf-S noun|头 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*CHI:	火箭 上面 这 个 .
+%mor:	noun|火箭 noun|上面 det|这-Def noun|个 .
+%gra:	1|4|NSUBJ 2|4|NMOD 3|4|DET 4|0|ROOT 5|4|PUNCT
+*MOT:	火箭 ‡ 这 是 火箭 还是 飞机 ? 384650_391221
+%mor:	noun|火箭 adp|‡ pron|这-Int-S1 aux|是-Inf-S noun|火箭 aux|是-Inf-S noun|飞机 ?
+%gra:	1|7|NSUBJ 2|7|CASE 3|7|NSUBJ 4|7|COP 5|7|NSUBJ 6|7|COP 7|0|ROOT 8|7|PUNCT
+*CHI:	这 是 火箭 吧 . 390862_391642
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|火箭 part|吧 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|COMPOUND 4|0|ROOT 5|4|PUNCT
+*CHI:	火箭 可以 +...
+%mor:	noun|火箭 aux|可以-Inf-S +...
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	<这 个> [/] 这 个 咻 . 392325_394548
+%mor:	det|这-Def noun|个 punct|咻 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*CHI:	啊 .
+%mor:	part|啊 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	是 我 的 飞机 团长 .
+%mor:	aux|是-Inf-S pron|我-Int-S1 part|的 noun|飞机 noun|团长 .
+%gra:	1|5|COP 2|5|DET 3|2|CASE 4|5|NMOD 5|0|ROOT 6|5|PUNCT
+*MOT:	好 ‡ 那 你 要 你 的 飞机 可以 飞 很 高 吗 ? 402260_406645
+%mor:	adv|好 punct|‡ pron|那-Int-S1 pron|你-Int-S2 aux|要-Inf-S pron|你-Int-S2 part|的 noun|飞机 aux|可以-Inf-S verb|飞-Inf-S adv|很 adj|高-S1 part|吗 ?
+%gra:	1|10|ADVMOD 2|1|PUNCT 3|10|NSUBJ 4|8|NMOD 5|0|ROOT 6|8|DET 7|6|CASE 8|10|NSUBJ 9|10|AUX 10|5|CCOMP 11|12|ADVMOD 12|10|XCOMP 13|10|DISCOURSE 14|5|PUNCT
+*MOT:	你 试试看 啊 .
+%mor:	pron|你-Int-S2 verb|试试看-Inf-S part|啊 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	唉 唷 .
+%mor:	punct|唉 propn|唷 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|PUNCT
+*MOT:	唉 唷 你 看 散 掉 了 吗 ? 406225_411712
+%mor:	punct|唉 propn|唷 pron|你-Int-S2 verb|看-Inf-S verb|散-Inf-S verb|掉-Inf-S part|了 part|吗 ?
+%gra:	1|4|PUNCT 2|4|NSUBJ 3|2|APPOS 4|0|ROOT 5|4|XCOMP 6|5|MARK 7|4|DISCOURSE 8|4|DISCOURSE 9|4|PUNCT
+*CHI:	散 掉 了 . 411613_412213
+%mor:	verb|散-Inf-S verb|掉-Inf-S aux|了-Inf-Perf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|AUX 4|1|PUNCT
+*MOT:	那 你 飞 起来 看看 . 411773_412673
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|飞-Inf-S verb|起来-Inf-S verb|看看-Inf-S .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|3|MARK 5|3|XCOMP 6|3|PUNCT
+*MOT:	飞 得 动 吗 ? 412314_413835
+%mor:	verb|飞-Inf-S part|得 verb|动-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|COMPOUND-EXT 3|1|XCOMP 4|1|DISCOURSE 5|1|PUNCT
+*CHI:	飞 得 动 .
+%mor:	verb|飞-Inf-S part|得 verb|动-Inf-S .
+%gra:	1|0|ROOT 2|1|COMPOUND-EXT 3|1|XCOMP 4|1|PUNCT
+*MOT:	可以 一 只 手 飞 吗 ? 413375_416699
+%mor:	aux|可以-Inf-S num|一 noun|只 noun|手 verb|飞-Inf-S part|吗 ?
+%gra:	1|5|AUX 2|4|NUMMOD 3|2|CLF 4|5|NSUBJ 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*CHI:	可以 啊 . 416239_416859
+%mor:	aux|可以-Inf-S part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	你 试试看 . 416500_417420
+%mor:	pron|你-Int-S2 verb|试试看-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	喔 咻 . 418763_419303
+%mor:	x|喔 punct|咻 .
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*MOT:	你 要 飞 去 哪里 ? 418843_419503
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|飞-Inf-S verb|去-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|MARK 5|3|OBJ 6|3|PUNCT
+*CHI:	喔 .
+%mor:	x|喔 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	喔 你 要 飞 去 哪里 ? 419083_420404
+%mor:	punct|喔 pron|你-Int-S2 aux|要-Inf-S verb|飞-Inf-S verb|去-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|4|PUNCT 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|MARK 6|4|OBJ 7|4|PUNCT
+*CHI:	唉 唷 我 的 火箭 xxx .
+%mor:	punct|唉 propn|唷 pron|我-Int-S1 part|的 noun|火箭 .
+%gra:	1|2|PUNCT 2|5|NMOD 3|2|FLAT-FOREIGN 4|3|CASE 5|0|ROOT 6|5|PUNCT
+*MOT:	你 的 飞机 上面 有 火箭 喔 ? 420225_426473
+%mor:	pron|你-Int-S2 part|的 noun|飞机 noun|上面 verb|有-Inf-S noun|火箭-Acc part|喔 ?
+%gra:	1|3|DET 2|1|CASE 3|5|NSUBJ 4|5|NSUBJ 5|0|ROOT 6|5|OBJ 7|5|DISCOURSE 8|5|PUNCT
+*CHI:	还有 他 的 xxx 他 是 弄 歪 了 . 435550_438314
+%mor:	verb|还有-Inf-S pron|他-Int-S3 part|的 pron|他-Int-S3 verb|是-Inf-S verb|弄-Inf-S verb|歪-Inf-S part|了 .
+%gra:	1|0|ROOT 2|4|DET 3|2|CASE 4|5|NSUBJ 5|1|CCOMP 6|5|XCOMP 7|6|XCOMP 8|5|DISCOURSE 9|1|PUNCT
+*MOT:	<那> [/] 那 你 给 姐姐 看 啊 . 438135_443765
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|给-Inf-S noun|姐姐-Acc verb|看-Inf-S part|啊 .
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|5|ADVCL 4|3|OBJ 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*MOT:	你 的 尾巴 一直 掉 下来 欸 &=laughs . 443365_444506
+%mor:	pron|你-Int-S2 part|的 noun|尾巴 adv|一直 verb|掉-Inf-S verb|下来-Inf-S punct|欸 .
+%gra:	1|3|DET 2|1|CASE 3|5|NSUBJ 4|5|ADVMOD 5|0|ROOT 6|5|MARK 7|5|PUNCT 8|5|PUNCT
+@Eg:	Blocks
+@End

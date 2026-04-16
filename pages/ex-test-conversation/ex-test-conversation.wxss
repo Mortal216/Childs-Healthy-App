@@ -1,0 +1,207 @@
+/* 全局页面容器 */
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--yh-bg, #F8F8F8);
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  padding-top: calc(var(--nav-bar-height) + 20rpx);
+}
+
+/* 顶部导航栏 */
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+
+.back-btn, .help-btn {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-color: var(--yh-surface, #F0F0E0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+  box-shadow: var(--yh-shadow-soft, 0 4rpx 20rpx rgba(42, 49, 56, 0.05));
+}
+
+.back-icon, .help-icon {
+  font-size: 32rpx;
+  color: var(--yh-primary, #587838);
+}
+
+.nav-title {
+  font-size: 32rpx;
+  color: var(--yh-text, #506840);
+  font-weight: 600;
+}
+
+/* 提示文本 */
+.tip-text {
+  font-size: 26rpx;
+  color: var(--yh-text-secondary, #5C6F53);
+  text-align: center;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 30rpx;
+}
+
+/* 文本输入区域 */
+.input-area {
+  width: 100%;
+  height: 300rpx;
+  background-color: var(--yh-surface-muted, #F8F8F0);
+  border-radius: 16rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: var(--yh-text, #506840);
+  box-sizing: border-box;
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+  margin-bottom: 30rpx;
+}
+
+/* 操作按钮组 */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.action-btn {
+  background-color: var(--yh-accent-purple, #C8C8E8);
+  color: #FFFFFF;
+  border-radius: 24rpx;
+  padding: 15rpx 30rpx;
+  font-size: 26rpx;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* 开始分析按钮 */
+.analyze-btn {
+  background-color: var(--yh-primary, #587838);
+  color: #FFFFFF;
+  border-radius: 40rpx;
+  padding: 20rpx 40rpx;
+  font-size: 28rpx;
+  border: none;
+  width: 200rpx;
+  display: block;
+  margin: 0 auto 20rpx auto;
+  font-weight: 600;
+  box-shadow: var(--yh-shadow-soft, 0 6rpx 20rpx rgba(88, 120, 56, 0.22));
+}
+
+.analyze-btn::after {
+  border: none;
+}
+
+/* 取消文字 */
+.cancel-text {
+  font-size: 26rpx;
+  color: var(--yh-text-muted, #88A870);
+  text-align: center;
+  display: block;
+}
+
+.file-info-card {
+  background-color: var(--yh-surface-muted, #F8F8F0);
+  border-radius: 16rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+}
+
+.file-info-title {
+  font-size: 28rpx;
+  color: var(--yh-text, #506840);
+  font-weight: 600;
+  margin-bottom: 12rpx;
+}
+
+.file-info-text {
+  font-size: 24rpx;
+  color: var(--yh-text-secondary, #5C6F53);
+  line-height: 1.6;
+  display: block;
+}
+
+.status-card {
+  background-color: var(--yh-surface, #F0F0E0);
+  border-radius: 16rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+  box-shadow: var(--yh-shadow-soft, 0 4rpx 20rpx rgba(42, 49, 56, 0.05));
+}
+
+.status-title {
+  font-size: 28rpx;
+  font-weight: 600;
+  margin-bottom: 12rpx;
+  color: var(--yh-text, #506840);
+}
+
+.status-badge {
+  padding: 10rpx 18rpx;
+  border-radius: 999rpx;
+  font-size: 24rpx;
+  display: inline-block;
+}
+
+.status-idle {
+  background: var(--yh-surface-muted, #F8F8F0);
+  color: var(--yh-text-muted, #88A870);
+}
+
+.status-ready {
+  background: var(--yh-primary-faint, #B8D078);
+  color: var(--yh-text, #506840);
+}
+
+.status-uploading,
+.status-transcribing,
+.status-analyzing {
+  background: var(--yh-warn-bg, #F8E8C0);
+  color: var(--yh-warn-text, #506840);
+}
+
+.status-done {
+  background: var(--yh-success-soft, #D0E8D0);
+  color: var(--yh-success-text, #506840);
+}
+
+.status-fail {
+  background: var(--yh-primary-pressed, #506840);
+  color: #FFFFFF;
+}
+
+.transcript-card {
+  background: var(--yh-surface, #F0F0E0);
+  border-radius: 16rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+}
+
+.transcript-title {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  color: var(--yh-text, #506840);
+  font-weight: 600;
+}
+
+.transcript-content {
+  background: var(--yh-surface-muted, #F8F8F0);
+  padding: 16rpx;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  color: var(--yh-text-secondary, #5C6F53);
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+}

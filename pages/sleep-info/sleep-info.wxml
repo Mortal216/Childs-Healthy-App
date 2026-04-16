@@ -1,0 +1,73 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">小睡的重要性</view>
+    <view class="placeholder"></view>
+  </view>
+
+  <!-- 内容区域 -->
+  <view class="content">
+    <!-- 研究结论 -->
+    <view class="section">
+      <view class="section-title">研究结论</view>
+      <view class="section-content">
+        <view class="conclusion-item">
+          <view class="conclusion-number">1</view>
+          <view class="conclusion-text">
+            日间小睡能显著提升16个月幼儿的词汇意义泛化能力，该年龄段幼儿小睡后可将新词汇标签成功泛化到形状相同、颜色不同的同类物体上，泛化任务表现明显提升，保持清醒则无此效果。
+          </view>
+        </view>
+        <view class="conclusion-item">
+          <view class="conclusion-number">2</view>
+          <view class="conclusion-text">
+            睡眠对幼儿记忆并非单纯的被动巩固，而是主动的"记忆演化"过程，幼儿大脑会在睡眠中选择性保留事物类别的核心特征并与词汇建立关联，同时主动遗忘无关的表面信息，这是实现词汇意义泛化的关键。
+          </view>
+        </view>
+        <view class="conclusion-item">
+          <view class="conclusion-number">3</view>
+          <view class="conclusion-text">
+            睡眠对幼儿语言学习的泛化促进效应，可从语言语法规则学习延伸至词汇意义习得领域。
+          </view>
+        </view>
+        <view class="conclusion-item">
+          <view class="conclusion-number">4</view>
+          <view class="conclusion-text">
+            睡眠对词汇意义泛化的作用存在年龄发展差异，该差异的形成可能与实验任务要求、测试环境及幼儿自身发育阶段等因素相关。
+          </view>
+        </view>
+        <view class="conclusion-item">
+          <view class="conclusion-number">5</view>
+          <view class="conclusion-text">
+            日间小睡对16个月龄幼儿的语言发展至关重要，保育机构和家长不应剥夺该年龄段幼儿的日间睡眠。
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 理论基础 -->
+    <view class="section">
+      <view class="section-title">理论基础</view>
+      <view class="section-content">
+        <text>小睡有助于提高幼儿的词汇泛化学习能力</text>
+      </view>
+    </view>
+
+    <!-- 建议 -->
+    <view class="section">
+      <view class="section-title">建议</view>
+      <view class="section-content">
+        <text>为了促进孩子的语言发展，建议家长：</text>
+        <view class="suggestion-list">
+          <view class="suggestion-item">• 每天为16个月龄的幼儿安排适当的日间小睡时间</view>
+          <view class="suggestion-item">• 保持规律的睡眠作息，创造安静舒适的睡眠环境</view>
+          <view class="suggestion-item">• 利用小睡前后的时间进行语言学习活动，如词汇教学</view>
+          <view class="suggestion-item">• 坚持使用本应用记录孩子的小睡时长，观察睡眠与语言发展的关系</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

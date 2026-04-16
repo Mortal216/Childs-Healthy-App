@@ -1,0 +1,118 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">咿呀智库·交流对话分析</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <view wx:if="{{report && report.ui && report.ui.analysisSource === 'ai'}}" class="source-tag">AI 分析</view>
+
+  <!-- 分析信息卡片 -->
+  <view class="result-card" wx:if="{{report}}">
+    <text class="analysis-time">分析时间：{{report.createdAt}}</text>
+    <text class="total-score">核心结论</text>
+    <text class="score-level">{{report.summary.coreConclusion}}</text>
+
+    <view class="keyword-list">
+      <view class="keyword-tag" wx:for="{{report.summary.keywords}}" wx:key="index">
+        {{item}}
+      </view>
+    </view>
+  </view>
+
+  <!-- 核心维度分析 -->
+  <view class="dimension-card" wx:if="{{report}}">
+    <text class="dimension-title">基础信息</text>
+    <view class="metric-row">
+      <text class="metric-label">来源</text>
+      <text class="metric-value">{{report.sourceType === 'audio' ? '录音分析' : '文本分析'}}</text>
+    </view>
+    <view class="metric-row">
+      <text class="metric-label">文件名</text>
+      <text class="metric-value">{{report.fileInfo.name}}</text>
+    </view>
+    <view class="metric-row">
+      <text class="metric-label">时长</text>
+      <text class="metric-value">{{report.fileInfo.durationSec}} 秒</text>
+    </view>
+    <view class="metric-row">
+      <text class="metric-label">对话轮次</text>
+      <text class="metric-value">{{report.metrics.turnCount}}</text>
+    </view>
+  </view>
+
+  <view class="dimension-card" wx:if="{{report}}">
+    <text class="dimension-title">{{report.ui && report.ui.analysisSource === 'ai' ? 'AI 维度评分' : '家长提问类型'}}</text>
+    <view class="metric-row" wx:for="{{report.metrics.parentQuestionTypes}}" wx:key="index">
+      <text class="metric-label">{{item.type}}</text>
+      <text class="metric-value">{{item.count}}{{report.ui && report.ui.parentMetricSuffix ? report.ui.parentMetricSuffix : '次'}}</text>
+    </view>
+  </view>
+
+  <view class="dimension-card" wx:if="{{report && (!report.ui || !report.ui.hideChildBlock)}}">
+    <text class="dimension-title">孩子回应情况</text>
+    <view class="metric-row">
+      <text class="metric-label">主动回应</text>
+      <text class="metric-value">{{report.metrics.childResponse.activeReply}} 次</text>
+    </view>
+    <view class="metric-row">
+      <text class="metric-label">模仿回应</text>
+      <text class="metric-value">{{report.metrics.childResponse.imitationReply}} 次</text>
+    </view>
+    <view class="metric-row">
+      <text class="metric-label">短回应</text>
+      <text class="metric-value">{{report.metrics.childResponse.shortReply}} 次</text>
+    </view>
+    <view class="metric-row">
+      <text class="metric-label">未回应</text>
+      <text class="metric-value">{{report.metrics.childResponse.noReply}} 次</text>
+    </view>
+  </view>
+
+  <view class="dimension-card" wx:if="{{report && (!report.ui || !report.ui.hideLanguageBlock)}}">
+    <text class="dimension-title">语言刺激频率</text>
+    <view class="metric-row">
+      <text class="metric-label">总刺激次数</text>
+      <text class="metric-value">{{report.metrics.languageStimulus.totalCount}} 次</text>
+    </view>
+    <view class="metric-row">
+      <text class="metric-label">频率</text>
+      <text class="metric-value">{{report.metrics.languageStimulus.frequencyText}}</text>
+    </view>
+  </view>
+
+  <view class="dimension-card" wx:if="{{report}}">
+    <text class="dimension-title">建议改进点</text>
+    <view class="suggestion-item" wx:for="{{report.suggestions}}" wx:key="index">
+      {{index + 1}}. {{item}}
+    </view>
+  </view>
+
+  <view class="dimension-card" wx:if="{{report && report.optimizedExamples && report.optimizedExamples.length}}">
+    <text class="dimension-title">示例优化表达</text>
+    <view class="example-item" wx:for="{{report.optimizedExamples}}" wx:key="index">
+      <view class="example-before">原表达：{{item.before}}</view>
+      <view class="example-after">优化后：{{item.after}}</view>
+    </view>
+  </view>
+
+  <view class="dimension-card" wx:if="{{report}}">
+    <text class="dimension-title">对话片段预览</text>
+    <view class="preview-item" wx:for="{{report.transcriptPreview}}" wx:key="index">
+      <text class="preview-role">{{item.role === 'parent' ? '家长：' : '孩子：'}}</text>
+      <text class="preview-text">{{item.text}}</text>
+    </view>
+  </view>
+
+  <!-- 操作按钮 -->
+  <view class="action-group">
+    <text class="action-text" bindtap="reAnalyze">【重新分析】</text>
+    <text class="action-text" bindtap="viewDetailReport">【查看详细报告】</text>
+  </view>
+</view>

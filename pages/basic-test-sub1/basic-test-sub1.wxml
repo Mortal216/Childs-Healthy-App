@@ -1,0 +1,30 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 返回按钮 -->
+  <view class="back-button" bindtap="goBack">
+    <view class="back-icon-wrapper">
+      <text class="back-arrow">←</text>
+    </view>
+    <text class="back-text">返回</text>
+  </view>
+  
+  <!-- 页面标题 -->
+  <view class="page-header">
+    <text class="page-title">选择测评类型</text>
+    <text class="page-subtitle">根据宝宝月龄选择合适的测评</text>
+  </view>
+
+  <!-- 0-18月龄词汇与手势版卡片 -->
+  <view class="test-card">
+    <text class="test-title">0-18月龄</text>
+    <text class="test-subtitle">词汇与手势版</text>
+    <button class="start-btn" bindtap="onStart0To18Test">开始测评</button>
+  </view>
+
+  <!-- 18-30月龄词汇与句子版卡片 -->
+  <view class="test-card">
+    <text class="test-title">18-30月龄</text>
+    <text class="test-subtitle">词汇与句子版</text>
+    <button class="start-btn" bindtap="onStart18To30Test">开始测评</button>
+  </view>
+</view>

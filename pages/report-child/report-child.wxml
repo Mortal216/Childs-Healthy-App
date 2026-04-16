@@ -1,0 +1,132 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部操作栏 -->
+  <view class="top-bar">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="title">咿呀智库·儿童发展报告</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <!-- 加载状态 -->
+  <view wx:if="{{loading}}" class="loading-section">
+    <text class="loading-text">正在加载报告...</text>
+  </view>
+
+  <!-- 报告内容 -->
+  <view wx:else>
+    <!-- 宝宝信息 -->
+    <view class="baby-info">
+      <text class="info-text">宝宝：{{babyInfo.name}} | 月龄：{{babyInfo.age}}</text>
+      <text class="time-text">测评时间：{{babyInfo.testTime}}</text>
+    </view>
+
+    <!-- 语言综合评分卡片 -->
+    <view class="score-card">
+      <text class="main-score">语言综合发展评分：{{totalScore}}/100</text>
+      <text class="score-level">【{{scoreLevel}}】</text>
+      <text class="score-desc">{{scoreDesc}}</text>
+    </view>
+
+    <!-- 测评核心维度分析 -->
+    <view class="dimension-section">
+      <text class="section-title">测评核心维度分析</text>
+      <view class="dimension-list">
+        <view wx:for="{{dimensions}}" wx:key="index" class="dimension-item">
+          <text class="dim-title">{{item.name}}：得分 {{item.score}}/100</text>
+          <text class="dim-desc">{{item.desc}}</text>
+        </view>
+        <view wx:if="{{dimensions.length === 0}}" class="empty-item">
+          <text class="empty-text">暂无维度数据</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 基础测评部分 -->
+    <view class="section-container">
+      <text class="section-title">基础测评</text>
+      
+      <!-- 幼童词汇测评 -->
+      <view wx:if="{{assessmentParts.basicVocab}}" class="part-card">
+        <text class="part-title">幼童词汇测评</text>
+        <text class="part-score">得分：{{assessmentParts.basicVocab.total_score}}/100 【{{assessmentParts.basicVocab.level}}】</text>
+        <view wx:if="{{assessmentParts.basicVocab.dimension_scores}}" class="part-dimensions">
+          <view wx:for="{{assessmentParts.basicVocab.dimension_scores}}" wx:key="index" class="part-dimension-item">
+            <text class="dim-name">{{item.dimension}}：{{item.score}}/100</text>
+            <text class="dim-level">{{item.level}}</text>
+          </view>
+        </view>
+      </view>
+      
+      <!-- 抚养方式测评 -->
+      <view wx:if="{{assessmentParts.basicParenting}}" class="part-card">
+        <text class="part-title">抚养方式测评</text>
+        <text class="part-score">得分：{{assessmentParts.basicParenting.total_score}}/100 【{{assessmentParts.basicParenting.level}}】</text>
+        <view wx:if="{{assessmentParts.basicParenting.dimension_scores}}" class="part-dimensions">
+          <view wx:for="{{assessmentParts.basicParenting.dimension_scores}}" wx:key="index" class="part-dimension-item">
+            <text class="dim-name">{{item.dimension}}：{{item.score}}/100</text>
+            <text class="dim-level">{{item.level}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 拓展测评部分 -->
+    <view class="section-container">
+      <text class="section-title">拓展测评</text>
+      
+      <!-- 对话分析测评 -->
+      <view wx:if="{{assessmentParts.exConversation}}" class="part-card">
+        <text class="part-title">对话分析测评</text>
+        <text class="part-score">得分：{{assessmentParts.exConversation.total_score}}/100 【{{assessmentParts.exConversation.level}}】</text>
+        <view wx:if="{{assessmentParts.exConversation.dimension_scores}}" class="part-dimensions">
+          <view wx:for="{{assessmentParts.exConversation.dimension_scores}}" wx:key="index" class="part-dimension-item">
+            <text class="dim-name">{{item.dimension}}：{{item.score}}/100</text>
+            <text class="dim-level">{{item.level}}</text>
+          </view>
+        </view>
+      </view>
+      
+      <!-- 互动分析测评 -->
+      <view wx:if="{{assessmentParts.exInteraction}}" class="part-card">
+        <text class="part-title">互动分析测评</text>
+        <text class="part-score">得分：{{assessmentParts.exInteraction.total_score}}/100 【{{assessmentParts.exInteraction.level}}】</text>
+        <view wx:if="{{assessmentParts.exInteraction.dimension_scores}}" class="part-dimensions">
+          <view wx:for="{{assessmentParts.exInteraction.dimension_scores}}" wx:key="index" class="part-dimension-item">
+            <text class="dim-name">{{item.dimension}}：{{item.score}}/100</text>
+            <text class="dim-level">{{item.level}}</text>
+          </view>
+        </view>
+      </view>
+      
+      <!-- 氛围分析测评 -->
+      <view wx:if="{{assessmentParts.exAtmosphere}}" class="part-card">
+        <text class="part-title">氛围分析测评</text>
+        <text class="part-score">得分：{{assessmentParts.exAtmosphere.total_score}}/100 【{{assessmentParts.exAtmosphere.level}}】</text>
+        <view wx:if="{{assessmentParts.exAtmosphere.dimension_scores}}" class="part-dimensions">
+          <view wx:for="{{assessmentParts.exAtmosphere.dimension_scores}}" wx:key="index" class="part-dimension-item">
+            <text class="dim-name">{{item.dimension}}：{{item.score}}/100</text>
+            <text class="dim-level">{{item.level}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 未完成测评提示 -->
+    <view wx:if="{{!assessmentParts.basicVocab && !assessmentParts.basicParenting && !assessmentParts.exConversation && !assessmentParts.exInteraction && !assessmentParts.exAtmosphere}}" class="empty-section">
+      <text class="empty-title">暂无测评数据</text>
+      <text class="empty-text">请完成各项测评后查看综合报告</text>
+    </view>
+
+    <!-- 个性化干预建议 -->
+    <view class="suggestion-section">
+      <text class="section-title">个性化干预建议</text>
+      <view class="suggestion-list">
+        <text wx:for="{{suggestions}}" wx:key="index" class="suggestion-item">{{item}}</text>
+        <text wx:if="{{suggestions.length === 0}}" class="empty-text">暂无建议数据</text>
+      </view>
+    </view>
+  </view>
+</view>

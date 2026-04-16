@@ -1,0 +1,91 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">干预任务智能推送</view>
+    <view class="placeholder"></view>
+  </view>
+
+  <view class="age-selector-section">
+    <text class="section-label">选择宝宝年龄段</text>
+    <picker bindchange="onAgeChange" value="{{currentAgeIndex}}" range="{{ageOptions}}">
+      <view class="age-picker">
+        <text class="age-text">{{ageOptions[currentAgeIndex]}}</text>
+        <text class="picker-arrow">▼</text>
+      </view>
+    </picker>
+  </view>
+
+  <view class="task-card" wx:if="{{todayTask}}">
+    <view class="task-header">
+      <view class="task-time">
+        <text class="time-icon">⏰</text>
+        <text class="time-text">推送时间：{{pushTime}}</text>
+      </view>
+      <view class="task-category">{{todayTask.category}}</view>
+    </view>
+
+    <view class="task-content">
+      <view class="task-title">{{todayTask.title}}</view>
+      <view class="task-description">{{todayTask.description}}</view>
+    </view>
+
+    <view class="task-tips">
+      <text class="tips-icon">💡</text>
+      <text class="tips-text">{{todayTask.tips}}</text>
+    </view>
+
+    <view class="task-actions">
+      <view class="action-btn complete-btn" bindtap="onCompleteTask">
+        <text class="btn-icon">✓</text>
+        <text class="btn-text">完成观察</text>
+      </view>
+      <view class="action-btn refresh-btn" bindtap="onRefreshTask">
+        <text class="btn-icon">↻</text>
+        <text class="btn-text">换一个</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="empty-state" wx:else>
+    <text class="empty-icon">📭</text>
+    <text class="empty-text">暂无今日任务</text>
+  </view>
+
+  <view class="history-section">
+    <view class="history-header" bindtap="toggleHistory">
+      <text class="history-title">📋 观察记录</text>
+      <text class="history-arrow">{{showHistory ? '▲' : '▼'}}</text>
+    </view>
+
+    <view class="history-list" wx:if="{{showHistory && taskHistory.length > 0}}">
+      <view class="history-item" wx:for="{{taskHistory}}" wx:key="historyKey">
+        <view class="history-info">
+          <text class="history-title-text">{{item.title}}</text>
+          <text class="history-category">{{item.category}}</text>
+        </view>
+        <view class="history-meta">
+          <text class="history-date">{{item.displayDate}}</text>
+          <text class="history-age">{{item.ageGroup}}岁</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="history-empty" wx:if="{{showHistory && taskHistory.length === 0}}">
+      <text>暂无观察记录</text>
+    </view>
+  </view>
+
+  <view class="tips-section">
+    <view class="tips-header">
+      <text class="tips-title">📌 温馨提示</text>
+    </view>
+    <view class="tips-content">
+      <text class="tips-item">• 任务每天随机推送，时间在8:00-10:00、14:00-16:00、19:00-21:00之间</text>
+      <text class="tips-item">• 这些任务仅作为观察提醒，非强制性完成</text>
+      <text class="tips-item">• 观察结果可帮助您了解宝宝的发育情况</text>
+      <text class="tips-item">• 如有发育疑虑，请咨询专业医生</text>
+    </view>
+  </view>
+</view>

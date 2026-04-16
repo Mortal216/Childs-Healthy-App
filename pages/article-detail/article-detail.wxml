@@ -1,0 +1,29 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+
+<!-- 顶部导航 -->
+<view class="top-nav">
+  <view class="back-btn" bindtap="goBack">
+    <text class="back-icon">←</text>
+  </view>
+  <view class="nav-title">科普文章</view>
+  <view class="placeholder"></view>
+</view>
+
+<!-- 空状态 -->
+<view wx:if="{{!article}}" class="empty">
+  内容加载中...
+</view>
+
+<!-- 内容 -->
+<view wx:elif="{{article}}">
+  <image class="cover" src="{{article.cover}}" mode="aspectFill"></image>
+
+  <view class="title">{{article.title}}</view>
+  <view class="author">{{article.author}}</view>
+
+  <view class="content">
+    <text selectable>{{article.content}}</text>
+  </view>
+</view>
+
+</view>

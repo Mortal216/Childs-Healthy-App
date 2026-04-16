@@ -1,0 +1,194 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 返回按钮 -->
+  <view class="back-button" bindtap="goBack">
+    <view class="back-icon-wrapper">
+      <text class="back-arrow">←</text>
+    </view>
+    <text class="back-text">返回</text>
+  </view>
+  
+  <!-- 加载中 -->
+  <view class="loading-container" wx:if="{{isLoading}}">
+    <view class="loading-spinner"></view>
+    <text class="loading-text">{{loadingText}}</text>
+  </view>
+
+  <!-- 主要内容 -->
+  <block wx:if="{{!isLoading && sections.length > 0}}">
+    <!-- 标题区域 -->
+    <view class="questionnaire-header">
+      <text class="main-title">{{scaleName}}</text>
+      <text class="age-badge">18~30个月</text>
+    </view>
+
+    <!-- 部分导航标签 -->
+    <view class="section-tabs">
+      <view 
+        class="section-tab {{currentSectionIndex === index ? 'active' : ''}} {{sectionProgress[index].completed ? 'completed' : ''}}"
+        wx:for="{{sections}}"
+        wx:key="id"
+        bindtap="switchSection"
+        data-index="{{index}}"
+      >
+        <text class="tab-text">{{item.id === 'part1' ? '词汇量表' : (item.id === 'part2_A' ? 'A' : (item.id === 'part2_B' ? 'B' : (item.id === 'part2_C' ? 'C' : 'D')))}}</text>
+        <view class="tab-progress" wx:if="{{item.questions.length > 0}}">
+          {{sectionProgress[index].answered}}/{{sectionProgress[index].total}}
+        </view>
+      </view>
+    </view>
+
+    <!-- 当前部分标题 -->
+    <view class="current-section-header">
+      <text class="section-title">{{sections[currentSectionIndex].title}}</text>
+      <text class="section-subtitle">{{sections[currentSectionIndex].subtitle}}</text>
+      
+      <!-- 进度条 -->
+      <view class="progress-bar-container">
+        <view class="progress-bar">
+          <view class="progress-fill" style="width: {{currentSectionProgress}}%;"></view>
+        </view>
+        <text class="progress-text">{{currentSectionCompleted}}/{{currentSectionTotal}}</text>
+      </view>
+    </view>
+
+    <!-- 词汇量表部分 (第一部分) -->
+    <block wx:if="{{currentSectionIndex === 0}}">
+      <!-- 词汇分类标签 -->
+      <view class="vocab-category-tabs" wx:if="{{false}}">
+        <view class="vocab-tab active">动物</view>
+        <view class="vocab-tab">交通工具</view>
+        <view class="vocab-tab">食物</view>
+      </view>
+      
+      <!-- 词汇表格 -->
+      <view class="vocab-table">
+        <!-- 表头 -->
+        <view class="table-header">
+          <view class="header-text">词汇</view>
+          <view class="header-options">
+            <view class="header-option" wx:for="{{sections[0].options}}" wx:key="*this">{{item}}</view>
+          </view>
+        </view>
+        
+        <!-- 词汇行 -->
+        <view 
+          class="vocab-row {{item.selectedOption !== null ? 'answered' : ''}}" 
+          wx:for="{{sections[0].questions}}"
+          wx:for-index="qIndex"
+          wx:key="id"
+        >
+          <view class="vocab-text">{{item.text}}</view>
+          <view class="vocab-options">
+            <view 
+              class="vocab-option {{item.selectedOption === oIndex ? 'selected' : ''}}"
+              wx:for="{{sections[0].options}}"
+              wx:for-index="oIndex"
+              wx:for-item="option"
+              wx:key="*this"
+              bindtap="selectOption"
+              data-section-index="0"
+              data-question-index="{{qIndex}}"
+              data-option-index="{{oIndex}}"
+            >
+              <view class="radio-circle {{item.selectedOption === oIndex ? 'checked' : ''}}"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+
+    <!-- A、B、C部分 (选择题) -->
+    <block wx:if="{{currentSectionIndex === 1 || currentSectionIndex === 2 || currentSectionIndex === 3}}">
+      <view class="question-list">
+        <!-- 表头 -->
+        <view class="table-header">
+          <view class="header-text">题目</view>
+          <view class="header-options">
+            <view class="header-option" wx:for="{{sections[currentSectionIndex].options}}" wx:key="*this">{{item}}</view>
+          </view>
+        </view>
+        
+        <!-- 题目行 -->
+        <view 
+          class="question-row {{item.selectedOption !== null ? 'answered' : ''}}" 
+          wx:for="{{sections[currentSectionIndex].questions}}"
+          wx:for-index="qIndex"
+          wx:key="id"
+        >
+          <view class="row-text">{{qIndex + 1}}. {{item.text}}</view>
+          <view class="row-options">
+            <view 
+              class="radio-cell {{item.selectedOption === oIndex ? 'selected' : ''}}"
+              wx:for="{{sections[currentSectionIndex].options}}"
+              wx:for-index="oIndex"
+              wx:for-item="option"
+              wx:key="*this"
+              bindtap="selectOption"
+              data-section-index="{{currentSectionIndex}}"
+              data-question-index="{{qIndex}}"
+              data-option-index="{{oIndex}}"
+            >
+              <view class="radio-circle {{item.selectedOption === oIndex ? 'checked' : ''}}"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+
+    <!-- D部分 (复杂性) -->
+    <block wx:if="{{currentSectionIndex === 4}}">
+      <view class="complexity-list">
+        <view 
+          class="complexity-item {{item.selectedOption !== null ? 'answered' : ''}}"
+          wx:for="{{sections[4].questions}}"
+          wx:for-index="qIndex"
+          wx:key="id"
+        >
+          <view class="complexity-title">{{qIndex + 1}}. {{item.text}}</view>
+          <view class="complexity-options">
+            <view 
+              class="complexity-option {{item.selectedOption === oIndex ? 'selected' : ''}}"
+              wx:for="{{item.options}}"
+              wx:for-index="oIndex"
+              wx:for-item="option"
+              wx:key="*this"
+              bindtap="selectOption"
+              data-section-index="4"
+              data-question-index="{{qIndex}}"
+              data-option-index="{{oIndex}}"
+            >
+              <view class="option-marker {{option.type === 'simpler' ? 'simpler' : ''}}">
+                {{option.type === 'simpler' ? '更简' : String.fromCharCode(65 + oIndex - 1)}}
+              </view>
+              <text class="option-label">{{option.label}}</text>
+              <view class="radio-circle {{item.selectedOption === oIndex ? 'checked' : ''}}"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+
+    <!-- 导航按钮 -->
+    <view class="nav-buttons">
+      <button 
+        class="nav-btn prev-btn {{currentSectionIndex === 0 ? 'disabled' : ''}}" 
+        bindtap="prevSection"
+        disabled="{{currentSectionIndex === 0}}"
+      >上一部分</button>
+      <button 
+        class="nav-btn next-btn" 
+        bindtap="nextSection"
+      >{{currentSectionIndex === sections.length - 1 ? '提交测评' : '下一部分'}}</button>
+    </view>
+  </block>
+  
+  <!-- 提交成功弹窗 -->
+  <view class="success-popup" wx:if="{{showSuccessPopup}}">
+    <view class="success-content">
+      <view class="success-icon">✓</view>
+      <text class="success-title">测评完成</text>
+      <text class="success-desc">正在跳转到结果页面...</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,187 @@
+@UTF8
+@PID:	11312/a-00066868-1
+@Begin
+@Languages:	zho
+@Participants:	FAT Father, CHI Target_Child, MOT Mother
+@ID:	zho|NSCtoys|FAT|41;00.||||Father|||
+@ID:	zho|NSCtoys|CHI|2;08.||||Target_Child|||
+@ID:	zho|NSCtoys|MOT|41;00.||||Mother|||
+@Birth of CHI:	27-AUG-2016
+@Media:	d09_1, audio
+@Date:	24-MAY-2019
+@Activities:	toy play
+@Situation:	FAT plays toys with CHI
+@Comment:	Filename is D09_tp_time1_1.txt
+@Comment:	Time is 6:15
+@Bg:	Blocks
+@Types:	cross, toyplay, TD
+*FAT:	来 ‡ 在 这边 玩 .
+%mor:	verb|来-Inf-S propn|‡-Acc verb|在-Inf-S pron|这边-Int-S1 verb|玩-Inf-S .
+%gra:	1|5|ADVCL 2|3|OBJ 3|5|ADVCL 4|3|OBJ 5|0|ROOT 6|5|PUNCT
+*CHI:	0 .
+%act:	CHI认真 组 积木
+*FAT:	你 这边 没有 装 好 啊 .
+%mor:	pron|你-Int-S2 adv|这边 verb|有-Inf-Neg-S verb|装-Inf-S adj|好-S1 part|啊 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|XCOMP 5|4|XCOMP 6|3|DISCOURSE 7|3|PUNCT
+*CHI:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	你 没有 装 好 .
+%mor:	pron|你-Int-S2 verb|有-Inf-Neg-S verb|装-Inf-S adj|好-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|XCOMP 5|2|PUNCT
+*CHI:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	好 ‡ 然后 咧 ?
+%mor:	adj|好-S1 punct|‡ adv|然后 punct|咧 ?
+%gra:	1|0|ROOT 2|3|PUNCT 3|1|ADVMOD 4|1|PUNCT 5|1|PUNCT
+*CHI:	然后 装 这 个 .
+%mor:	adv|然后 verb|装-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*FAT:	0 .
+%act:	FAT拿出手 机 在 看
+*CHI:	之后 再 <一> [/] 一 个 人 .
+%mor:	noun|之后 adv|再 num|一 noun|个 noun|人 .
+%gra:	1|5|NMOD-TMOD 2|3|ADVMOD 3|5|NUMMOD 4|3|CLF 5|0|ROOT 6|5|PUNCT
+*CHI:	再 一 个 人 .
+%mor:	adv|再 num|一 noun|个 noun|人 .
+%gra:	1|2|ADVMOD 2|4|NUMMOD 3|2|CLF 4|0|ROOT 5|4|PUNCT
+*CHI:	只能 再 两 个 人 .
+%mor:	aux|只能-Inf-S adv|再 num|两 noun|个 noun|人 .
+%gra:	1|5|AUX 2|3|ADVMOD 3|5|NUMMOD 4|3|CLF 5|0|ROOT 6|5|PUNCT
+*CHI:	再 两 个 人 <很 多 人> [/] 很 多 人 喔 . 59960_64055
+%mor:	adv|再 num|两 noun|个 noun|人 adv|很 num|多 noun|人 punct|喔 .
+%gra:	1|2|ADVMOD 2|4|NUMMOD 3|2|CLF 4|7|NSUBJ 5|7|ADVMOD 6|7|NUMMOD 7|0|ROOT 8|7|PUNCT 9|7|PUNCT
+*FAT:	0 .
+*CHI:	欢迎 .
+%act:	FAT放下 手机 看 CHI组 积木
+%mor:	verb|欢迎-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	不 一样 啊 .
+%mor:	adv|不 adj|一样-S1 part|啊 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*FAT:	这 两 个 是 不 一样 .
+%mor:	det|这-Def num|两 noun|个 aux|是-Inf-S adv|不 adj|一样-S1 .
+%gra:	1|3|DET 2|3|NUMMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|0|ROOT 7|6|PUNCT
+*CHI:	这 两 个 是 这样 不 一样 . 98620_99428
+%mor:	det|这-Def num|两 noun|个 verb|是-Inf-S adv|这样 adv|不 adj|一样-S1 .
+%gra:	1|3|DET 2|3|NUMMOD 3|4|NSUBJ 4|0|ROOT 5|7|ADVMOD 6|7|ADVMOD 7|4|XCOMP 8|4|PUNCT
+*FAT:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*CHI:	合 起来 .
+%mor:	verb|合-Inf-S verb|起来-Inf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|PUNCT
+*CHI:	再 两 个 人 .
+%mor:	adv|再 num|两 noun|个 noun|人 .
+%gra:	1|2|ADVMOD 2|4|NUMMOD 3|2|CLF 4|0|ROOT 5|4|PUNCT
+*FAT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	再 两 个 人 喔 .
+%mor:	adv|再 num|两 noun|个 noun|人 punct|喔 .
+%gra:	1|2|ADVMOD 2|4|NUMMOD 3|2|CLF 4|0|ROOT 5|4|PUNCT 6|4|PUNCT
+*CHI:	这边 <再 两 个 人> [/] 再 两 个 人 .
+%mor:	pron|这边-Int-S1 adv|再 num|两 noun|个 noun|人 .
+%gra:	1|5|NSUBJ 2|3|ADVMOD 3|5|NUMMOD 4|3|CLF 5|0|ROOT 6|5|PUNCT
+*CHI:	这边 再 做 . 189030_192374
+%mor:	pron|这边-Int-S1 adv|再 verb|做-Inf-S .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	<芒果 青> [/] 芒果 青 车子 . 192234_193235
+%mor:	noun|芒果 part|青 noun|车子 .
+%gra:	1|3|NMOD 2|3|CASE 3|0|ROOT 4|3|PUNCT
+*CHI:	<我们 在 玩 玩具> [/] 我们 在 玩 玩具 欸 .
+%mor:	pron|我-Int-P1 adv|在 verb|玩-Inf-S noun|玩具-Acc punct|欸 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|OBJ 5|3|PUNCT 6|3|PUNCT
+*MOT:	好 ‡ 脱 鞋子 .
+%mor:	adj|好-S1 propn|‡ verb|脱-Inf-S noun|鞋子-Acc .
+%gra:	1|3|ADVCL 2|3|NSUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	妈妈 脱 鞋子 .
+%mor:	noun|妈妈 verb|脱-Inf-S noun|鞋子-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	喔 .
+%mor:	x|喔 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	要 放 里面 而且 用 里面 .
+%mor:	aux|要-Inf-S verb|放-Inf-S noun|里面-Acc sconj|而且 verb|用-Inf-S noun|里面-Acc .
+%gra:	1|2|AUX 2|5|ADVCL 3|2|OBJ 4|5|MARK 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*MOT:	在 玩 积木 .
+%mor:	adv|在 verb|玩-Inf-S noun|积木-Acc .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	嗯 玩 积木 . 192875_196219
+%mor:	punct|嗯 verb|玩-Inf-S noun|积木-Acc .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	我 在 跟 爸爸 玩 积木 . 237290_239071
+%mor:	pron|我-Int-S1 adv|在 adp|跟 noun|爸爸 verb|玩-Inf-S noun|积木-Acc .
+%gra:	1|5|NSUBJ 2|5|ADVMOD 3|4|CASE 4|5|OBL 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*FAT:	你 找 得 到 喔 ?
+%mor:	pron|你-Int-S2 verb|找-Inf-S part|得 verb|到-Inf-S part|喔 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|COMPOUND-EXT 4|2|MARK 5|2|DISCOURSE 6|2|PUNCT
+*MOT:	<问 那个 就 好 啦> [>] „ 警卫 他们 .
+%mor:	verb|问-Inf-S pron|那个-Int-S1 sconj|就 adj|好-S1 part|啦 punct|„ noun|警卫 pron|他-Int-P3 .
+%gra:	1|4|ADVCL 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|4|DISCOURSE 6|7|PUNCT 7|4|CONJ 8|7|APPOS 9|4|PUNCT
+*CHI:	<我们 积木> [<] 很 好玩 欸 .
+%mor:	pron|我-Int-P1 noun|积木 adv|很 adj|好玩-S1 punct|欸 .
+%gra:	1|2|NMOD 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT 6|4|PUNCT
+*CHI:	好 好玩 喔 . 238671_239291
+%mor:	adv|好 adj|好玩-S1 part|喔 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	好 好玩 喔 . 238831_239552
+%mor:	adv|好 adj|好玩-S1 part|喔 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*FAT:	什么 断 掉 .
+%mor:	pron|什么-Int-S1 verb|断-Inf-S verb|掉-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|PUNCT
+*CHI:	&=laughs .
+*FAT:	要 组合 啊 .
+%mor:	aux|要-Inf-S verb|组合-Inf-S part|啊 .
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	这 个 xxx .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*CHI:	车车 青锵青锵青锵嘟嘟@o .
+%com:	CHI模仿 车子 的 声音
+%mor:	noun|车车 o|青锵青锵青锵嘟嘟-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	感冒 .
+%mor:	verb|感冒-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这 个 是 xxx .
+%mor:	det|这-Def noun|个 verb|是-Inf-S .
+%gra:	1|2|DET 2|3|NSUBJ 3|0|ROOT 4|3|PUNCT
+*CHI:	这 个 车子 帮 你 捡 内裤 &=laughs .
+%mor:	det|这-Def noun|个 noun|车子 verb|帮-Inf-S pron|你-Int-S2 verb|捡-Inf-S noun|内裤-Acc .
+%gra:	1|2|DET 2|3|CLF 3|4|NSUBJ 4|0|ROOT 5|6|NSUBJ 6|4|CCOMP 7|6|OBJ 8|4|PUNCT
+*FAT:	你 没有 装 好 .
+%mor:	pron|你-Int-S2 verb|有-Inf-Neg-S verb|装-Inf-S adj|好-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|XCOMP 5|2|PUNCT
+*FAT:	这 个 翘 起来 了 .
+%mor:	det|这-Def noun|个 verb|翘-Inf-S verb|起来-Inf-S part|了 .
+%gra:	1|2|DET 2|3|NSUBJ 3|0|ROOT 4|3|MARK 5|3|DISCOURSE 6|3|PUNCT
+*CHI:	好 ‡ 好了 .
+%mor:	adv|好 propn|‡ adj|好了-S1 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|0|ROOT 4|3|PUNCT
+*CHI:	装 好 了 .
+%mor:	verb|装-Inf-S adj|好-S1 part|了 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|DISCOURSE 4|1|PUNCT
+*CHI:	嘟嘟青锵青锵@o .
+%com:	CHI模仿 车子 的 声音
+%mor:	o|嘟嘟青锵青锵 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	好 ‡ <我们 玩 下 一 个 游戏> [/] 我们 玩 下 一 个 游戏 „ 好不好 ? 365000_367546
+%mor:	adv|好 punct|‡ pron|我-Int-P1 verb|玩-Inf-S det|下-Def num|一 noun|个 noun|游戏 punct|„ adj|好不好-S1 ?
+%gra:	1|4|ADVMOD 2|1|PUNCT 3|4|NSUBJ 4|0|ROOT 5|7|DET 6|7|NUMMOD 7|8|NMOD 8|10|NSUBJ 9|10|PUNCT 10|4|CCOMP 11|4|PUNCT
+*FAT:	要不要 ?
+%mor:	aux|要不要-Inf-Neg-S ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	0 .
+%act:	CHI点头
+*CHI:	换 游戏 .
+%mor:	verb|换-Inf-S noun|游戏-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	好 ‡ 换 一 个 游戏 . 367166_367826
+%mor:	adv|好 punct|‡ verb|换-Inf-S num|一 noun|个 noun|游戏-Acc .
+%gra:	1|3|ADVMOD 2|1|PUNCT 3|0|ROOT 4|6|NUMMOD 5|4|CLF 6|3|OBJ 7|3|PUNCT
+@Eg:	Blocks
+@End

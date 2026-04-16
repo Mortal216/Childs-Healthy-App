@@ -1,0 +1,46 @@
+<!-- 页面容器 -->
+<view class="page-container" style="--navBarHeight: {{navBarHeight}}px;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">填写语言环境信息</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <!-- 进度条 -->
+  <view class="progress-bar">
+    <view class="progress" style="width: 100%;"></view>
+  </view>
+
+  <!-- 步骤标题 -->
+  <view class="step-title">步骤2/2：语言环境基本信息</view>
+
+  <!-- 表单 -->
+  <view class="form">
+    <view class="input-item">
+      <input class="input" placeholder="主要养育者（如“父母”“祖父母”“保姆”）" bindinput="onCaregiverInput" value="{{caregiver}}" />
+    </view>
+
+    <view class="input-item">
+      <input class="input" placeholder="家庭语言环境（普通话/方言）" bindinput="onLanguageInput" value="{{familyLanguage}}" />
+    </view>
+
+    <view class="input-item" wx:if="{{familyLanguage === '方言'}}">
+      <input class="input" placeholder="若“家庭语言环境”为“方言，请填写方言地区”" bindinput="onDialectAreaInput" value="{{dialectArea}}" />
+    </view>
+
+    <view class="input-item">
+      <input class="input" placeholder="日常语言互动频率（极多/多/一般/少/极少）" bindinput="onFrequencyInput" value="{{interactionFrequency}}" />
+    </view>
+  </view>
+
+  <!-- 提交按钮 -->
+  <button class="submit-btn" bindtap="submit">提交</button>
+
+  <!-- 底部标语 -->
+  <view class="footer-text">科学评估·个性化干预</view>
+</view>

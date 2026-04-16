@@ -1,0 +1,685 @@
+@UTF8
+@PID:	11312/a-00066889-1
+@Begin
+@Languages:	zho
+@Participants:	MOT Mother, CHI Target_Child
+@ID:	zho|NSCtoys|MOT|36;00.||||Mother|||
+@ID:	zho|NSCtoys|CHI|2;08.||||Target_Child|||
+@Birth of CHI:	04-OCT-2016
+@Media:	d16_1, audio
+@Date:	10-JUN-2019
+@Activities:	toy play
+@Situation:	MOT plays toys with CHI
+@Comment:	Filename is D16_tp_time1_1.txt
+@Comment:	Time is 8:33
+@Bg:	Puppet
+@Types:	cross, toyplay, TD
+*MOT:	阿姨 说 我们 自己 玩 . 1300_6143
+%mor:	noun|阿姨 verb|说-Inf-S pron|我-Int-P1 pron|自己-Int-S1 verb|玩-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|5|NSUBJ 4|3|APPOS 5|2|CCOMP 6|2|PUNCT
+*MOT:	好不好 ?
+%mor:	adj|好不好-S1 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好不好 ? 5683_6183
+%mor:	adj|好不好-S1 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	好 . 5843_6343
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 . 5923_6423
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<孩名 老板> [/] 孩名 老板 .
+%mor:	noun|孩名 noun|老板 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	你 没有 欢迎光临 . 5964_10647
+%mor:	pron|你-Int-S2 verb|有-Inf-Neg-S verb|欢迎光临-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*MOT:	怎么 了 ?
+%mor:	adv|怎么 part|了 ?
+%gra:	1|0|ROOT 2|1|MARK-ADV 3|1|PUNCT
+*MOT:	你 怎么 了 ?
+%mor:	pron|你-Int-S2 adv|怎么 part|了 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 怎么 了 ? 20350_23212
+%mor:	pron|你-Int-S2 adv|怎么 part|了 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 要 玩 什么 . 22752_23592
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|玩-Inf-S pron|什么-Int-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	<快点> [/] 快点 .
+%mor:	noun|快点 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这 是 玉米 耶 . 42460_43137
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|玉米 propn|耶 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|FLAT-NAME 5|3|PUNCT
+*MOT:	玉米 长 这样子 .
+%mor:	noun|玉米 adj|长-S1 adj|这样子-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*MOT:	这 是 玉米 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|玉米 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	那 这 <是 什么> [/] 是 什么 ?
+%mor:	pron|那-Int-S1 pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*MOT:	<你 干嘛 不 讲话 你 干嘛 不 讲话> [/] 你 干嘛 不 讲话 ?
+%mor:	pron|你-Int-S2 verb|干嘛-Inf-S adv|不 verb|讲话-Inf-S ?
+%gra:	1|4|NSUBJ 2|4|ADVCL 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	蛋蛋 .
+%mor:	noun|蛋蛋 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	蛋蛋 .
+%mor:	noun|蛋蛋 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 <我 可以> [/] 我 可以 点 餐 了 吗 ? 57890_64859
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|可以-Inf-S verb|点-Inf-S verb|餐-Inf-S part|了 part|吗 ?
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|5|AUX 4|5|ADVCL 5|0|ROOT 6|5|DISCOURSE 7|5|DISCOURSE 8|5|PUNCT
+*CHI:	可以 . 64479_64979
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 <没有 说 什么> [/] 没有 说 什么 ? 64599_68864
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|有-Inf-Neg-S verb|说-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|3|XCOMP 5|4|OBJ 6|3|PUNCT
+*MOT:	你 没有 说 什么 ? 68665_70466
+%mor:	pron|你-Int-S2 verb|有-Inf-Neg-S verb|说-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|2|PUNCT
+*MOT:	孩名 ‡ 老板 .
+%mor:	noun|孩名 propn|‡ noun|老板 .
+%gra:	1|3|NMOD 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	这 个 要 这样子 . 70227_71868
+%mor:	det|这-Def noun|个 aux|要-Inf-S adj|这样子-S1 .
+%gra:	1|2|DET 2|4|OBL 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*MOT:	把 他 黏 起来 . 71509_72189
+%mor:	adp|把 pron|他-Int-S3 verb|黏-Inf-S verb|起来-Inf-S .
+%gra:	1|2|CASE 2|3|OBL-PATIENT 3|0|ROOT 4|3|MARK 5|3|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	你 看 他 还有 准备 汤匙 跟 叉子 耶 . 82080_85282
+%mor:	pron|你-Int-S2 verb|看-Inf-S pron|他-Int-S3 verb|还有-Inf-S verb|准备-Inf-S noun|汤匙-Acc adp|跟 noun|叉子 propn|耶 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|4|XCOMP 6|5|OBJ 7|8|CASE 8|5|OBL 9|8|APPOS 10|2|PUNCT
+*MOT:	你 要 吃饭饭 吗 ? 106780_107500
+%act:	小朋友 点头 .
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|吃饭饭-Inf-S part|吗 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	要不要 ?
+%mor:	aux|要不要-Inf-Neg-S ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 要 吃 什么 ? 107240_109444
+%mor:	pron|那-Int-S1 pron|你-Int-S2 aux|要-Inf-S verb|吃-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	吃 肉肉 吗 ? 110386_111708
+%act:	小朋友 点头 .
+%mor:	verb|吃-Inf-S noun|肉肉-Acc part|吗 ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	吃 汉堡排 „ 对不对 ? 111248_112970
+%mor:	verb|吃-Inf-S noun|汉堡排 punct|„ adj|对不对-S1 ?
+%gra:	1|0|ROOT 2|4|NSUBJ 3|4|PUNCT 4|1|CCOMP 5|1|PUNCT
+*MOT:	那 我 有 吗 ? 112590_113311
+%mor:	pron|那-Int-S1 pron|我-Int-S1 verb|有-Inf-S part|吗 ?
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	你 有 . 114233_117498
+%mor:	pron|你-Int-S2 verb|有-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	有 .
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	来 .
+%mor:	verb|来-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	汉堡排 给 你 吃 . 121580_129285
+%act:	小朋友 用餐 具 喂 妈妈 吃 汉堡排 .
+%mor:	propn|汉堡排 verb|给-Inf-S pron|你-Int-S2 verb|吃-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|2|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	amu@o .
+%com:	妈妈 模仿 吃 东西 的 声音 .
+%mor:	o|amu .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 好吃 哦 !
+%mor:	adv|好 adj|好吃-S1 part|哦 !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	来 .
+%mor:	verb|来-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	还有 吗 ?
+%mor:	verb|还有-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	哎唷 !
+%act:	小朋友 要 拿 其他 食物 的 玩具 但 拿 不 起来 .
+%mor:	propn|哎唷 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<再 一 次> [/] 再 一 次 . 128845_130225
+%mor:	adv|再 num|一 noun|次 .
+%gra:	1|3|ADVMOD 2|3|NUMMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	你 知道 这 是 什么 吗 ?
+%act:	妈妈 拿 了 吐司 的 玩具 问 小朋友 .
+%mor:	pron|你-Int-S2 verb|知道-Inf-S pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|5|NSUBJ 4|5|COP 5|2|CCOMP 6|2|DISCOURSE 7|2|PUNCT
+*CHI:	饼干 .
+%mor:	noun|饼干 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	饼干 喔 .
+%act:	小朋友 点头 .
+%mor:	noun|饼干 part|喔 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	好 . 140570_141070
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我 要 吃 . 141312_142072
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|要-Inf-S verb|吃-Inf-S .
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*MOT:	<孩名 老板> [/] 孩名 老板 ‡ 我 要 吃 . 141933_147387
+%mor:	noun|孩名 noun|老板 punct|‡ pron|我-Int-S1 aux|要-Inf-S verb|吃-Inf-S .
+%gra:	1|2|NMOD 2|6|NSUBJ 3|2|PUNCT 4|6|NSUBJ 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*MOT:	玉米 !
+%act:	小朋友 把 玉米 放 在 盘子 上 再 倒 在 妈妈 手 上 .
+%mor:	noun|玉米 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	我 要 吃 玉米 .
+%mor:	pron|我-Int-S1 aux|要-Inf-S verb|吃-Inf-S noun|玉米-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	谢谢 .
+%mor:	propn|谢谢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	可以 吃 了 吗 ? 158550_159390
+%mor:	aux|可以-Inf-S verb|吃-Inf-S part|了 part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	可以 .
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	可以 . 158970_159470
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	amamamamamama@o .
+%com:	妈妈 模仿 吃 东西 的 声音 .
+%mor:	o|amamamamamama .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 好吃 哦 !
+%mor:	adv|好 adj|好吃-S1 part|哦 !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	谢谢 .
+%mor:	propn|谢谢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 <你 有 要 你 有 要> [//] 你 还有 卖 什么 ? 160834_167126
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|还有-Inf-S verb|卖-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|3|XCOMP 5|4|OBJ 6|3|PUNCT
+*MOT:	孩名 ‡ 老板 还有 卖 什么 ?
+%mor:	noun|孩名 propn|‡ noun|老板 verb|还有-Inf-S verb|卖-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NMOD 2|3|NMOD 3|4|NSUBJ 4|0|ROOT 5|4|XCOMP 6|5|OBJ 7|4|PUNCT
+*CHI:	还有 卖 蛋蛋 .
+%act:	小朋友 拿 蛋蛋 的 玩具 .
+%mor:	verb|还有-Inf-S verb|卖-Inf-S noun|蛋蛋-Acc .
+%gra:	1|0|ROOT 2|1|XCOMP 3|2|OBJ 4|1|PUNCT
+*MOT:	还有 卖 蛋蛋 哦 .
+%mor:	verb|还有-Inf-S verb|卖-Inf-S noun|蛋蛋-Acc part|哦 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|2|OBJ 4|1|DISCOURSE 5|1|PUNCT
+*MOT:	那 我 可以 吃 蛋蛋 吗 ? 175610_176431
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|可以-Inf-S verb|吃-Inf-S noun|蛋蛋-Acc part|吗 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|DISCOURSE 7|4|PUNCT
+*CHI:	可以 . 175991_176491
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我 要 吃 饼干 跟 蛋蛋 . 176072_177898
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|要-Inf-S verb|吃-Inf-S noun|饼干-Acc cconj|跟 noun|蛋蛋 .
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|7|CC 7|5|CONJ 8|4|PUNCT
+*CHI:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好了 吗 ? 190280_191008
+%mor:	adj|好了-S1 part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	有 红色的 饼干 .
+%act:	指向 前面 的 红色 片 状物 体 .
+%mor:	verb|有-Inf-S noun|红色的 noun|饼干-Acc .
+%gra:	1|0|ROOT 2|3|NMOD 3|1|OBJ 4|1|PUNCT
+*MOT:	这 个 是 番茄 .
+%mor:	det|这-Def noun|个 aux|是-Inf-S noun|番茄 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*CHI:	这 个 是 番茄 .
+%mor:	det|这-Def noun|个 aux|是-Inf-S noun|番茄 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*MOT:	对 .
+%act:	妈妈 把 番茄 从 比较 远 的 地方 拿 给 小朋友 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我 可以 把 番茄 放 在 这里 吗 ? 207390_208390
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|可以-Inf-S adp|把 noun|番茄 verb|放-Inf-S verb|在-Inf-S pron|这里-Int-S1 part|吗 ?
+%gra:	1|6|NSUBJ 2|6|NSUBJ 3|6|AUX 4|5|CASE 5|6|OBL-PATIENT 6|0|ROOT 7|6|MARK 8|6|IOBJ 9|6|DISCOURSE 10|6|PUNCT
+*CHI:	可以 . 207930_208430
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	来 ‡ 你 的 番茄 咧 ?
+%mor:	verb|来-Inf-S verb|‡-Inf-S pron|你-Int-S2 part|的 noun|番茄-Acc punct|咧 ?
+%gra:	1|0|ROOT 2|1|XCOMP 3|5|DET 4|3|CASE 5|2|OBJ 6|1|PUNCT 7|1|PUNCT
+*CHI:	在 这边 . 208371_209472
+%mor:	verb|在-Inf-S pron|这边-Int-S1 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	啊 菜菜 放 上去 . 209894_213318
+%mor:	part|啊 noun|菜菜 verb|放-Inf-S verb|上去-Inf-S .
+%gra:	1|2|CASE 2|3|NSUBJ 3|0|ROOT 4|3|MARK 5|3|PUNCT
+*MOT:	汉堡排 可以 放 上去 吗 ? 212959_217666
+%mor:	noun|汉堡排 aux|可以-Inf-S verb|放-Inf-S verb|上去-Inf-S part|吗 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|MARK 5|3|DISCOURSE 6|3|PUNCT
+*CHI:	可以 . 217246_217746
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	可以 .
+%act:	小朋友 把 汉堡排放 在 生菜 和 番茄 上面 .
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	哇 看起来 好 好吃 .
+%mor:	adv|哇 verb|看起来-Inf-S adv|好 adj|好吃-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|4|ADVMOD 4|2|XCOMP 5|2|PUNCT
+*MOT:	这样 可以 吃 了 吗 ? 225850_227832
+%mor:	pron|这样-Int-S1 aux|可以-Inf-S verb|吃-Inf-S part|了 part|吗 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|DISCOURSE 5|3|DISCOURSE 6|3|PUNCT
+*CHI:	可以 . 227452_227952
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 要 吃吃看 吗 ? 228855_230837
+%act:	小朋友 摇头 然后 去 拿 其他 玩具 .
+%mor:	pron|那-Int-S1 pron|你-Int-S2 aux|要-Inf-S verb|吃吃看-Inf-S part|吗 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	那 要 谁 吃 ? 230678_231859
+%mor:	pron|那-Int-S1 aux|要-Inf-S pron|谁-Int-S1 verb|吃-Inf-S ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|NSUBJ 4|0|ROOT 5|4|PUNCT
+*CHI:	你 吃 . 231920_232580
+%mor:	pron|你-Int-S2 verb|吃-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	我 吃 喔 ! 232120_233542
+%mor:	pron|我-Int-S1 verb|吃-Inf-S part|喔 !
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	我 要 找 几 个 .
+%mor:	pron|我-Int-S1 aux|要-Inf-S verb|找-Inf-S num|几 noun|个-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|5|NUMMOD 5|3|OBJ 6|3|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 可以 <切切> [/] 切 吗 ? 234524_236687
+%mor:	pron|那-Int-S1 aux|可以-Inf-S verb|切-Inf-S part|吗 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	可以 . 237068_237568
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<切切 切切 切> [/] 切 . 238310_240593
+%act:	小朋友 拿 刀 到处 切 .
+%mor:	verb|切-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 没有 欢迎光临 . 240133_241314
+%mor:	pron|你-Int-S2 verb|有-Inf-Neg-S verb|欢迎光临-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	欢迎光临 .
+%mor:	verb|欢迎光临-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	请问 你 要 点 什么 ?
+%mor:	verb|请问-Inf-S pron|你-Int-S2 aux|要-Inf-S verb|点-Inf-S pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|4|NSUBJ 3|4|AUX 4|1|CCOMP 5|4|OBJ 6|1|PUNCT
+*MOT:	我 要 吃 玉米 ! 255050_256455
+%mor:	pron|我-Int-S1 aux|要-Inf-S verb|吃-Inf-S noun|玉米-Acc !
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	好 . 256196_256696
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<谢谢 孩名 老板> [/] 谢谢 孩名 老板 .
+%mor:	propn|谢谢 noun|孩名 noun|老板 .
+%gra:	1|3|NMOD 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	那 我 要 吃 啰 . 270610_271310
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|要-Inf-S verb|吃-Inf-S punct|啰 .
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT 6|4|PUNCT
+*CHI:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	amamamama@o .
+%com:	妈妈 模仿 吃 东西 的 声音 .
+%mor:	o|amamamama .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 好吃 喔 ! 270870_271590
+%mor:	adv|好 adj|好吃-S1 part|喔 !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	谢谢 .
+%mor:	propn|谢谢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	还 可以 吃 什么 ? 271991_273032
+%mor:	sconj|还 aux|可以-Inf-S verb|吃-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|MARK 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	<还 可以 吃> [/] 还 可以 吃 饼干 . 272632_282566
+%mor:	sconj|还 aux|可以-Inf-S verb|吃-Inf-S noun|饼干-Acc .
+%gra:	1|3|MARK 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	好 . 282186_282686
+%act:	小朋友 给 妈妈 饼干 (吐司) .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我 饼干 想 要 配 番茄 . 284450_285771
+%mor:	det|那-Def pron|我-Int-S1 noun|饼干 aux|想-Inf-S aux|要-Inf-S verb|配-Inf-S noun|番茄-Acc .
+%gra:	1|3|DET 2|3|NMOD 3|6|NSUBJ 4|6|AUX 5|6|AUX 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	好 . 285692_286192
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	番茄 呢 ? 285833_286453
+%mor:	noun|番茄 part|呢 ?
+%gra:	1|0|ROOT 2|1|CASE 3|1|PUNCT
+*MOT:	番茄 在 上面 .
+%act:	小朋友 手指 番茄 .
+%mor:	noun|番茄 verb|在-Inf-S noun|上面-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	那 可以 给 我 吗 . 286013_290321
+%mor:	pron|那-Int-S1 aux|可以-Inf-S verb|给-Inf-S pron|我-Int-S1 part|吗 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*CHI:	可以 . 290222_290722
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	可以 .
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	谢谢 孩名 老板 .
+%mor:	propn|谢谢 noun|孩名 noun|老板 .
+%gra:	1|3|NMOD 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	谢谢 .
+%mor:	propn|谢谢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	amamamamamama@o .
+%com:	妈妈 模仿 吃 东西 的 声音 .
+%mor:	o|amamamamamama .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 好吃 喔 . 302530_308017
+%mor:	adv|好 adj|好吃-S1 part|喔 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	我 还 可以 吃 什么 ? 308779_309480
+%mor:	pron|我-Int-S1 sconj|还 aux|可以-Inf-S verb|吃-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	这 个 是 什么 ?
+%mor:	det|这-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*CHI:	蛋蛋 .
+%mor:	noun|蛋蛋 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	这 个 是 什么 ?
+%mor:	det|这-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*CHI:	蛋蛋 .
+%mor:	noun|蛋蛋 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我 可以 吃 蛋蛋 吗 ? 309080_310081
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|可以-Inf-S verb|吃-Inf-S noun|蛋蛋-Acc part|吗 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|DISCOURSE 7|4|PUNCT
+*CHI:	可以 . 309641_310141
+%mor:	aux|可以-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	我 要 切一切 .
+%act:	小朋友 拿 刀 把 蛋 切 两 半 .
+%mor:	pron|我-Int-S1 aux|要-Inf-S verb|切一切-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	好 . 312626_313126
+%act:	小朋友 把 半 颗 蛋 给 妈妈 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	谢谢 孩名 老板 .
+%mor:	propn|谢谢 noun|孩名 noun|老板 .
+%gra:	1|3|NMOD 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*MOT:	那 你 要 吃 吗 ? 325250_326651
+%act:	小朋友 点头 .
+%mor:	pron|那-Int-S1 pron|你-Int-S2 aux|要-Inf-S verb|吃-Inf-S part|吗 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	那 来 .
+%act:	小朋友 假装 吃 蛋 .
+%mor:	pron|那-Int-S1 verb|来-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	我 把 他 黏 起来 . 326251_327853
+%mor:	pron|我-Int-S1 adp|把 pron|他-Int-S3 verb|黏-Inf-S verb|起来-Inf-S .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|MARK 6|4|PUNCT
+*MOT:	好 . 327454_327954
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 把 他 黏 起来 . 327494_328395
+%com:	他 是 指 刚刚 被 他 切 两 半 的 蛋 .
+%mor:	pron|你-Int-S2 adp|把 pron|他-Int-S3 verb|黏-Inf-S verb|起来-Inf-S .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|MARK 6|4|PUNCT
+*MOT:	我们 看看 阿姨 还有 带 什么 给 我们 玩 . 328115_329817
+%mor:	pron|我-Int-P1 verb|看看-Inf-S noun|阿姨 verb|还有-Inf-S verb|带-Inf-S pron|什么-Int-S1 verb|给-Inf-S pron|我-Int-P1 verb|玩-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|9|ADVCL 6|5|OBJ 7|9|ADVCL 8|7|OBJ 9|4|XCOMP 10|2|PUNCT
+*MOT:	这里 有 一 个 小朋友 耶 . 339250_341934
+%mor:	pron|这里-Int-S1 verb|有-Inf-S num|一 noun|个 noun|小朋友-Acc propn|耶 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|5|NUMMOD 4|3|CLF 5|2|OBJ 6|5|APPOS 7|2|PUNCT
+*MOT:	你 没有 问 他 . 341554_343677
+%mor:	pron|你-Int-S2 verb|有-Inf-Neg-S verb|问-Inf-S pron|他-Int-S3 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|2|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	&~蛤 ?
+*CHI:	你 问 他 . 343357_343937
+%act:	小朋友 把 小朋友 玩具 给 妈妈 .
+%mor:	pron|你-Int-S2 verb|问-Inf-S pron|他-Int-S3 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	我 问 他 哦 ! 343497_344498
+%mor:	pron|我-Int-S1 verb|问-Inf-S pron|他-Int-S3 part|哦 !
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	可是 你 是 老板 耶 . 344078_348826
+%mor:	sconj|可是 pron|你-Int-S2 aux|是-Inf-S noun|老板 propn|耶 .
+%gra:	1|4|MARK 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|FLAT-NAME 6|4|PUNCT
+*MOT:	你 是 老板 耶 . 354430_355270
+%mor:	pron|你-Int-S2 aux|是-Inf-S noun|老板 propn|耶 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|FLAT-NAME 5|3|PUNCT
+*CHI:	啊 .
+%mor:	part|啊 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	哈 ?
+%mor:	propn|哈 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	要 把 面包 包 起来 . 354810_355511
+%mor:	aux|要-Inf-S adp|把 noun|面包 verb|包-Inf-S verb|起来-Inf-S .
+%gra:	1|4|AUX 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|MARK 6|4|PUNCT
+*MOT:	好 . 355091_355591
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 把 面包 包 起来 . 355131_356854
+%act:	小朋友 把 汉堡排 切 两 半 .
+%mor:	pron|那-Int-S1 pron|你-Int-S2 adp|把 noun|面包 verb|包-Inf-S verb|起来-Inf-S .
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|4|CASE 4|5|OBL-PATIENT 5|0|ROOT 6|5|MARK 7|5|PUNCT
+*MOT:	那 个 是 什么 ?
+%mor:	det|那-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*MOT:	你 刚刚 在 切 的 那 个 是 什么 ? 367960_369902
+%mor:	pron|你-Int-S2 adv|刚刚 adv|在 verb|切-Inf-S sconj|的 det|那-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|ADVMOD 4|7|ACL-RELCL 5|4|MARK-REL 6|7|DET 7|9|NSUBJ 8|9|COP 9|0|ROOT 10|9|PUNCT
+*CHI:	面包 .
+%com:	小朋友 觉得 汉堡排 是 面包 .
+%mor:	noun|面包 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	哦 ?
+%mor:	pron|哦-Int-S1 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 . 370103_370603
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 的 面包 长 得 好 特别 哦 . 370824_377555
+%mor:	pron|你-Int-S2 part|的 noun|面包 adj|长-S1 part|得 adj|好-S1 adj|特别-S1 adj|哦-S1 .
+%gra:	1|3|DET 2|1|CASE 3|4|NSUBJ 4|0|ROOT 5|4|COMPOUND-EXT 6|4|XCOMP 7|8|AMOD 8|4|XCOMP 9|4|PUNCT
+*MOT:	那 这 个 是 什么 ? 377596_379959
+%mor:	det|那-Def det|这-Def noun|个 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|DET 2|3|DET 3|5|NSUBJ 4|5|COP 5|0|ROOT 6|5|PUNCT
+*CHI:	蛋蛋 .
+%act:	小朋友 把 蛋 切 两 半 .
+%mor:	noun|蛋蛋 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	哦 好 . 382720_383760
+%mor:	adv|哦 adj|好-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	是 蛋蛋 哦 .
+%mor:	aux|是-Inf-S noun|蛋蛋 part|哦 .
+%gra:	1|2|COP 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	那 你 的 红萝卜 呢 ? 383300_384161
+%mor:	det|那-Def pron|你-Int-S2 part|的 noun|红萝卜 part|呢 ?
+%gra:	1|2|DET 2|4|DET 3|2|CASE 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	你 有 红萝卜 吗 ?
+%mor:	pron|你-Int-S2 verb|有-Inf-S noun|红萝卜-Acc part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	有 .
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	有 . 385083_385583
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 红萝卜 要不要 切一切 . 385424_389228
+%mor:	det|那-Def noun|红萝卜 aux|要不要-Inf-Neg-S verb|切一切-Inf-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*CHI:	要 . 388849_389349
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 哇 .
+%mor:	adv|好 adj|哇-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	老板 好 忙 哦 . 391693_394456
+%mor:	noun|老板 adv|好 adj|忙-S1 part|哦 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	红萝卜 切一切 .
+%mor:	noun|红萝卜 verb|切一切-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	切一切 .
+%mor:	noun|切一切 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	有 吗 ? 413340_415763
+%mor:	verb|有-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	红萝卜 有 切一切 吗 ? 415343_421772
+%mor:	noun|红萝卜 verb|有-Inf-S adj|切一切-S1 part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	喔 ! 421312_421812
+%mor:	x|喔 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 棒 喔 . 421352_421952
+%mor:	part|好 part|棒 x|喔 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|APPOS 4|2|PUNCT
+*MOT:	还有 什么 可以 切一切 的 . 421493_422433
+%mor:	verb|还有-Inf-S pron|什么-Int-S1 aux|可以-Inf-S verb|切一切-Inf-S part|的 .
+%gra:	1|0|ROOT 2|4|NSUBJ 3|4|AUX 4|1|CCOMP 5|1|DISCOURSE 6|1|PUNCT
+*MOT:	还有 什么 可以 切一切 . 421973_423335
+%mor:	verb|还有-Inf-S pron|什么-Int-S1 aux|可以-Inf-S verb|切一切-Inf-S .
+%gra:	1|0|ROOT 2|4|NSUBJ 3|4|AUX 4|1|CCOMP 5|1|PUNCT
+*MOT:	这边 有 花花 耶 . 422955_423655
+%mor:	pron|这边-Int-S1 verb|有-Inf-S noun|花花 propn|耶-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	那边 还有 花花 .
+%mor:	pron|那边-Int-S1 verb|还有-Inf-S noun|花花-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	对 呀 .
+%mor:	adp|对 part|呀 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	阿姨 说 等 一下 要 玩 另外 一 个 游戏 . 437840_440323
+%mor:	noun|阿姨 verb|说-Inf-S verb|等-Inf-S adv|一下 aux|要-Inf-S verb|玩-Inf-S det|另外-Def num|一 noun|个 noun|游戏-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|6|ADVMOD 5|6|AUX 6|3|XCOMP 7|9|DET 8|9|NUMMOD 9|10|NMOD 10|6|OBJ 11|2|PUNCT
+*MOT:	啊 你 要不要 把 玩具 先 收一收 . 440704_442827
+%mor:	verb|啊-Inf-Neg-S pron|你-Int-S2 aux|要不要-Inf-Neg-S adp|把 noun|玩具 sconj|先 verb|收一收-Inf-S .
+%gra:	1|0|ROOT 2|7|NSUBJ 3|7|AUX 4|5|CASE 5|7|OBL-PATIENT 6|7|MARK 7|1|CCOMP 8|1|PUNCT
+*CHI:	要 .
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	好 . 442447_442947
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 把 玩具 收一收 . 442507_444570
+%mor:	pron|那-Int-S1 adp|把 noun|玩具 verb|收一收-Inf-S .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|PUNCT
+*CHI:	玩具 <先> [//] 要 先 收 好 . 444671_445992
+%act:	小朋友 开始 收 玩具 .
+%mor:	noun|玩具 aux|要-Inf-S sconj|先 verb|收-Inf-S adj|好-S1 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|MARK 4|0|ROOT 5|4|XCOMP 6|4|PUNCT
+*MOT:	对 啊 .
+%mor:	adp|对 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	要 先 收 好 啊 . 446654_448856
+%mor:	aux|要-Inf-S sconj|先 verb|收-Inf-S adj|好-S1 part|啊 .
+%gra:	1|3|AUX 2|3|MARK 3|0|ROOT 4|3|XCOMP 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	不 要 用 丢 的 .
+%mor:	adv|不 aux|要-Inf-S verb|用-Inf-S verb|丢-Inf-S part|的 .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|XCOMP 5|3|DISCOURSE 6|3|PUNCT
+*MOT:	轻轻的 [/] 轻轻的 .
+%mor:	adj|轻轻的-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	轻轻 放 就 好了 .
+%mor:	adv|轻轻 verb|放-Inf-S sconj|就 verb|好了-Inf-S .
+%gra:	1|2|ADVMOD 2|4|ADVCL 3|4|MARK 4|0|ROOT 5|4|PUNCT
+*MOT:	盘子 先 放 进去 . 462880_464041
+%mor:	noun|盘子 sconj|先 verb|放-Inf-S verb|进去-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|MARK 5|3|PUNCT
+*MOT:	好 . 463621_464121
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	收一收 , 把 他 收 进去 . 463661_464522
+%mor:	verb|收一收-Inf-S cm|cm adp|把 pron|他-Int-S3 verb|收-Inf-S verb|进去-Inf-S .
+%gra:	1|5|ADVCL 2|1|PUNCT 3|4|CASE 4|5|OBL-PATIENT 5|0|ROOT 6|5|MARK 7|5|PUNCT
+*MOT:	阿姨 说 要 玩 另外 一 个 游戏 了 . 464463_469994
+%mor:	noun|阿姨 verb|说-Inf-S aux|要-Inf-S verb|玩-Inf-S det|另外-Def num|一 noun|个 noun|游戏-Acc part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|AUX 4|2|XCOMP 5|7|DET 6|7|NUMMOD 7|8|NMOD 8|4|OBJ 9|2|DISCOURSE 10|2|PUNCT
+*MOT:	你 没有 跟 阿姨 说 什么 .
+%mor:	pron|你-Int-S2 verb|有-Inf-Neg-S adp|跟 noun|阿姨 verb|说-Inf-S pron|什么-Int-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|CASE 4|5|OBL 5|2|XCOMP 6|5|OBJ 7|2|PUNCT
+*MOT:	说 你 好 .
+%mor:	verb|说-Inf-S pron|你-Int-S2 adj|好-S1 .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|1|PUNCT
+*MOT:	<还有 吗> [/] 还有 吗 ?
+%mor:	verb|还有-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	<那边> [/] 那边 还 有 .
+%mor:	pron|那边-Int-S1 sconj|还 verb|有-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|PUNCT
+*MOT:	啊 盖子 咧 .
+%mor:	part|啊 noun|盖子 punct|咧 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*MOT:	<盖子> [/] 盖子 盖 起来 .
+%mor:	noun|盖子 verb|盖-Inf-S verb|起来-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|PUNCT
+*MOT:	哇 好 棒 喔 . 511040_512832
+%act:	小朋友 把 玩具 收 好 后 拿 盖子 把 玩具 箱 盖 起来 .
+%mor:	punct|哇 adj|好-S1 part|棒 punct|喔 .
+%gra:	1|3|PUNCT 2|3|COMPOUND 3|0|ROOT 4|3|PUNCT 5|3|PUNCT
+@Eg:	Puppet
+@End

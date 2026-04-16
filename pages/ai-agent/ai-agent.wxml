@@ -1,0 +1,104 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 返回按钮 -->
+  <view class="back-button" bindtap="goBack">
+    <text class="back-icon">←</text>
+    <text class="back-text">返回</text>
+  </view>
+  
+  <!-- 页面标题 -->
+  <view class="page-title">
+    <text>AI智能体</text>
+    <text class="page-subtitle">养育者可以对话式咨询</text>
+  </view>
+
+  <view class="mode-tabs">
+    <view
+      class="mode-tab {{agentChannel === 'deepseek' ? 'active' : ''}}"
+      data-channel="deepseek"
+      bindtap="setAgentChannel"
+    >DeepSeek 小咿</view>
+    <view
+      class="mode-tab {{agentChannel === 'coze' ? 'active' : ''}}"
+      data-channel="coze"
+      bindtap="setAgentChannel"
+    >Coze 智能体</view>
+  </view>
+  
+  <!-- 对话区域 -->
+  <view class="chat-area">
+    <!-- 对话历史 -->
+    <view wx:for="{{chatHistory}}" wx:key="index" class="message-item {{item.role === 'user' ? 'user-message' : 'ai-message'}}">
+      <!-- AI消息 -->
+      <block wx:if="{{item.role === 'ai'}}">
+        <view class="message-avatar">
+          <image src="{{aiAvatar}}" mode="aspectFill"></image>
+        </view>
+        <view class="message-bubble ai-bubble">
+          <text wx:if="{{item.sourceLabel}}" class="ai-source-label">{{item.sourceLabel}}</text>
+          <rich-text wx:if="{{item.contentHtml}}" class="message-text ai-rich-text" nodes="{{item.contentHtml}}"></rich-text>
+          <text wx:else class="message-text ai-plain-text">{{item.content}}</text>
+        </view>
+      </block>
+      
+      <!-- 用户消息 -->
+      <block wx:else>
+        <view class="message-bubble user-bubble">
+          <text class="message-text">{{item.content}}</text>
+        </view>
+        <view class="message-avatar">
+          <image src="{{userAvatar}}" mode="aspectFill"></image>
+        </view>
+      </block>
+    </view>
+    
+    <!-- 加载中 -->
+    <view wx:if="{{loading && !streaming}}" class="loading-item">
+      <view class="message-avatar">
+        <image src="{{aiAvatar}}" mode="aspectFill"></image>
+      </view>
+      <view class="message-bubble ai-bubble">
+        <view class="loading-dots">
+          <view class="dot"></view>
+          <view class="dot"></view>
+          <view class="dot"></view>
+        </view>
+      </view>
+    </view>
+    
+    <!-- 流式回复中 -->
+    <view wx:if="{{streaming}}" class="loading-item">
+      <view class="message-avatar">
+        <image src="{{aiAvatar}}" mode="aspectFill"></image>
+      </view>
+      <view class="message-bubble ai-bubble">
+        <text class="message-text ai-stream-text">{{tempResponse}}</text>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 输入区域 -->
+  <view class="input-area">
+    <input 
+      class="input-box" 
+      placeholder="请输入您的问题..." 
+      value="{{inputValue}}" 
+      bindinput="onInputChange"
+      bindconfirm="sendMessage"
+      disabled="{{loading}}"
+    />
+    <button class="send-btn" bindtap="sendMessage" disabled="{{!inputValue || loading}}">
+      <text class="send-icon">→</text>
+    </button>
+  </view>
+  
+  <!-- 快捷问题 -->
+  <view class="quick-questions" wx:if="{{!chatHistory.length}}">
+    <text class="quick-title">常见问题</text>
+    <view class="quick-list">
+      <view wx:for="{{quickQuestions}}" wx:key="index" class="quick-item" bindtap="selectQuickQuestion" data-question="{{item}}">
+        <text class="quick-text">{{item}}</text>
+      </view>
+    </view>
+  </view>
+</view>

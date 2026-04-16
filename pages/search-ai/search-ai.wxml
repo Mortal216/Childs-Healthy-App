@@ -1,0 +1,69 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部搜索栏（带返回按钮） -->
+  <view class="search-bar">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <input 
+      class="search-input" 
+      placeholder="搜索你感兴趣的科普内容" 
+      bindinput="handleSearchInput" 
+      value="{{searchKeyword}}"
+      focus="{{autoFocus}}"
+    />
+    <view class="search-btn" bindtap="handleSearch">
+      <text class="search-icon">🔍</text>
+    </view>
+  </view>
+
+  <!-- 历史搜索区域 -->
+  <view class="history-section" wx:if="{{historyList.length > 0}}">
+    <view class="section-header">
+      <text class="section-title">历史搜索</text>
+      <view class="clear-btn" bindtap="clearHistory">
+        <text class="clear-icon">✕</text>
+        <text class="clear-text">清空</text>
+      </view>
+    </view>
+    <view class="history-tags">
+      <text 
+        class="history-tag" 
+        wx:for="{{historyList}}" 
+        wx:key="index"
+        bindtap="searchByHistory"
+        data-keyword="{{item}}"
+      >
+        {{item}}
+      </text>
+    </view>
+  </view>
+
+  <!-- 热门搜索区域 -->
+  <view class="hot-section">
+    <text class="section-title">热门搜索</text>
+    <view class="hot-list">
+      <view 
+        class="hot-item" 
+        wx:for="{{hotList}}" 
+        wx:key="id"
+        bindtap="searchByHot"
+        data-keyword="{{item.keyword}}"
+      >
+        <text class="hot-rank {{item.rank <= 3 ? 'top-rank' : ''}}">{{item.rank}}</text>
+        <text class="hot-keyword">{{item.keyword}}</text>
+        <text class="hot-count">{{item.count}}万</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- AI助手气泡 -->
+  <view class="ai-bubble">
+    <view class="bubble-content">
+      <text class="ai-text">您好！我是咿呀AI小助手\n有任何育儿科普问题都可以问我哦～</text>
+    </view>
+    <view class="ai-avatar">
+      <text class="avatar-icon">🤖</text>
+    </view>
+  </view>
+</view>

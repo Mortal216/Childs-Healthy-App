@@ -1,0 +1,32 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <view class="user-info">
+    <view class="avatar-wrapper">
+      <image class="avatar" src="/images/tab/top-help.png" mode="aspectFill"></image>
+    </view>
+    <view class="user-details">
+      <text class="username">用户852212688</text>
+      <view class="age-selector">
+        <text>宝宝年龄段</text>
+        <picker bindchange="onAgeChange" value="{{currentAgeIndex}}" range="{{ageOptions}}">
+          <view class="picker-text">{{ageOptions[currentAgeIndex]}}</view>
+        </picker>
+      </view>
+    </view>
+  </view>
+
+  <view class="section-intro">
+    <text class="section-kicker">成长工具箱</text>
+    <text class="section-title">养育支持与互动</text>
+    <text class="section-desc">任务推送、场景练习、共读与智能体咨询，入口彼此独立，可按需使用。</text>
+  </view>
+
+  <view class="function-grid">
+    <view class="function-card" wx:for="{{functionList}}" wx:key="id" bindtap="onFunctionTap" data-id="{{item.id}}">
+      <view class="card-icon">
+        <image src="{{item.icon}}" mode="aspectFit"></image>
+      </view>
+      <text class="card-title">{{item.title}}</text>
+    </view>
+  </view>
+</view>

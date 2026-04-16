@@ -1,0 +1,160 @@
+<!-- 页面容器 -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 加载中 -->
+  <view class="loading-container" wx:if="{{isLoading}}">
+    <view class="loading-spinner"></view>
+    <text class="loading-text">{{loadingText}}</text>
+  </view>
+
+  <!-- 主内容 -->
+  <block wx:if="{{!isLoading}}">
+    <!-- 返回按钮 -->
+  <view class="back-button" bindtap="goBack">
+    <view class="back-icon-wrapper">
+      <text class="back-arrow">←</text>
+    </view>
+    <text class="back-text">返回</text>
+  </view>
+    
+    <!-- 页面标题 -->
+    <view class="page-header">
+      <text class="main-title">{{scaleName}}</text>
+      <text class="age-range">适用年龄：0~18个月</text>
+    </view>
+
+    <!-- 部分切换标签 -->
+    <view class="section-tabs">
+      <view 
+        class="section-tab {{currentSectionIndex === index ? 'active' : ''}}" 
+        wx:for="{{sections}}" 
+        wx:key="id"
+        bindtap="switchSection"
+        data-index="{{index}}"
+      >
+        <text class="tab-text">{{item.id === 'E' ? '动作' : item.id}}</text>
+        <view class="tab-indicator" wx:if="{{currentSectionIndex === index}}"></view>
+      </view>
+    </view>
+
+    <!-- 当前部分标题 -->
+    <view class="section-header">
+      <text class="section-title">{{sections[currentSectionIndex].title}}</text>
+      <text class="section-subtitle">{{sections[currentSectionIndex].subtitle}}</text>
+      
+      <!-- 进度显示 -->
+      <view class="progress-info">
+        <text class="progress-text">
+          已完成 {{currentSectionCompleted}} / {{currentSectionTotal}} 题
+        </text>
+        <view class="progress-bar">
+          <view 
+            class="progress-fill" 
+            style="width: {{currentSectionProgress}}%"
+          ></view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 题目列表 -->
+    <view class="question-list">
+      <!-- 乙部分和丁部分使用横向单选样式 -->
+      <block wx:if="{{currentSectionIndex === 1 || currentSectionIndex === 3}}">
+        <!-- 表头 -->
+        <view class="table-header">
+          <view class="header-text">题目</view>
+          <view class="header-options">
+            <view class="header-option" wx:for="{{sections[currentSectionIndex].options}}" wx:key="*this">{{item}}</view>
+          </view>
+        </view>
+        
+        <!-- 题目行 -->
+        <view 
+          class="question-row" 
+          wx:for="{{sections[currentSectionIndex].questions}}" 
+          wx:for-index="qIndex"
+          wx:key="id"
+        >
+          <view class="row-text">{{qIndex + 1}}. {{item.text}}</view>
+          <view class="row-options">
+            <view 
+              class="radio-cell {{item.selectedOption === oIndex ? 'selected' : ''}}"
+              wx:for="{{sections[currentSectionIndex].options}}"
+              wx:for-index="oIndex"
+              wx:for-item="option"
+              wx:key="*this"
+              bindtap="selectOption"
+              data-section-index="{{currentSectionIndex}}"
+              data-question-index="{{qIndex}}"
+              data-option-index="{{oIndex}}"
+            >
+              <view class="radio-circle {{item.selectedOption === oIndex ? 'checked' : ''}}"></view>
+            </view>
+          </view>
+        </view>
+      </block>
+      
+      <!-- 甲部分、丙部分和动作手势部分使用原来的样式 -->
+      <block wx:else>
+        <view 
+          class="question-item" 
+          wx:for="{{sections[currentSectionIndex].questions}}" 
+          wx:for-index="qIndex"
+          wx:key="id"
+        >
+          <view class="question-header">
+            <text class="question-number">{{qIndex + 1}}</text>
+            <text class="question-text">{{item.text}}</text>
+          </view>
+          
+          <view class="option-group">
+            <view 
+              class="option-item {{item.selectedOption === oIndex ? 'selected' : ''}}" 
+              wx:for="{{item.options || sections[currentSectionIndex].options}}"
+              wx:for-index="oIndex"
+              wx:for-item="option"
+              wx:key="*this"
+              bindtap="selectOption"
+              data-section-index="{{currentSectionIndex}}"
+              data-question-index="{{qIndex}}"
+              data-option-index="{{oIndex}}"
+            >
+              <view class="radio {{item.selectedOption === oIndex ? 'checked' : ''}}">
+                <view class="radio-inner" wx:if="{{item.selectedOption === oIndex}}"></view>
+              </view>
+              <text class="option-text">{{option}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <!-- 底部按钮 -->
+    <view class="button-group">
+      <button 
+        class="nav-btn prev-btn {{currentSectionIndex === 0 ? 'disabled' : ''}}" 
+        bindtap="prevSection"
+        disabled="{{currentSectionIndex === 0}}"
+      >
+        上一部分
+      </button>
+      <button 
+        class="nav-btn next-btn" 
+        bindtap="nextSection"
+      >
+        {{currentSectionIndex === 4 ? '提交测评' : '下一部分'}}
+      </button>
+    </view>
+
+    <!-- 底部间距 -->
+    <view class="bottom-space"></view>
+  </block>
+  
+  <!-- 提交成功弹窗 -->
+  <view class="success-popup" wx:if="{{showSuccessPopup}}">
+    <view class="success-content">
+      <view class="success-icon">✓</view>
+      <text class="success-title">测评完成</text>
+      <text class="success-desc">正在跳转到结果页面...</text>
+    </view>
+  </view>
+</view>

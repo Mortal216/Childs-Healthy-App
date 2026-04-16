@@ -1,0 +1,210 @@
+/* 全局页面容器 - 匹配项目浅黄色背景 */
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--yh-bg, #eceff4);
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  padding-top: calc(var(--nav-bar-height) + 20rpx);
+  padding-bottom: 120rpx; /* 适配底部tabBar */
+}
+
+/* 顶部搜索栏 */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: var(--yh-surface, #F0F0E0);
+  border-radius: var(--yh-radius-pill, 999rpx);
+  padding: 12rpx 24rpx;
+  margin-bottom: 32rpx;
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+  box-shadow: var(--yh-shadow-soft, 0 4rpx 20rpx rgba(42, 49, 56, 0.05));
+  gap: 15rpx;
+}
+
+.back-btn {
+  width: 40rpx;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-icon {
+  font-size: 28rpx;
+  color: var(--yh-text, #506840);
+}
+
+.search-input {
+  flex: 1;
+  font-size: 28rpx;
+  color: var(--yh-text, #506840);
+  padding: 5rpx 0;
+}
+
+.search-btn {
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn:active {
+  transform: scale(0.98);
+  opacity: 0.92;
+}
+
+.search-icon {
+  font-size: 28rpx;
+  color: var(--yh-primary, #587838);
+}
+
+/* 通用区域标题 */
+.section-title {
+  font-size: 30rpx;
+  color: var(--yh-text, #506840);
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 20rpx;
+}
+
+/* 历史搜索区域 */
+.history-section {
+  margin-bottom: 40rpx;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-btn {
+  display: flex;
+  align-items: center;
+  gap: 5rpx;
+}
+
+.clear-icon {
+  font-size: 24rpx;
+  color: var(--yh-text-muted, #88A870);
+}
+
+.clear-text {
+  font-size: 24rpx;
+  color: var(--yh-text-muted, #88A870);
+}
+
+.history-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15rpx;
+}
+
+.history-tag {
+  padding: 10rpx 20rpx;
+  background-color: var(--yh-sage, #E8B848);
+  border-radius: 20rpx;
+  font-size: 26rpx;
+  color: #FFFFFF;
+}
+
+.history-tag:active {
+  transform: scale(0.98);
+  opacity: 0.92;
+}
+
+/* 热门搜索区域 */
+.hot-section {
+  margin-bottom: 60rpx;
+}
+
+.hot-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15rpx;
+}
+
+.hot-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15rpx 20rpx;
+  background-color: var(--yh-surface, #F0F0E0);
+  border-radius: 16rpx;
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+  box-shadow: var(--yh-shadow-soft, 0 4rpx 20rpx rgba(42, 49, 56, 0.05));
+}
+
+.hot-item:active {
+  transform: scale(0.99);
+  opacity: 0.95;
+}
+
+.hot-rank {
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: var(--yh-text-muted, #88A870);
+  border-radius: 50%;
+  background-color: var(--yh-surface-muted, #F8F8F0);
+}
+
+.hot-rank.top-rank {
+  background-color: var(--yh-accent-purple, #C8C8E8);
+  color: #FFFFFF;
+}
+
+.hot-keyword {
+  flex: 1;
+  font-size: 28rpx;
+  color: var(--yh-text, #506840);
+  margin: 0 20rpx;
+}
+
+.hot-count {
+  font-size: 24rpx;
+  color: var(--yh-text-muted, #88A870);
+}
+
+/* AI助手气泡 */
+.ai-bubble {
+  position: fixed;
+  bottom: 150rpx;
+  right: 30rpx;
+  display: flex;
+  align-items: flex-end;
+  gap: 10rpx;
+}
+
+.bubble-content {
+  background-color: var(--yh-surface, #F0F0E0);
+  border-radius: 20rpx 20rpx 5rpx 20rpx;
+  padding: 15rpx 20rpx;
+  box-shadow: var(--yh-shadow-soft, 0 4rpx 20rpx rgba(42, 49, 56, 0.05));
+  border: 1rpx solid var(--yh-border, #E0E0E0);
+}
+
+.ai-text {
+  font-size: 24rpx;
+  color: var(--yh-text, #506840);
+  line-height: 1.5;
+}
+
+.ai-avatar {
+  width: 60rpx;
+  height: 60rpx;
+  background-color: var(--yh-sage, #E8B848);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-icon {
+  font-size: 30rpx;
+  color: #FFFFFF;
+}

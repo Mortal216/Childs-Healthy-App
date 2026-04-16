@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/login/login",
+    "pages/report-cognition/report-cognition",
+    "pages/user-profile-step1/user-profile-step1",
+    "pages/my-collection/my-collection",
+    "pages/user-profile-step2/user-profile-step2",
+    "pages/basic-test-main/basic-test-main",
+    "pages/basic-test-sub1/basic-test-sub1",
+    "pages/basic-test-0-18/basic-test-0-18",
+    "pages/basic-test-18-30/basic-test-18-30",
+    "pages/basic-test-fuyang/basic-test-fuyang",
+    "pages/ex-test-main/ex-test-main",
+    "pages/ex-test-conversation/ex-test-conversation",
+    "pages/ex-test-interaction/ex-test-interaction",
+    "pages/ex-test-environment/ex-test-environment",
+    "pages/story/story",
+    "pages/story-reader/story-reader",
+    "pages/report-child/report-child",
+    "pages/report-0-18/report-0-18",
+    "pages/report-18-30/report-18-30",
+    "pages/report-interaction/report-interaction",
+    "pages/report-environment/report-environment",
+    "pages/report-parenting/report-parenting",
+    "pages/function/function",
+    "pages/basic-test-example/basic-test-example",
+    "pages/dialogue-analysis/dialogue-analysis",
+    "pages/dialogue-result/dialogue-result",
+    "pages/advanced-test/advanced-test",
+    "pages/science-community/science-community",
+    "pages/science-recommend/science-recommend",
+    "pages/science-literature/science-literature",
+    "pages/article-detail/article-detail",
+    "pages/article-search/article-search",
+    "pages/calendar/calendar",
+    "pages/sleep-info/sleep-info",
+    "pages/science-search-result/science-search-result",
+    "pages/search-ai/search-ai",
+    "pages/forget-password/forget-password",
+    "pages/profile/profile",
+    "pages/my-points/my-points",
+    "pages/register/register",
+    "pages/ai-scene/ai-scene",
+    "pages/smart-tasks/smart-tasks",
+    "pages/task/task",
+    "pages/ai-agent/ai-agent"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "咿呀智库",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#B8D078",
+    "selectedColor": "#587838",
+    "color": "#88A870",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "测评",
+        "iconPath": "images/tab/bottom1.png",   
+        "selectedIconPath": "images/tab/bottom1.png" 
+      },
+      {
+        "pagePath": "pages/function/function",
+        "text": "功能",
+        "iconPath": "images/tab/bottom2.png", 
+        "selectedIconPath": "images/tab/bottom2.png"
+      },
+      {
+        "pagePath": "pages/science-recommend/science-recommend",
+        "text": "科普",
+        "iconPath": "images/tab/bottom3.png",
+        "selectedIconPath": "images/tab/bottom3.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/tab/bottom4.png", 
+        "selectedIconPath": "images/tab/bottom4.png"
+      }
+    ]
+  }
+}

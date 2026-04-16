@@ -1,0 +1,113 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部搜索栏 -->
+  <view class="search-bar" bindtap="goToSearch">
+    <input class="search-input" placeholder="搜索你感兴趣的" disabled />
+    <view class="search-btn">
+      <text class="search-icon">🔍</text>
+    </view>
+  </view>
+
+  <!-- 一级标签：推荐/文献/社区 -->
+  <view class="tab-nav">
+    <view class="tab-item" bindtap="goToRecommend">推荐</view>
+    <view class="tab-item" bindtap="goToLiterature">文献</view>
+    <view class="tab-item active" bindtap="goToCommunity">社区</view>
+  </view>
+
+  <!-- 创作按钮 -->
+  <view class="create-btn-container">
+    <view class="create-btn" bindtap="showCreateModal">
+      <text class="create-icon">✏️</text>
+      <text class="create-text">发布动态</text>
+    </view>
+  </view>
+
+  <!-- 热门话题标签 -->
+  <view class="topic-tags">
+    <text class="topic-tag">#语言启蒙家</text>
+    <text class="topic-tag">#亲子共读</text>
+    <text class="topic-tag">#辅食添加</text>
+  </view>
+
+  <!-- 创作弹窗 -->
+  <view wx:if="{{showCreateModal}}" class="create-modal">
+    <view class="create-mask" bindtap="closeCreateModal"></view>
+    <view class="create-container">
+      <view class="create-header">
+        <text class="create-title">发布动态</text>
+        <text class="create-close" bindtap="closeCreateModal">×</text>
+      </view>
+      <view class="create-content">
+        <textarea class="create-textarea" placeholder="分享你的育儿经验..." value="{{newPostContent}}" bindinput="onPostContentInput" maxlength="500"></textarea>
+        <view class="create-tags">
+          <text class="create-tag-label">添加话题：</text>
+          <view class="tag-list">
+            <view class="tag-item {{selectedTag === item ? 'active' : ''}}" wx:for="{{topicList}}" wx:key="*this" bindtap="selectTag" data-tag="{{item}}">{{item}}</view>
+          </view>
+        </view>
+      </view>
+      <view class="create-footer">
+        <button class="create-submit {{newPostContent ? 'active' : ''}}" bindtap="submitPost">发布</button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 社区帖子列表 -->
+  <view class="post-list">
+    <view wx:if="{{postList.length === 0}}" class="empty-tip">
+      <text class="empty-text">暂无动态，快来发布第一条吧！</text>
+    </view>
+    <view class="post-card" wx:for="{{postList}}" wx:key="id">
+      <view class="post-header">
+        <view class="avatar">
+          <text class="avatar-placeholder">👤</text>
+        </view>
+        <view class="post-meta">
+          <text class="post-author">{{item.author}}</text>
+          <text class="post-time">{{item.time}}</text>
+        </view>
+      </view>
+      <view class="post-content">
+        <text class="post-text">{{item.content}}</text>
+        <view class="post-images">
+          <view class="image-placeholder">
+            <text>图一</text>
+          </view>
+          <view class="image-placeholder">
+            <text>图二</text>
+          </view>
+        </view>
+      </view>
+      <view class="post-actions">
+        <view class="action-item" bindtap="likePost" data-id="{{item.id}}">
+          <text class="action-icon">👍</text>
+          <text class="action-count">{{item.likeCount}}</text>
+        </view>
+        <view class="action-item" bindtap="collectPost" data-id="{{item.id}}">
+          <text class="action-icon">❤️</text>
+          <text class="action-count">{{item.collectCount}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部导航栏 -->
+  <view class="bottom-nav">
+    <view class="nav-item" bindtap="goToHome">
+      <image class="nav-icon" src="/images/tab/bottom1.png" mode="aspectFit"></image>
+      <text class="nav-text">测评</text>
+    </view>
+    <view class="nav-item" bindtap="goToFunction">
+      <image class="nav-icon" src="/images/tab/bottom2.png" mode="aspectFit"></image>
+      <text class="nav-text">功能</text>
+    </view>
+    <view class="nav-item active">
+      <image class="nav-icon" src="/images/tab/bottom3.png" mode="aspectFit"></image>
+      <text class="nav-text">科普</text>
+    </view>
+    <view class="nav-item" bindtap="goToProfile">
+      <image class="nav-icon" src="/images/tab/bottom4.png" mode="aspectFit"></image>
+      <text class="nav-text">我的</text>
+    </view>
+  </view>
+</view>

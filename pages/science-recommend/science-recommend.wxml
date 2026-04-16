@@ -1,0 +1,43 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部搜索栏 -->
+  <view class="search-bar" bindtap="goToSearch">
+    <input class="search-input" placeholder="搜索你感兴趣的" disabled />
+    <view class="search-btn">
+      <text class="search-icon">🔍</text>
+    </view>
+  </view>
+
+  <!-- 标签栏：推荐/文献/社区 -->
+  <view class="tab-nav">
+    <view class="tab-item active" bindtap="goToRecommend">推荐</view>
+    <view class="tab-item" bindtap="goToLiterature">文献</view>
+    <view class="tab-item" bindtap="goToCommunity">社区</view>
+  </view>
+
+  <!-- 加载状态 -->
+  <view wx:if="{{loading}}" class="loading-container">
+    <view class="loading"></view>
+    <text class="loading-text">加载中...</text>
+  </view>
+
+  <!-- 近期科普文章 -->
+  <view wx:else class="section">
+    <text class="section-title">近期科普</text>
+    <view class="card-list">
+      <view wx:for="{{recentArticles}}" wx:key="{{item.id}}" class="recommend-card" bindtap="goToArticle" data-id="{{item.id}}">
+        <view class="card-cover">
+          <image wx:if="{{index === 0}}" src="/images/kepu/1.jpg" mode="aspectFill"></image>
+          <image wx:elif="{{index === 1}}" src="/images/kepu/2.jpg" mode="aspectFill"></image>
+          <image wx:elif="{{index === 2}}" src="/images/kepu/3.jpg" mode="aspectFill"></image>
+          <image wx:elif="{{index === 3}}" src="/images/kepu/4.jpg" mode="aspectFill"></image>
+          <image wx:else src="{{item.image}}" mode="aspectFill"></image>
+        </view>
+        <view class="card-info">
+          <text class="card-title">{{item.title}}</text>
+          <text class="card-meta">{{item.source}} · {{item.publishTime}}</text>
+          <text class="card-desc">{{item.summary}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

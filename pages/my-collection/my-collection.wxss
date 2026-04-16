@@ -1,0 +1,91 @@
+/* 全局页面容器 - 匹配浅黄色背景 */
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--yh-bg, #eceff4);
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: calc(var(--nav-bar-height) + 20rpx);
+  padding-bottom: 120rpx; /* 适配底部tabBar */
+}
+
+/* 顶部导航栏 */
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--yh-surface, #fff);
+  padding: 22rpx 28rpx;
+  margin: 0 24rpx 24rpx;
+  border-radius: var(--yh-radius-lg, 28rpx);
+  border: 1rpx solid var(--yh-border, #dde3eb);
+  box-shadow: var(--yh-shadow-soft, 0 4rpx 24rpx rgba(40, 48, 56, 0.045));
+}
+
+.back-btn, .help-btn {
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-icon, .help-icon {
+  font-size: 32rpx;
+  color: #333333;
+}
+
+.nav-title {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: 500;
+}
+
+/* 空状态 */
+.empty-state {
+  width: 90%;
+  height: 500rpx;
+  background-color: #FFFFFF;
+  border-radius: 16rpx;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+
+.empty-icon {
+  font-size: 100rpx;
+  margin-bottom: 30rpx;
+}
+
+.empty-title {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 15rpx;
+}
+
+.empty-desc {
+  font-size: 24rpx;
+  color: #999999;
+  text-align: center;
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20rpx);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.empty-state {
+  animation: fadeIn 0.5s ease-out;
+}

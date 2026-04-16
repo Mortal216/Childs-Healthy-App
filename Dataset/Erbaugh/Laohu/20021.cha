@@ -1,0 +1,1709 @@
+@UTF8
+@PID:	11312/a-00032840-1
+@Begin
+@Languages:	zho, eng
+@Participants:	ADU Adult, CHI Target_Child, MOT Mother, CHI1 Child, FAT Father
+@ID:	zho|Erbaugh|ADU||female|||Adult|||
+@ID:	zho|Erbaugh|CHI|2;00.21|female|||Target_Child|||
+@ID:	zho|Erbaugh|MOT||female|||Mother|||
+@ID:	zho|Erbaugh|CHI1||female|||Child|||
+@ID:	zho|Erbaugh|FAT||male|||Father|||
+@Media:	20021, audio
+@Transcriber:	Lijun Wang
+@Types:	long, toyplay, TD
+*ADU:	你好 [/] 你好 . 12440_13043
+%mor:	adj|你好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	老虎 好 .
+%mor:	noun|老虎 adj|好-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*ADU:	你 玩 什么 ? 17640_18380
+%mor:	pron|你-Int-S2 verb|玩-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*ADU:	我 的 耳返 不 能 说话 .
+%mor:	pron|我-Int-S1 part|的 noun|耳返 adv|不 aux|能-Inf-S verb|说话-Inf-S .
+%gra:	1|3|DET 2|1|CASE 3|6|NSUBJ 4|6|ADVMOD 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*ADU:	[- eng] xxx microphone@s to@s my@s earrings@s .
+%mor:	L2|xxx L2|xxx L2|xxx-Prs-Gen-S1 L2|xxx-Plur .
+%gra:	1|0|ROOT 2|4|CASE 3|4|NMOD-POSS 4|1|NMOD 5|1|PUNCT
+*ADU:	不 能 说话 了 .
+%mor:	adv|不 aux|能-Inf-S verb|说话-Inf-S part|了 .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	我 帮 你 放 这里 可以 吗 ? 43780_45319
+%mor:	pron|我-Int-S1 verb|帮-Inf-S pron|你-Int-S2 verb|放-Inf-S pron|这里-Int-S1 aux|可以-Inf-S part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|4|OBJ 6|2|AUX 7|2|DISCOURSE 8|2|PUNCT
+*ADU:	我们 今天 玩 什么 ? 58580_64268
+%mor:	pron|我-Int-P1 noun|今天 verb|玩-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|NMOD-TMOD 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*ADU:	要 盖 房子 吗 ? 64149_64708
+%mor:	aux|要-Inf-S verb|盖-Inf-S noun|房子-Acc part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|OBJ 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	不 要 盖 房子 . 64710_64949
+%mor:	adv|不 aux|要-Inf-S verb|盖-Inf-S noun|房子-Acc .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*ADU:	好 ‡ 我们 盖 吧 . 65532_65770
+%mor:	adv|好 punct|‡ pron|我-Int-P1 verb|盖-Inf-S part|吧 .
+%gra:	1|4|ADVMOD 2|4|PUNCT 3|4|NSUBJ 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*ADU:	开始 吧 .
+%mor:	verb|开始-Inf-S part|吧 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	快 来 吃 .
+%mor:	adj|快-S1 sconj|来 verb|吃-Inf-S .
+%gra:	1|3|ADVMOD 2|3|MARK 3|0|ROOT 4|3|PUNCT
+*MOT:	不 要 替 爸爸 xxx . 147360_148866
+%mor:	adv|不 aux|要-Inf-S verb|替-Inf-S noun|爸爸-Acc .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*ADU:	xxx 盖 房子 xxx .
+%mor:	propn|盖 noun|房子 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	哇 .
+%mor:	noun|哇 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	哇 ‡ 什么 事 ? 150302_150942
+%mor:	propn|哇 adp|‡ pron|什么-Int-S1 noun|事 ?
+%gra:	1|4|NSUBJ 2|4|CASE 3|4|DET 4|0|ROOT 5|4|PUNCT
+*ADU:	[- eng] thank@s you@s xxx .
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	你 爸爸 上班 了 . 163050_168820
+%mor:	pron|你-Int-S2 noun|爸爸 verb|上班-Inf-S part|了 .
+%gra:	1|2|NMOD 2|3|NSUBJ 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	我们 不 能 出去 . 169221_169441
+%mor:	pron|我-Int-P1 adv|不 aux|能-Inf-S verb|出去-Inf-S .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*ADU:	不 能 出去 . 169561_169762
+%mor:	adv|不 aux|能-Inf-S verb|出去-Inf-S .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*ADU:	我们 现在 盖 房子 吗 ? 169822_170684
+%mor:	pron|我-Int-P1 noun|现在 verb|盖-Inf-S noun|房子-Acc part|吗 ?
+%gra:	1|3|NSUBJ 2|3|NMOD-TMOD 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*CHI:	xxx .
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*ADU:	嗯哼 ?
+%mor:	propn|嗯哼 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*CHI:	这 个 杯子 xxx .
+%mor:	det|这-Def noun|个 noun|杯子 .
+%gra:	1|2|DET 2|3|CLF 3|0|ROOT 4|3|PUNCT
+*CHI:	xxx .
+*CHI:	滑 下来 .
+%mor:	verb|滑-Inf-S verb|下来-Inf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|PUNCT
+*CHI:	xxx 滑 下 来 了 . 220220_226066
+%mor:	verb|滑-Inf-S verb|下-Inf-S verb|来-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|MARK 3|1|XCOMP 4|1|DISCOURSE 5|1|PUNCT
+*ADU:	滑 下来 了 ?
+%mor:	verb|滑-Inf-S verb|下来-Inf-S part|了 ?
+%gra:	1|0|ROOT 2|1|MARK 3|1|DISCOURSE 4|1|PUNCT
+*CHI:	滑 下来 .
+%mor:	verb|滑-Inf-S verb|下来-Inf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|PUNCT
+*ADU:	xxx .
+*CHI:	滑 上面 了 .
+%mor:	adj|滑-S1 noun|上面-Acc part|了 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*ADU:	上面 的 那个 . 230033_231233
+%mor:	noun|上面 part|的 det|那个-Def .
+%gra:	1|3|NMOD 2|1|CASE 3|0|ROOT 4|3|PUNCT
+*CHI:	xxx .
+*CHI:	xxx .
+*ADU:	[- eng] xxx big@s box@s .
+%mor:	adj|big-S1 noun|box .
+%gra:	1|2|AMOD 2|0|ROOT 3|2|PUNCT
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	什么 事 ?
+%mor:	pron|什么-Int-S1 noun|事 ?
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*ADU:	哦 ‡ 这 个 太 重 . 250504_259251
+%mor:	pron|哦-Int-S1 punct|‡ det|这-Def noun|个 adv|太 adj|重-S1 .
+%gra:	1|6|NMOD-TMOD 2|1|PUNCT 3|4|DET 4|6|OBL 5|6|ADVMOD 6|0|ROOT 7|6|PUNCT
+*ADU:	还有 不 是 我 这里 的 东西 . 269720_276447
+%mor:	verb|还有-Inf-S adv|不 aux|是-Inf-S pron|我-Int-S1 pron|这里-Int-S1 part|的 noun|东西 .
+%gra:	1|0|ROOT 2|7|ADVMOD 3|7|COP 4|7|NMOD 5|7|DET 6|5|CASE 7|1|XCOMP 8|1|PUNCT
+*ADU:	我 不 要 动 .
+%mor:	pron|我-Int-S1 adv|不 aux|要-Inf-S verb|动-Inf-S .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*ADU:	不 知道 里面 有 什么 东西 .
+%mor:	adv|不 verb|知道-Inf-S noun|里面 verb|有-Inf-S pron|什么-Int-S1 noun|东西-Acc .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*ADU:	还有 瓶子 .
+%mor:	verb|还有-Inf-S noun|瓶子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	里面 [/] 里面 有 瓶子 . 278111_278810
+%mor:	noun|里面 verb|有-Inf-S noun|瓶子-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*ADU:	xxx 小心 .
+%mor:	adj|小心-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	这 是 谁 ? 285700_286398
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|谁-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	照相 .
+%mor:	verb|照相-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	照相 片 的 . 300760_301595
+%mor:	verb|照相-Inf-S part|片 part|的 .
+%gra:	1|2|COMPOUND 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	Picture@s xxx .
+%mor:	L2|xxx .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	老虎 .
+%mor:	noun|老虎 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	来 [/] 来 ‡ 进来 .
+%mor:	sconj|来 verb|‡-Inf-S verb|进来-Inf-S .
+%gra:	1|2|MARK 2|0|ROOT 3|2|MARK 4|2|PUNCT
+*MOT:	来 吃饭 .
+%mor:	sconj|来 verb|吃饭-Inf-S .
+%gra:	1|2|MARK 2|0|ROOT 3|2|PUNCT
+*ADU:	吃 早饭 了 .
+%mor:	verb|吃-Inf-S adj|早饭-S1 part|了 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	进来 里面 .
+%mor:	verb|进来-Inf-S noun|里面-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	爸爸 去 拿 xxx .
+%mor:	noun|爸爸 sconj|去 verb|拿-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|PUNCT
+*MOT:	哎 吆 ‡ 你 的 头发 怎么 这么 脏 . 323270_324333
+%mor:	punct|哎 propn|吆 punct|‡ pron|你-Int-S2 part|的 noun|头发 adv|怎么 adv|这么 adj|脏-S1 .
+%gra:	1|2|PUNCT 2|9|NSUBJ 3|2|PUNCT 4|6|DET 5|4|CASE 6|9|NSUBJ 7|9|ADVMOD 8|9|ADVMOD 9|0|ROOT 10|9|PUNCT
+*ADU:	xxx .
+*CHI:	眼睛 闭 起来 .
+%mor:	noun|眼睛 verb|闭-Inf-S verb|起来-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|PUNCT
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	闭 起来 .
+%mor:	verb|闭-Inf-S verb|起来-Inf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|PUNCT
+*CHI:	闭 起来 .
+%mor:	verb|闭-Inf-S verb|起来-Inf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|PUNCT
+*ADU:	鼻子 .
+%mor:	noun|鼻子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	那 是 眼睛 . 363370_363958
+%mor:	pron|那-Int-S1 aux|是-Inf-S noun|眼睛 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	闭 起来 .
+%mor:	verb|闭-Inf-S verb|起来-Inf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|PUNCT
+*CHI:	这 是 我 的 . 381590_382931
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	不 是 啦 . 382572_383051
+%mor:	adv|不 aux|是-Inf-S part|啦 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	武 太太 的 .
+%mor:	propn|武 propn|太太 part|的 .
+%gra:	1|0|ROOT 2|1|FLAT-NAME 3|1|CASE 4|1|PUNCT
+*ADU:	啊 .
+%mor:	part|啊 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	这 是 你 的 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|你-Int-S2 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	这 是 我 的 . 382711_383211
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	那个 车子 是 你 的 . 382852_384253
+%mor:	det|那个-Def noun|车子 aux|是-Inf-S pron|你-Int-S2 part|的 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*ADU:	这 是 我 的 . 392970_400415
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	这 是 我 的 . 402638_403277
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	或者 是 我 像 是 什么 东西 . 407400_408469
+%mor:	sconj|或者 aux|是-Inf-S pron|我-Int-S1 verb|像-Inf-S aux|是-Inf-S pron|什么-Int-S1 noun|东西 .
+%gra:	1|2|MARK 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|7|COP 6|7|DET 7|4|XCOMP 8|2|PUNCT
+*ADU:	[- eng] xxx take@s:eng away@s:eng .
+%mor:	verb|take-Fin-Imp-S adv|away .
+%gra:	1|0|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	我 要 .
+%mor:	pron|我-Int-S1 aux|要-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	吃饭饭 .
+%mor:	verb|吃饭饭-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	吃饭饭 .
+%mor:	verb|吃饭饭-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	我 要 .
+%mor:	pron|我-Int-S1 aux|要-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	我 要 .
+%mor:	pron|我-Int-S1 aux|要-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*ADU:	xxx .
+*ADU:	呵呵呵 .
+%mor:	adj|呵呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	[- eng] take@s:eng the@s:eng xxx .
+%mor:	verb|take-Fin-Imp-S det|the-Def-Art .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	xxx 陪 你 玩 啊 . 433980_434603
+%mor:	verb|陪-Inf-S pron|你-Int-S2 verb|玩-Inf-S part|啊 .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|1|DISCOURSE 5|1|PUNCT
+*CHI1:	xxx .
+*CHI:	不 要 xxx .
+%mor:	adv|不 aux|要-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI1:	我 不 要 大 的 .
+%mor:	pron|我-Int-S1 adv|不 aux|要-Inf-S adj|大-S1 part|的 .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI1:	我 要 来 吃 糖葫芦 冰 .
+%mor:	pron|我-Int-S1 aux|要-Inf-S sconj|来 verb|吃-Inf-S noun|糖葫芦 part|冰 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|MARK 4|0|ROOT 5|6|COMPOUND 6|4|OBJ 7|4|PUNCT
+*CHI1:	哥哥 , 爸爸 真 伟大 . 455380_458827
+%mor:	noun|哥哥 cm|cm noun|爸爸 adv|真 adj|伟大-S1 .
+%gra:	1|0|ROOT 2|3|PUNCT 3|1|CONJ 4|5|ADVMOD 5|1|DISLOCATED 6|1|PUNCT
+*CHI1:	明月 照 我 家 .
+%mor:	noun|明月 verb|照-Inf-S pron|我-Int-S1 part|家 .
+%gra:	1|2|NMOD-TMOD 2|0|ROOT 3|4|COMPOUND 4|2|OBJ 5|2|PUNCT
+*ADU:	看 是 可以 的 .
+%mor:	verb|看-Inf-S verb|是-Inf-S aux|可以-Inf-S part|的 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|2|XCOMP 4|1|DISCOURSE 5|1|PUNCT
+*ADU:	可是 你 不 要 拿 . 461352_462736
+%mor:	sconj|可是 pron|你-Int-S2 adv|不 aux|要-Inf-S verb|拿-Inf-S .
+%gra:	1|5|MARK 2|5|NSUBJ 3|5|ADVMOD 4|5|AUX 5|0|ROOT 6|5|PUNCT
+*ADU:	看看 .
+%mor:	verb|看看-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	xxx 唱歌 xxx .
+%mor:	verb|唱歌-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	她 不 必 唱 . 474440_475557
+%mor:	pron|她-Int-S3 adv|不 aux|必-Inf-S verb|唱-Inf-S .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*ADU:	这样 可以 . 571800_572721
+%mor:	pron|这样-Int-S1 aux|可以-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	拿 下来 .
+%mor:	verb|拿-Inf-S verb|下来-Inf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|PUNCT
+*ADU:	啊 ‡ 不 要 . 599030_600251
+%mor:	adj|啊-S1 punct|‡ adv|不 verb|要-Inf-S .
+%gra:	1|0|ROOT 2|4|PUNCT 3|4|ADVMOD 4|1|PARATAXIS 5|1|PUNCT
+*CHI:	要 .
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	啊 ‡ 这 是 我 的 东西 . 602498_603317
+%mor:	part|啊 punct|‡ pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 noun|东西 .
+%gra:	1|7|MARK 2|1|PUNCT 3|7|NSUBJ 4|7|COP 5|7|DET 6|5|CASE 7|0|ROOT 8|7|PUNCT
+*ADU:	嗯哼 ?
+%mor:	propn|嗯哼 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	这 是 你 的 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|你-Int-S2 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI1:	诶 ‡ 弟弟 的 玩具 .
+%mor:	punct|诶 propn|‡ noun|弟弟 part|的 noun|玩具 .
+%gra:	1|5|PUNCT 2|3|NMOD 3|5|NMOD 4|3|CASE 5|0|ROOT 6|5|PUNCT
+*CHI1:	弟弟 的 娃娃 .
+%mor:	noun|弟弟 part|的 noun|娃娃 .
+%gra:	1|3|NMOD 2|1|CASE 3|0|ROOT 4|3|PUNCT
+*CHI1:	老虎 .
+%mor:	noun|老虎 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	xxx 哦 xxx .
+%mor:	pron|哦-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*CHI1:	xxx .
+*CHI:	什么 ?
+%mor:	pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	xxx .
+*ADU:	会 游泳 吗 ?
+%mor:	aux|会-Inf-S verb|游泳-Inf-S part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+@Comment:	next audio , unlinked
+*ADU:	哈哈 .
+%mor:	propn|哈哈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	哈 .
+%mor:	propn|哈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	哈 .
+%mor:	propn|哈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	开 车子 .
+%mor:	verb|开-Inf-S noun|车子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	开 车子 .
+%mor:	verb|开-Inf-S noun|车子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	先 开车 .
+%mor:	sconj|先 verb|开车-Inf-S .
+%gra:	1|2|MARK 2|0|ROOT 3|2|PUNCT
+*ADU:	声音 太 大 了 .
+%mor:	noun|声音 adv|太 adj|大-S1 part|了 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	噢 .
+%mor:	punct|噢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	xxx .
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	不 给 你 拿 起来 .
+%mor:	adv|不 verb|给-Inf-S pron|你-Int-S2 verb|拿-Inf-S verb|起来-Inf-S .
+%gra:	1|4|ADVMOD 2|4|ADVCL 3|2|OBJ 4|0|ROOT 5|4|MARK 6|4|PUNCT
+*CHI1:	xxx .
+*CHI1:	喜不喜欢 ?
+%mor:	verb|喜不喜欢-Inf-S ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	喜欢 .
+%mor:	verb|喜欢-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	xxx 喜欢 .
+%mor:	verb|喜欢-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	喜欢 .
+%mor:	verb|喜欢-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	嘿嘿嘿 .
+%mor:	propn|嘿嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	嘿嘿嘿 .
+%mor:	propn|嘿嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	吼吼吼@o .
+%mor:	o|吼吼吼-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	吼吼吼@o .
+%mor:	o|吼吼吼-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	嘿嘿嘿 .
+%mor:	propn|嘿嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	嘿嘿嘿 .
+%mor:	propn|嘿嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	嘿嘿嘿 .
+%mor:	propn|嘿嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	嘿嘿嘿 .
+%mor:	propn|嘿嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	吼吼吼@o .
+%mor:	o|吼吼吼-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	吼吼吼@o .
+%mor:	o|吼吼吼-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	那 来 .
+%mor:	pron|那-Int-S1 verb|来-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	xxx .
+*CHI1:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	爸爸 . 615050_615550
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	爸爸 . 615873_615997
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	它 有 几 只 小 狗 ? 655580_657662
+%mor:	pron|它-Int-S3 verb|有-Inf-S num|几 noun|只 part|小 noun|狗-Acc ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|NUMMOD 4|3|CLF 5|6|CASE 6|2|OBJ 7|2|PUNCT
+*CHI:	三 个 .
+%mor:	num|三 noun|个 .
+%gra:	1|2|NUMMOD 2|0|ROOT 3|2|PUNCT
+*CHI1:	四 个 . 657342_657782
+%mor:	num|四 noun|个 .
+%gra:	1|2|NUMMOD 2|0|ROOT 3|2|PUNCT
+*CHI1:	有 一 只 不见 了 . 657442_658102
+%mor:	verb|有-Inf-S num|一 noun|只 verb|见-Inf-Neg-S part|了 .
+%gra:	1|0|ROOT 2|3|NUMMOD 3|4|OBL 4|1|CCOMP 5|1|DISCOURSE 6|1|PUNCT
+*CHI1:	诶 ‡ 这 三 只 <小 三 个> [//] 可爱 得 像 [//] 长 得 跟 妈妈 一样 „ 对不对 ? 658083_660867
+%mor:	punct|诶 propn|‡ det|这-Def num|三 noun|只 adj|可爱-S1 part|得 adj|长-S1 part|得 adp|跟 noun|妈妈 adj|一样-S1 punct|„ adj|对不对-S1 ?
+%gra:	1|6|PUNCT 2|6|NSUBJ 3|5|DET 4|5|NUMMOD 5|6|NSUBJ 6|0|ROOT 7|6|COMPOUND-EXT 8|6|XCOMP 9|8|COMPOUND-EXT 10|11|CASE 11|12|NMOD 12|14|ADVCL 13|14|PUNCT 14|6|XCOMP 15|6|PUNCT
+*CHI:	跟 爸爸 . 673620_674660
+%mor:	adp|跟 noun|爸爸 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*CHI1:	一 只 来 了 .
+%mor:	num|一 noun|只 verb|来-Inf-S part|了 .
+%gra:	1|2|NUMMOD 2|3|OBL 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*FAT:	跟 爸爸 一样 . 674621_675121
+%mor:	adp|跟 noun|爸爸 adj|一样-S1 .
+%gra:	1|2|CASE 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	跟 妈妈 一样 .
+%mor:	adp|跟 noun|妈妈 adj|一样-S1 .
+%gra:	1|2|CASE 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*CHI1:	三 只 小 狗 吃饭 的时候 都 很 规矩 . 675743_679308
+%mor:	num|三 noun|只 part|小 noun|狗 verb|吃饭-Inf-S adp|的时候 sconj|都 adv|很 adj|规矩-S1 .
+%gra:	1|4|NUMMOD 2|1|CLF 3|4|CASE 4|9|NSUBJ 5|9|ADVCL 6|5|MARK 7|9|MARK 8|9|ADVMOD 9|0|ROOT 10|9|PUNCT
+*CHI1:	都 排队 等 着 吃饭 „ 对不对 ?
+%mor:	sconj|都 verb|排队-Inf-S verb|等-Inf-S aux|着-Inf-Prog-S verb|吃饭-Inf-S punct|„ adj|对不对-S1 ?
+%gra:	1|5|MARK 2|5|ADVCL 3|5|ADVCL 4|3|AUX 5|0|ROOT 6|7|PUNCT 7|5|CONJ 8|5|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	看看 规不规矩 ?
+%mor:	verb|看看-Inf-S verb|规不矩-Inf-S ?
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|PUNCT
+*CHI:	规矩 .
+%mor:	noun|规矩 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	不 规矩 . 689620_691101
+%mor:	adv|不 adj|规矩-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI1:	xxx 抢先 .
+%mor:	verb|抢先-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	抢先 .
+%mor:	verb|抢先-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	吃 完 饭 了 , 三 只 小 狗 有没有 玩 玩具 ? 690981_696089
+%mor:	verb|吃-Inf-S verb|完-Inf-S noun|饭-Acc part|了 cm|cm num|三 noun|只 part|小 noun|狗 verb|有没有-Inf-Neg-S verb|玩-Inf-S noun|玩具-Acc ?
+%gra:	1|10|ADVCL 2|1|MARK 3|1|OBJ 4|1|DISCOURSE 5|1|PUNCT 6|9|NUMMOD 7|6|CLF 8|9|CASE 9|10|NSUBJ 10|0|ROOT 11|10|XCOMP 12|11|OBJ 13|10|PUNCT
+*CHI1:	看 他 不 爱 玩具 . 695708_696388
+%mor:	verb|看-Inf-S pron|他-Int-S3 adv|不 verb|爱-Inf-S noun|玩具-Acc .
+%gra:	1|0|ROOT 2|4|NSUBJ 3|4|ADVMOD 4|1|CCOMP 5|4|OBJ 6|1|PUNCT
+*CHI1:	他们 最 爱 咬 那个 乱 东西 „ 对不对 ? 704880_706016
+%mor:	pron|他-Int-P3 adv|最 verb|爱-Inf-S verb|咬-Inf-S det|那个-Def adj|乱-S1 noun|东西-Acc punct|„ adj|对不对-S1 ?
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|XCOMP 5|7|DET 6|7|AMOD 7|4|OBJ 8|9|PUNCT 9|3|PARATAXIS 10|3|PUNCT
+*CHI:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	咬 鞋子 .
+%mor:	verb|咬-Inf-S noun|鞋子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	咬 鞋子 .
+%mor:	verb|咬-Inf-S noun|鞋子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	咬 鞋子 .
+%mor:	verb|咬-Inf-S noun|鞋子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	它 在 吃 这 [/] 这 个 鞋子 . 738890_740138
+%mor:	pron|它-Int-S3 adv|在 verb|吃-Inf-S det|这-Def noun|个 noun|鞋子-Acc .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|5|DET 5|6|CLF 6|3|OBJ 7|3|PUNCT
+*CHI:	鞋子 掉 出来 了 .
+%mor:	noun|鞋子 verb|掉-Inf-S verb|出来-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	鞋子 .
+%mor:	noun|鞋子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	鞋子 .
+%mor:	noun|鞋子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	汪汪 .
+%mor:	propn|汪汪 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	汪汪 .
+%mor:	propn|汪汪 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	汪汪 .
+%mor:	propn|汪汪 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	坏 掉 了 . 773490_775153
+%mor:	verb|坏-Inf-S verb|掉-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|MARK 3|1|DISCOURSE 4|1|PUNCT
+*CHI:	坏 掉 了 .
+%mor:	verb|坏-Inf-S verb|掉-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|MARK 3|1|DISCOURSE 4|1|PUNCT
+*ADU:	xxx .
+*CHI:	坏 掉 了 . 778565_779565
+%mor:	verb|坏-Inf-S verb|掉-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|MARK 3|1|DISCOURSE 4|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	坏 掉 了 . 788620_789666
+%mor:	verb|坏-Inf-S verb|掉-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|MARK 3|1|DISCOURSE 4|1|PUNCT
+*ADU:	哦 ‡ 你 不 要 关 掉 了 .
+%mor:	punct|哦 punct|‡ pron|你-Int-S2 adv|不 aux|要-Inf-S verb|关-Inf-S verb|掉-Inf-S part|了 .
+%gra:	1|6|PUNCT 2|6|PUNCT 3|6|NSUBJ 4|6|ADVMOD 5|6|AUX 6|0|ROOT 7|6|MARK 8|6|DISCOURSE 9|6|PUNCT
+*ADU:	这 是 你 姐姐 的 东西 . 816960_822824
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|你-Int-S2 noun|姐姐 part|的 noun|东西 .
+%gra:	1|6|NSUBJ 2|6|COP 3|4|NMOD 4|6|NMOD 5|4|CASE 6|0|ROOT 7|6|PUNCT
+*ADU:	对 ‡ 盖 房子 比较 好 . 822405_826347
+%mor:	adp|对 propn|‡ verb|盖-Inf-S noun|房子-Acc adv|比较 adj|好-S1 .
+%gra:	1|3|CASE 2|3|NSUBJ 3|6|ADVCL 4|3|OBJ 5|6|ADVMOD 6|0|ROOT 7|6|PUNCT
+*CHI:	xxx .
+*ADU:	嗯 ? 940990_941490
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	什么 东西 ?
+%mor:	pron|什么-Int-S1 noun|东西 ?
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*ADU:	[- eng] xxx build@s up@s xxx .
+%mor:	L2|xxx-Fin-Imp-S L2|xxx .
+%gra:	1|0|ROOT 2|1|COMPOUND-PRT 3|1|PUNCT
+*ADU:	请 你 给 我 xxx . 957180_978130
+%mor:	verb|请-Inf-S pron|你-Int-S2 verb|给-Inf-S pron|我-Int-S1 .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|3|OBJ 5|1|PUNCT
+*ADU:	谢谢 .
+%mor:	propn|谢谢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	哇 ‡ 好 高 了 . 982270_982890
+%mor:	propn|哇 propn|‡ adv|好 adj|高-S1 part|了 .
+%gra:	1|4|NSUBJ 2|1|FLAT-NAME 3|4|ADVMOD 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	嗯 ‡ 这 个 .
+%mor:	punct|嗯 propn|‡ det|这-Def noun|个 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|4|DET 4|2|ACL 5|2|PUNCT
+*CHI:	嗯 ‡ 这 个 .
+%mor:	punct|嗯 propn|‡ det|这-Def noun|个 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|4|DET 4|2|ACL 5|2|PUNCT
+@Comment:	next audio , unlinked
+*CHI:	xxx .
+*CHI:	怎么 办 ?
+%mor:	adv|怎么 verb|办-Inf-S ?
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	怎么 办 ?
+%mor:	adv|怎么 verb|办-Inf-S ?
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	跑 到 这边 了 .
+%mor:	verb|跑-Inf-S verb|到-Inf-S pron|这边-Int-S1 part|了 .
+%gra:	1|0|ROOT 2|1|MARK 3|1|OBJ 4|1|DISCOURSE 5|1|PUNCT
+*CHI:	跑 到 这边 去 了 .
+%mor:	verb|跑-Inf-S verb|到-Inf-S pron|这边-Int-S1 verb|去-Inf-S part|了 .
+%gra:	1|4|ADVCL 2|1|MARK 3|1|OBJ 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	在 这边 .
+%mor:	verb|在-Inf-S pron|这边-Int-S1 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	跑 到 这边 .
+%mor:	verb|跑-Inf-S verb|到-Inf-S pron|这边-Int-S1 .
+%gra:	1|0|ROOT 2|1|MARK 3|1|OBJ 4|1|PUNCT
+*CHI:	这 个 .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*CHI:	干 什么 ?
+%mor:	verb|干-Inf-S pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	嗯 ‡ 干 什么 ?
+%mor:	punct|嗯 propn|‡ verb|干-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|PUNCT 2|3|NSUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	xxx .
+*ADU:	xxx .
+*CHI:	xxx .
+*ADU:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*CHI:	都 到 水 里 了 .
+%mor:	sconj|都 verb|到-Inf-S noun|水-Acc noun|里 part|了 .
+%gra:	1|2|MARK 2|0|ROOT 3|2|OBJ 4|3|ACL 5|2|DISCOURSE 6|2|PUNCT
+*CHI:	海 里面 了 .
+%mor:	noun|海 noun|里面 part|了 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	海 里面 了 .
+%mor:	noun|海 noun|里面 part|了 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	海 里面 了 .
+%mor:	noun|海 noun|里面 part|了 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	海 里面 .
+%mor:	noun|海 noun|里面 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	海 里面 了 .
+%mor:	noun|海 noun|里面 part|了 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	海 里面 了 .
+%mor:	noun|海 noun|里面 part|了 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	好 的 .
+%mor:	adj|好-S1 part|的 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	海 里面 了 .
+%mor:	noun|海 noun|里面 part|了 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	海 里面 了 .
+%mor:	noun|海 noun|里面 part|了 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	那里 鱼 好多 啊 . 982490_983410
+%mor:	pron|那里-Int-S1 noun|鱼 adj|好多-S1 part|啊 .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	xxx .
+*ADU:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	在 干 嘛 ? 987132_992376
+%mor:	adp|在 verb|干-Inf-S part|嘛 ?
+%gra:	1|2|CASE 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	嗯 ‡ 我 看 不 出来 . 997820_998500
+%mor:	punct|嗯 propn|‡ pron|我-Int-S1 verb|看-Inf-S adv|不 verb|出来-Inf-S .
+%gra:	1|4|PUNCT 2|4|NSUBJ 3|2|APPOS 4|0|ROOT 5|4|ADVMOD 6|4|MARK 7|4|PUNCT
+*ADU:	啊 ‡ 现在 我 看到 老虎 . 1139760_1140664
+%mor:	part|啊 adp|‡ noun|现在 pron|我-Int-S1 verb|看到-Inf-S noun|老虎-Acc .
+%gra:	1|3|CASE 2|3|CASE 3|5|OBL 4|5|NSUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	干 什么 ?
+%mor:	verb|干-Inf-S pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	xxx .
+*ADU:	啊 ‡ 你好 .
+%mor:	adj|啊-S1 pron|‡-Int-S3 adj|你好-S1 .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|XCOMP 4|1|PUNCT
+*ADU:	啊 ‡ 老虎 好 .
+%mor:	part|啊 punct|‡ noun|老虎 adj|好-S1 .
+%gra:	1|3|CASE 2|4|PUNCT 3|4|NSUBJ 4|0|ROOT 5|4|PUNCT
+*ADU:	小小的 .
+%mor:	adj|小小的-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	[- eng] xxx finger@s through@s to@s my@s eye@s .
+%mor:	L2|xxx L2|xxx L2|xxx L2|xxx-Prs-Gen-S1 L2|xxx .
+%gra:	1|0|ROOT 2|5|CASE 3|5|CASE 4|5|NMOD-POSS 5|1|NMOD 6|1|PUNCT
+*CHI:	拿 不 出来 . 1167120_1168342
+%mor:	verb|拿-Inf-S adv|不 verb|出来-Inf-S .
+%gra:	1|0|ROOT 2|1|ADVMOD 3|1|MARK 4|1|PUNCT
+*ADU:	啊 ? 1168023_1168503
+%mor:	part|啊 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	拿 不 出来 . 1168083_1168623
+%mor:	verb|拿-Inf-S adv|不 verb|出来-Inf-S .
+%gra:	1|0|ROOT 2|1|ADVMOD 3|1|MARK 4|1|PUNCT
+*ADU:	拿 不 出来 啊 . 1171357_1172035
+%mor:	verb|拿-Inf-S adv|不 verb|出来-Inf-S part|啊 .
+%gra:	1|0|ROOT 2|1|ADVMOD 3|1|MARK 4|1|DISCOURSE 5|1|PUNCT
+*CHI:	xxx .
+*ADU:	xxx .
+*CHI:	这 个 .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*CHI:	这 个 .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*CHI:	xxx .
+*ADU:	xxx .
+*CHI:	嘣 .
+%mor:	o|嘣 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	诶 .
+%mor:	punct|诶 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	嘣嘣 .
+%mor:	propn|嘣嘣 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	嘿嘿嘿 .
+%mor:	propn|嘿嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	他 是 那个 人 是 谁 ?
+%mor:	pron|他-Int-S3 aux|是-Inf-S det|那个-Def noun|人 aux|是-Inf-S pron|谁-Int-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|DET 4|6|NSUBJ 5|6|COP 6|2|CCOMP 7|2|PUNCT
+*CHI:	xxx 这 个 [/] 这 个 [/] 这 个 .
+%mor:	det|这-Def det|这-Def det|这-Def noun|个 .
+%gra:	1|4|DET 2|4|DET 3|4|DET 4|0|ROOT 5|4|PUNCT
+*ADU:	xxx .
+*CHI:	呜呜 .
+%mor:	propn|呜呜 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	走开 .
+%mor:	verb|走开-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	啊 ?
+%mor:	part|啊 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	走开 .
+%mor:	verb|走开-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	再见 了 .
+%mor:	verb|再见-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	再见 [/] 再见 .
+%mor:	verb|再见-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	先 来 分开 了 . 1358320_1359244
+%mor:	sconj|先 sconj|来 verb|分开-Inf-S part|了 .
+%gra:	1|3|MARK 2|3|MARK 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	分开 了 . 1396300_1397032
+%mor:	verb|分开-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	[- eng] Spliting@s of@s xxx .
+%mor:	L2|xxx-Part-Pres-S L2|xxx .
+%gra:	1|0|ROOT 2|1|OBL 3|1|PUNCT
+*CHI1:	老虎 .
+%mor:	noun|老虎 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	老虎 你 要 说 哎呀 ?
+%mor:	noun|老虎 pron|你-Int-S2 aux|要-Inf-S verb|说-Inf-S punct|哎呀 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT 6|4|PUNCT
+*CHI:	哎呀 .
+%mor:	punct|哎呀 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	大声 一点 嘛 .
+%mor:	adv|大声 adv|一点 adj|嘛-S1 .
+%gra:	1|3|ADVMOD 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*ADU:	这样 可以 .
+%mor:	pron|这样-Int-S1 aux|可以-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*ADU:	[- eng] xxx each other close your mouth .
+%mor:	det|each-Def-Rcp adj|other-S1 verb|close-Fin-Ind-Pres-P3 pron|your-Prs-Gen-S2 noun|mouth-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|0|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+@Comment:	next audio , unlinked
+*ADU:	xxx .
+*ADU:	这 是 你 的 麦克风 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|你-Int-S2 part|的 noun|麦克风 .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|3|CASE 5|0|ROOT 6|5|PUNCT
+*CHI:	这 个 .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*ADU:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	这 是 你 的 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|你-Int-S2 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	这 是 你 的 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|你-Int-S2 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	这 是 你 的 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|你-Int-S2 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	这 是 我 的 . 1423780_1424975
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|我-Int-S1 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	那 是 你 的 .
+%mor:	pron|那-Int-S1 aux|是-Inf-S pron|你-Int-S2 part|的 .
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	xxx .
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	[- eng] His father is just xxx .
+%mor:	pron|his-Prs-Gen-S3 noun|father aux|be-Fin-Ind-Pres-S3 adv|just .
+%gra:	1|2|NMOD-POSS 2|3|NSUBJ 3|0|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	爸爸 . 1602850_1603350
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	他 出去 了 . 1603417_1604188
+%mor:	pron|他-Int-S3 verb|出去-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	爸爸 . 1643510_1644010
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	他 上班 了 .
+%mor:	pron|他-Int-S3 verb|上班-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	爸爸 . 1643890_1644210
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	爸爸 上班 了 .
+%mor:	noun|爸爸 verb|上班-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	警察 .
+%mor:	noun|警察 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx 警察 了 .
+%mor:	noun|警察 part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	[- eng] He is round xxx garden .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|round-S1 noun|garden .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|AMOD 4|0|ROOT 5|4|PUNCT
+*CHI:	这边 有 虫 . 1704180_1704820
+%mor:	pron|这边-Int-S1 verb|有-Inf-S noun|虫-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	这边 .
+%mor:	pron|这边-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这边 有 虫 . 1705403_1705722
+%mor:	pron|这边-Int-S1 verb|有-Inf-S noun|虫-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	看 .
+%mor:	verb|看-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	你 看 .
+%mor:	pron|你-Int-S2 verb|看-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	这边 有 虫 . 1705684_1708211
+%mor:	pron|这边-Int-S1 verb|有-Inf-S noun|虫-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*ADU:	有 虫子 .
+%mor:	verb|有-Inf-S noun|虫子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这边 有 +...
+%mor:	adv|这边 verb|有-Inf-S +...
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这边 有 虫子 . 1800370_1801687
+%mor:	pron|这边-Int-S1 verb|有-Inf-S noun|虫子-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	小 虫子 .
+%mor:	part|小 noun|虫子 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*ADU:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	有没有 .
+%mor:	verb|有没有-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	有没有 .
+%mor:	verb|有没有-Inf-Neg-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫 .
+%mor:	noun|虫 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	[- eng] Pick up the small shell .
+%mor:	verb|pick-Fin-Imp-S adp|up det|the-Def-Art adj|small-S1 noun|shell-Acc .
+%gra:	1|0|ROOT 2|1|COMPOUND-PRT 3|5|DET 4|5|AMOD 5|1|OBJ 6|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	这 是 它 的 壳 .
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|它-Int-S3 part|的 noun|壳 .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|3|CASE 5|0|ROOT 6|5|PUNCT
+*CHI:	虫 [/] 虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫 .
+%mor:	noun|虫 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	有没有 虫子 .
+%mor:	verb|有没有-Inf-Neg-S noun|虫子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	有 .
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	有 虫子 .
+%mor:	verb|有-Inf-S noun|虫子-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 呢 ? 1835980_1836983
+%mor:	noun|虫子 part|呢 ?
+%gra:	1|0|ROOT 2|1|CASE 3|1|PUNCT
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	好多 .
+%mor:	adj|好多-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	可是 我们 看 不 出来 .
+%mor:	sconj|可是 pron|我-Int-P1 verb|看-Inf-S adv|不 verb|出来-Inf-S .
+%gra:	1|3|MARK 2|3|NSUBJ 3|0|ROOT 4|3|ADVMOD 5|3|MARK 6|3|PUNCT
+*ADU:	看不到 .
+%mor:	verb|看不到-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	太 小 了 .
+%mor:	adv|太 adj|小-S1 part|了 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	[- eng] He found another little small shell .
+%mor:	pron|he-Prs-Nom-S3 verb|find-Fin-Ind-Past-S3 det|another-Def-Ind adj|little-S1 adj|small-S1 noun|shell-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|DET 4|6|AMOD 5|6|AMOD 6|2|OBJ 7|2|PUNCT
+*CHI:	这里 也 有 虫子 . 1836745_1838152
+%mor:	pron|这里-Int-S1 sconj|也 verb|有-Inf-S noun|虫子-Acc .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*ADU:	这里 也 有 虫子 . 1855920_1858501
+%mor:	pron|这里-Int-S1 sconj|也 verb|有-Inf-S noun|虫子-Acc .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	小 的 .
+%mor:	adj|小-S1 part|的 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	小 的 .
+%mor:	adj|小-S1 part|的 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	小小的 .
+%mor:	adj|小小的-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这边 有 虫子 .
+%mor:	pron|这边-Int-S1 verb|有-Inf-S noun|虫子-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这边 有 小小的 .
+%mor:	pron|这边-Int-S1 verb|有-Inf-S adj|小小的-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	这边 有 小小的 .
+%mor:	pron|这边-Int-S1 verb|有-Inf-S adj|小小的-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+*ADU:	小小的 .
+%mor:	adj|小小的-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	对 .
+%mor:	noun|对 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这边 有 小小的 .
+%mor:	pron|这边-Int-S1 verb|有-Inf-S adj|小小的-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|PUNCT
+@Comment:	next audio , unlinked
+*CHI:	大 的 [/] 大 的 . 1862807_1863266
+%mor:	adv|大 adj|大-S1 part|的 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	有 大 的 , 有 小 的 . 1863788_1864508
+%mor:	verb|有-Inf-S adj|大-S1 sconj|的 cm|cm verb|有-Inf-S adj|小-S1 part|的 .
+%gra:	1|0|ROOT 2|6|AMOD 3|2|MARK-REL 4|5|MARK 5|1|CCOMP 6|5|XCOMP 7|5|DISCOURSE 8|1|PUNCT
+*CHI:	有 大 的 , 有 小 的 . 1873580_1874744
+%mor:	verb|有-Inf-S adj|大-S1 sconj|的 cm|cm verb|有-Inf-S adj|小-S1 part|的 .
+%gra:	1|0|ROOT 2|6|AMOD 3|2|MARK-REL 4|5|MARK 5|1|CCOMP 6|5|XCOMP 7|5|DISCOURSE 8|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	大概 有 . 1875002_1875006
+%mor:	adv|大概 verb|有-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	大 公共 汽车 .
+%mor:	part|大 adj|公共-S1 noun|汽车 .
+%gra:	1|3|CASE 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*ADU:	大 公共 汽车 .
+%mor:	part|大 adj|公共-S1 noun|汽车 .
+%gra:	1|3|CASE 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	大 公共 汽车 吗 ?
+%mor:	part|大 adj|公共-S1 noun|汽车 part|吗 ?
+%gra:	1|3|CASE 2|3|NMOD 3|0|ROOT 4|3|CASE 5|3|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	小 的 .
+%mor:	adj|小-S1 part|的 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	大 的 .
+%mor:	adj|大-S1 part|的 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	小 的 .
+%mor:	adj|小-S1 part|的 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	大 的 也 在 叫 . 1876124_1876739
+%mor:	adj|大-S1 sconj|的 sconj|也 adv|在 verb|叫-Inf-S .
+%gra:	1|5|ADVMOD 2|1|MARK-REL 3|5|MARK 4|5|ADVMOD 5|0|ROOT 6|5|PUNCT
+*ADU:	快 坏 了 . 2016260_2018284
+%mor:	adv|快 adj|坏-S1 part|了 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	那 个 快 坏 了 . 2021352_2022576
+%mor:	det|那-Def noun|个 adj|快-S1 adj|坏-S1 part|了 .
+%gra:	1|2|DET 2|4|OBL 3|4|ADVCL 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	xxx .
+*ADU:	[- eng] Looking for small now .
+%mor:	verb|look-Part-Pres-S adp|for adj|small-S1 adv|now .
+%gra:	1|0|ROOT 2|3|CASE 3|1|OBL 4|1|ADVMOD 5|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	有 一 只 走 . 2032450_2033343
+%mor:	verb|有-Inf-S num|一 noun|只 verb|走-Inf-S .
+%gra:	1|0|ROOT 2|3|NUMMOD 3|4|OBL 4|1|XCOMP 5|1|PUNCT
+*ADU:	[- eng] He get xxx shell .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 noun|shell-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	有 一 只 走 了 xxx . 2045710_2046411
+%mor:	verb|有-Inf-S num|一 noun|只 verb|走-Inf-S part|了 .
+%gra:	1|0|ROOT 2|3|NUMMOD 3|4|OBL 4|1|CCOMP 5|1|DISCOURSE 6|1|PUNCT
+*ADU:	[- eng] Get up another one .
+%mor:	verb|get-Fin-Imp-S adp|up det|another-Def-Ind noun|one-Acc .
+%gra:	1|0|ROOT 2|1|COMPOUND-PRT 3|4|DET 4|1|OBJ 5|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	看不到 .
+%mor:	verb|看不到-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	xxx .
+*CHI:	xxx .
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	等 一下 啊 .
+%mor:	verb|等-Inf-S pron|一下-Int-S1 part|啊 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*ADU:	这边 有 .
+%mor:	adv|这边 verb|有-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	xxx .
+*CHI:	虫子 .
+%mor:	noun|虫子 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*CHI:	在 这 在 这边 吧 . 2047171_2048105
+%mor:	adp|在 pron|这-Int-S1 verb|在-Inf-S pron|这边-Int-S1 part|吧 .
+%gra:	1|3|CASE 2|3|NSUBJ 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*ADU:	啊 ? 2165150_2165650
+%mor:	part|啊 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	啊 ‡ 在 这 [/] 这边 . 2165270_2166090
+%mor:	adj|啊-S1 adp|‡ verb|在-Inf-S pron|这边-Int-S1 .
+%gra:	1|0|ROOT 2|3|CASE 3|1|XCOMP 4|3|OBJ 5|1|PUNCT
+*CHI:	xxx .
+*CHI:	xxx .
+*CHI:	大 飞机 .
+%mor:	part|大 noun|飞机 .
+%gra:	1|2|CASE 2|0|ROOT 3|2|PUNCT
+*CHI:	有 飞机 .
+%mor:	verb|有-Inf-S noun|飞机-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	先 进去 .
+%mor:	sconj|先 verb|进去-Inf-S .
+%gra:	1|2|MARK 2|0|ROOT 3|2|PUNCT
+*CHI:	xxx .
+*ADU:	[- eng] Putting xxx airplane .
+%mor:	verb|put-Part-Pres-S noun|airplane-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	小 车 开 走 了 . 2300820_2301761
+%mor:	part|小 noun|车 verb|开-Inf-S verb|走-Inf-S part|了 .
+%gra:	1|2|CASE 2|3|NSUBJ 3|0|ROOT 4|3|MARK 5|3|DISCOURSE 6|3|PUNCT
+*ADU:	香港 的 .
+%mor:	propn|香港 part|的 .
+%gra:	1|0|ROOT 2|1|CASE 3|1|PUNCT
+*CHI:	xxx .
+*CHI:	xxx .
+*ADU:	xxx .
+@Comment:	next audio , unlinked
+*ADU:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这么 好吃 哦 .
+%mor:	adv|这么 adj|好吃-S1 part|哦 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	这么 好吃 哦 .
+%mor:	adv|这么 adj|好吃-S1 part|哦 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	谢谢 你 .
+%mor:	verb|谢谢-Inf-S pron|你-Int-S2 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	xxx .
+*ADU:	谢谢 .
+%mor:	propn|谢谢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	xxx .
+*CHI:	吃 饼干 .
+%mor:	verb|吃-Inf-S noun|饼干-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	吃 饼干 .
+%mor:	verb|吃-Inf-S noun|饼干-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*ADU:	[- eng] Drinks water .
+%mor:	noun|drink-Plur noun|water .
+%gra:	1|2|COMPOUND 2|0|ROOT 3|2|PUNCT
+*MOT:	xxx 生病 .
+%mor:	verb|生病-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	他 什么 生 了 病 ? 2301302_2303188
+%mor:	pron|他-Int-S3 pron|什么-Int-S1 verb|生-Inf-S aux|了-Inf-Perf-S noun|病-Acc ?
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|3|AUX 5|3|OBJ 6|3|PUNCT
+*CHI:	xxx 发烧 了 . 2304414_2304796
+%mor:	verb|发烧-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	嗯 ‡ 这 个 .
+%mor:	punct|嗯 propn|‡ det|这-Def noun|个 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|4|DET 4|2|ACL 5|2|PUNCT
+*CHI:	xxx .
+*ADU:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	不 会 .
+%mor:	adv|不 aux|会-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*ADU:	[- eng] xxx little board .
+%mor:	adj|little-S1 noun|board .
+%gra:	1|2|AMOD 2|0|ROOT 3|2|PUNCT
+@Comment:	next audio , unlinked
+*ADU:	xxx .
+*CHI:	嘿嘿 .
+%mor:	propn|嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嘿嘿 .
+%mor:	propn|嘿嘿 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	房子 好 小 .
+%mor:	noun|房子 adv|好 adj|小-S1 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	xxx .
+*ADU:	妈妈 回来 了 . 2330630_2331310
+%mor:	noun|妈妈 verb|回来-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	你 跟 他 说 了 . 2330890_2331530
+%mor:	pron|你-Int-S2 adp|跟 pron|他-Int-S3 verb|说-Inf-S part|了 .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	姐姐 发烧 了 . 2331310_2334754
+%mor:	noun|姐姐 verb|发烧-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	那 不 是 个 痛快 的 事 . 2426210_2426710
+%mor:	pron|那-Int-S1 adv|不 aux|是-Inf-S noun|个 adj|痛快-S1 sconj|的 noun|事 .
+%gra:	1|7|NSUBJ 2|7|ADVMOD 3|7|COP 4|7|NMOD 5|7|AMOD 6|5|MARK-REL 7|0|ROOT 8|7|PUNCT
+*MOT:	姐姐 发烧 了 .
+%mor:	noun|姐姐 verb|发烧-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	去 看 胡 医生 . 2859000_2860381
+%mor:	sconj|去 verb|看-Inf-S propn|胡 noun|医生-Acc .
+%gra:	1|2|MARK 2|0|ROOT 3|4|NMOD 4|2|OBJ 5|2|PUNCT
+*MOT:	去 看 胡 医生 . 2860021_2860601
+%mor:	sconj|去 verb|看-Inf-S propn|胡 noun|医生-Acc .
+%gra:	1|2|MARK 2|0|ROOT 3|4|NMOD 4|2|OBJ 5|2|PUNCT
+*MOT:	好 ‡ 去 看 胡 医生 . 2860282_2860862
+%mor:	adv|好 propn|‡ sconj|去 verb|看-Inf-S propn|胡 noun|医生-Acc .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|6|NMOD 6|4|OBJ 7|4|PUNCT
+*MOT:	知道 要 去 看 胡 医生 . 2860522_2861322
+%mor:	verb|知道-Inf-S aux|要-Inf-S sconj|去 verb|看-Inf-S propn|胡 noun|医生-Acc .
+%gra:	1|0|ROOT 2|4|AUX 3|4|MARK 4|1|XCOMP 5|6|NMOD 6|4|OBJ 7|1|PUNCT
+*MOT:	哎呀 ‡ 今天 好 闷 啊 .
+%mor:	propn|哎呀 propn|‡ noun|今天 adv|好 adj|闷-S1 part|啊 .
+%gra:	1|5|NSUBJ 2|1|FLAT-NAME 3|5|NMOD-TMOD 4|5|ADVMOD 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*CHI:	好 闷 啊 .
+%mor:	adv|好 adj|闷-S1 part|啊 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	好 闷 啊 „ 是不是 .
+%mor:	adv|好 adj|闷-S1 part|啊 punct|„ aux|是-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|5|PUNCT 5|2|PARATAXIS 6|2|PUNCT
+*MOT:	我 本来 带 她 去 看 . 2861063_2861863
+%mor:	pron|我-Int-S1 adv|本来 verb|带-Inf-S pron|她-Int-S3 sconj|去 verb|看-Inf-S .
+%gra:	1|6|NSUBJ 2|6|ADVMOD 3|6|ADVCL 4|3|OBJ 5|6|MARK 6|0|ROOT 7|6|PUNCT
+*MOT:	她 爸爸 说 不 用 看 . 2961120_2962373
+%mor:	pron|她-Int-S3 noun|爸爸 verb|说-Inf-S adv|不 verb|用-Inf-S verb|看-Inf-S .
+%gra:	1|2|NMOD 2|3|NSUBJ 3|0|ROOT 4|6|ADVMOD 5|6|ADVCL 6|3|XCOMP 7|3|PUNCT
+*MOT:	发烧 了 .
+%mor:	verb|发烧-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	拿 一 颗 给 她 喝 .
+%mor:	verb|拿-Inf-S num|一 noun|颗-Acc verb|给-Inf-S pron|她-Int-S3 verb|喝-Inf-S .
+%gra:	1|6|ADVCL 2|3|NUMMOD 3|1|OBJ 4|6|ADVCL 5|4|OBJ 6|0|ROOT 7|6|PUNCT
+*MOT:	妈 给 你 xxx .
+%mor:	noun|妈 verb|给-Inf-S pron|你-Int-S2 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	还 痛 吗 ?
+%mor:	sconj|还 adj|痛-S1 part|吗 ?
+%gra:	1|2|MARK 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	大概 他 也 是 xxx .
+%mor:	adv|大概 pron|他-Int-S3 sconj|也 aux|是-Inf-S .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|4|PUNCT
+*MOT:	也 是 一样 的 .
+%mor:	sconj|也 aux|是-Inf-S adj|一样-S1 part|的 .
+%gra:	1|3|MARK 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	大概 是 xxx 年 的 .
+%mor:	adv|大概 aux|是-Inf-S noun|年 part|的 .
+%gra:	1|3|ADVMOD 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	我们 家 所有的 病 都 轮流 .
+%mor:	pron|我-Int-P1 part|家 det|所有的-Def noun|病 sconj|都 verb|轮流-Inf-S .
+%gra:	1|2|COMPOUND 2|4|NMOD 3|4|DET 4|6|NSUBJ 5|6|MARK 6|0|ROOT 7|6|PUNCT
+*ADU:	哦 .
+%mor:	pron|哦-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	跟 我 一样 .
+%mor:	adp|跟 pron|我-Int-S1 adj|一样-S1 .
+%gra:	1|2|CASE 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*ADU:	我 吃 了 坏 东西 , 所以 我 一般 病 得 很 厉害 . 3101990_3108138
+%mor:	pron|我-Int-S1 verb|吃-Inf-S aux|了-Inf-Perf-S adj|坏-S1 noun|东西-Acc cm|cm sconj|所以 pron|我-Int-S1 adv|一般 verb|病-Inf-S part|得 adv|很 adj|厉害-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|AUX 4|5|AMOD 5|2|OBJ 6|10|PUNCT 7|10|MARK 8|10|NSUBJ 9|10|ADVMOD 10|2|PARATAXIS 11|10|COMPOUND-EXT 12|13|ADVMOD 13|10|XCOMP 14|2|PUNCT
+*ADU:	去 看 医生 .
+%mor:	sconj|去 verb|看-Inf-S noun|医生-Acc .
+%gra:	1|2|MARK 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*ADU:	给 我 打针 . 3109705_3110122
+%mor:	verb|给-Inf-S pron|我-Int-S1 verb|打针-Inf-S .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|1|PUNCT
+*CHI:	xxx .
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	不 要 生病 .
+%mor:	adv|不 aux|要-Inf-S verb|生病-Inf-S .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	xxx 发烧 得 很 厉害 „ 是不是 ?
+%mor:	verb|发烧-Inf-S part|得 adv|很 adj|厉害-S1 punct|„ aux|是-Inf-S ?
+%gra:	1|0|ROOT 2|1|COMPOUND-EXT 3|4|ADVMOD 4|1|XCOMP 5|6|PUNCT 6|1|PARATAXIS 7|1|PUNCT
+*MOT:	医生 说 什么 ?
+%mor:	noun|医生 verb|说-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	眼睛 特别 xxx .
+%mor:	noun|眼睛 adj|特别-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	去 给 你 弄 冰块 „ 好不好 ?
+%mor:	verb|去-Inf-S verb|给-Inf-S pron|你-Int-S2 verb|弄-Inf-S noun|冰块-Acc punct|„ adj|好不好-S1 ?
+%gra:	1|0|ROOT 2|1|XCOMP 3|4|NSUBJ 4|2|CCOMP 5|4|OBJ 6|7|PUNCT 7|1|XCOMP 8|1|PUNCT
+*MOT:	妈 给 她 弄 冰块 .
+%mor:	noun|妈 verb|给-Inf-S pron|她-Int-S3 verb|弄-Inf-S noun|冰块-Acc .
+%gra:	1|4|NSUBJ 2|4|ADVCL 3|2|OBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	噢 ‡ 不 行 .
+%mor:	punct|噢 propn|‡ adv|不 verb|行-Inf-S .
+%gra:	1|4|PUNCT 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	冰块 放 不 进 . 3133540_3136293
+%mor:	noun|冰块 verb|放-Inf-S adv|不 verb|进-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|ADVMOD 4|2|XCOMP 5|2|PUNCT
+*MOT:	xxx 放 冰箱 里 冰 . 3148460_3149140
+%mor:	verb|放-Inf-S noun|冰箱 part|里 part|冰 .
+%gra:	1|0|ROOT 2|3|COMPOUND 3|4|COMPOUND 4|1|OBJ 5|1|PUNCT
+*MOT:	要 冰 [/] 冰 久 一点 .
+%mor:	aux|要-Inf-S noun|冰 adj|久-S1 adj|一点-S1 .
+%gra:	1|4|AUX 2|3|NSUBJ 3|4|ADVCL 4|0|ROOT 5|4|PUNCT
+*MOT:	放 上面 那 „ 好不好 ?
+%mor:	verb|放-Inf-S noun|上面 pron|那-Int-S1 punct|„ adj|好不好-S1 ?
+%gra:	1|0|ROOT 2|3|NMOD 3|5|NSUBJ 4|5|PUNCT 5|1|CCOMP 6|1|PUNCT
+*MOT:	等 一 会 再 去 拿 .
+%mor:	verb|等-Inf-S num|一 aux|会-Inf-S adv|再 sconj|去 verb|拿-Inf-S .
+%gra:	1|0|ROOT 2|6|NSUBJ 3|6|AUX 4|6|ADVMOD 5|6|MARK 6|1|CCOMP 7|1|PUNCT
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈 . 3190620_3191120
+%mor:	noun|妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	哎 .
+%mor:	punct|哎 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	她 是 谁 ?
+%mor:	pron|她-Int-S3 aux|是-Inf-S pron|谁-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	她 是 谁 呀 ?
+%mor:	pron|她-Int-S3 aux|是-Inf-S pron|谁-Int-S1 part|呀 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	艾 小姐 .
+%mor:	propn|艾 noun|小姐 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	艾 小姐 .
+%mor:	propn|艾 noun|小姐 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	她 是 谁 ?
+%mor:	pron|她-Int-S3 aux|是-Inf-S pron|谁-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*CHI:	艾 小姐 .
+%mor:	propn|艾 noun|小姐 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	对 了 . 3214660_3215280
+%mor:	verb|对-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	玩 什么 ?
+%mor:	verb|玩-Inf-S pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	xxx 玩 吧 .
+%mor:	verb|玩-Inf-S part|吧 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	xxx 来 这里 玩 啊 .
+%mor:	verb|来-Inf-S pron|这里-Int-S1 verb|玩-Inf-S part|啊 .
+%gra:	1|3|ADVCL 2|1|OBJ 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	诶 ‡ 老虎 .
+%mor:	punct|诶 propn|‡ noun|老虎 .
+%gra:	1|3|PUNCT 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*ADU:	看 是 可以 的 . 3220804_3224467
+%mor:	verb|看-Inf-S verb|是-Inf-S aux|可以-Inf-S part|的 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|2|XCOMP 4|1|DISCOURSE 5|1|PUNCT
+*ADU:	这样 很 危险的 .
+%mor:	pron|这样-Int-S1 adv|很 adj|危险的-S1 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	爸爸 .
+%mor:	noun|爸爸 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	爸爸 去 上班 了 . 3281900_3291630
+%mor:	noun|爸爸 sconj|去 verb|上班-Inf-S part|了 .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	爸爸 还 没有 来 . 3307060_3317327
+%mor:	noun|爸爸 sconj|还 verb|有-Inf-Neg-S verb|来-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|XCOMP 5|3|PUNCT
+*ADU:	嗯哼 ?
+%mor:	propn|嗯哼 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	没 回来 . 3317626_3317747
+%mor:	adv|没 verb|回来-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*CHI:	xxx .
+*ADU:	这里 看 什么 东西 ? 3317887_3318627
+%mor:	pron|这里-Int-S1 verb|看-Inf-S pron|什么-Int-S1 noun|东西-Acc ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈妈 在 . 3371070_3371803
+%mor:	noun|妈妈 verb|在-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+@Comment:	next audio , unlinked
+*CHI:	xxx .
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*ADU:	妈妈 xxx .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	大便 呢 .
+%mor:	adj|大便-S1 part|呢 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	有的 时候 老虎 也 xxx . 3384620_3388344
+%mor:	det|有的-Def noun|时候 noun|老虎 sconj|也 .
+%gra:	1|2|DET 2|3|NMOD 3|0|ROOT 4|3|MARK 5|3|PUNCT
+*CHI:	大便 呢 . 3388966_3389585
+%mor:	adj|大便-S1 part|呢 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	嗯哼 .
+%mor:	propn|嗯哼 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	大便 .
+%mor:	noun|大便 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	好 脏 啊 .
+%mor:	adv|好 adj|脏-S1 part|啊 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	臭 死 了 .
+%mor:	noun|臭 verb|死-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	对 ‡ 臭 死 了 . 3389347_3390247
+%mor:	adp|对 noun|‡ verb|臭-Inf-S verb|死-Inf-S part|了 .
+%gra:	1|2|CASE 2|4|OBL 3|4|ADVCL 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*ADU:	大便 最好 上 到 马桶 里 .
+%mor:	noun|大便 adv|最好 verb|上-Inf-S verb|到-Inf-S noun|马桶-Acc noun|里 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|MARK 5|3|OBJ 6|5|ACL 7|3|PUNCT
+*CHI:	臭 死 了 .
+%mor:	noun|臭 verb|死-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	臭 死 了 . 3415370_3418953
+%mor:	noun|臭 verb|死-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*ADU:	啊 ‡ 怎么样 看 啊 ? 3418914_3419754
+%mor:	adj|啊-S1 pron|‡-Int-S3 adv|怎么样 verb|看-Inf-S part|啊 ?
+%gra:	1|4|ADVCL 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*ADU:	嗯哼 ?
+%mor:	propn|嗯哼 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	这 个 干干 的 xxx 是 大便 .
+%mor:	det|这-Def noun|个 verb|干干-Inf-S sconj|的 aux|是-Inf-S noun|大便 .
+%gra:	1|2|DET 2|6|CLF 3|6|CSUBJ 4|3|MARK-REL 5|6|COP 6|0|ROOT 7|6|PUNCT
+*CHI:	大便 .
+%mor:	noun|大便 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	对 ‡ 好 脏 啊 . 3419455_3420155
+%mor:	adp|对 pron|‡-Int-S3 adv|好 adj|脏-S1 part|啊 .
+%gra:	1|2|CASE 2|4|NMOD 3|4|ADVMOD 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*ADU:	我 不 要 看 . 3419855_3420916
+%mor:	pron|我-Int-S1 adv|不 aux|要-Inf-S verb|看-Inf-S .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*CHI:	爬 出来 了 .
+%mor:	verb|爬-Inf-S verb|出来-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|MARK 3|1|DISCOURSE 4|1|PUNCT
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	xxx 走 了 . 3444230_3446393
+%mor:	verb|走-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	再见 .
+%mor:	verb|再见-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	赶紧 进来 .
+%mor:	adv|赶紧 verb|进来-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	进来 .
+%mor:	verb|进来-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	不 能 出去 . 3446374_3447014
+%mor:	adv|不 aux|能-Inf-S verb|出去-Inf-S .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*ADU:	赶紧 进来 .
+%mor:	adv|赶紧 verb|进来-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	进来 .
+%mor:	verb|进来-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	快点 .
+%mor:	noun|快点 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	不 能 出去 .
+%mor:	adv|不 aux|能-Inf-S verb|出去-Inf-S .
+%gra:	1|3|ADVMOD 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*ADU:	外面 xxx 危险 .
+%mor:	noun|外面 adj|危险-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	外面 好多 车 . 3471850_3472566
+%mor:	noun|外面 adj|好多-S1 noun|车 .
+%gra:	1|3|NMOD 2|3|AMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	呜呜 .
+%mor:	propn|呜呜 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	诶 ‡ 老虎 .
+%mor:	punct|诶 propn|‡ noun|老虎 .
+%gra:	1|3|PUNCT 2|3|NMOD 3|0|ROOT 4|3|PUNCT
+*CHI:	呜呜 .
+%mor:	propn|呜呜 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	这 还 有 一 个 .
+%mor:	pron|这-Int-S1 sconj|还 verb|有-Inf-S num|一 noun|个-Acc .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|5|NUMMOD 5|3|OBJ 6|3|PUNCT
+*ADU:	要不要 吃 ?
+%mor:	aux|要不要-Inf-Neg-S verb|吃-Inf-S ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|PUNCT
+*ADU:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	还 要不要 ?
+%mor:	sconj|还 aux|要不要-Inf-Neg-S ?
+%gra:	1|2|MARK 2|0|ROOT 3|2|PUNCT
+*CHI:	要 .
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	还 要不要 ?
+%mor:	sconj|还 aux|要不要-Inf-Neg-S ?
+%gra:	1|2|MARK 2|0|ROOT 3|2|PUNCT
+*CHI:	要 .
+%mor:	aux|要-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	[- eng] Thank you .
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	[- eng] Thank you .
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI1:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	拜拜 .
+%mor:	verb|拜拜-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	他 好像 猪八戒 . 3641020_3641520
+%mor:	pron|他-Int-S3 adv|好像 noun|猪八戒 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*ADU:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	xxx 猪八戒 .
+%mor:	propn|猪八戒 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	这边 鼻子 .
+%mor:	pron|这边-Int-S1 noun|鼻子 .
+%gra:	1|2|NMOD 2|0|ROOT 3|2|PUNCT
+*CHI1:	好 了 .
+%mor:	adj|好-S1 part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI1:	起来 .
+%mor:	verb|起来-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	xxx 猪八戒 .
+%mor:	propn|猪八戒 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	xxx .
+*ADU:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	呵呵 .
+%mor:	adj|呵呵-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	哈哈哈 .
+%mor:	propn|哈哈哈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	好 ‡ 快 了 . 3721480_3722703
+%mor:	adv|好 propn|‡ adj|快-S1 part|了 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	快 了 . 3759040_3762345
+%mor:	adj|快-S1 part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	好 ‡ 快 了 . 3764951_3765450
+%mor:	adv|好 propn|‡ adj|快-S1 part|了 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*ADU:	快 了 . 3765272_3766011
+%mor:	adj|快-S1 part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*ADU:	会 来 的 . 3765633_3767474
+%mor:	aux|会-Inf-S verb|来-Inf-S part|的 .
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	嗯 ? 3767236_3767735
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	吃 什么 ?
+%mor:	verb|吃-Inf-S pron|什么-Int-S1 ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	饼干 .
+%mor:	noun|饼干 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	再见 .
+%mor:	verb|再见-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*ADU:	再 [//] 再见 .
+%mor:	verb|再见-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	没有 了 . 3803970_3804895
+%mor:	verb|有-Inf-Neg-S part|了 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI1:	没有 那个 夹心 了 . 3804790_3805530
+%mor:	verb|有-Inf-Neg-S pron|那个-Int-S1 verb|夹心-Inf-S part|了 .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|1|DISCOURSE 5|1|PUNCT
+*CHI:	有 .
+%mor:	verb|有-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI1:	再 去 拿 一 个 „ 好不好 .
+%mor:	adv|再 sconj|去 verb|拿-Inf-S num|一 noun|个 punct|„ adj|好不好-S1 .
+%gra:	1|3|ADVMOD 2|3|MARK 3|0|ROOT 4|5|NUMMOD 5|7|OBL 6|7|PUNCT 7|3|CCOMP 8|3|PUNCT
+*CHI:	好 . 3805550_3805591
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	又 跑 出来 .
+%mor:	sconj|又 verb|跑-Inf-S verb|出来-Inf-S .
+%gra:	1|2|MARK 2|0|ROOT 3|2|MARK 4|2|PUNCT
+@End

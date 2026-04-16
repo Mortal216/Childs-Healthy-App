@@ -1,0 +1,20 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">我的收藏</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <!-- 空状态 -->
+  <view class="empty-state">
+    <text class="empty-icon">⭐</text>
+    <text class="empty-title">暂无收藏</text>
+    <text class="empty-desc">您还没有收藏任何内容</text>
+  </view>
+</view>

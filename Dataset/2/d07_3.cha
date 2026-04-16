@@ -1,0 +1,311 @@
+@UTF8
+@PID:	11312/a-00066864-1
+@Begin
+@Languages:	zho
+@Participants:	FAT Father, CHI Target_Child
+@ID:	zho|NSCtoys|FAT|37;00.||||Father|||
+@ID:	zho|NSCtoys|CHI|2;04.||||Target_Child|||
+@Birth of CHI:	01-JAN-2017
+@Media:	d07_3, audio
+@Date:	19-MAY-2019
+@Activities:	toy play
+@Situation:	FAT plays toys with CHI
+@Comment:	Filename is D07_tp_time1_3.txt
+@Comment:	Time is 4:47
+@Bg:	Puzzle
+@Types:	cross, toyplay, TD
+*FAT:	欸 ?
+%mor:	punct|欸 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	拼图 .
+%mor:	noun|拼图 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	这 ‡ <你 会 欸> [/] 你 会 欸 „ 对不对 ?
+%mor:	pron|这-Int-S1 adp|‡ pron|你-Int-S2 aux|会-Inf-S punct|欸 punct|„ adj|对不对-S1 ?
+%gra:	1|7|NSUBJ 2|3|CASE 3|7|NSUBJ 4|7|AUX 5|7|PUNCT 6|7|PUNCT 7|0|ROOT 8|7|PUNCT
+*FAT:	放 这里 啊 .
+%mor:	verb|放-Inf-S pron|这里-Int-S1 part|啊 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|DISCOURSE 4|1|PUNCT
+*FAT:	这里 放 这里 .
+%mor:	pron|这里-Int-S1 verb|放-Inf-S pron|这里-Int-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	欸 ?
+%mor:	punct|欸 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	小 鸭 的 屁屁 吗 ?
+%mor:	part|小 noun|鸭 part|的 noun|屁屁 part|吗 ?
+%gra:	1|2|CASE 2|4|NMOD 3|2|CASE 4|0|ROOT 5|4|CASE 6|4|PUNCT
+*FAT:	噢 好 .
+%mor:	punct|噢 adj|好-S1 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|PUNCT
+*FAT:	是 放 上面 吗 ? 20760_23904
+%mor:	verb|是-Inf-S verb|放-Inf-S noun|上面-Acc part|吗 ?
+%gra:	1|0|ROOT 2|1|XCOMP 3|2|OBJ 4|1|DISCOURSE 5|1|PUNCT
+*FAT:	这 是 谁 的 头 啊 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|谁-Int-S1 part|的 noun|头 part|啊 ?
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|3|CASE 5|0|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*CHI:	妈妈 .
+%mor:	noun|妈妈 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	这 个 是 妈妈 的 头 .
+%mor:	det|这-Def noun|个 aux|是-Inf-S noun|妈妈 part|的 noun|头 .
+%gra:	1|2|DET 2|6|NSUBJ 3|6|COP 4|6|NMOD 5|4|CASE 6|0|ROOT 7|6|PUNCT
+*CHI:	妈妈 的 头 .
+%mor:	noun|妈妈 part|的 noun|头 .
+%gra:	1|3|NMOD 2|1|CASE 3|0|ROOT 4|3|PUNCT
+*FAT:	鸭 妈妈 的 头 吗 ? 43280_44701
+%mor:	noun|鸭 noun|妈妈 part|的 noun|头 part|吗 ?
+%gra:	1|2|NMOD 2|4|NMOD 3|2|CASE 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	这 是 <爸爸> [?] 跟 妈妈 的 头 . 44301_45142
+%mor:	pron|这-Int-S1 aux|是-Inf-S noun|爸爸 adp|跟 noun|妈妈 part|的 noun|头 .
+%gra:	1|7|NSUBJ 2|7|COP 3|7|NMOD 4|7|CASE 5|7|NMOD 6|5|CASE 7|0|ROOT 8|7|PUNCT
+*FAT:	爸爸 跟 妈妈 的 头 ? 44682_46063
+%mor:	noun|爸爸 adp|跟 noun|妈妈 part|的 noun|头 ?
+%gra:	1|5|NSUBJ 2|5|CASE 3|5|NMOD 4|3|CASE 5|0|ROOT 6|5|PUNCT
+*FAT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	那 这 个 咧 ? 45603_46604
+%mor:	det|那-Def det|这-Def noun|个 punct|咧 ?
+%gra:	1|3|DET 2|3|DET 3|0|ROOT 4|3|PUNCT 5|3|PUNCT
+*CHI:	是 妈妈 的 头 .
+%mor:	aux|是-Inf-S noun|妈妈 part|的 noun|头 .
+%gra:	1|4|COP 2|4|NMOD 3|2|CASE 4|0|ROOT 5|4|PUNCT
+*FAT:	嗯 ? 52835_53335
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	那 怎么 放 ?
+%mor:	pron|那-Int-S1 adv|怎么 verb|放-Inf-S ?
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|PUNCT
+*FAT:	<这 是 谁> [//] 这 是不是 谁 的 屁股 ? 59160_59660
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|谁-Int-S1 part|的 noun|屁股 ?
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|3|CASE 5|0|ROOT 6|5|PUNCT
+*CHI:	妈妈 的 屁股 . 59560_60060
+%mor:	noun|妈妈 part|的 noun|屁股 .
+%gra:	1|3|NMOD 2|1|CASE 3|0|ROOT 4|3|PUNCT
+*FAT:	哦 .
+%mor:	pron|哦-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	欸 !
+%mor:	punct|欸 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	你 怎么 知道 要 放 那里 .
+%mor:	pron|你-Int-S2 adv|怎么 verb|知道-Inf-S aux|要-Inf-S verb|放-Inf-S pron|那里-Int-S1 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|5|AUX 5|3|XCOMP 6|5|OBJ 7|3|PUNCT
+*FAT:	<嗯> [/] 嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	对 吗 ?
+%mor:	adp|对 part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	0 .
+%act:	CHI摇头
+*FAT:	他 头 怎么 放 ? 83700_84380
+%mor:	pron|他-Int-S3 part|头 adv|怎么 verb|放-Inf-S ?
+%gra:	1|2|COMPOUND 2|4|NSUBJ 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*FAT:	头头 是 放 那里 吗 ? 83940_86383
+%mor:	noun|头头 verb|是-Inf-S verb|放-Inf-S pron|那里-Int-S1 part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|3|OBJ 5|2|DISCOURSE 6|2|PUNCT
+*FAT:	好像 <不是 欸> [>] .
+%mor:	adv|好像 aux|是-Inf-Neg-S punct|欸 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*CHI:	<太 大> [<] !
+%mor:	adv|太 adj|大-S1 !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*FAT:	太 大 了 !
+%mor:	adv|太 adj|大-S1 part|了 !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*FAT:	那 这 个 呢 ? 85944_86644
+%mor:	det|那-Def det|这-Def noun|个 part|呢 ?
+%gra:	1|3|DET 2|3|DET 3|0|ROOT 4|3|CASE 5|3|PUNCT
+*FAT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	太 大 .
+%mor:	adv|太 adj|大-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*FAT:	太 大 了 喔 . 86184_86804
+%mor:	adv|太 adj|大-S1 part|了 x|喔 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|OBJ 5|2|PUNCT
+*FAT:	这 个 呢 ?
+%mor:	det|这-Def noun|个 part|呢 ?
+%gra:	1|2|DET 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*FAT:	可以 欸 .
+%mor:	aux|可以-Inf-S punct|欸 .
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*CHI:	哇 !
+%mor:	noun|哇 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	那 这 个 呢 ?
+%mor:	det|那-Def det|这-Def noun|个 part|呢 ?
+%gra:	1|3|DET 2|3|DET 3|0|ROOT 4|3|CASE 5|3|PUNCT
+*FAT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	&=laughs .
+*FAT:	<嗯> [/] 嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	对 吗 ?
+%mor:	adp|对 part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	大 !
+%mor:	adj|大-S1 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	这 个 .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*FAT:	<只 剩> [/] 只 剩 两 个 啊 .
+%mor:	adv|只 verb|剩-Inf-S num|两 noun|个-Acc part|啊 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|4|NUMMOD 4|2|OBJ 5|2|DISCOURSE 6|2|PUNCT
+*FAT:	哦 .
+%mor:	pron|哦-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	好像 对 欸 .
+%mor:	adv|好像 adp|对 punct|欸 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*FAT:	还 少 一 个 .
+%mor:	sconj|还 adj|少-S1 num|一 noun|个 .
+%gra:	1|2|MARK 2|0|ROOT 3|4|NUMMOD 4|2|OBL 5|2|PUNCT
+*FAT:	<轻 点> [/] 轻 点 .
+%mor:	adj|轻-S1 part|点 .
+%gra:	1|2|COMPOUND 2|0|ROOT 3|2|PUNCT
+*FAT:	好了 !
+%mor:	adj|好了-S1 !
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	那 上面 是 什么 ? 154900_155600
+%mor:	det|那-Def noun|上面 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|PUNCT
+*FAT:	鸭鸭 跟 几 只 小 鸭 ? 155220_160284
+%mor:	noun|鸭鸭 adp|跟 num|几 noun|只 part|小 noun|鸭 ?
+%gra:	1|6|NSUBJ 2|6|CASE 3|6|NUMMOD 4|3|CLF 5|6|CASE 6|0|ROOT 7|6|PUNCT
+*CHI:	一 二 三 +...
+%mor:	num|一 num|二 num|三 +...
+%gra:	1|3|NUMMOD 2|1|CONJ 3|0|ROOT 4|3|PUNCT
+*CHI:	xxx .
+*FAT:	最好 是 有 三 个 &=laughs ! 159844_160905
+%mor:	adv|最好 verb|是-Inf-S verb|有-Inf-S num|三 noun|个-Acc !
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|XCOMP 4|5|NUMMOD 5|3|OBJ 6|2|PUNCT
+*FAT:	那 <你 弄> [//] <你 再 来> [//] 再 试 一次 . 160445_161626
+%mor:	pron|那-Int-S1 adv|再 verb|试-Inf-S num|一次 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*FAT:	换 爸爸 拼 头 .
+%mor:	verb|换-Inf-S noun|爸爸 verb|拼-Inf-S noun|头-Acc .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|3|OBJ 5|1|PUNCT
+*FAT:	<嗯> [/] 嗯 ? 161746_162286
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	这样 对 吗 ? 186430_187545
+%mor:	pron|这样-Int-S1 verb|对-Inf-S part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	0 .
+%act:	CHI摇头
+*FAT:	放 这里 .
+%mor:	verb|放-Inf-S pron|这里-Int-S1 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	好 啊 .
+%mor:	adj|好-S1 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*FAT:	你 放 这 个 .
+%mor:	pron|你-Int-S2 verb|放-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*FAT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	记得 刚刚 鸭鸭 在 哪里 ?
+%mor:	verb|记得-Inf-S adv|刚刚 noun|鸭鸭 verb|在-Inf-S pron|哪里-Int-S1 ?
+%gra:	1|0|ROOT 2|4|ADVMOD 3|4|NSUBJ 4|1|XCOMP 5|4|OBJ 6|1|PUNCT
+*FAT:	鸭 妈妈 在 中间 „ 对不对 ? 206460_209425
+%mor:	noun|鸭 noun|妈妈 verb|在-Inf-S noun|中间-Acc punct|„ adj|对不对-S1 ?
+%gra:	1|2|NMOD 2|6|NSUBJ 3|6|ADVCL 4|3|OBJ 5|6|PUNCT 6|0|ROOT 7|6|PUNCT
+*FAT:	嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*FAT:	这样 对 吗 ? 209066_209726
+%mor:	pron|这样-Int-S1 verb|对-Inf-S part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	0 .
+%act:	CHI把 拼图 拿 给 FAT
+*FAT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	我 放 .
+%mor:	pron|我-Int-S1 verb|放-Inf-S .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|PUNCT
+*FAT:	这 个 .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*FAT:	放 这里 .
+%mor:	verb|放-Inf-S pron|这里-Int-S1 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	那 你 放 (..) 这 个 .
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|放-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*FAT:	这 个 是 这样 吗 ? 227220_229813
+%mor:	det|这-Def noun|个 verb|是-Inf-S pron|这样-Int-S1 part|吗 ?
+%gra:	1|2|DET 2|3|NSUBJ 3|0|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
+*FAT:	还是 这 个 ?
+%mor:	aux|是-Inf-S det|这-Def noun|个 ?
+%gra:	1|3|COP 2|3|DET 3|0|ROOT 4|3|PUNCT
+*FAT:	<嗯> [/] 嗯 ?
+%mor:	punct|嗯 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	还是 这 个 ? 229353_230659
+%mor:	aux|是-Inf-S det|这-Def noun|个 ?
+%gra:	1|3|COP 2|3|DET 3|0|ROOT 4|3|PUNCT
+*FAT:	你 看 啊 这里 还 有 鸭鸭 的 屁股 啊 . 242680_248844
+%mor:	pron|你-Int-S2 verb|看-Inf-S part|啊 pron|这里-Int-S1 sconj|还 verb|有-Inf-S noun|鸭鸭 part|的 noun|屁股-Acc punct|啊 .
+%gra:	1|6|NSUBJ 2|6|ADVCL 3|2|DISCOURSE 4|6|NSUBJ 5|6|MARK 6|0|ROOT 7|9|NMOD 8|7|CASE 9|6|OBJ 10|6|PUNCT 11|6|PUNCT
+*FAT:	小 鸭 的 屁股 .
+%mor:	part|小 noun|鸭 part|的 noun|屁股 .
+%gra:	1|2|CASE 2|4|NMOD 3|2|CASE 4|0|ROOT 5|4|PUNCT
+*CHI:	嗯 .
+%mor:	punct|嗯 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	怎样 ?
+%mor:	adj|怎样-S1 ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*CHI:	不 要 .
+%mor:	adv|不 aux|要-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*FAT:	不 要 了 ? 248484_249805
+%mor:	adv|不 aux|要-Inf-S part|了 ?
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*FAT:	你 要 先 把 他 拼 完 啊 . 249385_253848
+%mor:	pron|你-Int-S2 aux|要-Inf-S sconj|先 adp|把 pron|他-Int-S3 verb|拼-Inf-S verb|完-Inf-S part|啊 .
+%gra:	1|6|NSUBJ 2|6|AUX 3|6|MARK 4|5|CASE 5|6|OBL-PATIENT 6|0|ROOT 7|6|MARK 8|6|DISCOURSE 9|6|PUNCT
+*FAT:	这 个 啦 .
+%mor:	det|这-Def noun|个 noun|啦 .
+%gra:	1|2|DET 2|3|CLF 3|0|ROOT 4|3|PUNCT
+*FAT:	鸭鸭 的 屁股 在 这里 . 258670_259552
+%mor:	noun|鸭鸭 part|的 noun|屁股 verb|在-Inf-S pron|这里-Int-S1 .
+%gra:	1|3|NMOD 2|1|CASE 3|4|NSUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	0 .
+%act:	CHI拿 盒子 要 装 拼图
+*FAT:	欸 怎样 ?
+%mor:	punct|欸 adj|怎样-S1 ?
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|PUNCT
+*FAT:	自己 要 收 了 喔 ? 259153_260097
+%mor:	pron|自己-Int-S1 aux|要-Inf-S verb|收-Inf-S aux|了-Inf-Perf-S x|喔 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|AUX 5|3|OBJ 6|3|PUNCT
+*FAT:	好 ‡ 那 你 收 .
+%mor:	adv|好 punct|‡ det|那-Def pron|你-Int-S2 verb|收-Inf-S .
+%gra:	1|5|ADVMOD 2|5|PUNCT 3|4|DET 4|5|NSUBJ 5|0|ROOT 6|5|PUNCT
+*FAT:	这里 啊 .
+%mor:	pron|这里-Int-S1 part|啊 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*FAT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*FAT:	这 个 .
+%mor:	det|这-Def noun|个 .
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+@Eg:	Puzzle
+@End

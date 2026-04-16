@@ -1,0 +1,38 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 返回按钮 -->
+  <view class="back-button" bindtap="goBack">
+    <view class="back-icon-wrapper">
+      <text class="back-arrow">←</text>
+    </view>
+    <text class="back-text">返回</text>
+  </view>
+  
+  <!-- 页面标题 -->
+  <view class="page-title">
+    <text class="yh-h1">基础测评</text>
+    <text class="yh-lead">以权威量表为基础，帮助你了解孩子当前的发展状态，并给出温暖可执行的陪伴建议。</text>
+  </view>
+
+  <!-- 幼儿词汇测试卡片 -->
+  <view class="test-card yh-card-shell" bindtap="onStartVocabTest">
+    <text class="test-kicker yh-kicker">发育评测</text>
+    <text class="test-title">幼儿词汇测试</text>
+    <view class="test-meta yh-sub-card">
+      <text class="yh-muted">建议时长：约10分钟</text>
+      <text class="yh-muted">适用年龄：0-30个月</text>
+    </view>
+    <button class="start-btn yh-btn-primary" bindtap="onStartVocabTest">开始测评</button>
+  </view>
+
+  <!-- 抚养方式测评卡片（核心：bindtap绑定onStartParentingTest） -->
+  <view class="test-card yh-card-shell" bindtap="onStartParentingTest">
+    <text class="test-kicker yh-kicker">家庭环境</text>
+    <text class="test-title">抚养方式测评</text>
+    <view class="test-meta yh-sub-card">
+      <text class="yh-muted">建议时长：约5分钟</text>
+      <text class="yh-muted">适用人群：主要照护者</text>
+    </view>
+    <button class="start-btn yh-btn-primary" bindtap="onStartParentingTest">开始测评</button>
+  </view>
+</view>

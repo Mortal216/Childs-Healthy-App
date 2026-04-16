@@ -1,0 +1,49 @@
+<view class="status-bar">
+  <text class="time">12:00</text>
+  <text class="title">咿呀智库·基础测评</text>
+</view>
+<view class="content">
+  <view class="test-header">
+    <view class="main-title">幼儿词汇测试</view>
+    <view class="section-title">一. 象声和感叹词</view>
+  </view>
+  <view class="question-list">
+    <view class="question-item">
+      <view class="question-text">1. “喂”</view>
+      <view class="options">
+        <view class="option selected">理解但不会说</view>
+        <view class="option">会说</view>
+      </view>
+    </view>
+    <view class="question-item">
+      <view class="question-text">2. “旺旺”（狗叫）</view>
+      <view class="options">
+        <view class="option selected">理解但不会说</view>
+        <view class="option">会说</view>
+      </view>
+    </view>
+    <view class="question-item">
+      <view class="question-text">3. “喵”（猫叫）</view>
+      <view class="options">
+        <view class="option selected">理解但不会说</view>
+        <view class="option">会说</view>
+      </view>
+    </view>
+    <view class="question-item">
+      <view class="question-text">4. “嘀嘀”（汽车声）</view>
+      <view class="options">
+        <view class="option selected">理解但不会说</view>
+        <view class="option">会说</view>
+      </view>
+    </view>
+    <view class="question-item">
+      <view class="question-text">5. “哎哟”</view>
+      <view class="options">
+        <view class="option selected">理解但不会说</view>
+        <view class="option">会说</view>
+      </view>
+    </view>
+  </view>
+  <button class="next-btn">下一页</button>
+</view>
+<custom-tab-bar selected="test"></custom-tab-bar>

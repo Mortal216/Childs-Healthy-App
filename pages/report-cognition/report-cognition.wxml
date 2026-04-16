@@ -1,0 +1,92 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">语言认知能力发展报告</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <!-- 加载状态 -->
+  <view wx:if="{{loading}}" class="loading-section">
+    <text class="loading-text">正在加载报告...</text>
+  </view>
+
+  <!-- 报告内容 -->
+  <view wx:else>
+    <!-- 发展等级 -->
+    <view class="section">
+      <view class="section-header">
+        <text class="section-title">发展等级</text>
+      </view>
+      <view class="development-level-container">
+        <view class="level-info">
+          <text class="level-title">当前发展等级：{{developmentLevel}}</text>
+          <text class="level-desc">{{developmentLevelDesc}}</text>
+        </view>
+        <!-- 雷达图占位 -->
+        <view class="radar-placeholder">
+          <text class="placeholder-text">发展维度雷达图</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 发展轨迹 -->
+    <view class="section">
+      <view class="section-header">
+        <text class="section-title">发展轨迹</text>
+      </view>
+      <view class="development-trail-container">
+        <view wx:if="{{developmentTrail.length > 0}}" class="trail-chart">
+          <!-- 发展轨迹图表 -->
+          <view class="chart-container">
+            <view class="chart-axis">
+              <view class="x-axis">
+                <text wx:for="{{developmentTrail}}" wx:key="index" class="x-axis-label">{{item.date}}</text>
+              </view>
+              <view class="y-axis">
+                <text class="y-axis-label">100</text>
+                <text class="y-axis-label">80</text>
+                <text class="y-axis-label">60</text>
+                <text class="y-axis-label">40</text>
+                <text class="y-axis-label">20</text>
+                <text class="y-axis-label">0</text>
+              </view>
+              <view class="chart-line">
+                <view class="line-path" style="{{trailLineStyle}}"></view>
+                <view wx:for="{{developmentTrail}}" wx:key="index" class="line-point" style="left: {{(index / (developmentTrail.length - 1)) * 100}}%; bottom: {{(item.score / 100) * 100}}%;">
+                  <text class="point-value">{{item.score}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view wx:else class="empty-trail">
+          <text class="empty-text">暂无历史测评数据，无法显示发展轨迹</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 未完成的测评 -->
+    <view class="section">
+      <view class="section-header">
+        <text class="section-title">未完成的测评</text>
+      </view>
+      <view class="unfinished-list">
+        <view wx:for="{{unfinishedTests}}" wx:key="index" class="unfinished-item" bindtap="goToUnfinishedTest" data-test-name="{{item.name}}">
+          <text class="test-name">{{item.name}}</text>
+          <view class="arrow">
+            <text class="arrow-icon">></text>
+          </view>
+        </view>
+        <view wx:if="{{unfinishedTests.length === 0}}" class="empty-item">
+          <text class="empty-text">所有测评均已完成</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

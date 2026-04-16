@@ -1,0 +1,16 @@
+{
+  "name": "yiya-cloud-mcp-server",
+  "description": "Sync local MySQL data to CloudBase document collections and analyze current cloud data.",
+  "env": [
+    "MYSQL_HOST",
+    "MYSQL_PORT",
+    "MYSQL_USER",
+    "MYSQL_PASSWORD",
+    "MYSQL_DATABASE",
+    "CLOUDBASE_ENV",
+    "CLOUDBASE_API_KEY",
+    "CLOUDBASE_SECRET_ID",
+    "CLOUDBASE_SECRET_KEY",
+    "CLOUDBASE_COLLECTION_PREFIX"
+  ]
+}

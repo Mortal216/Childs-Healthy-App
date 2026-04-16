@@ -1,0 +1,11 @@
+<view class="status-bar">
+  <text class="time">12:00</text>
+  <text class="title">咿呀智库·其他测评</text>
+  <text class="help-icon">?</text>
+</view>
+<view class="content">
+  <view class="big-title">其他测评</view>
+  <view class="desc">针对特定语言能力的深度测评</view>
+  <button class="big-start-btn">开始测评</button>
+</view>
+<custom-tab-bar selected="test"></custom-tab-bar>

@@ -1,0 +1,52 @@
+<!-- 页面容器（绑定动态导航栏高度） -->
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部导航栏 -->
+  <view class="top-nav">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="nav-title">咿呀智库·交流对话分析</view>
+    <view class="help-btn" bindtap="goToHelp">
+      <text class="help-icon">?</text>
+    </view>
+  </view>
+
+  <!-- 提示文本 -->
+  <text class="tip-text">请上传或粘贴一段亲子对话，我们将为您分析对话质量和互动效果。建议对话时长不少于5分钟</text>
+
+  <!-- 文本输入区域 -->
+  <textarea class="input-area" placeholder="请在此粘贴亲子对话文本" value="{{dialogueText}}" bindinput="onInput"></textarea>
+
+  <!-- 操作按钮组 -->
+  <view class="button-group">
+    <view class="action-btn" bindtap="uploadAudio">上传录音</view>
+    <view class="action-btn" bindtap="uploadVideo">上传视频</view>
+    <view class="action-btn" bindtap="selectHistory">选择历史</view>
+  </view>
+
+  <view wx:if="{{selectedFile}}" class="file-info-card">
+    <view class="file-info-title">已选择音频</view>
+    <view class="file-info-text">文件名：{{fileInfo.name}}</view>
+    <view class="file-info-text">大小：{{fileInfo.sizeMB}} MB</view>
+    <view class="file-info-text">时长：{{fileInfo.durationSec}} 秒</view>
+    <view class="file-info-text">格式：{{fileInfo.format}}</view>
+  </view>
+
+  <view class="status-card">
+    <view class="status-title">当前处理状态</view>
+    <view class="status-badge status-{{status}}">
+      {{statusText}}
+    </view>
+  </view>
+
+  <view wx:if="{{transcriptText}}" class="transcript-card">
+    <view class="transcript-title">转写文本 / 待分析文本</view>
+    <view class="transcript-content">{{transcriptText}}</view>
+  </view>
+
+  <!-- 开始分析按钮 -->
+  <button class="analyze-btn" bindtap="startAnalyze" loading="{{loading}}" disabled="{{isAnalyzing}}">开始分析</button>
+
+  <!-- 取消文字 -->
+  <view class="cancel-text" bindtap="cancel">{{isAnalyzing ? '处理中...' : '取消'}}</view>
+</view>

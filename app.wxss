@@ -1,0 +1,239 @@
+/** app.wxss — 全局设计系统（严格配色） **/
+page {
+  /* 全局主题：改为参考图色板（HEX 100% 沿用 ref-*） */
+  --yh-bg: var(--ref-white);                /* 页面主背景 */
+  --yh-bg-elevated: var(--ref-white);
+  --yh-surface: var(--ref-ivory);           /* 主卡片/容器底 */
+  --yh-surface-muted: var(--ref-ivory-2);   /* 次级浅底 */
+
+  --yh-primary: var(--ref-green-600);       /* 主绿（按钮/重点） */
+  --yh-primary-pressed: var(--ref-green-700);
+  --yh-primary-soft: var(--ref-green-300);  /* 次要描边/弱强调 */
+  --yh-primary-soft-press: var(--ref-green-150); /* 次要按钮按下底 */
+
+  --yh-sage: var(--ref-yellow-600);         /* 跳色/提示主黄 */
+  --yh-sage-soft: var(--ref-yellow-300);
+
+  /* 跳色增强：紫色辅助强调（仅用参考图色值） */
+  --yh-accent-purple: var(--ref-lavender-200);
+  --yh-accent-green-soft: var(--ref-green-150);
+
+  --yh-text: var(--ref-green-700);          /* 标题/重点文字 */
+  --yh-text-secondary: var(--ref-green-650);/* 正文 */
+  --yh-text-muted: var(--ref-green-300);    /* 辅助/小字 */
+
+  --yh-border: var(--ref-line);             /* 边框/分割线 */
+  --yh-border-brand: var(--ref-green-300);  /* 主卡片描边 */
+  --yh-primary-faint: var(--ref-green-150); /* 页面里广泛使用的 faint，补齐 */
+  --yh-border-l2-width: 3rpx;      /* 层级2描边略粗一点 */
+  --yh-divider: #E0E0E0;
+
+  /* 语义色补齐（提高跳色密度；仍使用 ref-*） */
+  --yh-warn-bg: var(--ref-yellow-300);
+  --yh-warn-border: var(--ref-yellow-500);
+  --yh-warn-text: var(--ref-green-700);
+
+  --yh-success-soft: var(--ref-mint-100);
+  --yh-success-text: var(--ref-green-700);
+
+  /* 圆角与布局节奏（极简干净、圆角柔和、大量留白） */
+  --yh-radius-sm: 24rpx;           /* 对齐 12px（近似） */
+  --yh-radius-md: 24rpx;           /* 对齐 12px（内部模块可复用） */
+  --yh-radius-lg: 32rpx;           /* 对齐 16px（主卡片） */
+  --yh-radius-xl: 36rpx;
+  --yh-radius-pill: 48rpx;         /* 对齐 24px（按钮体系） */
+
+  /* 阴影（按你给的规范，使用 rgba） */
+  --yh-shadow-card: 0 8rpx 24rpx rgba(0, 0, 0, 0.06); /* 约等于 0 4px 12px */
+  --yh-shadow-soft: 0 8rpx 24rpx rgba(0, 0, 0, 0.06);
+  --yh-shadow-nav: 0 8rpx 24rpx rgba(0, 0, 0, 0.06);
+  --yh-shadow-primary: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+
+  --yh-space-section: 48rpx;
+  --yh-space-block: 32rpx;
+  --yh-space-tight: 20rpx;
+
+  /* 参考图配色（保持 HEX 一模一样；供新视觉体系使用） */
+  --ref-white: #F8F8F8;
+  --ref-ivory: #F0F0E0;
+  --ref-ivory-2: #F8F8F0;
+  --ref-line: #E0E0E0;
+  --ref-line-weak: #D8D8D8;
+
+  --ref-green-700: #506840;
+  --ref-green-650: #587048;
+  --ref-green-600: #587838;
+  --ref-green-500: #607850;
+  --ref-green-300: #88A870;
+  --ref-green-200: #A0B870;
+  --ref-green-150: #B8D078;
+
+  --ref-yellow-600: #E8B848;
+  --ref-yellow-500: #E0B848;
+  --ref-yellow-300: #F8E8C0;
+  --ref-yellow-250: #F8E8B8;
+
+  --ref-sage-100: #E0E8C8;
+  --ref-mint-100: #D0E8D0;
+  --ref-sage-120: #E0E8D0;
+
+  --ref-lavender-200: #C8C8E8;
+
+  background-color: var(--yh-bg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--yh-text-secondary);
+  font-size: 28rpx;
+  line-height: 1.55;
+}
+
+/* 可选：页面根容器加此类统一左右留白 */
+.yh-page-pad {
+  padding-left: 32rpx;
+  padding-right: 32rpx;
+  box-sizing: border-box;
+}
+
+/* 通用卡片壳（页面可在最外层加 class） */
+.yh-card-shell {
+  background: var(--yh-surface);
+  border-radius: var(--yh-radius-lg);
+  border: var(--yh-border-l2-width) solid var(--yh-border-brand);
+  box-shadow: var(--yh-shadow-card);
+  padding: 40rpx; /* 约等于 20px */
+  box-sizing: border-box;
+}
+
+/* 层级2主卡片别名（便于在页面里统一替换） */
+.yh-card-l2 {
+  composes: yh-card-shell;
+}
+
+/* 次容器/小模块（用于主卡片内部） */
+.yh-sub-card {
+  background: var(--yh-surface-muted);
+  border: 2rpx solid var(--yh-border);
+  border-radius: 24rpx; /* 约等于 12px */
+  padding: 32rpx; /* 约等于 16px */
+  box-sizing: border-box;
+}
+
+/* 模块小标签 / 大标题 / 说明（呼吸感） */
+.yh-kicker {
+  display: block;
+  font-size: 24rpx;
+  color: var(--yh-sage);
+  letter-spacing: 3rpx;
+  margin-bottom: 16rpx;
+  font-weight: 600;
+}
+
+.yh-h1 {
+  font-size: 44rpx; /* 约等于 22px */
+  font-weight: 700;
+  color: var(--yh-text);
+  line-height: 1.3;
+  margin-bottom: 16rpx;
+}
+
+.yh-lead {
+  font-size: 30rpx; /* 约等于 15px */
+  color: var(--yh-text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--yh-space-section);
+}
+
+/* 辅助文字 */
+.yh-muted {
+  color: var(--yh-text-muted);
+  font-size: 26rpx; /* 约等于 13px */
+}
+
+/* 主按钮（与首页一致时可引用） */
+.yh-btn-primary {
+  background: var(--yh-primary);
+  color: #FFFFFF;
+  border-radius: var(--yh-radius-pill);
+  font-weight: 600;
+  box-shadow: var(--yh-shadow-primary);
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.yh-btn-primary::after {
+  border: none;
+}
+
+/* 主按钮点击态 */
+.yh-btn-primary:active {
+  background: var(--yh-primary-pressed);
+  transform: scale(0.98);
+}
+
+/* 次要按钮 */
+.yh-btn-secondary {
+  background: #FFFFFF;
+  border: 4rpx solid var(--yh-primary-soft);
+  color: var(--yh-primary-soft);
+  border-radius: var(--yh-radius-pill);
+  font-weight: 600;
+  box-sizing: border-box;
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+.yh-btn-secondary::after { border: none; }
+.yh-btn-secondary:active {
+  background: var(--yh-primary-soft-press);
+  transform: scale(0.98);
+}
+
+/* 成功态标签/按钮 */
+.yh-badge-success {
+  background: var(--yh-sage);
+  color: #FFFFFF;
+  border-radius: 24rpx; /* 约等于 12px */
+}
+
+/* 聊天气泡（与 ai-agent 一致色系） */
+.yh-bubble-ai {
+  background: var(--yh-surface);
+  border: 2rpx solid var(--yh-border);
+  box-shadow: var(--yh-shadow-soft);
+  border-radius: 24rpx;
+}
+
+.yh-bubble-user {
+  background: var(--yh-primary);
+  color: #FFFFFF;
+  border-radius: 24rpx;
+  box-shadow: var(--yh-shadow-soft);
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  padding: 80rpx 30rpx 20rpx;
+  background-color: var(--yh-surface);
+  border-bottom: var(--yh-border-l2-width) solid var(--yh-border-brand);
+}
+
+.time {
+  font-size: 28rpx;
+  color: var(--yh-text-secondary);
+  margin-right: 20rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: var(--yh-text);
+}
+
+.content {
+  padding: 30rpx;
+  padding-bottom: 140rpx;
+}
+
+.yh-btn-reset::after {
+  border: none;
+}

@@ -1,0 +1,94 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部搜索栏 -->
+  <view class="search-bar" bindtap="goToSearch">
+    <input class="search-input" placeholder="搜索你感兴趣的" disabled />
+    <view class="search-btn">
+      <text class="search-icon">🔍</text>
+    </view>
+  </view>
+
+  <!-- 一级标签：推荐/文献/社区 -->
+  <view class="tab-nav">
+    <view class="tab-item" bindtap="goToRecommend">推荐</view>
+    <view class="tab-item active" bindtap="goToLiterature">文献</view>
+    <view class="tab-item" bindtap="goToCommunity">社区</view>
+  </view>
+
+  <!-- 二级分类标签 -->
+  <view class="sub-tab-nav">
+    <view class="sub-tab-item {{currentSubTab === 'language' ? 'active' : ''}}" bindtap="switchSubTab" data-tab="language">【语言发展】</view>
+    <view class="sub-tab-item {{currentSubTab === 'cognition' ? 'active' : ''}}" bindtap="switchSubTab" data-tab="cognition">【认知发展】</view>
+    <view class="sub-tab-item {{currentSubTab === 'social' ? 'active' : ''}}" bindtap="switchSubTab" data-tab="social">【社交发展】</view>
+    <view class="sub-tab-item {{currentSubTab === 'emotion' ? 'active' : ''}}" bindtap="switchSubTab" data-tab="emotion">【情绪行为】</view>
+  </view>
+
+  <!-- 加载状态 -->
+  <view wx:if="{{loading}}" class="loading-container">
+    <view class="loading"></view>
+    <text class="loading-text">加载中...</text>
+  </view>
+
+  <!-- 文献列表 -->
+  <view wx:else class="literature-list">
+    <view class="literature-card" wx:for="{{literatureList}}" wx:key="{{item.id}}" bindtap="goToLiteratureDetail" data-id="{{item.id}}">
+      <view class="literature-cover">
+        <image src="{{coverOrder[index]}}" mode="aspectFill"></image>
+      </view>
+      <view class="literature-info">
+        <text class="literature-title">{{item.title}}</text>
+        <text class="literature-meta">{{item.source}} · {{item.publishTime}}</text>
+        <text class="literature-desc">{{item.summary}}</text>
+      </view>
+    </view>
+
+    <!-- 无文献时 -->
+    <view wx:if="{{literatureList.length === 0}}" class="empty-container">
+      <text class="empty-icon">📚</text>
+      <text class="empty-text">暂无相关文献</text>
+      <text class="empty-subtext">请尝试切换其他分类</text>
+    </view>
+  </view>
+
+  <!-- 文献详情弹窗 -->
+  <view wx:if="{{showDetail}}" class="detail-modal" bindtap="closeDetail">
+    <view class="detail-content" catchtap="stopPropagation">
+      <view class="detail-header">
+        <text class="detail-title">{{currentDetail.title}}</text>
+        <view class="detail-close" bindtap="closeDetail">✕</view>
+      </view>
+      <view class="detail-body">
+        <view class="detail-meta">
+          <text class="detail-source">{{currentDetail.source}}</text>
+          <text class="detail-time">{{currentDetail.publishTime}}</text>
+        </view>
+        <view class="detail-image" wx:if="{{currentDetail.image}}">
+          <image src="{{currentDetail.image}}" mode="aspectFill"></image>
+        </view>
+        <text class="detail-summary">{{currentDetail.summary}}</text>
+      </view>
+      <view class="detail-footer">
+        <button class="detail-btn" bindtap="closeDetail">关闭</button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部导航栏 -->
+  <view class="bottom-nav">
+    <view class="nav-item" bindtap="goToHome">
+      <image class="nav-icon" src="/images/tab/bottom1.png" mode="aspectFit"></image>
+      <text class="nav-text">测评</text>
+    </view>
+    <view class="nav-item" bindtap="goToFunction">
+      <image class="nav-icon" src="/images/tab/bottom2.png" mode="aspectFit"></image>
+      <text class="nav-text">功能</text>
+    </view>
+    <view class="nav-item active">
+      <image class="nav-icon" src="/images/tab/bottom3.png" mode="aspectFit"></image>
+      <text class="nav-text">科普</text>
+    </view>
+    <view class="nav-item" bindtap="goToProfile">
+      <image class="nav-icon" src="/images/tab/bottom4.png" mode="aspectFit"></image>
+      <text class="nav-text">我的</text>
+    </view>
+  </view>
+</view>

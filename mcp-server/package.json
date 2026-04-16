@@ -1,0 +1,19 @@
+{
+  "name": "yiya-cloud-mcp-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for syncing local MySQL data to CloudBase and analyzing cloud data.",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/services/cloud-sync-service.js && node --check src/services/cloudbase-service.js && node --check src/services/mysql-service.js && node --check src/smoke.js",
+    "smoke": "node src/smoke.js"
+  },
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.17.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.3",
+    "zod": "^3.23.8"
+  }
+}

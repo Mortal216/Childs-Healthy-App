@@ -1,0 +1,359 @@
+@UTF8
+@PID:	11312/a-00066892-1
+@Begin
+@Languages:	zho
+@Participants:	MOT Mother, CHI Target_Child
+@ID:	zho|NSCtoys|MOT|38;00.||||Mother|||
+@ID:	zho|NSCtoys|CHI|2;04.||||Target_Child|||
+@Birth of CHI:	02-FEB-2017
+@Media:	d17_1, audio
+@Date:	10-JUN-2019
+@Activities:	toy play
+@Situation:	MOT plays toys with CHI
+@Comment:	Filename is D17_tp_time1_1.txt
+@Comment:	Time is 7:27
+@Bg:	Blocks
+@Types:	cross, toyplay, TD
+*MOT:	开开看 .
+%mor:	verb|开开看-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	<没关系> [/] 没关系 ‡ 我们 玩 我们 的 . 6840_9907
+%mor:	verb|关系-Inf-S adp|‡ pron|我-Int-P1 verb|玩-Inf-S pron|我-Int-P1 part|的 .
+%gra:	1|0|ROOT 2|3|CASE 3|4|NSUBJ 4|1|XCOMP 5|4|OBJ 6|1|DISCOURSE 7|1|PUNCT
+*CHI:	可以 帮 我 开 吗 ?
+%mor:	aux|可以-Inf-S verb|帮-Inf-S pron|我-Int-S1 verb|开-Inf-S part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|2|DISCOURSE 6|2|PUNCT
+*MOT:	帮 你 开 唷 . 9447_10087
+%mor:	verb|帮-Inf-S pron|你-Int-S2 verb|开-Inf-S punct|唷 .
+%gra:	1|0|ROOT 2|3|NSUBJ 3|1|CCOMP 4|1|PUNCT 5|1|PUNCT
+*MOT:	好 哇 . 9647_10288
+%mor:	adv|好 adj|哇-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	这边 ‡ 你 从 这边 试 着 打开 这边 . 9828_13517
+%mor:	pron|这边-Int-S1 punct|‡ pron|你-Int-S2 adp|从 pron|这边-Int-S1 verb|试-Inf-S aux|着-Inf-Prog-S verb|打开-Inf-S pron|这边-Int-S1 .
+%gra:	1|8|OBL 2|1|PUNCT 3|8|NSUBJ 4|5|CASE 5|8|OBL 6|8|ADVCL 7|6|AUX 8|0|ROOT 9|8|OBJ 10|8|PUNCT
+*MOT:	你 看 我 已经 先 帮 你 剥 开 一 个 了 . 16120_22268
+%mor:	pron|你-Int-S2 verb|看-Inf-S pron|我-Int-S1 adv|已经 sconj|先 verb|帮-Inf-S pron|你-Int-S2 verb|剥-Inf-S verb|开-Inf-S num|一 noun|个-Acc part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|8|NSUBJ 4|8|ADVMOD 5|8|MARK 6|8|ADVCL 7|6|OBJ 8|2|CCOMP 9|8|MARK 10|11|NUMMOD 11|8|OBJ 12|8|DISCOURSE 13|2|PUNCT
+*MOT:	噢 .
+%mor:	punct|噢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	是 什么 ?
+%mor:	aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|COP 2|0|ROOT 3|2|PUNCT
+*CHI:	是 积木 .
+%mor:	aux|是-Inf-S noun|积木 .
+%gra:	1|2|COP 2|0|ROOT 3|2|PUNCT
+*MOT:	是 积木 噢 .
+%mor:	aux|是-Inf-S noun|积木 punct|噢 .
+%gra:	1|2|COP 2|0|ROOT 3|2|PUNCT 4|2|PUNCT
+*MOT:	哇 . 21829_22329
+%act:	小朋友 把 积木 都 倒 出来
+%mor:	noun|哇 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	噢 唷 .
+%mor:	punct|噢 propn|唷 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|PUNCT
+*MOT:	太 大声 了 . 21869_25133
+%mor:	adv|太 adj|大声-S1 part|了 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	来 „ 好 .
+%mor:	verb|来-Inf-S punct|„ adj|好-S1 .
+%gra:	1|0|ROOT 2|3|PUNCT 3|1|XCOMP 4|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 要 叠 什么 ? 28139_29019
+%mor:	pron|那-Int-S1 pron|你-Int-S2 aux|要-Inf-S verb|叠-Inf-S pron|什么-Int-S1 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	我们 一起 玩 . 35240_36741
+%mor:	pron|我-Int-P1 noun|一起 verb|玩-Inf-S .
+%gra:	1|3|NSUBJ 2|3|OBL 3|0|ROOT 4|3|PUNCT
+*MOT:	玩 什么 . 38646_41209
+%com:	后面 垃圾桶 的 盖子 忽然 关 起来
+%mor:	verb|玩-Inf-S pron|什么-Int-S1 .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	噢 吓 了 我 一 跳 . 40790_41490
+%mor:	punct|噢 verb|吓-Inf-S aux|了-Inf-Perf-S pron|我-Int-S1 num|一 noun|跳 .
+%gra:	1|2|PUNCT 2|0|ROOT 3|2|AUX 4|2|OBJ 5|6|NUMMOD 6|4|APPOS 7|2|PUNCT
+*CHI:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 个 是 积木 呀 .
+%mor:	det|这-Def noun|个 aux|是-Inf-S noun|积木 part|呀 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|0|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*MOT:	不 一样的 积木 „ 对不对 ? 41030_43133
+%mor:	adv|不 adj|一样的-S1 noun|积木 punct|„ adj|对不对-S1 ?
+%gra:	1|2|ADVMOD 2|3|AMOD 3|5|NSUBJ 4|5|PUNCT 5|0|ROOT 6|5|PUNCT
+*CHI:	<我 自己 捡 不 够> [//] 我 自己 捡 不 到 . 49640_52649
+%mor:	pron|我-Int-S1 pron|自己-Int-S1 verb|捡-Inf-S adv|不 verb|到-Inf-S .
+%gra:	1|3|NSUBJ 2|1|APPOS 3|0|ROOT 4|3|ADVMOD 5|3|MARK 6|3|PUNCT
+*MOT:	捡 不 到 ? 52309_54736
+%mor:	verb|捡-Inf-S adv|不 verb|到-Inf-S ?
+%gra:	1|0|ROOT 2|1|ADVMOD 3|1|MARK 4|1|PUNCT
+*CHI:	xxx .
+*MOT:	你 要 叠 什么 ?
+%mor:	pron|你-Int-S2 aux|要-Inf-S verb|叠-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	要 帮忙 吗 ? 64760_65935
+%mor:	aux|要-Inf-S verb|帮忙-Inf-S part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	我们 把 他 打开 .
+%mor:	pron|我-Int-P1 adp|把 pron|他-Int-S3 verb|打开-Inf-S .
+%gra:	1|4|NSUBJ 2|3|CASE 3|4|OBL-PATIENT 4|0|ROOT 5|4|PUNCT
+*MOT:	这样 比较 看 得 到 .
+%mor:	pron|这样-Int-S1 adv|比较 verb|看-Inf-S part|得 verb|到-Inf-S .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|COMPOUND-EXT 5|3|MARK 6|3|PUNCT
+*MOT:	噢 .
+%mor:	punct|噢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	还有 咧 ?
+%mor:	verb|还有-Inf-S punct|咧 ?
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*CHI:	谢谢 .
+%mor:	propn|谢谢 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	怎么 了 ?
+%mor:	adv|怎么 part|了 ?
+%gra:	1|0|ROOT 2|1|MARK-ADV 3|1|PUNCT
+*MOT:	不 喜欢 这 个 吗 ?
+%mor:	adv|不 verb|喜欢-Inf-S det|这-Def noun|个-Acc part|吗 ?
+%gra:	1|2|ADVMOD 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|DISCOURSE 6|2|PUNCT
+*CHI:	这 [/] 这 个 这样 .
+%mor:	det|这-Def noun|个 pron|这样-Int-S1 .
+%gra:	1|2|DET 2|3|CLF 3|0|ROOT 4|3|PUNCT
+*MOT:	这样子 用 .
+%mor:	adv|这样子 verb|用-Inf-S .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	<那 我 可以 帮> [//] 那 你 叠 一 个 . 104020_106001
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|叠-Inf-S num|一 noun|个-Acc .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|5|NUMMOD 5|3|OBJ 6|3|PUNCT
+*MOT:	我 叠 一 个 „ 可以 吗 ? 107102_108123
+%mor:	pron|我-Int-S1 verb|叠-Inf-S num|一 noun|个 punct|„ aux|可以-Inf-S part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NUMMOD 4|6|NMOD 5|6|PUNCT 6|2|AUX 7|2|DISCOURSE 8|2|PUNCT
+*MOT:	那 我 可以 拿 这 个 吗 ? 108083_111605
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|可以-Inf-S verb|拿-Inf-S det|这-Def noun|个-Acc part|吗 ?
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|DISCOURSE 8|4|PUNCT
+*MOT:	哎唷 .
+%mor:	propn|哎唷 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我 想 要 选 这 个 . 111486_113607
+%mor:	pron|那-Int-S1 pron|我-Int-S1 aux|想-Inf-S aux|要-Inf-S verb|选-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|5|NSUBJ 2|5|NSUBJ 3|5|AUX 4|5|AUX 5|0|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	xxx .
+*MOT:	好 哇 . 113267_113947
+%mor:	adv|好 adj|哇-S1 .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|2|PUNCT
+*MOT:	那 你 呢 ?
+%mor:	pron|那-Int-S1 pron|你-Int-S2 part|呢 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	你 要 哪 一 个 ?
+%mor:	pron|你-Int-S2 aux|要-Inf-S pron|哪-Int-S1 num|一 noun|个 ?
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|DET 4|5|NUMMOD 5|0|ROOT 6|5|PUNCT
+*MOT:	还有 呢 ?
+%mor:	verb|还有-Inf-S part|呢 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	我 帮 你 用 这 个 . 143190_148434
+%mor:	pron|我-Int-S1 verb|帮-Inf-S pron|你-Int-S2 verb|用-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*MOT:	你 刚刚 不 会 用 „ 对不对 ?
+%mor:	pron|你-Int-S2 adv|刚刚 adv|不 aux|会-Inf-S verb|用-Inf-S punct|„ verb|对不对-Inf-S ?
+%gra:	1|5|NSUBJ 2|5|ADVMOD 3|5|ADVMOD 4|5|AUX 5|0|ROOT 6|7|PUNCT 7|5|XCOMP 8|5|PUNCT
+*MOT:	妈妈 帮 你 用 这 个 . 147974_148815
+%mor:	noun|妈妈 verb|帮-Inf-S pron|你-Int-S2 verb|用-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*MOT:	这样子 „ 你 看 .
+%mor:	noun|这样子 punct|„ pron|你-Int-S2 verb|看-Inf-S .
+%gra:	1|0|ROOT 2|4|PUNCT 3|4|NSUBJ 4|1|DISLOCATED 5|1|PUNCT
+*MOT:	可以 呀 . 149956_150917
+%mor:	aux|可以-Inf-S part|呀 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	我 也 要 .
+%mor:	pron|我-Int-S1 sconj|也 aux|要-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|PUNCT
+*MOT:	你 也 要 哦 . 150657_151458
+%act:	妈妈 把 积木 给 小朋友 .
+%mor:	pron|你-Int-S2 sconj|也 aux|要-Inf-S adj|哦-S1 .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*MOT:	对 呀 .
+%mor:	adp|对 part|呀 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	可以 呀 . 158980_159760
+%mor:	aux|可以-Inf-S part|呀 .
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	你 做 什么 ? 161445_162306
+%mor:	pron|你-Int-S2 verb|做-Inf-S pron|什么-Int-S1 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	我 弄 给 你 看 哦 .
+%mor:	pron|我-Int-S1 verb|弄-Inf-S verb|给-Inf-S pron|你-Int-S2 verb|看-Inf-S part|哦 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|MARK 4|5|NSUBJ 5|2|CCOMP 6|2|DISCOURSE 7|2|PUNCT
+*MOT:	拿 一 个 高 一点 的 好了 . 185680_193124
+%mor:	verb|拿-Inf-S num|一 noun|个 adj|高-S1 adj|一点-S1 sconj|的 adj|好了-S1 .
+%gra:	1|0|ROOT 2|7|NUMMOD 3|2|CLF 4|7|ADVCL 5|7|AMOD 6|5|MARK-REL 7|1|XCOMP 8|1|PUNCT
+*MOT:	高高的 啰 .
+%mor:	adj|高高的-S1 punct|啰 .
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*MOT:	做 这 个 (.) .
+%mor:	verb|做-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	然后 做 那 个 .
+%mor:	adv|然后 verb|做-Inf-S det|那-Def noun|个-Acc .
+%gra:	1|2|ADVMOD 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	这 是 什么 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S pron|什么-Int-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|PUNCT
+*MOT:	这 是 翘翘板 吗 ?
+%mor:	pron|这-Int-S1 aux|是-Inf-S verb|翘翘板-Inf-S part|吗 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	也 要 翘翘板 .
+%mor:	sconj|也 aux|要-Inf-S verb|翘翘板-Inf-S .
+%gra:	1|3|MARK 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 也 要 做 一 个 翘翘板 吗 ? 196847_200129
+%mor:	pron|你-Int-S2 sconj|也 aux|要-Inf-S verb|做-Inf-S num|一 noun|个 noun|翘翘板-Acc part|吗 ?
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|AUX 4|0|ROOT 5|7|NUMMOD 6|5|CLF 7|4|OBJ 8|4|DISCOURSE 9|4|PUNCT
+*MOT:	那 你 做 一 个 给 我 看 . 212060_213376
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|做-Inf-S num|一 noun|个 verb|给-Inf-S pron|我-Int-S1 verb|看-Inf-S .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|5|NUMMOD 5|6|OBL 6|8|ADVCL 7|6|OBJ 8|3|CCOMP 9|3|PUNCT
+*CHI:	这 个 弄 不 下 .
+%mor:	det|这-Def noun|个 verb|弄-Inf-S adv|不 noun|下-Acc .
+%gra:	1|2|DET 2|3|OBL 3|0|ROOT 4|3|ADVMOD 5|3|OBJ 6|3|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 你 换 一 个 试试看 .
+%mor:	pron|那-Int-S1 pron|你-Int-S2 verb|换-Inf-S num|一 noun|个 noun|试试看-Acc .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|6|NUMMOD 5|4|CLF 6|3|OBJ 7|3|PUNCT
+*MOT:	你 要不要 用 长 一点 的 试试看 . 261240_262689
+%mor:	pron|你-Int-S2 aux|要不要-Inf-Neg-S verb|用-Inf-S part|长 adj|一点-S1 sconj|的 noun|试试看-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|5|CASE 5|7|AMOD 6|5|MARK-REL 7|3|OBJ 8|3|PUNCT
+*MOT:	你 看 我 也 是 拿 第一 个 呀 . 262331_263558
+%mor:	pron|你-Int-S2 verb|看-Inf-S pron|我-Int-S1 sconj|也 aux|是-Inf-S verb|拿-Inf-S num|第一 noun|个-Acc part|呀 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|6|NSUBJ 4|6|MARK 5|6|COP 6|2|CCOMP 7|8|NUMMOD 8|6|OBJ 9|6|DISCOURSE 10|2|PUNCT
+*MOT:	哦 .
+%mor:	pron|哦-Int-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 可以 在 这边 帮 我 <加 加> [/] 加 东西 呀 „ 对不对 ? 288450_292044
+%mor:	pron|你-Int-S2 aux|可以-Inf-S verb|在-Inf-S pron|这边-Int-S1 verb|帮-Inf-S pron|我-Int-S1 verb|加-Inf-S noun|东西-Acc part|呀 punct|„ adj|对不对-S1 ?
+%gra:	1|7|NSUBJ 2|5|AUX 3|5|ADVCL 4|3|OBJ 5|7|ADVCL 6|3|OBJ 7|0|ROOT 8|7|OBJ 9|11|DISCOURSE 10|11|PUNCT 11|7|CONJ 12|7|PUNCT
+*MOT:	这样 也 可以 .
+%mor:	pron|这样-Int-S1 sconj|也 aux|可以-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|PUNCT
+*CHI:	弄 倒 了 .
+%mor:	verb|弄-Inf-S verb|倒-Inf-S part|了 .
+%gra:	1|0|ROOT 2|1|XCOMP 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	你 弄 倒 了 . 291684_292325
+%mor:	pron|你-Int-S2 verb|弄-Inf-S verb|倒-Inf-S part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|XCOMP 4|2|DISCOURSE 5|2|PUNCT
+*MOT:	没关系 再 一 次 .
+%mor:	verb|关系-Inf-S adv|再 num|一 noun|次-Acc .
+%gra:	1|0|ROOT 2|4|ADVMOD 3|4|NUMMOD 4|1|OBJ 5|1|PUNCT
+*CHI:	xxx .
+*MOT:	叠 这么 高 .
+%mor:	verb|叠-Inf-S adv|这么 adj|高-S1 .
+%gra:	1|0|ROOT 2|3|ADVMOD 3|1|XCOMP 4|1|PUNCT
+*MOT:	这 什么 ?
+%mor:	pron|这-Int-S1 pron|什么-Int-S1 ?
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*MOT:	这 什么 ?
+%mor:	pron|这-Int-S1 pron|什么-Int-S1 ?
+%gra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*MOT:	你 叠 这么 高 . 331530_332540
+%mor:	pron|你-Int-S2 verb|叠-Inf-S adv|这么 adj|高-S1 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|4|ADVMOD 4|2|XCOMP 5|2|PUNCT
+*MOT:	要 做 宝剑 哦 .
+%mor:	aux|要-Inf-S verb|做-Inf-S noun|宝剑-Acc part|哦 .
+%gra:	1|2|AUX 2|0|ROOT 3|2|OBJ 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	找 (.) 我 要 这 个 .
+%mor:	verb|找-Inf-S pron|我-Int-S1 aux|要-Inf-S det|这-Def noun|个-Acc .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|AUX 4|5|DET 5|1|OBJ 6|1|PUNCT
+*MOT:	你 要 哪 一 个 ?
+%mor:	pron|你-Int-S2 aux|要-Inf-S pron|哪-Int-S1 num|一 noun|个 ?
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|DET 4|5|NUMMOD 5|0|ROOT 6|5|PUNCT
+*MOT:	这 个 吗 ?
+%act:	小朋友 试 着 把 积木 拆 开 .
+%mor:	det|这-Def noun|个 part|吗 ?
+%gra:	1|2|DET 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	我 帮 你 .
+%mor:	pron|我-Int-S1 verb|帮-Inf-S pron|你-Int-S2 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	用力 .
+%mor:	verb|用力-Inf-S .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	你 再 试试看 呀 .
+%mor:	pron|你-Int-S2 adv|再 verb|试试看-Inf-S part|呀 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|0|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*MOT:	要 帮忙 吗 ?
+%mor:	aux|要-Inf-S verb|帮忙-Inf-S part|吗 ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	要不要 帮忙 ?
+%mor:	aux|要不要-Inf-Neg-S verb|帮忙-Inf-S ?
+%gra:	1|2|AUX 2|0|ROOT 3|2|PUNCT
+*MOT:	你 就 讲 是 .
+%mor:	pron|你-Int-S2 sconj|就 verb|讲-Inf-S verb|是-Inf-S .
+%gra:	1|3|NSUBJ 2|3|MARK 3|0|ROOT 4|3|XCOMP 5|3|PUNCT
+*MOT:	唉 呦 . 387540_388280
+%mor:	punct|唉 punct|呦 .
+%gra:	1|0|ROOT 2|1|PUNCT 3|1|PUNCT
+*MOT:	你 成功 了 . 389262_389882
+%mor:	pron|你-Int-S2 adj|成功-S1 part|了 .
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	你 成功 了 ! 389422_390043
+%mor:	pron|你-Int-S2 adj|成功-S1 part|了 !
+%gra:	1|2|NSUBJ 2|0|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*MOT:	<我们 我们> [/] 我们 玩 下 一 个 要 吗 ?
+%mor:	pron|我-Int-P1 verb|玩-Inf-S det|下-Def num|一 noun|个 verb|要-Inf-S part|吗 ?
+%gra:	1|2|NSUBJ 2|0|ROOT 3|5|DET 4|5|NUMMOD 5|6|NSUBJ 6|2|CCOMP 7|2|DISCOURSE 8|2|PUNCT
+*MOT:	好 . 389583_390083
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	那 我们 等 一下 收 起来 . 389623_391565
+%mor:	pron|那-Int-S1 pron|我-Int-P1 verb|等-Inf-S adv|一下 verb|收-Inf-S verb|起来-Inf-S .
+%gra:	1|3|NSUBJ 2|3|NSUBJ 3|0|ROOT 4|5|ADVMOD 5|3|XCOMP 6|5|MARK 7|3|PUNCT
+*MOT:	把 他 收 起来 玩 下 一 个 . 401940_404387
+%mor:	adp|把 pron|他-Int-S3 verb|收-Inf-S verb|起来-Inf-S verb|玩-Inf-S det|下-Def num|一 noun|个-Acc .
+%gra:	1|2|CASE 2|3|OBL-PATIENT 3|0|ROOT 4|3|MARK 5|3|XCOMP 6|8|DET 7|8|NUMMOD 8|5|OBJ 9|3|PUNCT
+*MOT:	放 进来 . 404871_405411
+%mor:	verb|放-Inf-S verb|进来-Inf-S .
+%gra:	1|0|ROOT 2|1|MARK 3|1|PUNCT
+*MOT:	我们 可以 玩 下 一 个 啰 .
+%mor:	pron|我-Int-P1 aux|可以-Inf-S verb|玩-Inf-S det|下-Def num|一 noun|个-Acc punct|啰 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|NUMMOD 6|3|OBJ 7|3|PUNCT 8|3|PUNCT
+*MOT:	好 ‡ 还 有 .
+%mor:	adv|好 propn|‡ sconj|还 verb|有-Inf-S .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|MARK 4|0|ROOT 5|4|PUNCT
+*CHI:	这 还 没 剥 .
+%act:	小朋友 把 玩具 箱 里面 还 没 拆 开 的 积木 挑 出来 .
+%mor:	pron|这-Int-S1 sconj|还 adv|没 verb|剥-Inf-S .
+%gra:	1|4|NSUBJ 2|4|MARK 3|4|ADVMOD 4|0|ROOT 5|4|PUNCT
+*MOT:	还 没 帮 你 剥 .
+%mor:	sconj|还 adv|没 verb|帮-Inf-S pron|你-Int-S2 verb|剥-Inf-S .
+%gra:	1|3|MARK 2|3|ADVMOD 3|0|ROOT 4|5|NSUBJ 5|3|CCOMP 6|3|PUNCT
+*MOT:	把 他 收 进来 .
+%mor:	adp|把 pron|他-Int-S3 verb|收-Inf-S verb|进来-Inf-S .
+%gra:	1|2|CASE 2|3|OBL-PATIENT 3|0|ROOT 4|3|MARK 5|3|PUNCT
+*MOT:	还有 吗 ?
+%mor:	verb|还有-Inf-S part|吗 ?
+%gra:	1|0|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	好 .
+%mor:	adj|好-S1 .
+%gra:	1|0|ROOT 2|1|PUNCT
+*MOT:	我们 把 这 个 盖 起来 . 405252_406595
+%mor:	pron|我-Int-P1 adp|把 det|这-Def noun|个 verb|盖-Inf-S verb|起来-Inf-S .
+%gra:	1|5|NSUBJ 2|4|CASE 3|4|DET 4|5|OBL 5|0|ROOT 6|5|MARK 7|5|PUNCT
+*MOT:	换 下 一 个 啰 .
+%mor:	verb|换-Inf-S verb|下-Inf-S num|一 noun|个-Acc punct|啰 .
+%gra:	1|0|ROOT 2|1|MARK 3|4|NUMMOD 4|1|OBJ 5|1|PUNCT 6|1|PUNCT
+*MOT:	换 下 一 个 . 443520_444020
+%mor:	verb|换-Inf-S verb|下-Inf-S num|一 noun|个-Acc .
+%gra:	1|0|ROOT 2|1|MARK 3|4|NUMMOD 4|1|OBJ 5|1|PUNCT
+@Eg:	Blocks
+@End

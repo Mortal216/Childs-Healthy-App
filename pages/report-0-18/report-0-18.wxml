@@ -1,0 +1,91 @@
+<view class="page-container" style="--nav-bar-height: {{navBarTotalHeight}}rpx;">
+  <!-- 顶部导航栏 -->
+  <view class="top-bar">
+    <view class="back-btn" bindtap="goBack">
+      <text class="back-icon">←</text>
+    </view>
+    <view class="title">0-18月语言发展报告</view>
+    <view class="share-btn" bindtap="shareReport">
+      <text class="share-icon">分享</text>
+    </view>
+  </view>
+
+  <!-- 加载状态 -->
+  <view wx:if="{{loading}}" class="loading-section">
+    <view class="loading-spinner"></view>
+    <text class="loading-text">正在加载报告...</text>
+  </view>
+
+  <!-- 报告内容 -->
+  <view wx:else class="report-content">
+    <!-- 宝宝信息卡片 -->
+    <view class="baby-info-card">
+      <view class="baby-avatar">
+        <text class="avatar-text">👶</text>
+      </view>
+      <view class="baby-details">
+        <text class="baby-name">{{babyInfo.name}}</text>
+        <text class="baby-age">月龄：{{babyInfo.age}}</text>
+        <text class="test-time">测评时间：{{babyInfo.testTime}}</text>
+      </view>
+    </view>
+
+    <!-- 综合评分卡片 -->
+    <view class="score-card">
+      <view class="score-header">
+        <text class="score-title">语言综合发展评分</text>
+        <text class="score-level-tag {{scoreLevel === '优秀' ? 'excellent' : scoreLevel === '良好' ? 'good' : scoreLevel === '中等' ? 'average' : 'attention'}}">{{scoreLevel}}</text>
+      </view>
+      <view class="score-main">
+        <text class="score-number">{{totalScore}}</text>
+        <text class="score-total">/100</text>
+      </view>
+      <view class="score-progress">
+        <view class="progress-bar">
+          <view class="progress-fill" style="width: {{totalScore}}%"></view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 各维度得分 -->
+    <view wx:if="{{dimensionScores.length > 0}}" class="dimensions-section">
+      <text class="section-title">各维度得分</text>
+      <view class="dimensions-list">
+        <view wx:for="{{dimensionScores}}" wx:key="index" class="dimension-item">
+          <view class="dim-info">
+            <text class="dim-name">{{item.name}}</text>
+            <text class="dim-level {{item.level === '优秀' ? 'excellent' : item.level === '良好' ? 'good' : item.level === '中等' ? 'average' : 'attention'}}">{{item.level}}</text>
+          </view>
+          <view class="dim-score">
+            <text class="score-value">{{item.score}}</text>
+            <text class="score-unit">/100</text>
+          </view>
+          <view class="dim-progress">
+            <view class="progress-bg">
+              <view class="progress-fill-bar {{item.level === '优秀' ? 'excellent' : item.level === '良好' ? 'good' : item.level === '中等' ? 'average' : 'attention'}}" style="width: {{item.score}}%"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 个性化干预建议 -->
+    <view class="suggestions-section">
+      <text class="section-title">个性化干预建议</text>
+      <view class="suggestions-list">
+        <view wx:for="{{suggestions}}" wx:key="index" class="suggestion-item">
+          <view class="suggestion-icon">
+            <text class="icon-text">💡</text>
+          </view>
+          <text class="suggestion-text">{{item}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 底部按钮 -->
+    <view class="bottom-actions">
+      <button class="action-btn primary" bindtap="retest">重新测评</button>
+      <button class="action-btn secondary" bindtap="viewDetail">查看详细分析</button>
+    </view>
+  </view>
+</view>

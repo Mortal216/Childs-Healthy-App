@@ -1,0 +1,33 @@
+/* 复用基础测评主页样式 */
+.big-title {
+  font-size: 60rpx;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 60rpx 0 20rpx;
+}
+.desc {
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+  margin-bottom: 80rpx;
+}
+.big-start-btn {
+  background: var(--yh-primary, #587838);
+  color: #fff;
+  font-size: 36rpx;
+  border-radius: 60rpx;
+  width: 70%;
+  margin: 0 auto;
+  padding: 24rpx 0;
+  box-shadow: 0 8rpx 24rpx rgba(74, 126, 184, 0.22);
+}
+
+.big-start-btn::after {
+  border: none;
+}
+.help-icon {
+  margin-left: auto;
+  font-size: 36rpx;
+  color: #999;
+}

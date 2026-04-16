@@ -1,0 +1,259 @@
+/* 功能页 — 与首页同一产品语境 */
+.page-container {
+  width: 100%;
+  min-height: calc(100vh - 100rpx);
+  background-color: var(--ref-white, #F8F8F8);
+  padding: 0 32rpx 56rpx;
+  box-sizing: border-box;
+  padding-top: calc(var(--nav-bar-height) + 20rpx);
+  color: var(--ref-green-650, #587048);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--yh-space-block, 32rpx);
+  padding: 32rpx;
+  background-color: var(--ref-ivory, #F0F0E0);
+  border-radius: var(--yh-radius-xl, 36rpx);
+  border: 2rpx solid var(--ref-line, #E0E0E0);
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.user-info::before {
+  content: "";
+  position: absolute;
+  /* 禁止渐变：实色雾面叠层（色值来自 ref-*） */
+  left: -64rpx;
+  top: -72rpx;
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 140rpx;
+  background: var(--ref-sage-100, #E0E8C8);
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.user-info::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* 禁止圆点：改为顶部实色跳色带 */
+  width: 100%;
+  height: 28rpx;
+  background: var(--ref-sage-100, #E0E8C8);
+  pointer-events: none;
+}
+
+.avatar-wrapper {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 50%;
+  background: var(--ref-white, #F8F8F8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 28rpx;
+  border: 2rpx solid var(--ref-green-300, #88A870);
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+.avatar {
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 50%;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12rpx;
+  position: relative;
+  z-index: 1;
+}
+
+.username {
+  font-size: 32rpx;
+  color: var(--ref-green-700, #506840);
+  font-weight: 600;
+}
+
+.age-selector {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: var(--ref-green-650, #587048);
+}
+
+.picker-text {
+  padding: 12rpx 22rpx;
+  background-color: var(--ref-white, #F8F8F8);
+  border-radius: var(--yh-radius-pill, 999rpx);
+  border: 2rpx solid var(--ref-green-300, #88A870);
+  margin-left: 16rpx;
+  font-size: 26rpx;
+  color: var(--ref-green-700, #506840);
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.section-intro {
+  margin-bottom: 28rpx;
+  padding: 8rpx 4rpx 16rpx;
+}
+
+.section-kicker {
+  display: block;
+  font-size: 22rpx;
+  color: var(--ref-green-300, #88A870);
+  letter-spacing: 4rpx;
+  margin-bottom: 12rpx;
+  font-weight: 500;
+}
+
+.section-title {
+  display: block;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: var(--ref-green-700, #506840);
+  margin-bottom: 16rpx;
+  line-height: 1.3;
+}
+
+.section-desc {
+  display: block;
+  font-size: 26rpx;
+  color: var(--ref-green-650, #587048);
+  line-height: 1.65;
+}
+
+.function-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22rpx;
+  /* 允许卡片高度错落 */
+  grid-auto-flow: row dense;
+}
+
+.function-card {
+  /* 与测评主页一致：统一米白底，跳色用“轻叠层”而不是大色块 */
+  background-color: var(--ref-ivory, #F0F0E0);
+  border-radius: var(--yh-radius-xl, 36rpx);
+  padding: 36rpx 22rpx 32rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2rpx solid var(--ref-line, #E0E0E0);
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  transition: transform 150ms ease, opacity 150ms ease;
+  /* 默认高度（会被 nth-child 覆盖形成错落） */
+  min-height: 220rpx;
+}
+
+.function-card:active {
+  transform: scale(0.98);
+  opacity: 0.96;
+}
+
+.function-card::before {
+  /* 用户要求：整张卡片 100% 实色填充，不做分层/局部涂色 */
+  content: none;
+}
+
+/* 跳色：只做“轻叠层”色雾，风格与测评主页统一，不改变整体气质 */
+.function-card:nth-child(1) { min-height: 252rpx; }
+.function-card:nth-child(2) { min-height: 224rpx; }
+.function-card:nth-child(3) { min-height: 236rpx; }
+.function-card:nth-child(4) { min-height: 264rpx; }
+.function-card:nth-child(5) { min-height: 244rpx; }
+
+/* 100% 填满整张卡片的背景跳色（严格使用 ref-* 色值） */
+.function-card:nth-child(1) {
+  /* 位置调整：先用主黄打断绿色连片 */
+  background-color: var(--ref-yellow-600, #E8B848);
+}
+.function-card:nth-child(2) {
+  /* 绿放到第二张 */
+  background-color: var(--ref-green-150, #B8D078);
+}
+.function-card:nth-child(3) {
+  /* 紫放中间做跳色 */
+  background-color: var(--ref-lavender-200, #C8C8E8);
+}
+.function-card:nth-child(4) {
+  /* 第二个绿色放到更靠后，避免连在一起 */
+  background-color: var(--ref-green-200, #A0B870);
+}
+.function-card:nth-child(5) {
+  /* 中性米白块 */
+  background-color: var(--ref-ivory, #F0F0E0);
+}
+
+.card-icon {
+  width: 76rpx;
+  height: 76rpx;
+  margin-bottom: 22rpx;
+  padding: 14rpx;
+  background: var(--ref-white, #F8F8F8);
+  border-radius: var(--yh-radius-md, 20rpx);
+  box-sizing: border-box;
+  border: 2rpx solid var(--ref-line, #E0E0E0);
+  position: relative;
+  z-index: 1;
+}
+
+.card-icon image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-title {
+  font-size: 26rpx;
+  color: var(--ref-green-700, #506840);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.45;
+  position: relative;
+  z-index: 1;
+}
+
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  background-color: var(--ref-green-150, #B8D078);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1rpx solid var(--ref-line, #E0E0E0);
+}
+
+.tab-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--ref-green-300, #88A870);
+}
+
+.tab-item.active {
+  color: var(--ref-green-600, #587838);
+}
+
+.tab-icon {
+  margin-bottom: 8rpx;
+}
+
+.tab-text {
+  font-size: 22rpx;
+}
