@@ -11,7 +11,7 @@
 - **缓存 / 任务**: Redis、Celery（依赖已纳入 `requirements.txt`，按业务逐步接入）
 - **认证**: JWT（python-jose）
 - **AI/ML**: scikit-learn、PyTorch、transformers；对话能力另可通过 DeepSeek API 与 Coze 编排
-
+ 
 ## 项目结构
 
 ```
